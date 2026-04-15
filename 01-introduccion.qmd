@@ -1,0 +1,39 @@
+---
+title: "Introducción"
+---
+
+## El problema: vulnerabilidad urbana y cambio climático en República Dominicana {#sec-problema-01}
+
+La República Dominicana se enfrenta a un dilema histórico: cómo transformar sus municipios, marcados por la vulnerabilidad estructural, en territorios resilientes capaces de anticipar, resistir y adaptarse a los embates del cambio climático y la urbanización acelerada. Actualmente el 83,8% de la población dominicana vive en ciudades, un proceso que pasó del 27% en 1955 al 56% en 1990 y que se proyecta al 95,4% en 2050. En menos de setenta años la población urbana se ha multiplicado por trece, y de cada persona urbana contemporánea aproximadamente 8 775 viven en situación de pobreza y 2 000 en pobreza extrema [@undrr2015sendai].
+
+Esta expansión urbana acelerada, combinada con la debilidad crónica de los instrumentos locales de planificación y gestión de riesgos, amplifica la exposición de la población a eventos hidrometeorológicos extremos, deslizamientos, inundaciones y pasivos ambientales acumulados. La ausencia o desactualización de planes de ordenamiento territorial en la mayoría de los municipios dominicanos reduce severamente la capacidad institucional para gobernar el crecimiento urbano con criterios de equidad y sostenibilidad [@lavell2007apuntes; @cardonaDisasterRiskRisk2011]. El reto no es únicamente técnico: es también un reto de gobernanza, de participación ciudadana y de articulación multinivel entre las escalas local, provincial y nacional.
+
+**Bajos de Haina** concentra estos desafíos de forma particularmente aguda. Municipio costero ubicado veinte kilómetros al oeste de Santo Domingo, en la provincia San Cristóbal, alberga tejidos urbanos de alta vulnerabilidad, pasivos ambientales históricos ligados a la Refinería Dominicana de Petróleo y al Río Haina, y una expansión territorial acelerada que ocupa áreas no urbanizables. El municipio carece de un Plan de Ordenamiento Territorial actualizado, de un Plan de Desarrollo Municipal y de un Plan de Gestión de Riesgos moderno. En este contexto, la elección de Bajos de Haina como caso de estudio no fue casual: el municipio representa un escenario paradigmático donde las herramientas digitales pueden demostrar su capacidad real para transformar la gobernanza territorial en condiciones difíciles.
+
+## El proyecto FONDOCYT: por qué y para qué {#sec-proyecto-01}
+
+El Proyecto **FONDOCYT 2023-1-3A13-0725**, titulado *"Desarrollo de herramientas digitales de planificación urbana, gestión de riesgos y participación pública con tecnologías innovadoras g-locales para impulsar municipios seguros, resilientes y adaptados al cambio climático"*, fue financiado por el Ministerio de Educación Superior, Ciencia y Tecnología (MESCYT) de la República Dominicana a través del Fondo Nacional de Innovación y Desarrollo Científico y Tecnológico (FONDOCYT) en la convocatoria 2023. Se ejecutó entre marzo de 2024 y agosto de 2025 mediante convenio interinstitucional entre **BARNA Management School**, **Arcoíris RD** y **TECCA Caribe**, con un equipo de once investigadores, co-investigadores y asistentes distribuidos entre la República Dominicana, España y Honduras.
+
+El proyecto se articuló en torno a tres Objetivos Específicos. El **OE1** realizó un diagnóstico integral del territorio de Bajos de Haina, combinando análisis cuantitativos de indicadores de vulnerabilidad con levantamientos de campo que incluyeron encuestas domiciliarias (n=155), fotogrametría con drones y cartografía participativa sobre dieciséis manzanas del municipio. El **OE2** desarrolló un sistema digital integrado compuesto por nueve herramientas organizadas en tres módulos (ordenamiento territorial, gestión de riesgos y participación ciudadana), con el **Observatorio Ciudadano de Haina** como dispositivo de articulación institucional. El **OE3** formuló propuestas de gobernanza y normativa urbana por tipologías de manzana, articulando mecanismos de participación ciudadana y actividades de validación con actores institucionales y comunitarios. El Primer Seminario-Taller de Planificación Urbana Digital, celebrado el 11 y 12 de octubre de 2024, convocó a más de cien participantes de treinta instituciones y consolidó el diseño colaborativo del sistema.
+
+## Preguntas que guían este libro {#sec-preguntas-01}
+
+La investigación se guió por cinco preguntas principales que estructuran tanto el informe final del proyecto como la organización de este libro:
+
+1.  ¿Las herramientas digitales podrán contribuir a que los municipios de la República Dominicana puedan ser incluyentes, seguros, resilientes y sostenibles?
+2.  ¿Qué tipo de información manejamos para analizar, tipificar, clasificar y proponer modelos de desarrollo en los tejidos de alta vulnerabilidad?
+3.  ¿Con qué instrumentos contamos para la gestión del territorio en los diferentes niveles territoriales?
+4.  ¿Existen mecanismos de articulación para cogestión, concertación y participación ciudadana en los territorios?
+5.  ¿Hay flexibilidad, creatividad, efectividad, eficiencia, participación, cooperación y corresponsabilidad para la gobernanza territorial?
+
+Cada una de estas preguntas atraviesa transversalmente varios capítulos del libro y encuentra su respuesta en la conjunción entre el diagnóstico integral, el sistema digital desplegado, la propuesta normativa y la experiencia del Seminario-Taller.
+
+## Hipótesis {#sec-hipotesis-01}
+
+La investigación parte de una **hipótesis** [^01-introduccion-1] el desarrollo y la aplicación de herramientas digitales construidas desde la lógica de lo local (adaptadas al contexto, apropiadas colectivamente y articuladas con los marcos normativos nacionales) pero conectadas a las infraestructuras globales de datos y conocimiento (estándares FAIR, plataformas SIG interoperables, observatorios urbanos internacionales), con participación pública activa, mejoran efectivamente la capacidad de los municipios dominicanos frente al riesgo climático y su adaptación. Los resultados del caso Haina, documentados en este libro y sintetizados en la discusión final, confirman esta hipótesis con contundencia empírica.
+
+[^01-introduccion-1]: El concepto *glocal* alude a la tensión dinámica entre lo global y lo local: los fenómenos globales no se imponen de forma homogénea, sino que son reinterpretados y adaptados según cada contexto cultural y territorial, al tiempo que lo local retroalimenta y transforma lo global. El término fue desarrollado por Robertson , quien lo definió como la interpenetración simultánea de ambas escalas [@robertson1995].
+
+## Estructura del libro {#sec-estructura-01}
+
+Este libro documenta el proceso completo y los resultados del proyecto en seis partes. La **Parte I** presenta el contexto y la metodología abductiva empleada, basada en el modelo de Kovacs y Spens. La **Parte II** despliega el diagnóstico territorial del OE1 en cuatro capítulos que cubren el territorio, la planificación urbana, la gestión de riesgos y la participación diagnóstica. La **Parte III** documenta las herramientas digitales del OE2, incluyendo la arquitectura del ecosistema, los tres módulos funcionales y la visión prospectiva. La **Parte IV** aborda la gobernanza y la normativa del OE3, con la propuesta de ordenamiento por tipologías de manzana y el Observatorio Ciudadano. La **Parte V** recoge la experiencia del Seminario-Taller de Planificación Urbana Digital como ejercicio de transferencia y validación. La **Parte VI** cierra con las conclusiones y recomendaciones derivadas del conjunto de la investigación, incluyendo las trece líneas de trabajo que el proyecto identifica como continuidad natural del ecosistema actual.

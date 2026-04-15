@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Apéndice K — Widget de IA: «Pregúntale al libro» – Herramientas digitales de planificación urbana, gestión de riesgos y participación pública</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../anexos/L-silabos-seminario-taller.html" rel="next">
+<link href="../anexos/J-mapa-conocimiento.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-598a280403630f786a3ecaab795de756.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No se han encontrado resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<!-- Widget "Pregúntale al libro" — solo HTML, no afecta al PDF -->
+<script>window.IA_API_URL = window.IA_API_URL || "http://localhost:8000";</script>
+<link rel="stylesheet" href="http://localhost:8000/widget.css">
+<script defer="" src="http://localhost:8000/widget.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../anexos/A-operacionalizacion.html">Apéndices</a></li><li class="breadcrumb-item"><a href="../anexos/K-widget-ia.html"><span class="chapter-number">K</span>&nbsp; <span class="chapter-title">Widget de IA: «Pregúntale al libro»</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Herramientas digitales de planificación urbana, gestión de riesgos y participación pública</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prefacio</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Parte I. Contexto y metodología</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../01-introduccion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introducción</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../02-metodologia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Metodología</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Parte II. Diagnóstico territorial (OE1)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../03-territorio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Contexto territorial de Bajos de Haina</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../04-planificacion-urbana.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Planificación urbana</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../05-gestion-riesgos.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Gestión de riesgos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../06-participacion-diagnostico.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Participación ciudadana: diagnóstico</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Parte III. Herramientas digitales (OE2)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../07-sistema-digital.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Sistema digital integrado</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Parte IV. Gobernanza y normativa (OE3)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../08-normativa-tipologias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Normativa por tipologías de manzana</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../09-participacion-observatorio.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Participación ciudadana y observatorio territorial</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../10-actividades-normativa.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Actividades asociadas al desarrollo normativo</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Parte V. Transferencia y validación</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../11-seminario-taller.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Seminario-Taller de Planificación Urbana Digital</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">Parte VI. Cierre</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../12-conclusiones.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Conclusiones y recomendaciones</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Referencias</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">Apéndices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/A-operacionalizacion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Operacionalización de las variables</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/B-analisis-estadistico.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">B</span>&nbsp; <span class="chapter-title">Análisis estadístico</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/C-acronimos-glosario.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">C</span>&nbsp; <span class="chapter-title">Acrónimos y glosario de términos urbanísticos</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/D-brief-isotipo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">D</span>&nbsp; <span class="chapter-title">Brief del isotipo del observatorio</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/E-catalogo-proyecto.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">E</span>&nbsp; <span class="chapter-title">Catálogo del material del proyecto</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/F-cartografia-historica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">F</span>&nbsp; <span class="chapter-title">Cartografía histórica de Bajos de Haina</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/G-fichas-tipologias.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">G</span>&nbsp; <span class="chapter-title">Fichas de Tipologías de Manzana</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/H-semblanza-equipo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">H</span>&nbsp; <span class="chapter-title">Perfil técnico del equipo de investigación</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/I-codigo-r-analisis.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">I</span>&nbsp; <span class="chapter-title">Código R de las tablas del proyecto</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/J-mapa-conocimiento.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">J</span>&nbsp; <span class="chapter-title">Mapa de conocimiento del proyecto</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/K-widget-ia.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">K</span>&nbsp; <span class="chapter-title">Widget de IA: «Pregúntale al libro»</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../anexos/L-silabos-seminario-taller.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">L</span>&nbsp; <span class="chapter-title">Anexo L. Sílabos del Seminario-Taller PUD</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#sec-anexoK-que-es" id="toc-sec-anexoK-que-es" class="nav-link active" data-scroll-target="#sec-anexoK-que-es"><span class="header-section-number">K.1</span> Qué es</a></li>
+  <li><a href="#arquitectura" id="toc-arquitectura" class="nav-link" data-scroll-target="#arquitectura"><span class="header-section-number">K.2</span> Arquitectura</a></li>
+  <li><a href="#sec-anexoK-implementacion" id="toc-sec-anexoK-implementacion" class="nav-link" data-scroll-target="#sec-anexoK-implementacion"><span class="header-section-number">K.3</span> Implementación técnica detallada</a>
+  <ul class="collapse">
+  <li><a href="#sec-anexoK-chunking" id="toc-sec-anexoK-chunking" class="nav-link" data-scroll-target="#sec-anexoK-chunking"><span class="header-section-number">K.3.1</span> Chunking del corpus</a></li>
+  <li><a href="#sec-anexoK-indice" id="toc-sec-anexoK-indice" class="nav-link" data-scroll-target="#sec-anexoK-indice"><span class="header-section-number">K.3.2</span> Índice vectorial</a></li>
+  <li><a href="#sec-anexoK-pipeline" id="toc-sec-anexoK-pipeline" class="nav-link" data-scroll-target="#sec-anexoK-pipeline"><span class="header-section-number">K.3.3</span> Pipeline de una consulta</a></li>
+  <li><a href="#sec-anexoK-prompt" id="toc-sec-anexoK-prompt" class="nav-link" data-scroll-target="#sec-anexoK-prompt"><span class="header-section-number">K.3.4</span> <em>System prompt</em> del modelo generativo</a></li>
+  <li><a href="#sec-anexoK-endpoints" id="toc-sec-anexoK-endpoints" class="nav-link" data-scroll-target="#sec-anexoK-endpoints"><span class="header-section-number">K.3.5</span> Endpoints del servidor</a></li>
+  <li><a href="#sec-anexoK-pdf" id="toc-sec-anexoK-pdf" class="nav-link" data-scroll-target="#sec-anexoK-pdf"><span class="header-section-number">K.3.6</span> Generación del PDF</a></li>
+  <li><a href="#sec-anexoK-rewriting" id="toc-sec-anexoK-rewriting" class="nav-link" data-scroll-target="#sec-anexoK-rewriting"><span class="header-section-number">K.3.7</span> Reescritura de anclas en la respuesta</a></li>
+  <li><a href="#sec-anexoK-quarto" id="toc-sec-anexoK-quarto" class="nav-link" data-scroll-target="#sec-anexoK-quarto"><span class="header-section-number">K.3.8</span> Integración con Quarto</a></li>
+  </ul></li>
+  <li><a href="#sec-anexoK-modelos" id="toc-sec-anexoK-modelos" class="nav-link" data-scroll-target="#sec-anexoK-modelos"><span class="header-section-number">K.4</span> Modelos utilizados</a></li>
+  <li><a href="#sec-anexoK-restricciones" id="toc-sec-anexoK-restricciones" class="nav-link" data-scroll-target="#sec-anexoK-restricciones"><span class="header-section-number">K.5</span> Restricciones impuestas al modelo</a></li>
+  <li><a href="#sec-anexoK-reportes" id="toc-sec-anexoK-reportes" class="nav-link" data-scroll-target="#sec-anexoK-reportes"><span class="header-section-number">K.6</span> Reportes persistentes y galería pública</a></li>
+  <li><a href="#sec-anexoK-etica" id="toc-sec-anexoK-etica" class="nav-link" data-scroll-target="#sec-anexoK-etica"><span class="header-section-number">K.7</span> Privacidad y declaración ética</a></li>
+  <li><a href="#sec-anexoK-limitaciones" id="toc-sec-anexoK-limitaciones" class="nav-link" data-scroll-target="#sec-anexoK-limitaciones"><span class="header-section-number">K.8</span> Limitaciones conocidas</a></li>
+  <li><a href="#reproducibilidad" id="toc-reproducibilidad" class="nav-link" data-scroll-target="#reproducibilidad"><span class="header-section-number">K.9</span> Reproducibilidad</a></li>
+  <li><a href="#cómo-se-construye-el-índice" id="toc-cómo-se-construye-el-índice" class="nav-link" data-scroll-target="#cómo-se-construye-el-índice"><span class="header-section-number">K.10</span> Cómo se construye el índice</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../anexos/A-operacionalizacion.html">Apéndices</a></li><li class="breadcrumb-item"><a href="../anexos/K-widget-ia.html"><span class="chapter-number">K</span>&nbsp; <span class="chapter-title">Widget de IA: «Pregúntale al libro»</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Apéndice K — Widget de IA: «Pregúntale al libro»</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>Este anexo documenta el <strong>widget de inteligencia artificial</strong> que acompaña a la versión web del libro y que permite al lector formular preguntas en lenguaje natural sobre el contenido del proyecto y obtener respuestas sintetizadas con citas verificables a las secciones del propio libro. Se incluye en este anexo por razones de <strong>transparencia metodológica</strong>: cualquier respuesta generada por IA debe poder explicarse en términos del contenido fuente, los modelos empleados, la arquitectura del sistema y sus limitaciones.</p>
+<section id="sec-anexoK-que-es" class="level2" data-number="K.1">
+<h2 data-number="K.1" class="anchored" data-anchor-id="sec-anexoK-que-es"><span class="header-section-number">K.1</span> Qué es</h2>
+<p>«Pregúntale al libro» es un sistema de <strong>búsqueda semántica con generación aumentada por recuperación</strong> (RAG, <em>retrieval-augmented generation</em>) construido sobre el corpus completo del libro FONDOCYT. El lector escribe una pregunta como «¿qué tipologías de manzana se identificaron en Bajos de Haina?» o «¿cuál es la diferencia entre vulnerabilidad social y vulnerabilidad ambiental?», y el sistema:</p>
+<ol type="1">
+<li>Localiza los fragmentos del libro semánticamente más cercanos a la pregunta.</li>
+<li>Pide a un modelo de lenguaje grande (LLM) que sintetice una respuesta breve <strong>únicamente a partir de esos fragmentos</strong>.</li>
+<li>Anota cada afirmación con un enlace clicable al ancla <code>#sec-xxx</code> correspondiente, de modo que el lector puede verificar inmediatamente la fuente.</li>
+<li>Guarda la consulta y la respuesta como <strong>un reporte persistente</strong> (HTML, Markdown y PDF) accesible desde una galería pública.</li>
+</ol>
+<p>El widget se presenta como un botón flotante en la esquina inferior derecha de cada página del libro web y abre un panel lateral con la conversación. Está disponible solo en la versión HTML; el PDF del libro no se ve afectado.</p>
+</section>
+<section id="arquitectura" class="level2" data-number="K.2">
+<h2 data-number="K.2" class="anchored" data-anchor-id="arquitectura"><span class="header-section-number">K.2</span> Arquitectura</h2>
+<p>El sistema se compone de cinco piezas principales, todas ellas en la carpeta <code>libro/_ia/</code> del repositorio del proyecto.</p>
+<div id="tbl-anexoK-componentes" class="unnumbered quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[18,22,60]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-anexoK-componentes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;K.1: Componentes del widget IA local del proyecto FONDOCYT.
+</figcaption>
+<div aria-describedby="tbl-anexoK-componentes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="unnumbered caption-top table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 22%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Componente</th>
+<th style="text-align: left;">Archivo</th>
+<th style="text-align: left;">Función</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Chunker</td>
+<td style="text-align: left;"><code>chunker.py</code></td>
+<td style="text-align: left;">Parte los 22 archivos <code>.qmd</code> del libro en fragmentos semánticos (~320 chunks) preservando el ancla <code>#sec-xxx</code>, el capítulo y la jerarquía de encabezados</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Indexador</td>
+<td style="text-align: left;"><code>index.py</code></td>
+<td style="text-align: left;">Genera <em>embeddings</em> vectoriales de cada chunk con OpenAI <code>text-embedding-3-small</code> (en la nube) o <code>nomic-embed-text</code> (en local vía Ollama). Guarda el índice en <code>index.npz</code></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Servidor</td>
+<td style="text-align: left;"><code>server.py</code></td>
+<td style="text-align: left;">API FastAPI con endpoints <code>/ask</code>, <code>/reports/{id}.{html,md,pdf}</code>, <code>/galeria.html</code>, <code>/widget.js</code>, <code>/widget.css</code>. Recibe la query, la embebe, recupera los <code>top_k</code> chunks por similitud coseno y llama al LLM</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Renderer</td>
+<td style="text-align: left;"><code>render_report.py</code></td>
+<td style="text-align: left;">Convierte cada respuesta en una página HTML (estilo Cosmo, igual que el libro), un Markdown y un PDF (vía pandoc + xelatex, el mismo <em>pipeline</em> que usa Quarto)</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Widget</td>
+<td style="text-align: left;"><code>widget.js</code> + <code>widget.css</code> + <code>widget-include.html</code></td>
+<td style="text-align: left;">Botón flotante y panel lateral inyectados por Quarto en cada página del libro mediante <code>format.html.include-in-header</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>El flujo completo de una consulta es:</p>
+<pre><code>Pregunta del lector
+  ↓
+[ widget.js ] → POST /ask
+  ↓
+[ server.py ] embebe la query
+  ↓
+similitud coseno contra index.npz (~320 vectores)
+  ↓
+top_k chunks recuperados
+  ↓
+LLM con prompt estricto: "responde solo con esto, anota cada
+                          afirmación con [#sec-xxx], si no está
+                          responde 'No encontrado en el libro'"
+  ↓
+respuesta + chunks fuente + anclas
+  ↓
+[ render_report.py ] genera HTML / Markdown / PDF persistente
+  ↓
+[ widget.js ] muestra en panel lateral con enlaces clicables</code></pre>
+</section>
+<section id="sec-anexoK-implementacion" class="level2" data-number="K.3">
+<h2 data-number="K.3" class="anchored" data-anchor-id="sec-anexoK-implementacion"><span class="header-section-number">K.3</span> Implementación técnica detallada</h2>
+<p>Esta sección documenta el detalle algorítmico y de código del sistema, de forma que pueda auditarse, reproducirse o reescribirse en otra base de código.</p>
+<section id="sec-anexoK-chunking" class="level3" data-number="K.3.1">
+<h3 data-number="K.3.1" class="anchored" data-anchor-id="sec-anexoK-chunking"><span class="header-section-number">K.3.1</span> Chunking del corpus</h3>
+<p>El script <code>chunker.py</code> recorre los veintidós archivos <code>.qmd</code> listados en <code>_quarto.yml</code> (trece capítulos más diez anexos, incluido el <code>index.qmd</code> del prefacio) y produce una lista de fragmentos semánticos. El procedimiento es:</p>
+<ol type="1">
+<li>Se lee el archivo y se separa el <em>frontmatter</em> YAML del cuerpo; del <em>frontmatter</em> se extrae el título del capítulo.</li>
+<li>Se recorre el cuerpo línea a línea. Cada vez que se encuentra un encabezado de nivel H2, H3 o H4 se cierra el <em>chunk</em> anterior y se abre uno nuevo. Los bloques de código delimitados por <code>```</code> se preservan como parte del chunk en el que aparecen pero no disparan cortes.</li>
+<li>Cada encabezado se escanea en busca del patrón <code>{#sec-xxx}</code>. Si existe, ese es el ancla canónica del chunk. Si no, el chunk hereda la última ancla vista en el documento.</li>
+<li>Para cada chunk se construye un <code>heading_path</code> jerárquico del tipo <em>“Contexto territorial &gt; Caracterización &gt; Clima”</em>, reconstruyendo la pila de encabezados activos en ese punto del archivo.</li>
+<li>Antes de guardar el chunk se limpian las imágenes (preservando el texto de la <em>caption</em> como <code>[Figura: ...]</code> para que el contenido visual quede representado textualmente), los comentarios HTML y los bloques de código.</li>
+<li>Los chunks con menos de ochenta caracteres de texto útil se descartan (encabezados sueltos, separadores).</li>
+</ol>
+<p>Cada chunk resultante es un objeto con los campos <code>id</code>, <code>file</code>, <code>chapter_title</code>, <code>heading_path</code>, <code>anchor</code>, <code>level</code> y <code>text</code>. El conjunto completo se persiste como <code>chunks.json</code>. Para el libro FONDOCYT el proceso produce <strong>321 chunks</strong>, con una extensión total aproximada de 618.000 caracteres distribuidos razonablemente entre todos los capítulos.</p>
+</section>
+<section id="sec-anexoK-indice" class="level3" data-number="K.3.2">
+<h3 data-number="K.3.2" class="anchored" data-anchor-id="sec-anexoK-indice"><span class="header-section-number">K.3.2</span> Índice vectorial</h3>
+<p>El script <code>index.py</code> toma los chunks del paso anterior y genera una representación vectorial densa. Para cada chunk construye un texto de entrada de la forma <em>“título del capítulo. jerarquía de encabezados. cuerpo del chunk”</em>, truncado a cuatro mil caracteres para respetar el contexto del modelo de <em>embeddings</em>, y lo envía al modelo seleccionado por lotes de 64. El vector de salida se normaliza a norma uno, lo que permite reemplazar el cálculo de similitud coseno por un simple producto escalar.</p>
+<p>La matriz resultante, de tamaño <code>(n_chunks, d)</code> donde <code>d</code> es 1536 para <code>text-embedding-3-small</code> o 768 para <code>nomic-embed-text</code>, se persiste en <code>index.npz</code> mediante <code>numpy.savez_compressed</code>. Los metadatos del índice, incluidos los chunks completos, se guardan aparte en <code>index.meta.json</code> para que el servidor pueda cargar rápidamente tanto los vectores como el texto de referencia en una sola lectura.</p>
+<p>Para un corpus de 321 chunks no es necesario usar una base de datos vectorial especializada (Chroma, Qdrant, Weaviate, pgvector). El producto escalar de NumPy en memoria sobre una matriz de <span class="math inline">\(321 \times 1536\)</span> se resuelve en menos de un milisegundo, lo que simplifica el <em>stack</em> y elimina dependencias.</p>
+</section>
+<section id="sec-anexoK-pipeline" class="level3" data-number="K.3.3">
+<h3 data-number="K.3.3" class="anchored" data-anchor-id="sec-anexoK-pipeline"><span class="header-section-number">K.3.3</span> Pipeline de una consulta</h3>
+<p>Cuando el <em>widget</em> envía una pregunta al endpoint <code>/ask</code>, el servidor ejecuta el siguiente flujo:</p>
+<ol type="1">
+<li><strong>Validación</strong>: se rechazan <em>queries</em> vacías o de más de quinientos caracteres para evitar abusos triviales.</li>
+<li><strong>Embedding de la consulta</strong>: se envía la pregunta al modelo de <em>embeddings</em> activo, se obtiene un vector de la misma dimensión que los del índice y se normaliza.</li>
+<li><strong>Recuperación</strong>: se calcula el producto escalar de ese vector contra toda la matriz <code>index.npz</code> y se seleccionan los <code>top_k</code> chunks con mayor similitud. Por defecto <code>top_k = 7</code>, valor configurable en <code>.env</code> mediante la variable <code>IA_TOP_K</code>.</li>
+<li><strong>Construcción del <em>prompt</em> de usuario</strong>: para cada chunk recuperado se anota el número, el título del capítulo, la jerarquía de encabezados y el ancla en el formato <code>[#sec-xxx]</code>. Los cuerpos se truncan a 1.800 caracteres por chunk para no exceder el límite de contexto del modelo generativo y mantener el coste controlado.</li>
+<li><strong>Llamada al LLM</strong>: se invoca al modelo con temperatura 0.2 (favorece reproducibilidad sobre creatividad), pasando el <em>system prompt</em> fijo y el <em>user prompt</em> construido.</li>
+<li><strong>Generación del reporte</strong>: la respuesta del modelo se pasa a <code>render_report.py</code>, que produce los tres artefactos persistentes (HTML, Markdown, PDF) y agrega una entrada al índice de la galería.</li>
+<li><strong>Respuesta al <em>widget</em></strong>: el servidor devuelve un objeto JSON con la respuesta en Markdown, la lista de fuentes consultadas, las rutas de descarga y el identificador del reporte.</li>
+</ol>
+</section>
+<section id="sec-anexoK-prompt" class="level3" data-number="K.3.4">
+<h3 data-number="K.3.4" class="anchored" data-anchor-id="sec-anexoK-prompt"><span class="header-section-number">K.3.4</span> <em>System prompt</em> del modelo generativo</h3>
+<p>El <em>prompt</em> de sistema es la pieza crítica para controlar el comportamiento del LLM. Se mantiene deliberadamente corto y explícito, en español, y establece seis reglas:</p>
+<pre><code>Eres un asistente de investigación del libro FONDOCYT sobre Bajos
+de Haina. Respondes preguntas usando ÚNICAMENTE los fragmentos del
+libro que te pasa el usuario. Reglas:
+
+1. Nunca inventes información. Si la respuesta no está en los
+   fragmentos, responde textualmente: "No encontrado en el libro".
+2. Responde en español, registro académico claro, párrafos de 4
+   a 6 oraciones.
+3. PROHIBIDO usar el guion largo. Usa coma, punto y coma, dos
+   puntos o paréntesis.
+4. Cada afirmación fáctica relevante debe terminar con una
+   referencia al ancla de la sección del libro de donde proviene,
+   en el formato [#sec-xxx]. Usa los anclajes que aparecen en los
+   metadatos de los fragmentos.
+5. Estructura: 2 a 4 párrafos (200 a 400 palabras). Sin listas
+   ni bullets en el cuerpo.
+6. No menciones que estás usando fragmentos, ni digas "según los
+   fragmentos". Habla como si citaras directamente el libro.</code></pre>
+<p>La combinación de la primera regla (prohibido inventar), la cuarta (cada afirmación con su ancla) y la decisión de pasar <em>solo</em> los chunks recuperados al contexto del modelo produce una cadena de verificación sencilla: si una afirmación no aparece en los chunks, el modelo está instruido para responder “No encontrado en el libro”; si el modelo rompe la regla e inventa, la ausencia del ancla correspondiente delata la invención al lector.</p>
+</section>
+<section id="sec-anexoK-endpoints" class="level3" data-number="K.3.5">
+<h3 data-number="K.3.5" class="anchored" data-anchor-id="sec-anexoK-endpoints"><span class="header-section-number">K.3.5</span> Endpoints del servidor</h3>
+<p>El servidor FastAPI expone los siguientes <em>endpoints</em>:</p>
+<div id="tbl-anexoK-endpoints" class="unnumbered quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[10,32,58]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-anexoK-endpoints-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;K.2: <em>Endpoints</em> del backend FastAPI del widget IA.
+</figcaption>
+<div aria-describedby="tbl-anexoK-endpoints-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="unnumbered caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 32%">
+<col style="width: 57%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Método</th>
+<th style="text-align: left;">Ruta</th>
+<th style="text-align: left;">Función</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">POST</td>
+<td style="text-align: left;"><code>/ask</code></td>
+<td style="text-align: left;">Recibe <code>{query}</code>, devuelve respuesta + fuentes + identificador de reporte</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">GET</td>
+<td style="text-align: left;"><code>/reports/{id}.html</code></td>
+<td style="text-align: left;">Devuelve la página HTML maquetada del reporte</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">GET</td>
+<td style="text-align: left;"><code>/reports/{id}.md</code></td>
+<td style="text-align: left;">Devuelve el Markdown del reporte como descarga</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">GET</td>
+<td style="text-align: left;"><code>/reports/{id}.pdf</code></td>
+<td style="text-align: left;">Devuelve el PDF del reporte como descarga</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">GET</td>
+<td style="text-align: left;"><code>/galeria.html</code></td>
+<td style="text-align: left;">Devuelve la galería con el histórico de consultas</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">GET</td>
+<td style="text-align: left;"><code>/widget.js</code></td>
+<td style="text-align: left;">Sirve el <em>script</em> del botón flotante</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">GET</td>
+<td style="text-align: left;"><code>/widget.css</code></td>
+<td style="text-align: left;">Sirve los estilos del botón y el panel</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">GET</td>
+<td style="text-align: left;"><code>/health</code></td>
+<td style="text-align: left;">Devuelve el estado del servidor y las dimensiones del índice</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>El servidor habilita CORS con <code>allow_origins=["*"]</code> para facilitar el desarrollo local. En producción se recomienda restringirlo al dominio desde el que se sirve el libro HTML.</p>
+</section>
+<section id="sec-anexoK-pdf" class="level3" data-number="K.3.6">
+<h3 data-number="K.3.6" class="anchored" data-anchor-id="sec-anexoK-pdf"><span class="header-section-number">K.3.6</span> Generación del PDF</h3>
+<p>Cada respuesta del sistema se convierte en un PDF descargable. La primera versión del prototipo usaba WeasyPrint para evitar dependencias externas, pero su instalación en Windows requiere las bibliotecas GTK, Cairo y Pango, lo que añade fricción innecesaria. Se adoptó en su lugar el mismo motor que ya utiliza Quarto para el libro: <code>pandoc</code> más <code>xelatex</code> sobre TinyTeX.</p>
+<p>El procedimiento en <code>render_report.py::_build_pdf_with_pandoc()</code> es:</p>
+<ol type="1">
+<li>Se detecta dinámicamente la ruta de instalación de TinyTeX (candidatas: <code>C:\ProgramData\TinyTeX\bin\windows</code>, <code>~\AppData\Roaming\TinyTeX\bin\windows</code>, <code>~\AppData\Local\TinyTeX\bin\windows</code>).</li>
+<li>Se inyecta la ruta encontrada al <code>PATH</code> del subproceso que ejecutará <code>pandoc</code>, sin modificar el <code>PATH</code> global del sistema. Esto es necesario porque Quarto instala TinyTeX pero no expone su <code>bin</code> al <em>shell</em> padre.</li>
+<li>Se intenta la conversión en cascada: primero con <code>quarto pandoc</code> (que ya trae <em>pandoc</em> bundleado), luego con <code>pandoc</code> del sistema si está instalado, probando los motores <code>xelatex</code>, <code>lualatex</code> y <code>pdflatex</code> en ese orden.</li>
+<li>Si algún intento tiene éxito, el PDF queda en <code>reports/&lt;id&gt;/report.pdf</code>. Si todos fallan, se escribe un <code>pdf.error.log</code> en la carpeta del reporte y el sistema degrada graciosamente: el <em>widget</em> oculta el botón “Descargar PDF” pero el reporte HTML y el Markdown siguen disponibles.</li>
+</ol>
+<p>El PDF resultante respeta los parámetros <code>geometry:margin=2.2cm</code>, <code>fontsize=11pt</code>, <code>lang=es</code> y <code>colorlinks=true</code>, lo que produce un documento consistente con el estilo del libro aunque no idéntico.</p>
+</section>
+<section id="sec-anexoK-rewriting" class="level3" data-number="K.3.7">
+<h3 data-number="K.3.7" class="anchored" data-anchor-id="sec-anexoK-rewriting"><span class="header-section-number">K.3.7</span> Reescritura de anclas en la respuesta</h3>
+<p>El LLM devuelve una respuesta en Markdown con anclas del tipo <code>[#sec-xxx]</code> incrustadas al final de cada afirmación. Antes de entregar la respuesta al lector, <code>render_report.py::rewrite_anchor_links()</code> las transforma en enlaces Markdown reales: cada <code>[#sec-xxx]</code> pasa a ser <code>[§](&lt;ruta&gt;/capitulo.html#sec-xxx)</code>, donde la ruta relativa se calcula en función de la ubicación del reporte (<code>../..</code> desde <code>reports/&lt;id&gt;/report.html</code> hasta la raíz del libro). Esta reescritura se ejecuta tanto para el HTML del reporte (donde el símbolo <code>§</code> se convierte en un enlace clicable al libro) como para el Markdown descargable (donde queda como referencia textual de la sección).</p>
+</section>
+<section id="sec-anexoK-quarto" class="level3" data-number="K.3.8">
+<h3 data-number="K.3.8" class="anchored" data-anchor-id="sec-anexoK-quarto"><span class="header-section-number">K.3.8</span> Integración con Quarto</h3>
+<p>La única modificación necesaria en el proyecto Quarto del libro es una línea en <code>libro/_quarto.yml</code>, dentro del bloque <code>format.html</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">html</span><span class="kw">:</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">include-in-header</span><span class="kw">:</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="at">      </span><span class="kw">-</span><span class="at"> _ia/widget-include.html</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<p>El archivo <code>_ia/widget-include.html</code> es un fragmento de HTML mínimo que declara la variable global <code>window.IA_API_URL</code>, carga el CSS del <em>widget</em> y el <em>script</em> <code>widget.js</code> desde el servidor FastAPI local. La directiva <code>include-in-header</code> de Quarto solo afecta a la salida HTML, de forma que el PDF del libro no se ve modificado en absoluto. Los demás archivos del libro (<code>.qmd</code>, <code>references.bib</code>, <code>custom.scss</code>) no requieren ninguna modificación.</p>
+</section>
+</section>
+<section id="sec-anexoK-modelos" class="level2" data-number="K.4">
+<h2 data-number="K.4" class="anchored" data-anchor-id="sec-anexoK-modelos"><span class="header-section-number">K.4</span> Modelos utilizados</h2>
+<p>El sistema soporta dos <em>backends</em> intercambiables, configurables mediante la variable de entorno <code>IA_BACKEND</code>:</p>
+<div id="tbl-anexoK-backends" class="unnumbered quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[20,30,30,20]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-anexoK-backends-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;K.3: Backends de IA soportados por el widget.
+</figcaption>
+<div aria-describedby="tbl-anexoK-backends-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="unnumbered caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 30%">
+<col style="width: 30%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Backend</th>
+<th style="text-align: left;">Modelo de embeddings</th>
+<th style="text-align: left;">Modelo de generación</th>
+<th style="text-align: left;">Lugar de cómputo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>OpenAI</strong> (por defecto)</td>
+<td style="text-align: left;"><code>text-embedding-3-small</code> (1536 dim)</td>
+<td style="text-align: left;"><code>gpt-4o-mini</code> o equivalente</td>
+<td style="text-align: left;">API en la nube</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Ollama local</strong></td>
+<td style="text-align: left;"><code>nomic-embed-text</code> (768 dim)</td>
+<td style="text-align: left;"><code>gemma4:26b-a4b</code></td>
+<td style="text-align: left;">Servidor <code>gt-srv01</code> del proyecto, sin salida de datos a Internet</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>El cambio de <em>backend</em> se hace editando <code>_ia/.env</code> y re-ejecutando <code>python _ia/index.py</code> para regenerar el índice con el backend nuevo (los vectores de OpenAI y los de Ollama no son compatibles entre sí). En entornos donde el contenido del libro es sensible o se quiere garantizar privacidad total, se usa el backend Ollama local sobre el servidor de IA del proyecto descrito en el <a href="../index.html#sec-colofon-tecnico">colofón técnico del prefacio</a>.</p>
+</section>
+<section id="sec-anexoK-restricciones" class="level2" data-number="K.5">
+<h2 data-number="K.5" class="anchored" data-anchor-id="sec-anexoK-restricciones"><span class="header-section-number">K.5</span> Restricciones impuestas al modelo</h2>
+<p>El <em>prompt</em> que recibe el LLM en cada consulta es deliberadamente estricto:</p>
+<ul>
+<li><strong>Prohibido inventar</strong>: el modelo solo puede usar la información que aparece en los chunks recuperados.</li>
+<li><strong>Prohibido el guion largo</strong> (regla de estilo del libro).</li>
+<li><strong>Cada afirmación termina con un ancla <code>[#sec-xxx]</code></strong> verificable y clicable.</li>
+<li><strong>Si la respuesta no está en los chunks</strong>, el modelo responde literalmente «No encontrado en el libro» en lugar de extrapolar.</li>
+<li><strong>Idioma de respuesta</strong>: español, registro académico claro y natural, mismo tono que el cuerpo del libro.</li>
+</ul>
+<p>Esta arquitectura RAG con citas obligatorias minimiza el riesgo de alucinación, pero <strong>no lo elimina</strong>. Cualquier afirmación generada por el widget debe verificarse contra la sección del libro a la que apunta el ancla.</p>
+</section>
+<section id="sec-anexoK-reportes" class="level2" data-number="K.6">
+<h2 data-number="K.6" class="anchored" data-anchor-id="sec-anexoK-reportes"><span class="header-section-number">K.6</span> Reportes persistentes y galería pública</h2>
+<p>A diferencia de un <em>chatbot</em> convencional, cada consulta queda registrada como un reporte permanente con un identificador único en <code>reports/&lt;id&gt;/</code>:</p>
+<ul>
+<li><code>report.html</code> — página maquetada con el mismo estilo Cosmo que el libro, lista para compartir</li>
+<li><code>report.md</code> — markdown plano con <em>frontmatter</em> (autor, fecha, modelo, query original, chunks usados)</li>
+<li><code>report.pdf</code> — versión imprimible generada con pandoc + xelatex</li>
+</ul>
+<p>Los reportes son accesibles desde una <strong>galería pública</strong> en <code>/galeria.html</code> que lista todas las consultas anteriores ordenadas por fecha. Esto permite que las preguntas más útiles formuladas por unos lectores sirvan como punto de entrada para otros, y crea un registro de cómo el libro se está usando.</p>
+</section>
+<section id="sec-anexoK-etica" class="level2" data-number="K.7">
+<h2 data-number="K.7" class="anchored" data-anchor-id="sec-anexoK-etica"><span class="header-section-number">K.7</span> Privacidad y declaración ética</h2>
+<ul>
+<li>Cuando el <em>backend</em> es OpenAI, las consultas y los chunks recuperados se envían al servicio de OpenAI bajo sus términos de uso. <strong>No se envían datos personales del lector</strong>: solo la pregunta tal como la escribe.</li>
+<li>Cuando el <em>backend</em> es Ollama local, <strong>ningún dato sale del servidor del proyecto</strong>.</li>
+<li>La galería de reportes es pública por defecto; las consultas que el lector formula quedan visibles para futuros visitantes. Si esto no es deseable, el administrador puede restringir la galería con autenticación básica o desactivarla en el <code>.env</code>.</li>
+<li>El widget está bajo la misma <strong>declaración ética de uso de la IA</strong> que el resto del libro (ver <a href="../index.html#sec-colofon-declaracion-ia">colofón técnico del prefacio</a>): herramienta de apoyo al trabajo humano, supervisión del equipo, trazabilidad documental hacia las fuentes primarias.</li>
+</ul>
+</section>
+<section id="sec-anexoK-limitaciones" class="level2" data-number="K.8">
+<h2 data-number="K.8" class="anchored" data-anchor-id="sec-anexoK-limitaciones"><span class="header-section-number">K.8</span> Limitaciones conocidas</h2>
+<ul>
+<li><strong>Cobertura del corpus</strong>: el índice se construye solo a partir de los <code>.qmd</code> del libro. Los anexos administrativos, los datos brutos del Survey123 y los entregables <code>.docx</code> originales del proyecto no están indexados; las preguntas que los requieran devuelven «No encontrado en el libro».</li>
+<li><strong>Granularidad del chunking</strong>: cada <em>chunk</em> tiene un tamaño máximo de unas 800 palabras. Las preguntas que requieren cruzar información de más de cinco secciones distantes pueden no recuperar todos los fragmentos relevantes.</li>
+<li><strong>Sesgo del modelo</strong>: aunque el <em>prompt</em> exige citas, el LLM puede sintetizar de forma sesgada o privilegiar ciertos enfoques sobre otros. Las respuestas son una <strong>interpretación asistida</strong>, no una cita textual del libro.</li>
+<li><strong>Multilingüismo</strong>: el modelo de embeddings funciona razonablemente en español, pero las consultas en otros idiomas (incluido inglés) pueden recuperar chunks subóptimos.</li>
+<li><strong>Persistencia</strong>: los reportes guardados en <code>reports/</code> no migran automáticamente entre instancias del servidor. Si el servidor se reinicia con un volumen distinto, los reportes anteriores quedan inaccesibles.</li>
+</ul>
+</section>
+<section id="reproducibilidad" class="level2" data-number="K.9">
+<h2 data-number="K.9" class="anchored" data-anchor-id="reproducibilidad"><span class="header-section-number">K.9</span> Reproducibilidad</h2>
+<p>El widget completo, incluyendo su pipeline de indexación, su servidor FastAPI y sus plantillas de reporte, está versionado en el repositorio público del proyecto en la carpeta <code>libro/_ia/</code> (excepto los artefactos generados localmente: <code>chunks.json</code>, <code>index.npz</code>, <code>reports/</code>, <code>.env</code>, todos en <code>.gitignore</code>). El archivo <code>libro/_ia/README.md</code> contiene las instrucciones técnicas de puesta en marcha. La instalación requiere Python 3.10+, las dependencias listadas en <code>requirements.txt</code> y, opcionalmente, una clave de API de OpenAI o un servidor Ollama local con los modelos <code>gemma4:26b-a4b</code> y <code>nomic-embed-text</code>.</p>
+</section>
+<section id="cómo-se-construye-el-índice" class="level2" data-number="K.10">
+<h2 data-number="K.10" class="anchored" data-anchor-id="cómo-se-construye-el-índice"><span class="header-section-number">K.10</span> Cómo se construye el índice</h2>
+<p>Como referencia técnica para quien quiera reproducirlo:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Dependencias (entorno Python 3.10+)</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install <span class="at">-r</span> libro/_ia/requirements.txt</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Credenciales (solo si se usa OpenAI)</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> libro/_ia/.env.example libro/_ia/.env</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># editar libro/_ia/.env con la API key</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># 3. Construir el índice</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> libro</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> _ia/chunker.py    <span class="co"># genera _ia/chunks.json (~320 chunks)</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> _ia/index.py      <span class="co"># genera _ia/index.npz + meta</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Levantar el backend</span></span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> _ia</span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> uvicorn server:app <span class="at">--host</span> 0.0.0.0 <span class="at">--port</span> 8000 <span class="at">--reload</span></span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a><span class="co"># 5. Renderizar el libro y servirlo</span></span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ..</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> http.server 8080 <span class="at">-d</span> _book</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+<p>El widget aparece automáticamente como botón flotante en la esquina inferior derecha de cualquier página del libro web abierta en <code>http://localhost:8080/</code>. El coste estimado de generar el índice de embeddings con <code>text-embedding-3-small</code> para los 320 chunks del libro es de aproximadamente <strong>0,02 dólares</strong>.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiado");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiado");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../anexos/J-mapa-conocimiento.html" class="pagination-link" aria-label="Mapa de conocimiento del proyecto">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">J</span>&nbsp; <span class="chapter-title">Mapa de conocimiento del proyecto</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../anexos/L-silabos-seminario-taller.html" class="pagination-link" aria-label="Anexo L. Sílabos del Seminario-Taller PUD">
+        <span class="nav-page-text"><span class="chapter-number">L</span>&nbsp; <span class="chapter-title">Anexo L. Sílabos del Seminario-Taller PUD</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

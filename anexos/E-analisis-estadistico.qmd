@@ -1,0 +1,244 @@
+---
+title: "Análisis estadístico"
+---
+
+## Estadísticas de localización {#sec-estadisticas-localizacion-anexoE}
+
+Las tres tablas de este anexo están exportadas en formato CSV: `datos/estadisticas/B1_estadisticas_localizacion.csv`, `datos/estadisticas/B2_normalidad.csv` y `datos/estadisticas/B3_diferencias.csv`.
+
+| Factor | Media | IC 95% inf. | IC 95% sup. | Error estándar |
+|:---|---:|---:|---:|---:|
+| Alternativas de formación ciudadana promovidas por el Ayuntamiento, distintas a las de instituciones educativas | 3,3 | 2,9 | 3,6 | 0,187 |
+| Alternativas de formación ciudadana promovidas por organizaciones comunitarias, distintas a las de instituciones educativas | 5,2 | 4,8 | 5,6 | 0,209 |
+| Acceso a un internet adecuado (velocidad y capacidad) para presentar quejas u opiniones ante el gobierno municipal, para convocar o participar en reuniones entre vecinos u otros grupos | 4,8 | 4,4 | 5,2 | 0,205 |
+| Plataformas digitales para opinar o enviar información de riesgos de los barrios | 5,1 | 4,7 | 5,6 | 0,220 |
+| El Ayuntamiento de Bajos de Haina presenta limitaciones en recursos para el desarrollo de actividades de participación comunitaria | 6,1 | 5,6 | 6,5 | 0,222 |
+| Suficiente disponibilidad de espacios en instituciones públicas o sedes comunales para realizar reuniones u eventos relacionados con actividades comunitarias o ciudadanas | 5,1 | 4,7 | 5,5 | 0,211 |
+| Condiciones físicas de los espacios en instituciones públicas o sedes comunales adecuadas para realizar reuniones u eventos relacionados con actividades comunitarias o ciudadanas | 4,5 | 4,1 | 5,0 | 0,231 |
+| Hay muchos inconvenientes y restricciones para una adecuada participación ciudadana en Bajos de Haina | 6,2 | 5,8 | 6,6 | 0,217 |
+| Disposición para trabajar en equipo con personas de diferente religión, raza, estratos, edades, partido político, género, rol, ocupación, etc. | 7,3 | 6,8 | 7,7 | 0,238 |
+
+: Estadísticas de localización para los factores analizados (media, intervalo de confianza al 95% y error estándar). Elaboración propia. {#tbl-estadisticas-localizacion .striped .smaller tbl-colwidths="[56,11,11,11,11]"}
+
+## Pruebas de normalidad {#sec-normalidad-anexoE}
+
+Prueba de Kolmogorov-Smirnov con corrección de significación de Lilliefors, aplicada por barrio (Bella Vista, Invi-Cea, Villa Penca) a cada variable de percepción del diagnóstico de participación ciudadana. Un asterisco tras el valor de significación indica un límite inferior de la significación verdadera.
+
+| Indicador | Barrio | Estadístico | gl | Sig. |
+|:---|:---|---:|---:|---:|
+| Alternativas de formación ciudadana promovidas por el Ayuntamiento, distintas a las de instituciones educativas | Bella Vista | 0,223 | 17 | 0,025 |
+|  | Invi-Cea | 0,244 | 76 | 0,000 |
+|  | Villa Penca | 0,176 | 18 | 0,146 |
+| Alternativas de formación ciudadana promovidas por organizaciones comunitarias, distintas a las de instituciones educativas | Bella Vista | 0,291 | 17 | 0,000 |
+|  | Invi-Cea | 0,173 | 76 | 0,000 |
+|  | Villa Penca | 0,151 | 18 | 0,200* |
+| Acceso a internet adecuado para presentar quejas u opiniones ante el gobierno municipal | Bella Vista | 0,191 | 17 | 0,102 |
+|  | Invi-Cea | 0,205 | 76 | 0,000 |
+|  | Villa Penca | 0,291 | 18 | 0,000 |
+| Plataformas digitales para opinar o enviar información de riesgos de los barrios | Bella Vista | 0,245 | 17 | 0,008 |
+|  | Invi-Cea | 0,138 | 76 | 0,001 |
+|  | Villa Penca | 0,123 | 18 | 0,200* |
+| El Ayuntamiento de Bajos de Haina presenta limitaciones en recursos para actividades de participación comunitaria | Bella Vista | 0,214 | 17 | 0,038 |
+|  | Invi-Cea | 0,136 | 76 | 0,001 |
+|  | Villa Penca | 0,209 | 18 | 0,037 |
+| Suficiente disponibilidad de espacios en instituciones públicas o sedes comunales | Bella Vista | 0,231 | 17 | 0,016 |
+|  | Invi-Cea | 0,197 | 76 | 0,000 |
+|  | Villa Penca | 0,288 | 18 | 0,000 |
+| Condiciones físicas de los espacios en instituciones públicas o sedes comunales | Bella Vista | 0,196 | 17 | 0,082 |
+|  | Invi-Cea | 0,131 | 76 | 0,002 |
+|  | Villa Penca | 0,278 | 18 | 0,001 |
+| Los medios de comunicación promueven y motivan la participación ciudadana en Bajos de Haina | Bella Vista | 0,125 | 17 | 0,200* |
+|  | Invi-Cea | 0,111 | 76 | 0,022 |
+|  | Villa Penca | 0,241 | 18 | 0,007 |
+| Hay muchos inconvenientes y restricciones para una adecuada participación ciudadana en Bajos de Haina | Bella Vista | 0,273 | 17 | 0,002 |
+|  | Invi-Cea | 0,112 | 76 | 0,019 |
+|  | Villa Penca | 0,177 | 18 | 0,141 |
+| Disposición para trabajar en equipo con personas diversas (religión, raza, estratos, edad, género, rol) | Bella Vista | 0,171 | 17 | 0,199 |
+|  | Invi-Cea | 0,194 | 76 | 0,000 |
+|  | Villa Penca | 0,291 | 18 | 0,000 |
+| En la participación ciudadana de Bajos de Haina predominan los intereses y beneficios particulares | Bella Vista | 0,248 | 17 | 0,007 |
+|  | Invi-Cea | 0,162 | 76 | 0,000 |
+|  | Villa Penca | 0,176 | 18 | 0,146 |
+| Adecuado liderazgo de los procesos de participación ciudadana | Bella Vista | 0,280 | 17 | 0,001 |
+|  | Invi-Cea | 0,179 | 76 | 0,000 |
+|  | Villa Penca | 0,166 | 18 | 0,200* |
+| El gobierno local y los líderes tienen en cuenta las preocupaciones de la gente cuando se toman decisiones | Bella Vista | 0,146 | 17 | 0,200* |
+|  | Invi-Cea | 0,166 | 76 | 0,000 |
+|  | Villa Penca | 0,201 | 18 | 0,054 |
+| El Ayuntamiento promueve actividades en mi comunidad en las que participamos todos | Bella Vista | 0,236 | 17 | 0,013 |
+|  | Invi-Cea | 0,198 | 76 | 0,000 |
+|  | Villa Penca | 0,277 | 18 | 0,001 |
+
+: Prueba de normalidad Kolmogorov-Smirnov por barrio y variable de percepción. Elaboración propia a partir de datos del Survey123 del proyecto (n=111). {#tbl-normalidad .striped .smaller tbl-colwidths="[55,15,12,8,10]"}
+
+## Pruebas de diferencias {#sec-diferencias-anexoE}
+
+| # | Hipótesis nula | Prueba | Sig. | Decisión |
+|---:|:---|:---|---:|:---|
+| 1 | La distribución de FormacAyunt es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,928 | Retener la hipótesis nula |
+| 2 | La distribución de FormacONG es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,004 | Rechazar la hipótesis nula |
+| 3 | La distribución de Internet es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,013 | Rechazar la hipótesis nula |
+| 4 | La distribución de Plataforma es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,002 | Rechazar la hipótesis nula |
+| 5 | La distribución de LimitacAyunt es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,010 | Rechazar la hipótesis nula |
+| 6 | La distribución de DisponEspac es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,151 | Retener la hipótesis nula |
+| 7 | La distribución de CondicFisi es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,762 | Retener la hipótesis nula |
+| 8 | La distribución de MediosPromuev es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,856 | Retener la hipótesis nula |
+| 9 | La distribución de InconvPartCiud es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,438 | Retener la hipótesis nula |
+| 10 | La distribución de InclusTrEquipo es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,007 | Rechazar la hipótesis nula |
+| 11 | La distribución de BenefParticul es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,752 | Retener la hipótesis nula |
+| 12 | La distribución de LiderAdecPartC es la misma entre las categorías de Barrio | Kolmogorov-Smirnov, muestras independientes | 0,231 | Retener la hipótesis nula |
+
+: Resumen de prueba de hipótesis Kolmogorov-Smirnov para muestras independientes por barrio. Se muestran significaciones asintóticas; el nivel de significación es de 0,05. Elaboración propia. {#tbl-diferencias .striped .smaller tbl-colwidths="[4,42,25,9,20]"}
+
+## Correlaciones {#sec-correlaciones-anexoE}
+
+La matriz de correlaciones de Spearman entre las catorce variables de percepción de la participación ciudadana permite identificar patrones de asociación estadística que complementan el análisis descriptivo. Los coeficientes positivos (azules) indican que cuando aumenta la valoración de una variable también tiende a aumentar la otra; los negativos (rojos) indican asociación inversa. El análisis se presenta como heatmap generado con `ggcorrplot` a partir de la matriz de datos Survey123 del proyecto (n=111 respuestas válidas con las catorce variables completas).
+
+```r
+
+library(ggcorrplot)
+library(ggplot2)
+
+# NOTA: los datos reales se cargan desde libro/data/encuesta_participacion.csv
+# cuando esté disponible. Por ahora se muestra el esqueleto del chunk con eval: false.
+# Variables esperadas: FormacAyunt, FormacONG, Internet, Plataforma, LimitacAyunt,
+# DisponEspac, CondicFisi, MediosPromuev, InconvPartCiud, InclusTrEquipo,
+# BenefParticul, LiderAdecPartC, LiderDecidePreocup, AyuntPromueve.
+
+df <- read.csv("data/encuesta_participacion.csv")
+vars <- c("FormacAyunt", "FormacONG", "Internet", "Plataforma",
+          "LimitacAyunt", "DisponEspac", "CondicFisi", "MediosPromuev",
+          "InconvPartCiud", "InclusTrEquipo", "BenefParticul",
+          "LiderAdecPartC", "LiderDecidePreocup", "AyuntPromueve")
+
+corr <- cor(df[, vars], method = "spearman", use = "complete.obs")
+
+ggcorrplot(corr,
+           method = "square",
+           type = "lower",
+           lab = TRUE,
+           lab_size = 2.8,
+           colors = c("#DB605E", "#FAFAF7", "#4C6B91"),
+           outline.color = "#cfcfcc",
+           ggtheme = theme_minimal(base_size = 9),
+           title = NULL) +
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, color = "#474647"),
+    axis.text.y = element_text(color = "#474647"),
+    legend.title = element_blank()
+  )
+```
+
+::: {.callout-note}
+El chunk R de arriba se mantiene con `eval: false` hasta que el dataset `data/encuesta_participacion.csv` esté limpio y validado en el repositorio. Cuando se active, renderizará el heatmap automáticamente con los datos del Survey123 (n=111).
+:::
+
+Un segundo análisis complementario consiste en boxplots por barrio de las variables donde la prueba Kolmogorov-Smirnov detectó diferencias significativas entre los tres barrios (Bella Vista, Invi-Cea, Villa Penca): **FormacONG**, **Internet**, **Plataforma**, **LimitacAyunt** e **InclusTrEquipo**. Estos boxplots permiten visualizar dónde se concentran las diferencias territoriales detectadas estadísticamente en la @tbl-diferencias y aportan una lectura espacial de la heterogeneidad de la percepción ciudadana dentro del municipio.
+
+```r
+
+library(ggplot2)
+library(tidyr)
+
+vars_sig <- c("FormacONG", "Internet", "Plataforma", "LimitacAyunt", "InclusTrEquipo")
+df_long <- pivot_longer(df[, c("Barrio", vars_sig)],
+                        cols = all_of(vars_sig),
+                        names_to = "variable",
+                        values_to = "valor")
+
+ggplot(df_long, aes(x = Barrio, y = valor, fill = Barrio)) +
+  geom_boxplot(outlier.size = 0.8, alpha = 0.85, color = "#474647") +
+  facet_wrap(~ variable, nrow = 1) +
+  scale_fill_manual(values = c(
+    "Bella Vista" = "#4C6B91",
+    "Invi-Cea"    = "#6B9E4E",
+    "Villa Penca" = "#D4A53C"
+  )) +
+  scale_y_continuous(limits = c(0, 10), breaks = seq(0, 10, 2)) +
+  labs(x = NULL, y = "Valoración (1–10)") +
+  theme_minimal(base_size = 9) +
+  theme(
+    legend.position = "none",
+    axis.text.x = element_text(angle = 30, hjust = 1, color = "#474647"),
+    strip.text = element_text(face = "bold", color = "#474647"),
+    panel.grid.minor = element_blank()
+  )
+```
+
+## Operacionalización de las variables de investigación {#sec-operacionalizacion-variables-anexoE}
+
+La operacionalización se organiza en tres dimensiones, cada una con sus variables y las preguntas o indicadores asociados. Se presenta en formato de lista de definiciones para facilitar la lectura. La matriz completa con trazabilidad a objetivos específicos se encuentra en el Anexo @sec-matriz-operacionalizada-anexoC.
+
+### Dimensión 1: planificación urbana
+
+**Territorio, paisaje y biodiversidad.**
+
+- ¿Se han incorporado en los instrumentos de ordenación territorial y urbanística criterios para asegurar el uso racional del suelo que atienda al principio de desarrollo sostenible?
+- ¿Se dispone de un Plan de gestión municipal del patrimonio natural y cultural, o instrumento equivalente, para asegurar su adecuada conservación y puesta en valor?
+- ¿Se ha realizado una planificación del desarrollo del suelo y de la conectividad de las infraestructuras verdes y azules con el contexto natural?
+- Correlación entre urbanización del suelo, dinámica demográfica, empleo y actividades económicas.
+- Superficie de suelo destinado a infraestructuras verdes urbanas sobre las que se han realizado actuaciones de recuperación, mejora e interconexión para su funcionamiento en red.
+- Presupuesto de las actuaciones previstas para este indicador.
+
+**Modelo de ciudad.**
+
+- ¿Se han incorporado en los instrumentos de ordenación criterios que mejoren la complejidad y funcionalidad de los ecosistemas urbanos y promuevan desarrollos compactos?
+- ¿Se dispone de un plan de mejora del espacio público que identifique los problemas y proponga actuaciones para garantizar su calidad?
+- ¿Se dispone de planes de recuperación y rehabilitación de edificios, con el objetivo de mejorar la eficiencia energética, la accesibilidad y la reducción de la contaminación?
+- ¿Se han aprobado planes de regeneración urbana que integren actuaciones de mejora física, social, económica y ambiental?
+- ¿Se dispone de algún plan de rehabilitación urbana que evalúe un diagnóstico integral de los barrios degradados?
+- Presupuesto de las actuaciones previstas para este indicador.
+
+**Gestión sostenible de los recursos y economía circular.**
+
+- ¿Se han incorporado criterios en la gestión urbana encaminados a fomentar el ciclo sostenible de los materiales y recursos en el marco de la economía circular?
+- ¿Se dispone de planes de gestión de residuos, o equivalentes, con el objetivo de aumentar el porcentaje de recogida selectiva y reciclaje?
+- Porcentaje de autosuficiencia hídrica.
+- Presupuesto invertido en actuaciones que emplean materiales locales y fácilmente reciclables.
+- Generación de residuos por habitante.
+
+**Movilidad y transporte.**
+
+- ¿Se dispone en la ciudad de Planes de Transporte al Trabajo (PTT) para racionalizar los desplazamientos a los principales centros de trabajo?
+- ¿Se dispone de un Plan de Movilidad Urbana Sostenible (PMUS) en la ciudad?
+- Flota de autobuses de bajas emisiones o con combustibles limpios dedicados al transporte público urbano.
+
+**Cohesión social e igualdad de oportunidades.**
+
+- ¿Se encuentran adecuadamente identificados los barrios urbanos con mayor grado de vulnerabilidad social, económica y ambiental?
+- ¿Se dispone de un Plan Estratégico local para garantizar la igualdad de oportunidades, el acceso al espacio urbano y los bienes públicos en condiciones de equidad?
+- Presupuesto invertido en actuaciones encaminadas a la reducción de las desigualdades social, económica y ambiental.
+
+**Economía urbana.**
+
+- ¿Se dispone de planes específicos de dinamización de la actividad económica en el ámbito del turismo sostenible, comercio de proximidad, economía circular y economía social?
+- ¿Se han impulsado planes para fomentar la colaboración público-privada, la innovación social y la digitalización de las pequeñas y medianas empresas?
+
+**Vivienda.**
+
+- ¿Se han elaborado planes locales que favorezcan la construcción de viviendas públicas o privadas con criterios de sostenibilidad y eficiencia energética?
+- ¿Se dispone de planes de rehabilitación y regeneración de viviendas que favorezcan la cohesión social y la accesibilidad de todos los grupos sociales?
+- Número de personas beneficiadas por estos programas.
+
+### Dimensión 2: gestión de riesgos
+
+**Liderar y fomentar la innovación digital.**
+
+- ¿Se ha impulsado la transformación digital de la administración pública en el ámbito urbano?
+- ¿Se han adoptado medidas para promover la innovación digital y la gestión inteligente de los servicios urbanos?
+- Porcentaje de hogares digitales.
+
+**Cambio climático.**
+
+- ¿Se han elaborado planes de mitigación y adaptación al cambio climático en la ciudad?
+- ¿Se han establecido prioridades de actuación en función de los sectores más vulnerables?
+- Existencia de un inventario de emisiones de gases de efecto invernadero (GEI).
+- Reducción de emisiones de GEI y aumento de sumideros de carbono.
+- Calidad del aire de la ciudad.
+
+**Fenómenos naturales.**
+
+- ¿Se han identificado las áreas de riesgo de inundaciones?
+- Superficie del riesgo de inundación en la ciudad.
+- ¿Se han establecido planes de prevención y medidas para prevenir dicho riesgo?
+- Número de episodios de inundaciones registrados.

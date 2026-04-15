@@ -1,0 +1,308 @@
+---
+title: "Código R de las tablas del proyecto"
+---
+
+Este anexo recoge, en **formato R (tidyverse)**, las tablas de datos más relevantes del proyecto FONDOCYT, para facilitar su carga directa en *scripts* de análisis estadístico reproducible. Cada bloque reproduce una tabla que también aparece en formato narrativo en los anexos A y B; el lector técnico puede copiar y pegar cualquiera de estos bloques en un entorno R con `tidyverse` instalado (`install.packages("tidyverse")`) y trabajar inmediatamente con los datos.
+
+El formato elegido es `tibble::tribble()` del paquete **tibble** (parte del *tidyverse*), que permite escribir una tabla de datos fila por fila de forma legible. Es el estándar de facto en investigación estadística social reproducible y el formato recomendado por la comunidad académica para publicar datos tabulares en manuscritos y anexos.
+
+## Matriz operacionalizada completa (anexo A.3) {#sec-anexoF-matriz}
+
+95 variables operacionalizadas del proyecto, con trazabilidad a objetivo específico y resultado (OE/R), dimensión, factor y pregunta o indicador. Reproduce la tabla `@tbl-matriz-operacionalizada` del [anexo A](C-operacionalizacion.qmd#sec-matriz-operacionalizada-anexoF).
+
+```r
+# A.3 Matriz operacionalizada del proyecto FONDOCYT
+# 95 variables con trazabilidad a objetivo específico y resultado (OE/R),
+# dimensión, factor y pregunta o indicador asociado.
+library(tibble)
+
+matriz_operacionalizada <- tribble(
+  ~oe_r, ~dimension, ~factor, ~variable, ~item,
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Territorio, paisaje y biodiversidad", "¿Se han incorporado en los instrumentos de ordenación territorial y urbanística criterios para asegurar el uso racional del suelo que atienda al principio de desarrollo sostenible?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Territorio, paisaje y biodiversidad", "¿Se dispone de un Plan de gestión municipal del patrimonio natural y cultural, o instrumento equivalente, para asegurar su adecuada conservación y puesta en valor?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Territorio, paisaje y biodiversidad", "¿Se ha realizado una planificación del desarrollo en red y de la conectividad de las infraestructuras verdes y azules con el contexto natural?",
+  "OE1-R1, OE1-R4", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Territorio, paisaje y biodiversidad", "Correlación entre urbanización de suelo, dinámica demográfica, empleo y actividades económicas.",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Territorio, paisaje y biodiversidad", "Superficie de suelo destinado a infraestructuras verdes urbanas sobre las que se van a realizar actuaciones de recuperación, mejora, e interconexión para su funcionamiento en red.",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Territorio, paisaje y biodiversidad", "Presupuesto de las actuaciones previstas para este indicador",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Modelo de ciudad", "¿Se han incorporado en los instrumentos de ordenación criterios que mejoren la compacidad y el equilibrio urbano en la ciudad consolidada y en los nuevos desarrollos?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Modelo de ciudad", "¿Se han incorporado en los instrumentos de ordenación criterios que mejoren la complejidad funcional y la mezcla de usos en la ciudad consolidada y en los nuevos desarrollos?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Modelo de ciudad", "¿Se dispone de un plan de mejora del espacio público, que identifique los problemas y programe actuaciones para garantizar la accesibilidad universal y la reducción del ruido?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Modelo de ciudad", "¿Se dispone de planes de mejora de la calidad del medio ambiente urbano orientados a la mejora de las zonas verdes urbanas y a la reducción de la contaminación?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Modelo de ciudad", "¿Se dispone de algún plan de regeneración urbana de barrios, que incorpore actuaciones de mejora social, económica y ambiental?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Modelo de ciudad", "¿Se dispone de algún plan de rehabilitación de los edificios, que realice un diagnóstico de su situación y establezca prioridades y actuaciones para impulsar su mejora?",
+  "OE1-R1, OE1-R4", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Modelo de ciudad", "Porcentaje de la población con los servicios básicos, completos e ininterrumpidos",
+  "OE1-R1, OE1-R4", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Modelo de ciudad", "Porcentaje de población próxima a zonas verdes urbanas o áreas de esparcimiento",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Modelo de ciudad", "Presupuesto de las actuaciones de regeneración urbana previstas en barrios vulnerables desde el punto de vista social, económico o ambiental",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Gestión sostenible de los recursos y economía circular", "¿Se dispone de algún Plan o Estrategia de Acción para la Energía sostenible (PAES) o instrumento equivalente que establezca objetivos locales en este ámbito?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Gestión sostenible de los recursos y economía circular", "¿Se dispone de algún plan de gestión sostenible del agua o instrumento equivalente que permita avanzar en la sostenibilidad y eficiencia de los recursos hídricos de la ciudad?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Gestión sostenible de los recursos y economía circular", "¿Se han incorporado criterios en la gestión urbana encaminados a fomentar el ciclo sostenible de los materiales y recursos en el marco de la economía circular?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Gestión sostenible de los recursos y economía circular", "¿Se disponen de planes de gestión de residuos, o equivalentes, con el objetivo de aumentar el porcentaje de recogida selectiva y reciclaje?",
+  "OE1-R1, OE1-R4", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Gestión sostenible de los recursos y economía circular", "Porcentaje de autosuficiencia hídrica",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Gestión sostenible de los recursos y economía circular", "Presupuesto invertido en actuaciones que emplean materiales locales y fácilmente reciclables",
+  "OE1-R1, OE1-R4", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Gestión sostenible de los recursos y economía circular", "Generación de residuos por habitante",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Movilidad y transporte", "¿Se dispone en la ciudad de Planes de Transporte al Trabajo (PTT) para racionalizar los desplazamientos a los principales centros de trabajo?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Movilidad y transporte", "¿Se dispone de un Plan de Movilidad Urbana Sostenible (PMUS) en la ciudad?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Movilidad y transporte", "Flota de autobuses de bajas emisiones o con combustibles \"limpios\" dedicados al transporte público urbano",
+  "OE1-R1, OE1-R4", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Cohesión social e igualdad de oportunidades", "¿Se encuentran adecuadamente identificados los entornos urbanos que presentan un mayor grado de vulnerabilidad social, económica y ambiental?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Cohesión social e igualdad de oportunidades", "¿Se dispone de un Plan o Estrategia a nivel local para garantizar la igualdad de oportunidades, el acceso al mercado de trabajo y la vida pública en condiciones de igualdad?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Cohesión social e igualdad de oportunidades", "Presupuesto invertido en actuaciones realizadas en barrios vulnerables/igualdad de oportunidades desde el punto de vista social, económico o ambiental",
+  "OE1-R1, OE1-R4", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Economía urbana", "¿Se dispone de planes de mejora de la economía y competitividad local, o instrumentos equivalentes, que recojan actuaciones en materia de empleo y actividad económica?",
+  "OE1-R1, OE1-R4", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Economía urbana", "¿Se dispone de planes específicos de reactivación económica e innovación en el ámbito del turismo sostenible, comercio e industria en Bajos de Haina?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Economía urbana", "Presupuesto de las actuaciones previstas para la dinamización del comercio e industria local y de impulso de la actividad turística sostenible",
+  "OE1-R1, OE1-R4", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Vivienda", "¿Se dispone de un plan de vivienda local que favorezca la existencia de un parque público y privado de vivienda adecuado a la demanda e impulse en particular la vivienda en alquiler a precios asequibles?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Vivienda", "¿Se dispone de un plan de ayudas para garantizar el acceso a la vivienda por parte de los hogares y colectivos más vulnerables, con una particular atención a jóvenes, mayores y afectados por procesos de desalojo?",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Vivienda", "Número de personas beneficiarias de los programas incluidos en planes públicos de vivienda",
+  "OE1-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Vivienda", "Número de viviendas destinadas a alquiler social a precio asequible",
+  "OE1-R1, OE2-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Liderar y fomentar la innovación digital", "¿Se dispone de un plan o estrategia local para avanzar en un modelo urbano inteligente?",
+  "OE1-R1, OE2-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Planificación urbana", "Liderar y fomentar la innovación digital", "¿Se han incorporado criterios para mejorar los servicios de administración electrónica y reducir la brecha digital?",
+  "OE1-R2", "Estado actual de la planificación urbana y la gestión de riesgos", "Gestión de riesgos", "Cambio climático", "¿Se dispone de algún plan o estrategia para la adaptación al cambio climático de ámbito local y prevención frente a los riegos naturales?",
+  "OE1-R2", "Estado actual de la planificación urbana y la gestión de riesgos", "Gestión de riesgos", "Cambio climático", "¿Se dispone de algún plan o estrategia de calidad del aire que realice un diagnóstico de su situación y establezca prioridades y actuaciones para impulsar su mejora?",
+  "OE1-R2", "Estado actual de la planificación urbana y la gestión de riesgos", "Gestión de riesgos", "Cambio climático", "¿Se dispone de algún plan o estrategia para la mejora de la resiliencia de Bajos de Haina ante situaciones adversas y la reducción de daños?",
+  "OE1-R2", "Estado actual de la planificación urbana y la gestión de riesgos", "Gestión de riesgos", "Cambio climático", "Reducción anual estimada de gases efecto invernadero (GEI) y del número de días en que se superan los límites de calidad del aire",
+  "OE1-R2", "Estado actual de la planificación urbana y la gestión de riesgos", "Gestión de riesgos", "Fenómenos naturales", "¿Se dispone de recursos para atender a la población más vulnerable por inundaciones?",
+  "OE1-R2", "Estado actual de la planificación urbana y la gestión de riesgos", "Gestión de riesgos", "Fenómenos naturales", "Superficie de suelo urbano en la que se prevé realizar actuaciones de mejora o prevención de riesgos naturales, incluyendo el riesgo de incendios e inundaciones.",
+  "OE1-R3, OE3-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Instrumentos de planificación", "Instrumentos de intervención y gobernanza", "¿Las ordenanzas municipales son plenamente compatibles y coherentes con la legislación estatal y autonómica?",
+  "OE1-R3, OE3-R2", "Estado actual de la planificación urbana y la gestión de riesgos", "Instrumentos de planificación", "Instrumentos de intervención y gobernanza", "¿Se dispone de presupuestos participativos y/o un plan municipal de participación ciudadana que impulse la ciudadanía activa y el empoderamiento?",
+  "OE1-R3", "Estado actual de la planificación urbana y la gestión de riesgos", "Instrumentos de planificación", "Instrumentos de intervención y gobernanza", "¿Se cuenta con los medios para acceder a los programas y ayudas públicas de alcance internacional, nacional y autonómico en materia de desarrollo urbano?",
+  "OE1-R3", "Estado actual de la planificación urbana y la gestión de riesgos", "Instrumentos de planificación", "Instrumentos de intervención y gobernanza", "¿Se dispone de un plan o estrategia de formación y sensibilización ciudadana que favorezca la consecución de los objetivos establecidos en la agenda urbana?",
+  "OE1-R3, OE2-R1", "Estado actual de la planificación urbana y la gestión de riesgos", "Instrumentos de planificación", "Instrumentos de intervención y gobernanza", "¿Se ofrece el contenido del planeamiento urbanístico por medios electrónicos y se ha incorporado a los sistemas de información de nivel supramunicipal?",
+  "OE1-R3", "Estado actual de la planificación urbana y la gestión de riesgos", "Instrumentos de planificación", "Instrumentos de intervención y gobernanza", "Número de personas beneficiarias de actividades de formación y sensibilización en las materias incluidas en la agenda urbana.",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Tecnologías y herramientas digitales existentes", "Inventario y evaluación cualitativa de las actuales herramientas", "Descripción cualitativa de las herramientas existentes, sus ventajas y desventajas",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Tecnologías y herramientas digitales existentes", "Avance hacia ciudad inteligente", "¿Se dispone de un plan o estrategia local para avanzar en un modelo urbano inteligente?",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Tecnologías y herramientas digitales existentes", "Administración electrónica", "¿Se han incorporado criterios para mejorar los servicios de administración electrónica y reducir la brecha digital?",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Planificación urbana", "Nivel de mejora en la planificación urbana (escala de 1 a 10)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Gestión de riesgos", "Nivel de mejora en la gestión de riesgos  (escala de 1 a 10)",
+  "OE2-R1, OE3-R2", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Participación ciudadana", "Inclusión y facilidad para involucrar a los grupos de interés (1 a 10)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Efectividad", "Capacidad del producto para que los usuarios puedan alcanzar sus objetivos (precisión, corrección, exhaustividad e integridad evitando errores: porcentaje de tareas llevadas a cabo)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Eficiencia", "Rapidez con que los usuarios pueden completar sus tareas (porcentaje de tareas logrado por unidad de tiempo)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Visibilidad del estado del sistema (respuesta en el menor tiempo posible)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Relación entre el sistema y el mundo real (imágenes claras, orden lógico, interacción natural)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Control y libertad del usuario (posibilidad de subsanar el error)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Consistencia y estándares (seguir los convenios establecidos para ciertos iconos)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Prevención de errores (prevenir cualquier error que pueda cometer el usuario)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Reconocer antes que recordar (mejor reconocer que obligar al usuario a memorizar acciones u objetos para que pueda cumplir su objetivo)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Flexibilidad y eficiencia de uso (preparado para todo tipo de usuario, desde los más novatos hasta los más experimentados)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Diseño estético y minimalista (no debe contener información innecesaria)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Ayudar a los usuarios a reconocer, diagnosticar y corregir los errores (lenguaje entendible por todos)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Ayuda y documentación (manual de funcionamiento)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Usabilidad y accesibilidad (principios de Jacob Nielsen)", "Evaluación general de usabilidad y accesibilidad (1 a 10)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Adaptabilidad", "Soporte a búsqueda interna (Presencia de búsqueda interna en cada página: ofrecer más vías de navegación)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Adaptabilidad", "Predictibilidad (Enlaces significativos: etiquetas de enlaces son significativos, comprensibles y fácilmente diferenciables)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Adaptabilidad", "Realimentación al usuario (Designar enlaces utilizados, Ubicación del usuario)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Adaptabilidad", "Determinación de posibles acciones (Página de inicio muestra las opciones principales, Presencia apropiada de menús de navegación, Acceso a la página principal desde cualquier página)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Adaptabilidad", "Confiabilidad (Enlaces rotos internos y externos, Páginas huérfanas)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Adaptabilidad", "Evaluación general de adaptabilidad a las necesidades del usuario (1 a 10)",
+  "OE2-R1", "Evaluación de las herramientas digitales en Planificación Urbana que respondan a las necesidades", "Desarrollo de herramientas digitales", "Evaluación global", "Escala de 1 a 10",
+  "OE3-R2", "Participación ciudadana", "Condiciones territoriales", "Formación", "Participación en procesos de formación ciudadana",
+  "OE3-R2, OE2-R1", "Participación ciudadana", "Condiciones territoriales", "Infraestructura de Internet", "Uso del internet para presentar quejas u opiniones ante el gobierno municipal, para convocar o participar de reuniones entre vecinos u otros grupos",
+  "OE3-R2", "Participación ciudadana", "Condiciones territoriales", "Recursos", "Limitaciones (monetaria, tiempo, interés)",
+  "OE3-R2", "Participación ciudadana", "Condiciones territoriales", "Recursos", "Préstamo de espacios en instituciones públicas o sedes comunales para realizar reuniones u eventos relacionados con actividades comunitarias o ciudadanas",
+  "OE3-R2", "Participación ciudadana", "Condiciones territoriales", "Recursos", "Condiciones físicas de los espacios que ha usado para actividades de participación",
+  "OE3-R2", "Participación ciudadana", "Condiciones territoriales", "Recursos", "Contribución de los medios de comunicación para motivar y promover la participación ciudadana",
+  "OE3-R2", "Participación ciudadana", "Condiciones territoriales", "Restricciones", "Amenazas",
+  "OE3-R2", "Participación ciudadana", "Actores y prácticas", "Trabajo en equipo", "Disposición para trabajar en equipo con personas (de diferente religión, raza, estratos, edades, partido político, género, rol)",
+  "OE3-R2", "Participación ciudadana", "Actores y prácticas", "Motivos de participación", "Uso de la participación por intereses y beneficios particulares",
+  "OE3-R2", "Participación ciudadana", "Actores y prácticas", "Conflictos", "Tipos de conflictos en los colectivos u organización",
+  "OE3-R2", "Participación ciudadana", "Actores y prácticas", "Exclusión", "",
+  "OE3-R2", "Participación ciudadana", "Actores y prácticas", "Confianza", "Nivel de confianza en actores políticos",
+  "OE3-R2", "Participación ciudadana", "Actores y prácticas", "Liderazgo", "Comportamiento y toma de decisiones de líderes",
+  "OE3-R2", "Participación ciudadana", "Actores y prácticas", "Liderazgo", "Cantidad de procesos en los que se ejerce liderazgo",
+  "OE3-R2", "Participación ciudadana", "Actores y prácticas", "Liderazgo", "Disposición para liderar procesos comunitarios",
+  "OE3-R2", "Participación ciudadana", "Actores y prácticas", "Liderazgo", "Tiempo en el ejercicio del liderazgo (promedio años de permanencia de los líderes de Junta de Vecinos)",
+  "OE3-R2", "Participación ciudadana", "Formas de asociación", "Tipos de asociación", "Número de juntas de vecinos",
+  "OE3-R2", "Participación ciudadana", "Apoyo", "Apoyo del Ayuntamiento", "Presupuesto",
+  "OE3-R2", "Participación ciudadana", "Apoyo", "Apoyo del ONGs", "Listado de ONGs que apoyan la participación ciudadana en Bajos de Haina",
+  "OE3-R2", "Participación ciudadana", "Apoyo", "Apoyo del ONGs", "Nivel de apoyo ofrecido por las ONGs"
+)
+
+# Ejemplos de uso:
+#   dplyr::count(matriz_operacionalizada, oe_r)
+#   dplyr::count(matriz_operacionalizada, dimension, factor)
+#   dplyr::filter(matriz_operacionalizada, oe_r == "OE2-R1")
+```
+
+## Estadísticas de localización (anexo B.1) {#sec-anexoF-localizacion}
+
+Media, intervalo de confianza al 95 % y error estándar para los 9 factores analizados en el diagnóstico de participación ciudadana. Reproduce la tabla `@tbl-estadisticas-localizacion` del [anexo B](E-analisis-estadistico.qmd#sec-estadisticas-localizacion-anexoF).
+
+```r
+# B.1 Estadísticas de localización
+# Media, IC 95 % y error estándar para los 9 factores analizados.
+library(tibble)
+
+estadisticas_localizacion <- tribble(
+  ~factor, ~media, ~ic95_inf, ~ic95_sup, ~error_std,
+  "Alternativas de formación ciudadana promovidas por el Ayuntamiento, distintas a las de instituciones educativas", 3.3, 2.9, 3.6, 0.187,
+  "Alternativas de formación ciudadana promovidas por organizaciones comunitarias, distintas a las de instituciones educativas", 5.2, 4.8, 5.6, 0.209,
+  "Acceso a un internet adecuado (velocidad y capacidad) para presentar quejas u opiniones ante el gobierno municipal, para convocar o participar en reuniones entre vecinos u otros grupos", 4.8, 4.4, 5.2, 0.205,
+  "Plataformas digitales para opinar o enviar información de riesgos de los barrios", 5.1, 4.7, 5.6, 0.220,
+  "El Ayuntamiento de Bajos de Haina presenta limitaciones en recursos para el desarrollo de actividades de participación comunitaria", 6.1, 5.6, 6.5, 0.222,
+  "Suficiente disponibilidad de espacios en instituciones públicas o sedes comunales para realizar reuniones u eventos relacionados con actividades comunitarias o ciudadanas", 5.1, 4.7, 5.5, 0.211,
+  "Condiciones físicas de los espacios en instituciones públicas o sedes comunales adecuadas para realizar reuniones u eventos relacionados con actividades comunitarias o ciudadanas", 4.5, 4.1, 5.0, 0.231,
+  "Hay muchos inconvenientes y restricciones para una adecuada participación ciudadana en Bajos de Haina", 6.2, 5.8, 6.6, 0.217,
+  "Disposición para trabajar en equipo con personas de diferente religión, raza, estratos, edades, partido político, género, rol, ocupación, etc.", 7.3, 6.8, 7.7, 0.238
+)
+```
+
+## Pruebas de normalidad Kolmogorov-Smirnov (anexo B.2) {#sec-anexoF-normalidad}
+
+14 indicadores × 3 barrios (Bella Vista, Invi-Cea, Villa Penca) = 42 observaciones. Prueba K-S con corrección de Lilliefors. Reproduce la tabla `@tbl-normalidad` del [anexo B](E-analisis-estadistico.qmd#sec-normalidad-anexoF). Los asteriscos del original (que indican límite inferior de significación verdadera) se han omitido en el tibble numérico; consultar el anexo B para la versión completa con asteriscos.
+
+```r
+# B.2 Pruebas de normalidad Kolmogorov-Smirnov por barrio
+# 14 indicadores × 3 barrios = 42 observaciones.
+library(tibble)
+
+normalidad_ks <- tribble(
+  ~indicador, ~barrio, ~estadistico_ks, ~gl, ~sig,
+  "Alternativas de formación ciudadana promovidas por el Ayuntamiento, distintas a las de instituciones educativas", "Bella Vista", 0.223, 17, 0.025,
+  "Alternativas de formación ciudadana promovidas por el Ayuntamiento, distintas a las de instituciones educativas", "Invi-Cea", 0.244, 76, 0.000,
+  "Alternativas de formación ciudadana promovidas por el Ayuntamiento, distintas a las de instituciones educativas", "Villa Penca", 0.176, 18, 0.146,
+  "Alternativas de formación ciudadana promovidas por organizaciones comunitarias, distintas a las de instituciones educativas", "Bella Vista", 0.291, 17, 0.000,
+  "Alternativas de formación ciudadana promovidas por organizaciones comunitarias, distintas a las de instituciones educativas", "Invi-Cea", 0.173, 76, 0.000,
+  "Alternativas de formación ciudadana promovidas por organizaciones comunitarias, distintas a las de instituciones educativas", "Villa Penca", 0.151, 18, 0.200,
+  "Acceso a internet adecuado para presentar quejas u opiniones ante el gobierno municipal", "Bella Vista", 0.191, 17, 0.102,
+  "Acceso a internet adecuado para presentar quejas u opiniones ante el gobierno municipal", "Invi-Cea", 0.205, 76, 0.000,
+  "Acceso a internet adecuado para presentar quejas u opiniones ante el gobierno municipal", "Villa Penca", 0.291, 18, 0.000,
+  "Plataformas digitales para opinar o enviar información de riesgos de los barrios", "Bella Vista", 0.245, 17, 0.008,
+  "Plataformas digitales para opinar o enviar información de riesgos de los barrios", "Invi-Cea", 0.138, 76, 0.001,
+  "Plataformas digitales para opinar o enviar información de riesgos de los barrios", "Villa Penca", 0.123, 18, 0.200,
+  "El Ayuntamiento de Bajos de Haina presenta limitaciones en recursos para actividades de participación comunitaria", "Bella Vista", 0.214, 17, 0.038,
+  "El Ayuntamiento de Bajos de Haina presenta limitaciones en recursos para actividades de participación comunitaria", "Invi-Cea", 0.136, 76, 0.001,
+  "El Ayuntamiento de Bajos de Haina presenta limitaciones en recursos para actividades de participación comunitaria", "Villa Penca", 0.209, 18, 0.037,
+  "Suficiente disponibilidad de espacios en instituciones públicas o sedes comunales", "Bella Vista", 0.231, 17, 0.016,
+  "Suficiente disponibilidad de espacios en instituciones públicas o sedes comunales", "Invi-Cea", 0.197, 76, 0.000,
+  "Suficiente disponibilidad de espacios en instituciones públicas o sedes comunales", "Villa Penca", 0.288, 18, 0.000,
+  "Condiciones físicas de los espacios en instituciones públicas o sedes comunales", "Bella Vista", 0.196, 17, 0.082,
+  "Condiciones físicas de los espacios en instituciones públicas o sedes comunales", "Invi-Cea", 0.131, 76, 0.002,
+  "Condiciones físicas de los espacios en instituciones públicas o sedes comunales", "Villa Penca", 0.278, 18, 0.001,
+  "Los medios de comunicación promueven y motivan la participación ciudadana en Bajos de Haina", "Bella Vista", 0.125, 17, 0.200,
+  "Los medios de comunicación promueven y motivan la participación ciudadana en Bajos de Haina", "Invi-Cea", 0.111, 76, 0.022,
+  "Los medios de comunicación promueven y motivan la participación ciudadana en Bajos de Haina", "Villa Penca", 0.241, 18, 0.007,
+  "Hay muchos inconvenientes y restricciones para una adecuada participación ciudadana en Bajos de Haina", "Bella Vista", 0.273, 17, 0.002,
+  "Hay muchos inconvenientes y restricciones para una adecuada participación ciudadana en Bajos de Haina", "Invi-Cea", 0.112, 76, 0.019,
+  "Hay muchos inconvenientes y restricciones para una adecuada participación ciudadana en Bajos de Haina", "Villa Penca", 0.177, 18, 0.141,
+  "Disposición para trabajar en equipo con personas diversas (religión, raza, estratos, edad, género, rol)", "Bella Vista", 0.171, 17, 0.199,
+  "Disposición para trabajar en equipo con personas diversas (religión, raza, estratos, edad, género, rol)", "Invi-Cea", 0.194, 76, 0.000,
+  "Disposición para trabajar en equipo con personas diversas (religión, raza, estratos, edad, género, rol)", "Villa Penca", 0.291, 18, 0.000,
+  "En la participación ciudadana de Bajos de Haina predominan los intereses y beneficios particulares", "Bella Vista", 0.248, 17, 0.007,
+  "En la participación ciudadana de Bajos de Haina predominan los intereses y beneficios particulares", "Invi-Cea", 0.162, 76, 0.000,
+  "En la participación ciudadana de Bajos de Haina predominan los intereses y beneficios particulares", "Villa Penca", 0.176, 18, 0.146,
+  "Adecuado liderazgo de los procesos de participación ciudadana", "Bella Vista", 0.280, 17, 0.001,
+  "Adecuado liderazgo de los procesos de participación ciudadana", "Invi-Cea", 0.179, 76, 0.000,
+  "Adecuado liderazgo de los procesos de participación ciudadana", "Villa Penca", 0.166, 18, 0.200,
+  "El gobierno local y los líderes tienen en cuenta las preocupaciones de la gente cuando se toman decisiones", "Bella Vista", 0.146, 17, 0.200,
+  "El gobierno local y los líderes tienen en cuenta las preocupaciones de la gente cuando se toman decisiones", "Invi-Cea", 0.166, 76, 0.000,
+  "El gobierno local y los líderes tienen en cuenta las preocupaciones de la gente cuando se toman decisiones", "Villa Penca", 0.201, 18, 0.054,
+  "El Ayuntamiento promueve actividades en mi comunidad en las que participamos todos", "Bella Vista", 0.236, 17, 0.013,
+  "El Ayuntamiento promueve actividades en mi comunidad en las que participamos todos", "Invi-Cea", 0.198, 76, 0.000,
+  "El Ayuntamiento promueve actividades en mi comunidad en las que participamos todos", "Villa Penca", 0.277, 18, 0.001
+)
+```
+
+## Pruebas de diferencias entre barrios (anexo B.3) {#sec-anexoF-diferencias}
+
+12 hipótesis nulas evaluadas con la prueba K-S para muestras independientes entre barrios. Nivel de significación 0.05. Reproduce la tabla `@tbl-diferencias` del [anexo B](E-analisis-estadistico.qmd#sec-diferencias-anexoF).
+
+```r
+# B.3 Pruebas de diferencias entre barrios (Kolmogorov-Smirnov muestras indep.)
+# 12 hipótesis nulas, nivel de significación 0.05.
+library(tibble)
+
+diferencias_ks <- tribble(
+  ~n, ~hipotesis_nula, ~prueba, ~sig, ~decision,
+  1, "La distribución de FormacAyunt es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.928, "Retener la hipótesis nula",
+  2, "La distribución de FormacONG es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.004, "Rechazar la hipótesis nula",
+  3, "La distribución de Internet es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.013, "Rechazar la hipótesis nula",
+  4, "La distribución de Plataforma es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.002, "Rechazar la hipótesis nula",
+  5, "La distribución de LimitacAyunt es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.010, "Rechazar la hipótesis nula",
+  6, "La distribución de DisponEspac es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.151, "Retener la hipótesis nula",
+  7, "La distribución de CondicFisi es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.762, "Retener la hipótesis nula",
+  8, "La distribución de MediosPromuev es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.856, "Retener la hipótesis nula",
+  9, "La distribución de InconvPartCiud es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.438, "Retener la hipótesis nula",
+  10, "La distribución de InclusTrEquipo es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.007, "Rechazar la hipótesis nula",
+  11, "La distribución de BenefParticul es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.752, "Retener la hipótesis nula",
+  12, "La distribución de LiderAdecPartC es la misma entre las categorías de Barrio", "Kolmogorov-Smirnov, muestras independientes", 0.231, "Retener la hipótesis nula"
+)
+```
+
+## Visualización: estadísticas de localización con IC 95%
+
+Como lectura visual de los `tibble` definidos arriba, el siguiente gráfico presenta la valoración media de los factores del diagnóstico de participación ciudadana junto con su intervalo de confianza al 95%. Los colores agrupan los factores por nivel de valoración: verde para valores altos (≥ 6), ámbar para valores medios (5–6) y rojo para valores bajos (< 5).
+
+```{python}
+#| label: fig-localizacion-anexoF
+#| fig-cap: "Valoración media de los factores del diagnóstico de participación ciudadana en Bajos de Haina (n=111), con intervalo de confianza al 95%. Elaboración propia a partir de `estadisticas_localizacion` (Survey123 del proyecto FONDOCYT)."
+#| fig-width: 9
+#| fig-height: 5.5
+
+import matplotlib
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+from matplotlib import font_manager
+import pathlib
+
+# Registrar IBM Plex Sans Condensed (misma tipografía que las tablas del libro)
+# Busca _recursos/ subiendo desde el CWD hasta encontrarlo
+_cwd = pathlib.Path.cwd()
+for _candidate in [_cwd, _cwd.parent, _cwd.parent.parent]:
+    _font_dir = _candidate / "_recursos" / "fonts" / "ibm-plex" / "sans-condensed"
+    if _font_dir.exists():
+        for _f in _font_dir.glob("*.otf"):
+            font_manager.fontManager.addfont(str(_f))
+        matplotlib.rcParams["font.family"] = "IBM Plex Sans Condensed"
+        break
+
+datos = [
+    ("Trabajo en equipo (diversidad)",                  7.3, 6.8, 7.7),
+    ("Inconvenientes a la participación",               6.2, 5.8, 6.6),
+    ("Limitaciones del Ayuntamiento",                   6.1, 5.7, 6.5),
+    ("Disponibilidad de espacios",                      5.1, 4.7, 5.5),
+    ("Plataformas digitales para riesgos",              5.1, 4.7, 5.6),
+    ("Formación ciudadana (ONGs)",                      5.2, 4.8, 5.6),
+    ("Acceso a internet adecuado",                      4.8, 4.4, 5.2),
+    ("Condiciones físicas de espacios",                 4.5, 4.1, 5.0),
+    ("Formación ciudadana (Ayuntamiento)",              3.3, 2.9, 3.6),
+]
+
+factores = [d[0] for d in datos]
+medias   = [d[1] for d in datos]
+ic_inf   = [d[2] for d in datos]
+ic_sup   = [d[3] for d in datos]
+
+colores = ["#6B9E4E" if m >= 6 else "#D4A53C" if m >= 5 else "#DB605E" for m in medias]
+err_lo  = [m - i for m, i in zip(medias, ic_inf)]
+err_hi  = [s - m for m, s in zip(medias, ic_sup)]
+
+fig, ax = plt.subplots(figsize=(9, 5.5))
+ax.barh(factores, medias, color=colores, height=0.6, alpha=0.88)
+ax.errorbar(
+    medias, factores,
+    xerr=[err_lo, err_hi],
+    fmt='none', color='#474647', linewidth=1.2, capsize=4
+)
+for i, (m, sup) in enumerate(zip(medias, ic_sup)):
+    ax.text(sup + 0.18, i, f"{m:.1f}", va='center', ha='left',
+            fontsize=9.5, color='#2D2D2D', fontweight='bold')
+
+ax.set_xlabel("Valoración media con IC 95% (escala 1–10)", fontsize=10)
+ax.set_xlim(0, 10.5)
+ax.set_xticks(range(0, 11, 2))
+ax.tick_params(axis='y', labelsize=9.5)
+ax.tick_params(axis='x', labelsize=9)
+ax.grid(axis='x', color='#E0E0E0', linewidth=0.7, zorder=0)
+ax.spines[['top', 'right', 'left']].set_visible(False)
+
+patches = [
+    mpatches.Patch(color='#6B9E4E', label='Alto (≥ 6)'),
+    mpatches.Patch(color='#D4A53C', label='Medio (5–6)'),
+    mpatches.Patch(color='#DB605E', label='Bajo (< 5)'),
+]
+ax.legend(handles=patches, loc='lower right', fontsize=9, framealpha=0.8)
+plt.tight_layout()
+plt.show()
+```
+
+## Nota sobre reproducibilidad {.unnumbered}
+
+Los objetos `matriz_operacionalizada`, `estadisticas_localizacion`, `normalidad_ks` y `diferencias_ks` definidos en este anexo son `tibble` válidos del ecosistema *tidyverse*. Pueden exportarse a CSV con `readr::write_csv()`, a Excel con `writexl::write_xlsx()`, o cargarse en `ggplot2`, `gt`, `kableExtra` y otras herramientas de visualización académica sin necesidad de transformación adicional. La matriz operacionalizada se mantiene además disponible en los entregables canónicos del proyecto (`INF_OE1_DiagnosticoIntegral_2025.docx` y `INF_OE3_AmbitosParticipacionCiudadana_2025.docx`).

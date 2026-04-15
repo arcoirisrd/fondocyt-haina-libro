@@ -1,0 +1,129 @@
+---
+title: "Catálogo del material del proyecto"
+---
+
+Este anexo documenta la totalidad del material producido, recopilado y procesado durante el proyecto FONDOCYT 2023-1-3A13-0725. El objetivo es garantizar la trazabilidad, reproducibilidad y acceso ordenado a todos los productos y datos generados.
+
+## Productos principales del proyecto {#sec-productos-principales-anexoJ}
+
+El proyecto genera tres productos principales que constituyen sus entregables formales.
+
+El primero es el presente libro, compilado con Quarto, que integra los resultados de los tres objetivos específicos en 13 capítulos y 5 anexos. El segundo es el conjunto de informes técnicos por objetivo específico, entregados en formato .docx como documentación canónica del proyecto. El tercero es la documentación del Seminario-Taller de Planificación Urbana Digital, celebrado en octubre de 2024, que incluye la sistematización de las tres mesas temáticas, el registro fotográfico y los videos del evento.
+
+## Informes técnicos {#sec-informes-tecnicos-anexoJ}
+
+| Código | Documento | OE |
+|:---|:---|:---|
+| **INF_OE1_DiagnosticoIntegral_2025** | Diagnóstico integral de Bajos de Haina | OE1 |
+| **INF_OE2_SistemaDigital_2025** | Sistema digital integrado para planificación y GdR | OE2 |
+| **INF_OE3_NormativaTipologias_2025** | Normativa urbanística por tipología de manzana | OE3 |
+| **INF_OE3_ActividadesNormativa_2025** | Actividades asociadas al desarrollo normativo | OE3 |
+| **INF_OE3_AmbitosParticipacionCiudadana_2025** | Ámbitos de participación ciudadana | OE3 |
+| **INF_OE3_ParticipacionObservatorio_2025** | Participación y Observatorio Municipal | OE3 |
+| **INF_Final_202508** | Informe final entregado a MESCYT | Transversal |
+| **PRP_FONDOCYT_ConsorcioBarnaArcoirisTecca_20231125** | Propuesta original aprobada | Transversal |
+
+: Informes técnicos del proyecto, organizados por objetivo específico. Elaboración propia. {#tbl-informes-tecnicos .smaller tbl-colwidths="[45,40,15]"}
+
+Ubicación: `informes/`
+
+## Seminario-Taller de Planificación Urbana Digital {#sec-seminario-anexoJ}
+
+El evento se celebró los días 11 y 12 de octubre de 2024 en Bajos de Haina, en el marco de la Bienal Iberoamericana de Arquitectura y Urbanismo (BIAU).
+
+| Mesa | Tema | Sílabo | Sistematización |
+|:---|:---|:---|:---|
+| **Mesa 1** | Herramientas digitales para ordenamiento territorial (HDOT) | SIS_Mesa1_HDOT_Silabo_2024 | SIS_Mesa1_HDOT_2024 |
+| **Mesa 2** | Gestión de riesgos y adaptación al cambio climático (GDR) | SIS_Mesa2_GDR_Silabo_2024 | SIS_Mesa2_GDR_2024 |
+| **Mesa 3** | Participación ciudadana | SIS_Mesa3_Participacion_Silabo_2024 | SIS_Mesa3_Participacion_2024 |
+
+: Productos del Seminario-Taller por mesa temática. Elaboración propia. {#tbl-productos-seminario .smaller}
+
+Material complementario: 26 fotografías curadas del evento, 4 videos de las sesiones plenarias, registro de participantes y dossier del seminario.
+
+Ubicación: `seminario_taller/`
+
+## Ecosistema digital {#sec-ecosistema-digital-anexoJ}
+
+El proyecto desarrolló 8 herramientas digitales operativas organizadas en tres módulos temáticos sobre la plataforma ArcGIS Online.
+
+| Módulo | Herramienta | Tipo |
+|:---|:---|:---|
+| **Ordenamiento territorial** | Dashboard Población | Dashboard |
+| **Ordenamiento territorial** | Dashboard Vivienda | Dashboard |
+| **Ordenamiento territorial** | Dashboard Educación | Dashboard |
+| **Ordenamiento territorial** | Dashboard Salud | Dashboard |
+| **Ordenamiento territorial** | Dashboard Edificaciones FONDOCYT | Dashboard |
+| **Gestión de riesgos** | Dashboard Cerrando Brechas | Dashboard |
+| **Gestión de riesgos** | WebApp TDAV | Web App |
+| **Gestión de riesgos** | Plataforma Reporta.do | Experience |
+| **Participación ciudadana** | Mapeo mi Barrio | Survey/QuickCapture |
+
+: Herramientas digitales del ecosistema FONDOCYT-Haina. Elaboración propia. {#tbl-herramientas-ecosistema .smaller}
+
+Las capturas de pantalla de cada herramienta se encuentran integradas en el [capítulo 7, Sistema Digital](../07-sistema-digital.html#sec-descripcion-sistema-07).
+
+## Datos de campo {#sec-datos-campo-anexoJ}
+
+| Tipo | Descripción | Volumen | Ubicación | Sensibilidad |
+|:---|:---|:---|:---|:---|
+| **Encuestas domiciliarias** | Survey123, diagnóstico de participación ciudadana | n=155, 3 barrios | `datos/participacion/` | Alta (PII) |
+| **Levantamiento edificaciones** | Drone, LIDAR y Survey123 | 328 edificaciones, 16 manzanas | ArcGIS Online (acceso restringido) | Media |
+| **Fotografía aérea** | DJI drone, 9 campañas de vuelo | 173 imágenes, 3,6 GB | `datos/cartografia/` | Baja |
+| **Cartografía temática** | Densidad, evolución urbana, TDAV, usos del suelo | 4 planos PDF | `datos/cartografia/` | Baja |
+| **Fotografía histórica** | Evolución urbana de Bajos de Haina, 1916 a 1994 | 26 imágenes, 1,2 GB | `datos/historico/` | Baja |
+| **Datos demográficos** | Censo ONE 2022, proyecciones, comercio exterior | Múltiples archivos XLSX | `datos/demografico/` | Baja |
+| **Indicadores de referencia** | Matrices ENZAV, APTI, GIZ, indicadores alineados | 6 archivos XLSX | `datos/indicadores_referencias/` | Baja |
+| **Verificación de campo** | Comprobación de cañadas y toponimia, julio 2024 | 1 informe | `datos/campo/` | Baja |
+
+: Datos recopilados durante el proyecto. Elaboración propia. {#tbl-datos-campo .smaller tbl-colwidths="[18,32,20,22,8]"}
+
+Los datos individuales de encuestas domiciliarias contienen información personal de comunidades vulnerables y se manejan bajo protocolo de protección de datos.
+
+## Bases de referencia {#sec-bases-referencia-anexoJ}
+
+El proyecto utilizó marcos normativos, metodológicos y de datos externos organizados en las siguientes categorías.
+
+| Categoría | Contenido | Ubicación |
+|:---|:---|:---|
+| **Marco de Sendai** | Guía metodológica, indicadores, aplicación RD | `datos/bases_referencia/sendai/` |
+| **Indicadores de gestión de riesgos** | Metodologías BID-Cardona (IDD, IGR) | `datos/bases_referencia/indicadores_GRD/` |
+| **ENZAV** | Clasificación de zonas de alta vulnerabilidad | `datos/bases_referencia/enzav/` |
+| **Mapa de pobreza** | Atlas y apéndice estadístico provincial 2014 | `datos/bases_referencia/mapa_pobreza/` |
+| **ODS** | Indicadores de los Objetivos de Desarrollo Sostenible | `datos/bases_referencia/ods/` |
+| **SISDOM** | Indicadores de vivienda, agua y saneamiento | `datos/bases_referencia/sisdom/` |
+| **Normativa dominicana** | Leyes, decretos y ordenanzas de planificación y GdR | `datos/bases_referencia/normativa/` |
+| **GHSL** | Global Human Settlement Layer, clasificación de suelo urbano | `datos/bases_referencia/` |
+
+: Bases de referencia del proyecto. Elaboración propia. {#tbl-bases-referencia .smaller}
+
+## Publicaciones derivadas {#sec-publicaciones-anexoJ}
+
+El proyecto da pie a varias publicaciones académicas derivadas: un paper sobre gobernanza digital y su hipótesis catalítica frente a amplificatoria, un paper sobre metodología multiescalar de ordenamiento territorial (manzana, barrio, municipio) y la línea de investigación URB-LEX, que estudia comparativamente la normativa urbanística del Caribe y Centroamérica.
+
+Ubicación: `publicaciones/` (borradores, material para publicación).
+
+## Bibliografía del proyecto {#sec-bibliografia-proyecto-anexoJ}
+
+El proyecto mantiene una base bibliográfica unificada gestionada con Zotero y exportada en formato BibTeX. El archivo `references.bib` contiene más de 381 entradas en formato APA 7a edición y constituye la fuente única de citación para el libro y las publicaciones.
+
+Ubicación: `_bibliografia/references.bib`
+
+## Estructura del repositorio {#sec-estructura-repo-anexoJ}
+
+| Carpeta | Contenido |
+|:---|:---|
+| **`libro/`** | Libro Quarto: fuente de verdad (13 capítulos, 6 anexos, PDF) |
+| **`informes/`** | Documentos canónicos .docx por OE, informe final MESCYT, propuesta |
+| **`seminario_taller/`** | Seminario-Taller PUD: 3 mesas, fotos, videos |
+| **`datos/`** | Datos de campo, demográficos, históricos, indicadores, cartografía y bases de referencia |
+| **`publicaciones/`** | Borradores y material para publicación (papers, URB-LEX) |
+| **`_bibliografia/`** | Bibliografía unificada (`references.bib`) |
+| **`_admin/`** | Administración del proyecto (confidencial) |
+| **`_contexto/`** | Documentación de trabajo, logs y estado de sesiones |
+
+: Organización de carpetas del proyecto. Elaboración propia. {#tbl-carpetas .smaller}
+
+## Convenciones de naming {#sec-convenciones-naming-anexoJ}
+
+El proyecto utiliza un sistema de prefijos estandarizado para todos los archivos: INF_ (informes), SIS_ (sistematizaciones), DOC_ (documentos), DAT_ (datos), PRS_ (presentaciones), CAP_ (capturas), VID_ (videos), IMG_ (imágenes), MAP_ (mapas), DIA_ (diagramas), PUB_ (publicaciones), PRP_ (propuestas). La documentación completa se encuentra en `CONVENCIONES.md`.

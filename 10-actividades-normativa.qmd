@@ -1,0 +1,133 @@
+---
+title: "Actividades asociadas al desarrollo normativo"
+---
+
+> **Fecha:** agosto 2025
+> **Objetivo específico:** OE3
+> **Resultado:** R.1 Actividades normativa
+
+<!-- NOTE: Anexo de INF_OE3_NormativaTipologias_2025 -->
+
+Este capítulo documenta la formulación de la normativa urbanística y de gestión de riesgos desarrollada para el municipio de Bajos de Haina durante el periodo de ejecución comprendido entre el 1 de junio y el 8 de agosto de 2025. La elaboración estuvo a cargo de los arquitectos Danilo Minaya, Yssamar Reyes y Anyerlina Hernández, con revisión y validación de la arquitecta Ana Moyano.
+
+## Detalle de actividades realizadas {#sec-detalle-actividades-10}
+
+El desarrollo de la propuesta normativa para las 16 manzanas del municipio de Bajos de Haina se estructuró en seis fases progresivas, cada una con objetivos específicos, productos técnicos y resultados verificables. A continuación, se describen detalladamente las actividades ejecutadas entre el 1 de junio y el 8 de agosto de 2025.
+
+### Fase 1: Revisión de normativa y diseño metodológico
+
+**Periodo:** 1 al 10 de junio de 2025. **Objetivo:** establecer los marcos normativos, institucionales y técnicos de referencia. Las actividades incluyeron la revisión exhaustiva de la Ley 368-22 y su reglamento (Decreto 396-25), así como de las Normas Subsidiarias Regionales de Planificación[^ley368-22-cap10]; la sistematización de experiencias nacionales e internacionales de normativa urbanística y gestión de riesgos a nivel de manzana; y la elaboración del documento metodológico base que guio el proceso técnico, incorporando componentes geoespaciales, normativos, participativos y de gestión de riesgos. **Producto:** documento metodológico de referencia para la formulación normativa.
+
+[^ley368-22-cap10]: Ley 368-22 sobre Ordenamiento Territorial, Uso de Suelo y Asentamientos Humanos (Congreso Nacional de la República Dominicana, 2022), complementada por el Decreto 396-25 que aprueba su reglamento de aplicación.
+
+### Fase 2: Análisis mediante LIDAR y fotogrametría
+
+Se partió de la generación de insumos técnicos mediante un análisis fotogramétrico de alta resolución por manzana, elaborado a partir de un vuelo LIDAR realizado previamente en la zona. Este insumo permitió identificar características físicas clave de las edificaciones y su distribución espacial, sirviendo como base objetiva para establecer indicadores normativos preliminares. El material completo (hojas de análisis fotogramétrico, manzana por manzana) se conserva como referencia documental en el repositorio del proyecto dentro del entregable OE3[^oe3-repo-cap10].
+
+**Periodo:** 11 al 20 de junio de 2025. **Objetivo:** generar una caracterización físico-espacial de alta precisión por manzana. Las actividades comprendieron el análisis e interpretación de datos altimétricos LIDAR proporcionados por el Instituto Nacional de Recursos Hidráulicos (INDRHI), el procesamiento de imágenes aéreas y generación de ortomosaicos de alta resolución, y la clasificación preliminar de manzanas según morfología urbana, densidad edificatoria, accesibilidad y conectividad. **Producto:** atlas morfotipológico de las 16 manzanas basado en insumos geoespaciales.
+
+[^oe3-repo-cap10]: Ver entregable `INF_OE3_NormativaTipologias_2025.docx` en el repositorio del proyecto.
+
+### Fase 3: Levantamiento de información en campo y encuestas digitales
+
+Durante la semana del 21 de julio de 2025 se llevó a cabo un levantamiento en campo a través de encuestas estructuradas en la plataforma Survey123, con el objetivo de caracterizar cada unidad construida. La encuesta levantó variables sobre tipo de material, número de niveles, servicios, condiciones constructivas y exposición a riesgos. Este proceso fue clave para validar la fotointerpretación y ajustar la tipología normativa.
+
+**Periodo:** semana del 21 de julio de 2025. **Objetivo:** recopilar datos detallados sobre condiciones edificatorias y características socioespaciales. Las actividades incluyeron el diseño e implementación de una encuesta estructurada de edificaciones mediante Survey123, con variables sobre uso, materiales, altura, conexión a servicios básicos y condiciones de riesgo; el levantamiento en campo con equipos técnicos acompañados por actores locales y comunitarios; y la georreferenciación individual de cada edificación evaluada. **Producto:** base de datos estructurada con ficha técnica por edificación, georreferenciada.
+
+### Fase 4: Sistematización, análisis integrado y desarrollo del Dashboard
+
+Todos los datos recolectados fueron integrados y sistematizados en la plataforma ArcGIS Online, generando una representación interactiva en forma de Dashboard dinámico con filtros por tipología de manzana, niveles de riesgo y condiciones constructivas, entre otras variables. Esta herramienta fue diseñada para consulta institucional y toma de decisiones basada en evidencia territorial; su detalle técnico se documenta en @sec-observatorio-ciudadano-09.
+
+**Periodo:** 22 al 29 de julio de 2025. **Objetivo:** integrar la información recolectada en una plataforma interactiva de análisis y visualización. Las actividades comprendieron la creación de un modelo de geodatabase en ArcGIS Online para sistematizar los datos del levantamiento, el desarrollo de un Dashboard interactivo con visualización de indicadores clave por manzana, y un análisis espacial multivariable para identificar zonas prioritarias de intervención normativa y gestión de riesgo. **Producto:** plataforma digital en línea con acceso controlado y Dashboard funcional.
+
+### Fase 5: Formulación normativa por tipología de manzana
+
+Con base en los insumos técnicos, se elaboró un documento de normativa urbanística segmentado por tipología de manzana (residencial pura, mixta con comercial, institucional, entre otras), incorporando parámetros de densidad, altura permitida, usos de suelo, servidumbres y medidas mínimas de mitigación de riesgo. Este documento busca ser adoptado por el Ayuntamiento como normativa subsidiaria conforme al marco legal nacional vigente. Las fichas normativas completas por tipología se recogen en @sec-cuadro-resumen-anexoG.
+
+**Periodo:** 30 de julio al 5 de agosto de 2025. **Objetivo:** diseñar una propuesta normativa adaptada, coherente con el marco legal vigente y las condiciones locales. Las actividades comprendieron la definición de seis tipologías de manzana (residencial pura, mixta con comercial, mixta con dotacional, institucional, mixta con institucional y mixta tripartita), la elaboración de fichas normativas diferenciadas con usos permitidos, densidades máximas, parámetros de ocupación, lineamientos de mitigación de riesgos y criterios de integración urbana, y la articulación con las escalas del instrumento de planificación municipal (uso de suelo, ordenamiento ambiental y gestión de riesgo). **Producto:** documento "Propuesta Normativa Urbanística para Bajos de Haina por Tipología de Manzana" (versión 04/08/2025).
+
+
+### Fase 6: Socialización institucional y validación comunitaria
+
+La propuesta normativa fue presentada y discutida en sesiones de trabajo con el Ayuntamiento de Haina, equipos técnicos y actores sociales clave, incluidas juntas de vecinos, lo que permitió validar las categorías tipológicas, ajustar parámetros y legitimar su aplicación futura.
+
+**Periodo:** 6 al 8 de agosto de 2025. **Objetivo:** validar técnica y socialmente la propuesta normativa y fortalecer la apropiación local. Las actividades comprendieron el taller de presentación y revisión técnica con el equipo urbanístico del Ayuntamiento de Bajos de Haina, las sesiones de validación con representantes de juntas de vecinos, líderes comunitarios y actores estratégicos del municipio, y la recogida de observaciones, ajustes y legitimación del proceso para su adopción institucional. **Producto:** acta de validación firmada por el Ayuntamiento y actas de participación comunitaria.
+
+## Resultados globales {#sec-resultados-globales-10}
+
+- 16 manzanas sistematizadas con datos geoespaciales y levantamiento técnico
+- 1 plataforma interactiva con Dashboard público-privado
+- 1 propuesta normativa estructurada y alineada con la Ley 368-22
+- 6 fichas normativas diferenciadas por tipo de manzana
+- Proceso validado institucional y comunitariamente
+
+## Indicadores de seguimiento {#sec-indicadores-seguimiento-10}
+
+| Fase | Indicador | Meta | Cumplido |
+|:---|:---|:---|:---|
+| **Fotogrametría y análisis LIDAR** | Número de manzanas analizadas | 16 | Sí |
+| **Encuestas Survey123** | Porcentaje de edificaciones encuestadas respecto al total | ≥ 70% | Sí |
+| **Sistematización GIS** | Generación de Dashboard en línea | 1 Dashboard operativo | Sí |
+| **Propuesta normativa** | Documento normativo por tipología de manzana | 1 entregable completo | Sí |
+| **Validación comunitaria** | Número de sesiones de socialización realizadas | ≥ 2 | Sí |
+
+: Indicadores de seguimiento por fase del proyecto. Elaboración propia. {#tbl-indicadores-seguimiento .smaller}
+
+## Cronograma general {#sec-cronograma-10}
+
+| Actividad | Fecha estimada |
+|:---|:---|
+| **Análisis LIDAR y fotogrametría** | 1 al 15 de junio |
+| **Diseño y aplicación de encuestas Survey123** | 21 al 25 de julio |
+| **Levantamiento de campo** | 21 al 28 de julio |
+| **Sistematización y Dashboard** | 22 de julio al 2 de agosto |
+| **Redacción de normativa urbanística** | 2 al 6 de agosto |
+| **Validación institucional y comunitaria** | 6 al 8 de agosto |
+
+: Cronograma general de actividades (junio-agosto 2025). Elaboración propia. {#tbl-cronograma-general .smaller}
+
+## Lecciones aprendidas y recomendaciones {#sec-lecciones-10}
+
+### Lecciones aprendidas
+
+**La integración tecnológica mejora significativamente la calidad del diagnóstico territorial.**
+
+El uso de herramientas como LIDAR, drones con procesamiento fotogramétrico y plataformas SIG permitió obtener datos de alta resolución para caracterizar las manzanas urbanas con precisión. Este enfoque superó las limitaciones de los métodos convencionales, evidenciando que la incorporación sistemática de tecnología geoespacial mejora la capacidad de análisis multiescalar y prospectivo en el diagnóstico territorial [@gomezUsoDronesSensores2021].
+
+
+**La coproducción de conocimiento fortalece la legitimidad y viabilidad de la normativa.**
+
+La participación activa de las juntas de vecinos en la validación del diagnóstico urbano y en el diseño de la propuesta normativa urbanística fortaleció la apropiación social del instrumento. Esta estrategia se alinea con enfoques recientes de gobernanza colaborativa que indican que la legitimidad de los planes territoriales depende de su construcción colectiva [@burgosParticipacionCiudadanaPlanificacion2017]. Además, experiencias como la del Plan Metropolitano de Quito [@pmotPlanMunicipalOrdenamiento2020] demostraron que la inclusión comunitaria reduce los conflictos en la implementación de instrumentos de uso de suelo.
+
+**La diferenciación normativa por tipología de manzana permite mayor precisión regulatoria.**
+
+El enfoque por tipologías permitió construir normativas ajustadas a las condiciones físicas, funcionales y sociales de cada entorno, abandonando el paradigma del reglamento homogéneo. Esta metodología es coherente con el principio de equidad territorial defendido por organismos como ONU-Hábitat [@un-habitatWorldCitiesReport2020], y con experiencias como la de Medellín, que diferenció sus instrumentos urbanísticos por unidades morfológicas funcionales [@gomezPublicacionGomez20192019].
+
+**La sistematización en plataformas como ArcGIS Online facilita la gestión de la información y su trazabilidad.**
+El uso de Dashboards y geodatabases permitió consolidar los hallazgos y brindar acceso compartido a instituciones clave. Esta experiencia confirma que los sistemas de información geográfica no solo son herramientas de análisis, sino también de gobernanza de datos urbanos [@pakPublicacionPakVerbeke2015].
+
+### Recomendaciones
+
+**Escalar esta metodología a nivel nacional como política pública de planificación territorial adaptativa.**
+
+El modelo desarrollado en Haina puede ser replicado en otros municipios mediante un protocolo metodológico estandarizado, adaptado a cada contexto local. Se recomienda que el Ministerio de Economía, Planificación y Desarrollo (MEPyD) y el Viceministerio de Ordenamiento Territorial integren esta metodología en los lineamientos para planes municipales conforme a la Ley 368-22.
+
+**Fortalecer las capacidades municipales para el uso de tecnologías geoespaciales.**
+
+La implementación exitosa del modelo requiere que los gobiernos locales cuenten con personal técnico capacitado en SIG, procesamiento LIDAR y herramientas digitales de participación. Programas de formación continua y asistencia técnica son imprescindibles, como lo ha promovido el Programa Ciudades Emergentes y Sostenibles del BID en América Latina [@terrazaDeCiudadesEmergentes2016].
+
+
+
+**Institucionalizar los procesos participativos como componente obligatorio de la planificación urbana.**
+
+La validación de diagnósticos y normativas por actores sociales debe institucionalizarse como un paso obligatorio y vinculante en la formulación de normativa urbanística y planes de ordenamiento. Ello responde a los principios de justicia espacial y democracia participativa que caracterizan las agendas urbanas contemporáneas [@un-habitatWorldCitiesReport2020; @harveyRebelCitiesRight2012].
+
+**Diseñar un sistema nacional de seguimiento y evaluación del cumplimiento normativo municipal.**
+
+Para garantizar que la normativa propuesta no quede como un instrumento simbólico, se recomienda establecer indicadores de seguimiento que midan su implementación, cumplimiento y eficacia. Dichos indicadores deben formar parte de un sistema de información georreferenciado interoperable entre niveles de gobierno [@gutierrezPublicacionGutierrez20212021].
+
+**Establecer convenios interinstitucionales para la producción colaborativa de datos territoriales.**
+
+La sostenibilidad de estas herramientas depende de la actualización constante de los datos. Se recomienda promover convenios entre gobiernos locales, universidades y entidades como el Instituto Geográfico Nacional y la Oficina Nacional de Estadística para garantizar flujos regulares de información actualizada [@institutogeograficonacionaljosejoaquinhungriamorellCartografiaBasicaRepublica2024].
+
+El material complementario de esta actividad (hojas resumen de análisis fotogramétrico por manzana, resultados de la encuesta Survey123, capturas del dashboard geoespacial en ArcGIS Online, documento completo de propuesta normativa urbanística y presentación de socialización con el Ayuntamiento) se conserva como referencia documental en el repositorio del proyecto, dentro del entregable OE3 Actividades Normativa.

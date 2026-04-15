@@ -1,0 +1,162 @@
+---
+title: "Perfil técnico del equipo de investigación"
+---
+
+Este anexo documenta el perfil técnico del equipo del proyecto FONDOCYT 2023-1-3A13-0725 como complemento a la ficha CRediT del prefacio. El objetivo no es biográfico sino operativo: mostrar de forma explícita qué competencias técnicas aporta cada miembro del equipo al desarrollo del sistema digital integrado descrito en los capítulos anteriores, y cómo esas competencias se articulan entre sí para cubrir el abanico de dominios exigidos por una investigación aplicada en planificación urbana, gestión de riesgos y participación ciudadana. El anexo se estructura en tres partes. La primera parte presenta el marco de competencias sobre el que se analiza el equipo. La segunda parte consolida la matriz de cobertura competencial, que permite leer la composición del equipo como un único sistema antes que como una suma de individualidades. La tercera parte desarrolla los perfiles técnicos individuales en el orden oficial de la autoría CRediT.
+
+## Marco de competencias del proyecto {#sec-competencias-h}
+
+El sistema digital integrado que el proyecto desarrolla para Bajos de Haina exige un conjunto específico de competencias técnicas cuya cobertura simultánea es la condición de posibilidad del ecosistema. A partir de los capítulos anteriores y de los objetivos específicos del proyecto se han definido ocho dimensiones de competencia que actúan como marco de análisis del equipo.
+
+La dimensión de **urbanismo y ordenamiento territorial** recoge la formación y experiencia en planificación urbana, normativa territorial, análisis morfológico y diseño urbano. La dimensión de **sistemas de información geográfica y cartografía** agrupa el dominio de herramientas SIG (ArcGIS, QGIS, Google Earth Engine), la producción y validación de capas cartográficas y la lectura geoespacial del territorio. La dimensión de **análisis estadístico y métodos cuantitativos** abarca el diseño muestral, las técnicas multivariadas, las pruebas de fiabilidad y la validación empírica de instrumentos, con énfasis en los paquetes estadísticos de uso académico y profesional. La dimensión de **desarrollo de software y arquitectura técnica** comprende la programación web y de aplicaciones, la gestión de bases de datos, la integración con plataformas en la nube y el desarrollo de dashboards interactivos.
+
+La dimensión de **gestión de riesgos y resiliencia urbana** recoge la experiencia en prevención de desastres, vulnerabilidad territorial, adaptación al cambio climático y sistemas de alerta temprana. La dimensión de **participación ciudadana y trabajo comunitario** agrupa la experiencia en procesos participativos, facilitación de talleres, mediación con organizaciones de base y sistematización de conocimiento colectivo. La dimensión de **gobernanza y políticas públicas** abarca el conocimiento del marco normativo dominicano e internacional, la experiencia en cooperación internacional, la articulación interinstitucional y el diseño de políticas territoriales. La dimensión de **inteligencia artificial y ciencia de datos** comprende el dominio de modelos analíticos avanzados, el tratamiento de grandes volúmenes de datos y la aplicación de técnicas de aprendizaje automático al contexto urbano.
+
+La cobertura del equipo sobre estas ocho dimensiones se valora en una escala de tres niveles, explícitamente conservadora: un nivel de **especialización avanzada** (●●●) que indica formación doctoral, liderazgo reconocido o publicaciones en la dimensión; un nivel de **experiencia profesional comprobada** (●●) que indica uso regular de la competencia en el ejercicio profesional o en la academia; y un nivel de **formación básica o aplicada** (●) que indica dominio operativo sin especialización. La ausencia de marca indica que la competencia no es parte del aporte específico de la persona al proyecto, sin que ello constituya un juicio sobre su valía general. La valoración se ha construido a partir de los currículos archivados en `_admin/cvs/` y no sustituye los ORCID ni las publicaciones formales del equipo.
+
+## Matriz de cobertura competencial {#sec-matriz-h}
+
+La matriz siguiente consolida la cobertura del equipo sobre las ocho dimensiones de competencia en el orden oficial CRediT.
+
+| # | Integrante | Urbanismo / OT | SIG / Cartografía | Estadística / Cuantitativo | Dev. software | Gestión de riesgos | Participación / Comunidad | Gobernanza / Políticas | IA / Ciencia de datos |
+|--:|:---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| 1 | Ana Moyano Molina | ●●● | ●● | ● | — | ●●● | ●●● | ●●● | ● |
+| 2 | Jorge Recio Martínez | ●●● | ●● | ● | ●● | ● | ●● | ● | ●● |
+| 3 | Javier Villamizar | ● | ●● | ●●● | ● | — | ● | ● | ●● |
+| 4 | Carlos Ramírez Arias | ●● | — | — | — | ●●● | ●●● | ●●● | — |
+| 5 | Karina Pérez Teruel | — | — | ●● | ●●● | — | — | ● | ●●● |
+| 6 | Ana Solís Alonso | ●●● | ●●● | — | — | ● | ●● | — | — |
+| 7 | Yssamar Reyes Sánchez | ●● | ● | — | — | ● | ●● | ● | — |
+| 8 | Danilo Minaya | ● | — | — | — | ●● | ● | ● | — |
+| 9 | Jaime Hernández Peña | — | — | — | ●●● | — | — | — | ● |
+| 10 | Lucía Navarro de Corcuera | ● | — | — | — | ● | ● | ● | — |
+| 11 | Anyerlina Hernández | ●● | — | — | — | ● | ● | ●● | — |
+
+: Matriz de cobertura competencial del equipo FONDOCYT sobre ocho dimensiones técnicas. Escala: ●●● especialización avanzada, ●● experiencia profesional comprobada, ● formación básica o aplicada, — competencia no aplicable al rol en el proyecto. Elaboración propia a partir de los currículos archivados en `_admin/cvs/`. {#tbl-matriz-competencias-h .striped}
+
+La lectura por columna revela la **composición simétrica del equipo**: cada dimensión cuenta con al menos una persona con especialización avanzada y con al menos dos con experiencia profesional o formación aplicada, lo que garantiza la ausencia de cuellos de botella en cualquiera de las ocho dimensiones. La dimensión de urbanismo y ordenamiento territorial está cubierta por dos especialistas doctorales activos en el proyecto (Moyano y Recio) más una experta en diseño urbano (Solís), con aporte heredado de la investigación doctoral previa de Navarro. La dimensión de SIG y cartografía encuentra su punto fuerte en Ana Solís, con apoyo de perfiles de uso intensivo (Moyano, Recio, Villamizar). La dimensión estadística es el aporte nuclear de Villamizar, con formación doctoral específica en métodos cuantitativos. El desarrollo de software está garantizado por el eje Pérez Teruel–Hernández Peña, con Recio como apoyo secundario. La gestión de riesgos y la participación ciudadana, dos dimensiones transversales al proyecto, son los dominios donde concurre el mayor número de especialistas avanzados: Moyano y Ramírez Arias en riesgos, y los mismos dos en participación, con apoyo de Reyes Sánchez en el trabajo comunitario. La gobernanza y las políticas públicas tienen su punto fuerte en Moyano y Ramírez Arias, con Hernández como apoyo en el componente normativo. La dimensión de inteligencia artificial y ciencia de datos se apoya en Pérez Teruel como especialista doctoral, con Recio y Villamizar como perfiles de uso avanzado y Jaime Hernández Peña como desarrollador.
+
+La lectura por fila revela los **perfiles individuales como especializaciones complementarias**: ninguna persona cubre todas las dimensiones y nadie pretende hacerlo. La investigación aplicada moderna en entornos complejos como Bajos de Haina exige precisamente esta composición modular, en la que el conjunto es cualitativamente mayor que la suma de sus partes porque cada pieza se hace cargo de su dominio sin solaparse ni bloquear al resto.
+
+## Perfiles técnicos individuales {#sec-perfiles-h}
+
+### 1. Ana Moyano Molina, PhD
+
+**Rol en el proyecto:** investigadora principal.
+**Adscripción:** Arcoíris RD · UPM-ETSAMadrid · UASD.
+
+**Especialización.** Arquitectura e investigación aplicada participativa en tejidos degradados de alta vulnerabilidad. Doctora en Arquitectura por la UPM-ETSAMadrid con tesis sobre la paradoja del paradigma en tejidos degradados, postdoctoranda activa y profesora de maestría en la FIA-UASD.
+
+**Competencias clave aplicadas al proyecto:** dirección científica del proyecto, metodología de intervención sistémica, articulación con instituciones públicas dominicanas (COE, ONESVIE, MEPyD), coordinación de Reporta.do en el COE, supervisión del componente de gestión de riesgos y del dispositivo participativo.
+
+**Aplicación directa al FONDOCYT:** define la metodología general del proyecto, lidera la articulación institucional con el Ayuntamiento de Bajos de Haina y los ministerios sectoriales, supervisa la operacionalización del ecosistema digital en su conjunto y es la voz científica del consorcio frente a MESCYT.
+
+### 2. Jorge Armando Recio Martínez, PhD (c)
+
+**Rol en el proyecto:** co-investigador principal y editor del libro y la web.
+**Adscripción:** UASD · UPM-ETSAMadrid.
+
+**Especialización.** Arquitecto por la UASD y máster en Proyectos Arquitectónicos Avanzados por la UPM-ETSAMadrid, doctorando en el Departamento de Proyectos Arquitectónicos desde 2019 con tesis sobre sistema proyectual mediante tecnologías integradas en barrios resilientes. Consultor registrado en la plataforma QUANTUMM de Naciones Unidas.
+
+**Competencias clave aplicadas al proyecto:** mediación digital en proyecto urbano, instrumentalización tecnológica del urbanismo, edición y gestión de publicaciones científicas, coordinación de flujos de datos entre plataformas SIG, documentación y arquitectura del libro Quarto del proyecto.
+
+**Aplicación directa al FONDOCYT:** diseña la arquitectura editorial del libro y la web, coordina la integración de capas entre los dashboards de Arcoíris RD y los flujos de datos del proyecto, conduce los talleres de ordenamiento territorial del Seminario-Taller PUD y mantiene la infraestructura digital del repositorio de investigación.
+
+### 3. Javier Fernando Villamizar Fernández, PhD
+
+**Rol en el proyecto:** colaborador.
+**Adscripción:** TECCA Caribe · Universidad Nacional de Colombia.
+
+**Especialización.** Ingeniero de Alimentos, especialista en Mercadeo y magíster en Estadística por la Universidad Nacional de Colombia. Gerente de proyectos de investigación social y de mercados en Indaga Colombia desde 2014, con dominio avanzado de SPSS, R, Statgraphics, Power BI y ArcGIS.
+
+**Competencias clave aplicadas al proyecto:** diseño muestral de la encuesta de participación ciudadana de Bajos de Haina (n=155), análisis multivariado y pruebas de fiabilidad Alfa de Cronbach, estadística no paramétrica, revisión sistemática de literatura y metaanálisis.
+
+**Aplicación directa al FONDOCYT:** responsable del diseño cuantitativo del diagnóstico de participación, validación estadística del instrumento, procesamiento de resultados en SPSS y redacción de los apartados metodológicos del capítulo 6.
+
+### 4. Carlos Manuel Ramírez Arias, MSc
+
+**Rol en el proyecto:** asistente, experto social.
+**Adscripción:** Arcoíris RD · UASD.
+
+**Especialización.** Licenciado en Comunicación Social, especialista en Desarrollo Comunitario (INTEC) y magíster en Planificación del Desarrollo y Ordenamiento Territorial y Diseño Urbano (UASD). Treinta años de experiencia en desarrollo comunitario, gestión de riesgos y cooperación internacional con AECID, USAID, DED alemán y Unión Europea. CEO de Arcoíris RD.
+
+**Competencias clave aplicadas al proyecto:** facilitación de procesos comunitarios, diagnóstico social participativo, gestión de riesgos con enfoque comunitario, articulación con juntas de vecinos, experiencia en proyectos ganadores de concursos internacionales (Ecobarrio CAF, Ecobarrio UHPH).
+
+**Aplicación directa al FONDOCYT:** coordinación del trabajo social del proyecto, facilitación del taller de participación ciudadana del Seminario-Taller PUD, articulación con las juntas de vecinos de Bajos de Haina y supervisión ética de la intervención comunitaria.
+
+### 5. Karina Pérez Teruel, PhD
+
+**Rol en el proyecto:** co-investigadora (gestión administrativa).
+**Adscripción:** BARNA Management School · Universidad de las Ciencias Informáticas.
+
+**Especialización.** Ingeniera Informática por el ISPJAE de La Habana, máster en Bioinformática y doctora en Ciencias Técnicas por la Universidad de las Ciencias Informáticas de La Habana, con tesis sobre modelos de consenso en mapas cognitivos difusos para la toma de decisiones en grupo. Investigadora titular y actual Directora del Centro de Investigación en Sostenibilidad de BARNA Management School.
+
+**Competencias clave aplicadas al proyecto:** ingeniería de software, gestión de proyectos tecnológicos, inteligencia artificial aplicada a la toma de decisiones, diseño centrado en las personas, curación y gobernanza de datos.
+
+**Aplicación directa al FONDOCYT:** administración del proyecto y gestión presupuestaria, diseño de los modelos de consenso aplicados al análisis FODA asistido por IA de la Mesa 3, supervisión técnica del desarrollo de software del ecosistema y enlace con el equipo de BARNA Management School.
+
+### 6. Ana Solís Alonso, MSc
+
+**Rol en el proyecto:** asistente, experta SIG.
+**Adscripción:** Arcoíris RD · UPM-ETSAMadrid.
+
+**Especialización.** Arquitecta por la UPM-ETSAMadrid con formación en urbanismo social, habitabilidad básica y cooperación al desarrollo. Consultora en el estudio MSH y en Arcoíris RD desde 2018, con dominio avanzado de SIG (ArcGIS Pro, QGIS, Rhinoceros, Grasshopper) y experiencia en diseño participativo de barrios.
+
+**Competencias clave aplicadas al proyecto:** producción cartográfica, análisis espacial, geoprocesos, visualización de datos territoriales, edición gráfica del material del proyecto.
+
+**Aplicación directa al FONDOCYT:** responsable de toda la cartografía del libro, producción de los dashboards de ordenamiento territorial, análisis geoespacial de los tejidos de alta vulnerabilidad y apoyo al diseño editorial de los anexos cartográficos.
+
+### 7. Yssamar Vismarkis Reyes Sánchez, MSc (c)
+
+**Rol en el proyecto:** asistente.
+**Adscripción:** Arcoíris RD · UASD.
+
+**Especialización.** Arquitecta por la UASD y maestranda en Gestión Ambiental con concentración en planificación territorial urbana en la PUCMM. Diez años de experiencia en trabajo de campo, coordinación de equipos y gestión social comunitaria en instituciones estatales y organizaciones sin fines de lucro.
+
+**Competencias clave aplicadas al proyecto:** ejecución de trabajo de campo, coordinación operativa de actividades territoriales, articulación con Centros Tecnológicos Comunitarios, gestión del desarrollo local.
+
+**Aplicación directa al FONDOCYT:** coordinación operativa de los levantamientos de campo en Bajos de Haina, organización logística del Seminario-Taller PUD y sistematización de los resultados de las mesas 2 y 3.
+
+### 8. Danilo Minaya, MSc
+
+**Rol en el proyecto:** asistente.
+**Adscripción:** Arcoíris RD · Pontificia Universidad Católica Madre y Maestra.
+
+**Especialización.** Investigador del equipo Arcoíris RD con vinculación académica a la PUCMM, con aporte específico al componente de gestión de riesgos y planificación territorial.
+
+**Competencias clave aplicadas al proyecto:** investigación territorial aplicada al contexto dominicano y apoyo a los levantamientos del componente de riesgos.
+
+**Aplicación directa al FONDOCYT:** participación en el análisis del diagnóstico territorial y apoyo a la sistematización de la Mesa 2 del Seminario-Taller PUD. Currículo ampliado pendiente de incorporación en la próxima revisión.
+
+### 9. Jaime R. Hernández Peña
+
+**Rol en el proyecto:** asistente, desarrollo de software.
+**Adscripción:** BARNA Management School · Instituto Tecnológico de Santo Domingo.
+
+**Especialización.** Técnico en Desarrollo de Software por el Politécnico Virgen de la Altagracia, tecnólogo en Desarrollo de Software por el ITLA e ingeniero en Desarrollo de Software en curso en INTEC. Web developer en K3D Technology desde 2021 con experiencia fullstack en React, C#, .NET Core, Blazor, FastAPI, Next.js, SQL Server, Oracle Database y Docker.
+
+**Competencias clave aplicadas al proyecto:** desarrollo web fullstack, migración de datos, integración con Microsoft Power Apps, mantenimiento de bases de datos.
+
+**Aplicación directa al FONDOCYT:** desarrollo técnico de los componentes digitales del proyecto, integración entre el ecosistema ArcGIS y los servicios web del repositorio, mantenimiento de la plataforma y soporte al despliegue de la infraestructura digital en BARNA Management School.
+
+### 10. Lucía Navarro de Corcuera, PhD
+
+**Rol en el proyecto:** colaboradora.
+**Adscripción:** Arcoíris RD · UPM-ETSAMadrid.
+
+**Especialización.** Arquitecta por la ETSAMadrid, máster en Innovación y Tecnologías para el Desarrollo Humano por la UPM y doctora en Estudios Transversales de Arquitectura y Urbanismo por la UPM-ETSAMadrid (2022), título obtenido en el marco de un contrato doctoral universidad-empresa con Arcoíris RD. Su línea de investigación se centra en metodologías sistémicas de intervención en barrios degradados de América Latina y el Caribe.
+
+**Competencias clave aplicadas al proyecto:** marco metodológico sistémico preexistente en su tesis doctoral, especialmente en los apartados de diagnóstico de hábitat vulnerable y enfoques participativos de intervención.
+
+**Aplicación directa al FONDOCYT:** su contribución al proyecto FONDOCYT fue limitada y consistió principalmente en la reutilización de materiales metodológicos previamente elaborados en el contexto de su investigación doctoral. No participó activamente en el diseño del ecosistema digital, en los talleres del Seminario-Taller PUD ni en las actividades de campo en Bajos de Haina. Se reconoce su aporte como referencia metodológica heredada del trabajo doctoral previo con Arcoíris RD.
+
+### 11. Anyerlina Hernández
+
+**Rol en el proyecto:** asistente.
+**Adscripción:** Arcoíris RD · UASD.
+
+**Especialización.** Equipo Arcoíris RD con formación de base en la UASD. Su contribución se concentra en la investigación y curación de datos del componente normativo urbano.
+
+**Competencias clave aplicadas al proyecto:** análisis del marco normativo urbanístico dominicano, curación de datos sobre tipologías residenciales, apoyo a la redacción del componente de normativa.
+
+**Aplicación directa al FONDOCYT:** sistematización del marco normativo nacional y análisis de las tipologías de manzana de Bajos de Haina. Currículo ampliado pendiente de incorporación en la próxima revisión.

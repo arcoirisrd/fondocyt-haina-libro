@@ -1,0 +1,130 @@
+---
+title: "Fichas de Tipologías de Manzana"
+subtitle: "Parámetros normativos urbanísticos por tipología"
+---
+
+Las siguientes fichas resumen los lineamientos normativos clave de las seis tipologías de manzana identificadas en el levantamiento de campo y los análisis morfológicos de 16 manzanas modeladas en 3D del municipio de Bajos de Haina. Estos parámetros se proponen como marco reglamentario transitorio, en consonancia con la Ley 368-22[^ley-368-22-anexoG], su Reglamento (Decreto 396-25) y las Normas Subsidiarias Regionales de Planificación (NSRP).
+
+[^ley-368-22-anexoG]: Ley 368-22 sobre Ordenamiento Territorial, Uso de Suelo y Asentamientos Humanos (Congreso Nacional de la República Dominicana, 2022).
+
+## Cuadro resumen comparativo {#sec-cuadro-resumen-anexoG}
+
+| Parámetro | Residencial pura | Mixta comercial | Mixta dotacional | Institucional | Mixta institucional | Mixta tripartita |
+|:---|:---|:---|:---|:---|:---|:---|
+| **Usos permitidos** | Vivienda unifamiliar o bifamiliar. No comercial ni industrial. | Residencial y comercio local (tiendas, oficinas, talleres limpios). | Residencial y equipamiento (escuela, clínica, etc.). | Institucional público exclusivo (gobierno, hospital, etc.). | Residencial, institución menor (iglesia, oficina pública) y comercios de apoyo limitados. | Residencial, comercial e institucional en combinación intensa. |
+| **Altura máxima** | 3 niveles (9 m) | 4 niveles (12 m) | 3 niveles | 5 niveles (15 m) | 3 niv. residencial; 4 niv. institución | 5 niveles (15 m); hasta 6 excepcional |
+| **Densidad máx. (viv/ha)** | 30 | 50 | 25 | N/A | 30 | 80 |
+| **COS máximo** | 60% | 70% | 60% viv.; 50% equip. | 50% | 60% | 80% |
+| **Retiro frontal** | 5 m | 0 m comercial; 3 m residencial | 5 m | 6 m | 5 m | 0 m comercial; 3 m residencial |
+| **Retiro lateral** | 2 m (un lado) | 0 m adosado; 2 m aislado | 2 m viv.; 3 m equip. | 5 m | 2 m viv.; 3 m inst. | 0 m adosado; 2 m aislado |
+| **Retiro posterior** | 3 m | 4 m | 3 m viv.; 5 m equip. | 5 m | 3 m | 3 m |
+
+: Parámetros normativos resumidos por tipología de manzana. Elaboración propia a partir del documento de recomendaciones normativas FONDOCYT[^normativa-fondocyt]. {#tbl-resumen-tipologias .smaller tbl-colwidths="[16,14,14,14,14,14,14]"}
+
+[^normativa-fondocyt]: Ver entregable `INF_OE3_NormativaTipologias_2025.docx` en el repositorio del proyecto, elaborado en el marco del OE3 del proyecto FONDOCYT 2023-1-3A13-0725.
+
+## Ficha 1: Tipología Residencial Pura {#sec-ficha1-anexoG}
+
+**Descripción:** Manzanas de uso predominantemente habitacional, sin mezclas significativas con actividades comerciales ni institucionales. Sectores netamente residenciales, generalmente consolidados con viviendas unifamiliares o bifamiliares y algunos edificios de apartamentos de baja altura.
+
+**Usos permitidos:** Exclusivamente vivienda residencial (unifamiliar aislada, pareada o adosada; bifamiliar; edificios residenciales de hasta 3 niveles). No se admiten usos comerciales ni industriales. Usos compatibles condicionados: guarderías, estancias infantiles o capillas barriales (ocupación máxima 300 m^2^). Se toleran actividades domésticas productivas a muy pequeña escala (colmados o ventas de comida casera) dentro de la vivienda, con superficie dedicada inferior o igual a 50 m^2^, previa autorización.
+
+**Altura máxima:** 3 niveles o 9 metros medidos desde el nivel de la acera hasta la cumbrera del techo. Se prohíben azoteas habitables superiores al tercer nivel. Elementos accesorios (tanques, antenas, chimeneas) podrán sobresalir hasta 2 m adicionales.
+
+**Densidad residencial máxima:** 30 viviendas por hectárea (aprox. 300 m^2^ de terreno por vivienda en promedio). Nivel bajo-medio, coherente con zonas de viviendas unifamiliares en lotes individuales.
+
+**Retiros mínimos:** Frontal 5 m; posterior 3 m; lateral 2 m (en al menos un costado). En viviendas de un solo nivel sobre lotes muy pequeños (inferior o igual a 150 m^2^) el Ayuntamiento podría flexibilizar el retiro posterior a 2 m.
+
+**Ocupación máxima del lote (COS):** 60%. Al menos 40% del terreno debe permanecer libre de edificación. Coeficiente de edificabilidad resultante: no superior a 1.5.
+
+**Estacionamientos:** 1 espacio por vivienda dentro del lote.
+
+**Áreas verdes:** Parque barrial de aproximadamente 500 m^2^ por manzana o en radio de 200 m. Nuevos conjuntos residenciales de más de 1 ha deberán ceder al menos 5% del área total para parque vecinal. Un árbol ornamental o frutal por cada 200 m^2^ de parcela.
+
+**Vialidad:** Calles con ancho mínimo de 8 m de calzada vehicular (doble sentido), con aceras peatonales de al menos 1.5 m a cada lado.
+
+## Ficha 2: Tipología Mixta con Comercial {#sec-ficha2-anexoG}
+
+**Descripción:** Manzanas de uso residencial que incorporan actividad comercial localizada (tiendas, colmados, talleres artesanales, oficinas locales). Frecuentes a lo largo de ejes viales comerciales o en intersecciones importantes.
+
+**Usos permitidos:** Residencial y comercial. Usos comerciales admitidos: tiendas minoristas, abastos, supermercados pequeños, farmacias, oficinas administrativas, cafeterías y restaurantes, servicios personales, talleres no contaminantes. No se permiten industrias, almacenes mayoristas de gran porte, discotecas ni bares nocturnos.
+
+**Altura máxima:** 4 niveles o 12 metros. Elementos técnicos pueden sobrepasar hasta 2 m. En esquinas emblemáticas, el Ayuntamiento podría autorizar hasta 5 niveles de manera puntual.
+
+**Densidad residencial máxima:** 50 viviendas/ha (densidad media).
+
+**Retiros mínimos:** Frontal 0 m en fachada comercial principal, 3 m en frentes residenciales secundarios; posterior 4 m; lateral 0 m en tramo comercial adosado, 2 m si aislado. Cuando una fachada comercial colinde con vivienda pura: retiro de transición no menor a 3 m.
+
+**Ocupación máxima del lote (COS):** 70%. Al menos 30% libre (preferiblemente en parte posterior o patios centrales).
+
+**Estacionamientos:** 1 parqueo por cada 50 m^2^ de local comercial (excepto tiendas menores de 100 m^2^). Para viviendas: 1 parqueo por unidad.
+
+**Vialidad:** Aceras amplias (mínimo 2 m) en fachadas comerciales. Bahías de detención para carga/descarga en vías arteriales.
+
+## Ficha 3: Tipología Mixta con Dotacional {#sec-ficha3-anexoG}
+
+**Descripción:** Manzanas que combinan uso residencial con uso dotacional (equipamientos de servicio público o comunitario: centros educativos, de salud, deportivos, culturales, iglesias, etc.).
+
+**Usos permitidos:** Residencial y dotacional (equipamientos públicos o de servicio). No se permiten industrias ni comercio lucrativo independiente salvo el accesorio necesario al equipamiento.
+
+**Altura máxima:** 3 niveles para ambos usos (dotacional y residencial). Iglesias con torres o cúpulas podrán superar marginalmente la altura para elementos simbólicos.
+
+**Densidad residencial máxima:** 25 viviendas/ha (considerando que parte de la manzana está ocupada por el equipamiento).
+
+**Retiros mínimos:** Viviendas: frontal 5 m, posterior 3 m, lateral 2 m. Equipamiento dotacional: frontal 5 m, posterior 5 m, laterales 3 m.
+
+**Ocupación máxima del lote (COS):** Residencial 60%; equipamiento 50%. Los equipamientos deben ocupar menos de la mitad de su terreno (patios, canchas, estacionamientos).
+
+**Infraestructura:** Al menos una de las calles de acceso al equipamiento con ancho no menor a 10 m de calzada más aceras de 2 m. Bahías de ascenso/descenso de pasajeros (buses escolares, ambulancias) en el frente.
+
+## Ficha 4: Tipología Institucional {#sec-ficha4-anexoG}
+
+**Descripción:** Manzanas ocupadas mayormente por instalaciones de instituciones públicas o de interés público, sin presencia significativa de viviendas privadas ni comercios regulares (campus institucional, hospital, palacio municipal, etc.).
+
+**Usos permitidos:** Institucional (público) exclusivamente. Sedes de organismos gubernamentales, hospitales, universidades, instalaciones estratégicas. Usos complementarios internos permitidos (cafeterías para empleados, áreas comerciales de apoyo). No se permiten usos residenciales privados ni comercios abiertos al público general.
+
+**Altura máxima:** 5 niveles o 15 metros. Elementos singulares (torres, chimeneas, antenas) pueden exceder los 15 m con autorización especial.
+
+**Densidad residencial máxima:** No aplica.
+
+**Retiros mínimos:** Frontal 6 m; posterior 5 m; laterales 5 m.
+
+**Ocupación máxima del lote (COS):** 50%. Al menos la mitad del área debe permanecer libre (paisajismo, patios, estacionamientos, circulación interna). Coeficiente de edificación máximo: 2.5 veces el área del terreno.
+
+**Estacionamientos:** Obligatorios dentro del predio. Conforme al Decreto 284-91: 1 espacio por cada 25 m^2^ de superficie neta en avenidas y vías colectoras, 1 por cada 30 m^2^ en los demás casos. Estacionamiento de motocicletas: 15% de los espacios requeridos para vehículos. Para universidades: 1 espacio por cada 25 m^2^ más 75% adicional para motocicletas.
+
+**Infraestructura:** Al menos un lado conectado con vía colectora o arterial. Planta eléctrica de emergencia, cisterna de gran capacidad, sistemas de protección contra incendios, accesibilidad universal.
+
+## Ficha 5: Tipología Mixta con Institucional {#sec-ficha5-anexoG}
+
+**Descripción:** Manzanas donde coexisten usos residenciales con una instalación institucional de menor escala (oficina de gobierno, iglesia de barrio, centro comunal), posiblemente acompañadas de comercios de apoyo limitados.
+
+**Usos permitidos:** Residencial, institucional y comercial menor de apoyo. Se permiten viviendas, un uso institucional puntual (local del Ayuntamiento, destacamento policial, iglesia, centro comunal) y comercios menores accesorios. No se admiten industrias ni instalaciones institucionales de gran envergadura.
+
+**Altura máxima:** 3 niveles (residencial); 4 niveles (edificación institucional, con piso superior retranqueado).
+
+**Densidad residencial máxima:** 30 viviendas/ha (similar a residencial pura).
+
+**Retiros mínimos:** Viviendas: frontal 5 m, posterior 3 m, lateral 2 m. Edificación institucional: frontal 5 m, posterior 3 m, laterales 3 m.
+
+**Ocupación máxima del lote (COS):** 60% para ambos usos (residencial e institucional).
+
+**Estacionamientos:** La institución debe procurar dentro de su lote al menos 3-5 espacios para empleados o visitas. Se prohíbe estacionamiento que obstruya frente a la institución.
+
+## Ficha 6: Tipología Mixta Tripartita (Residencial, Comercial e Institucional) {#sec-ficha6-anexoG}
+
+**Descripción:** La tipología más compleja y diversa, correspondiente a áreas céntricas donde convergen usos residenciales, comerciales e institucionales. Equivale al "centro cívico" local con mezcla intensa de actividades.
+
+**Usos permitidos:** Residencial, comercial e institucional en coexistencia planificada. Comercios medianos, equipamientos comerciales (mercado público), usos institucionales de importancia. Se procura zonificación interna: comercio en frentes principales o planta baja, institución en porción más accesible, viviendas en pisos superiores o áreas interiores. No se permiten industrias manufactureras ni chatarrerías.
+
+**Altura máxima:** 5 niveles (general); casos especiales hasta 6 niveles (aproximadamente 18 m) para edificio emblemático con aportes significativos (espacio público extra, parqueos subterráneos, diseño icónico).
+
+**Densidad residencial máxima:** 80 viviendas/ha (techo teórico). Densidad real esperada: 40-50 viv/ha dado que comercio e instituciones ocupan parte del espacio.
+
+**Retiros mínimos:** Frontal 0 m en áreas comerciales/institucionales, 3 m en frentes residenciales; lateral 0 m adosado entre edificios, 2 m si aislado; posterior 3 m (excepto si se plantea patio interior común). En linderos con manzanas de otra tipología: retiro de transición mínimo 5 m con tratamiento paisajístico.
+
+**Ocupación máxima del lote (COS):** 80%. Al menos 20% de área libre, preferiblemente consolidada en una porción funcional (plaza central, patio común). Coeficiente de edificabilidad máximo: 4.0.
+
+**Estacionamientos:** Subterráneos o en azotea para nuevas construcciones. Parqueos municipales de varios niveles en las cercanías. Régimen de parqueos tarifados en calle. Carga y descarga en horarios nocturnos o primeras horas.
+
+**Espacios públicos:** Plaza central o corredor peatonal público dentro de la manzana. Alto estándar de mobiliario urbano. Posibilidad de declarar vías adyacentes como peatonales en días u horas específicas.

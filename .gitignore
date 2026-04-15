@@ -1,0 +1,10 @@
+_book/
+_freeze/
+.quarto/
+*.log
+*.bak
+datos/
+__pycache__/
+.DS_Store
+_ia/.env
+_ia/.env.example

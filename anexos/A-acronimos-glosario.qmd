@@ -1,0 +1,174 @@
+---
+title: "Acrónimos y glosario de términos urbanísticos"
+---
+
+Este anexo reúne el vocabulario técnico, institucional y normativo que se emplea a lo largo del libro. Los términos se organizan en cinco tablas densas para facilitar su consulta: acrónimos y etiquetas del proyecto, instituciones dominicanas, tipologías de manzana, términos urbanísticos y marco normativo de referencia. Cada entrada incluye su definición operativa dentro del proyecto FONDOCYT.
+
+## Acrónimos y etiquetas del proyecto {#sec-acronimos-proyecto-anexoA}
+
+| Acrónimo | Significado | Definición operativa |
+|:---|:---|:---|
+| **ACC** | Adaptación al cambio climático | Conjunto de medidas para reducir la vulnerabilidad de los territorios frente a los efectos del cambio climático. |
+| **AECID** | Agencia Española de Cooperación Internacional para el Desarrollo | Financió, entre otros, el programa MUNICIPIA que apoya la participación ciudadana municipal en la República Dominicana. |
+| **BID** | Banco Interamericano de Desarrollo | Institución multilateral regional; publica guías de ciudades emergentes y sostenibles referenciadas en el libro. |
+| **CM-PMR** | Comité Municipal de Prevención, Mitigación y Respuesta | Órgano municipal del Sistema Nacional de PMR que articula la respuesta local ante desastres. |
+| **COE** | Centro de Operaciones de Emergencias | Órgano nacional que coordina la respuesta ante emergencias de la República Dominicana. |
+| **COS** | Coeficiente de Ocupación del Suelo | Porcentaje máximo de un lote que puede ser ocupado por la huella de la edificación en planta baja. |
+| **COU** | Coeficiente de Uso (o edificabilidad) | Relación entre la superficie total construida y la superficie del terreno. |
+| **CRediT** | Contributor Roles Taxonomy | Taxonomía internacional NISO para clasificar contribuciones en producción académica, aplicada al equipo del libro. |
+| **CSL** | Citation Style Language | Estándar XML para estilos de citación usado por Pandoc citeproc para generar referencias APA 7. |
+| **DSR** | Design Science Research | Paradigma de investigación orientado a crear y evaluar artefactos que resuelven problemas complejos. |
+| **EDAN** | Evaluación de Daños y Análisis de Necesidades | Protocolo estandarizado post-desastre para cuantificar daños y priorizar la respuesta. |
+| **EIAS** | Evaluación de Impacto Ambiental y Social | Instrumento de análisis ex ante de proyectos con potencial impacto ambiental o social. |
+| **ESG** | Environmental, Social, Governance | Criterios de inversión privada y corporativa con creciente peso global en sostenibilidad. |
+| **FAIR** | Findable, Accessible, Interoperable, Reusable | Principios de @wilkinson2016fair para la gestión de datos abiertos científicos. |
+| **FODA** | Fortalezas, Oportunidades, Debilidades, Amenazas | Análisis estratégico aplicado al CM-PMR en el capítulo 5 y al observatorio en el capítulo 9. |
+| **FONDOCYT** | Fondo Nacional de Innovación y Desarrollo Científico y Tecnológico | Instrumento del MESCYT que financió este proyecto (convocatoria 2023, código 2023-1-3A13-0725). |
+| **GdR** / **GIRD** | Gestión de Riesgos / Gestión Integral del Riesgo de Desastres | Disciplina y marco conceptual para reducir la exposición, vulnerabilidad y daño por amenazas. |
+| **GFDRR** | Global Facility for Disaster Reduction and Recovery | Facilidad del Banco Mundial para la reducción del riesgo; documentó el caso Ramani Huria en Tanzania. |
+| **GHSL** | Global Human Settlement Layer | Capa geoespacial global del Joint Research Centre de la Comisión Europea sobre asentamientos humanos. |
+| **IAP** | Investigación Acción Participativa | Enfoque metodológico híbrido empleado con DSR en el proyecto. |
+| **ICU** | Índice de Calidad Urbana | Índice compuesto desarrollado en el proyecto para valorar la calidad de los tejidos urbanos. |
+| **IDSU** | Instrumento de Delimitación del Suelo Urbano | Figura prevista en los artículos 33 y 66 de la Ley 368-22 para clasificar el suelo en urbano, urbanizable y no urbanizable. |
+| **IoT** | Internet of Things | Red de dispositivos conectados que en el libro se propone para el monitoreo IoT-LoRaWAN de cañadas y WASH. |
+| **IPCC** | Intergovernmental Panel on Climate Change | Panel intergubernamental referenciado para escenarios climáticos regionales. |
+| **JMP** | Joint Monitoring Programme (OMS/UNICEF) | Programa conjunto para el monitoreo de agua, saneamiento e higiene; base del sistema WASH propuesto en el cap 7. |
+| **LiDAR** | Light Detection and Ranging | Técnica de teledetección láser aérea usada en el levantamiento de las dieciséis manzanas del piloto. |
+| **LoRaWAN** | Long Range Wide Area Network | Protocolo de red inalámbrica de largo alcance y bajo consumo; propuesto para la red IoT WASH del observatorio. |
+| **MCP** | Model Context Protocol | Protocolo para exponer herramientas a agentes de IA; usado para Zotero MCP en el flujo editorial. |
+| **NSRP** | Normas Subsidiarias Regionales de Planificación | Figura normativa del artículo 69 de la Ley 368-22, aplicable en ausencia de PMOT. |
+| **OCR** | Optical Character Recognition | Extracción de texto de imágenes, usado para rescatar texto embebido en cartografía histórica del Anexo D. |
+| **ODS** | Objetivos de Desarrollo Sostenible | Agenda 2030 de la ONU, referenciada en el cumplimiento del proyecto. |
+| **OE1 / OE2 / OE3** | Objetivos Específicos 1, 2 y 3 | OE1 diagnóstico integral; OE2 sistema digital; OE3 participación y observatorio. |
+| **OPU** | Oficina de Planeamiento Urbano | Dependencia municipal responsable de la planificación física del territorio. |
+| **ORCID** | Open Researcher and Contributor ID | Identificador único de investigadores; se incorporará en próxima revisión. |
+| **PMOT** | Plan Municipal de Ordenamiento Territorial | Instrumento municipal principal previsto por la Ley 368-22. |
+| **PMUS** | Plan de Movilidad Urbana Sostenible | Instrumento sectorial de planificación de la movilidad. |
+| **PNOT** | Plan Nacional de Ordenamiento Territorial | Instrumento nacional en la cúspide jerárquica de la Ley 368-22. |
+| **POT** | Plan de Ordenamiento Territorial | Término genérico por el que también se conoce al PMOT a escala local. |
+| **RAG** | Retrieval-Augmented Generation | Técnica que combina búsqueda documental con generación de texto por LLM; base del widget IA del libro. |
+| **RCP** | Representative Concentration Pathway | Trayectorias de concentración de GEI usadas en los escenarios IPCC. |
+| **RRD** | Reducción del Riesgo de Desastres | Campo de política pública articulado por el Marco de Sendai 2015-2030. |
+| **RTK** | Real-Time Kinematic | Técnica de posicionamiento GPS de alta precisión usada en el vuelo fotogramétrico del proyecto. |
+| **SAT** | Sistema de Alerta Temprana | Mecanismo de detección y aviso de amenazas inminentes. |
+| **SIG** | Sistema de Información Geográfica | Tecnología base del ecosistema digital del proyecto (ArcGIS Online, QGIS). |
+| **SINI** | Sistema Integrado Nacional de Información | Sistema nacional de información territorial al servicio del PNOT. |
+| **SMART** | Specific, Measurable, Achievable, Relevant, Time-bound | Criterios usados en la formulación de objetivos del Seminario-Taller. |
+| **TDAV** | Tejidos Degradados de Alta Vulnerabilidad | Categoría de análisis propia del proyecto para identificar tejidos urbanos en riesgo acumulado. |
+| **UAV** | Unmanned Aerial Vehicle | Dron empleado en el levantamiento fotogramétrico de las dieciséis manzanas del piloto. |
+| **UNDRR** | United Nations Office for Disaster Risk Reduction | Oficina de Naciones Unidas para la reducción del riesgo; custodio del Marco de Sendai. |
+| **URB-LEX** | Subproyecto Urban Legal Knowledge | Línea derivada sobre IA aplicada a normativa urbanística del Caribe y Centroamérica. |
+| **VIOTDR** | Viceministerio de Ordenamiento Territorial y Desarrollo Regional | Viceministerio del MEPyD responsable del ordenamiento territorial nacional. |
+| **WASH** | Water, Sanitation and Hygiene | Campo de indicadores de la OMS/UNICEF; base del sistema IoT del Observatorio. |
+
+: Acrónimos y etiquetas empleados en el libro. {#tbl-acronimos-proyecto-anexoA .striped .smaller tbl-colwidths="[10,28,62]"}
+
+## Instituciones dominicanas e internacionales {#sec-instituciones-anexoA}
+
+| Sigla | Nombre completo | Rol en el proyecto y el libro |
+|:---|:---|:---|
+| **COE** | Centro de Operaciones de Emergencias | Órgano nacional de respuesta a emergencias; articulado con CM-PMR Haina. |
+| **CNZFE** | Consejo Nacional de Zonas Francas de Exportación | Regula las zonas francas; citado para el parque industrial de Haina. |
+| **DGCN** | Dirección General de Catastro Nacional | Responsable del catastro nacional; integrable al ecosistema digital. |
+| **DGII** | Dirección General de Impuestos Internos | Autoridad tributaria nacional; relevante para la sostenibilidad fiscal municipal. |
+| **FEDOMU** | Federación Dominicana de Municipios | Federación de municipios; aliado estratégico para escalamiento nacional. |
+| **IGN** | Instituto Geográfico Nacional | Institución rectora de la cartografía oficial dominicana. |
+| **INAPA** | Instituto Nacional de Agua Potable y Alcantarillados | Operador nacional de agua y alcantarillado. |
+| **INDHRI** | Instituto Nacional de Recursos Hidráulicos | Responsable del Plan Nacional de Sequía y de los recursos hídricos. |
+| **INDOTEL** | Instituto Dominicano de las Telecomunicaciones | Regulador de telecomunicaciones; relevante para conectividad ciudadana. |
+| **MEPyD / VIOTDR** | Ministerio de Economía, Planificación y Desarrollo / Viceministerio de Ordenamiento Territorial | Rector del ordenamiento territorial nacional y de la Ley 368-22. |
+| **MESCYT** | Ministerio de Educación Superior, Ciencia y Tecnología | Financia el proyecto FONDOCYT vía el fondo del mismo nombre. |
+| **MICM / PRO-INDUSTRIA** | Ministerio de Industria, Comercio y MiPymes / Programa PRO-INDUSTRIA | Autoridad de industria y fomento de pymes; certificó a Haina como primer distrito industrial. |
+| **MIMARENA** | Ministerio de Medio Ambiente y Recursos Naturales | Rector ambiental nacional; auditor del caso VERI en Haina. |
+| **MIVHED** | Ministerio de la Vivienda, Hábitat y Edificaciones | Creado por la Ley 160-21; rector de la política habitacional. |
+| **MOPC** | Ministerio de Obras Públicas y Comunicaciones | Responsable de la infraestructura pública del país. |
+| **NORDOM** | Normas Dominicanas | Normas técnicas nacionales elaboradas por INDOCAL. |
+| **ONAMET** | Oficina Nacional de Meteorología | Provee datos meteorológicos y alertas del servicio público. |
+| **ONE** | Oficina Nacional de Estadística | Fuente del X Censo Nacional 2022 usado en el diagnóstico. |
+| **ONESVIE** | Oficina Nacional de Evaluación Sísmica y Vulnerabilidad de Infraestructura y Edificaciones | Desarrolla herramientas de evaluación de vulnerabilidad sísmica. |
+| **OGTIC** | Oficina Gubernamental de Tecnologías de la Información y Comunicación | Rectora de TIC gubernamentales; contraparte del ecosistema digital. |
+| **REFIDOMSA** | Refinería Dominicana de Petróleo | Industria clave del territorio de Bajos de Haina; actor del FODA. |
+| **SGN** | Servicio Geológico Nacional | Provee cartografía geológica y de amenazas del país. |
+| **UNDRR** | United Nations Office for Disaster Risk Reduction | Custodio del Marco de Sendai 2015-2030; antes UNISDR. |
+| **UN-Habitat** | Programa de Naciones Unidas para los Asentamientos Humanos | Referente internacional de planificación urbana sostenible. |
+
+: Instituciones dominicanas e internacionales mencionadas en el libro. {#tbl-instituciones-anexoA .striped .smaller tbl-colwidths="[16,40,44]"}
+
+## Tipologías de manzana {#sec-tipologias-manzana-anexoA}
+
+| Tipología | Definición | Parámetros característicos |
+|:---|:---|:---|
+| **Residencial pura** | Manzanas de uso predominantemente habitacional, sin mezclas significativas con actividades comerciales ni institucionales. | Densidad: 25-30 viv/ha. Altura: 3 niveles. COS ≤ 60%. |
+| **Mixta comercial** | Manzanas de uso residencial que incorporan actividad comercial localizada (tiendas, oficinas, talleres artesanales). | Densidad: 40-50 viv/ha. Altura: 4 niveles. COS ≤ 70%. Comercio en planta baja. |
+| **Mixta dotacional** | Manzanas que combinan uso residencial con equipamientos de servicio público o comunitario (educativos, de salud, deportivos, culturales). | Densidad: 30-40 viv/ha. Altura: 4 niveles. Reserva mínima para equipamiento. |
+| **Institucional** | Manzanas ocupadas mayormente por instalaciones de instituciones públicas o de interés público (campus, hospital, palacio municipal). | Altura: 5 niveles. COS ≤ 60%. Retiros amplios. |
+| **Mixta institucional** | Manzanas donde coexisten usos residenciales con una instalación institucional de menor escala (oficina de gobierno, iglesia, centro comunal). | Densidad: 30 viv/ha (residencial); 4 niveles (institucional); no admite industrias. |
+| **Mixta tripartita** | Manzanas donde convergen usos residenciales, comerciales e institucionales, correspondientes a áreas céntricas con mezcla intensa. | Densidad: 60-80 viv/ha. Altura: 5 niveles. COS ≤ 80%. |
+
+: Tipologías de manzana identificadas en el proyecto FONDOCYT. {#tbl-tipologias-manzana-anexoA .striped .smaller tbl-colwidths="[22,40,38]"}
+
+## Términos urbanísticos y técnicos {#sec-terminos-urbanisticos-anexoA}
+
+| Término | Definición |
+|:---|:---|
+| **Accesibilidad universal** | Diseño de espacios, edificaciones y servicios que permite su uso por todas las personas, sin importar edad o condición física, sensorial o cognitiva. |
+| **Área verde** | Espacio libre de edificación, con vegetación y permeabilidad, destinado a uso recreativo, paisajístico o de conservación ambiental. |
+| **Bahía de carga/descarga** | Espacio específico fuera de la vía principal destinado al estacionamiento temporal de vehículos para operaciones de carga y descarga. |
+| **Catastro multipropósito** | Catastro que integra información física, jurídica, fiscal y social del territorio, con función más allá de la recaudación. |
+| **Ciclo abductivo** | Ciclo iterativo de investigación deducción-inducción-abducción del modelo Kovacs-Spens adoptado como marco metodológico del proyecto. |
+| **Coeficiente de Ocupación del Suelo (COS)** | Porcentaje máximo de un lote que puede ser ocupado por la huella de la edificación en planta baja. |
+| **Coeficiente de edificabilidad (COU)** | Relación entre la superficie total construida y la superficie del terreno. |
+| **Cogestión** | Gestión compartida entre administración pública y comunidad, con corresponsabilidad en las decisiones y los resultados. |
+| **Densidad residencial** | Número máximo de viviendas permitidas por unidad de superficie (generalmente hectárea), definido por la normativa. |
+| **Dotacional** | Uso de suelo destinado a equipamientos públicos o comunitarios (educativos, de salud, culturales, recreativos, entre otros). |
+| **Edificación fuera de ordenación** | Construcción existente que no cumple con los parámetros urbanísticos vigentes y que no puede ampliarse ni modificarse para aumentar su grado de incumplimiento. |
+| **Ecosistema digital** | Conjunto integrado de herramientas digitales que operan sobre un mismo territorio con datos interoperables; objeto central del OE2. |
+| **Equidad territorial** | Principio de distribución justa de oportunidades, servicios y calidad ambiental entre diferentes zonas de un territorio. |
+| **Escalera de servicio JMP** | Modelo de categorización escalonada de servicios de agua, saneamiento e higiene del Joint Monitoring Programme OMS/UNICEF. |
+| **Factor de amenaza** | Componente del riesgo que describe la probabilidad de ocurrencia de un fenómeno físico potencialmente dañino. |
+| **Fotogrametría con dron** | Técnica de captura aérea de imágenes usadas para generar modelos 3D del territorio; base del piloto de 16 manzanas. |
+| **Gemelo digital urbano** | Modelo virtual y georreferenciado del territorio que replica sus características físicas, ambientales y de infraestructura, para planificación, monitoreo y simulación. |
+| **Gobernanza territorial** | Proceso de coordinación multiactor y multinivel para el gobierno del territorio, más allá de la jerarquía administrativa tradicional. |
+| **Infraestructura verde** | Red planificada de espacios naturales y seminaturales con función ecológica y de servicios ambientales en el tejido urbano. |
+| **Instrumento de Delimitación del Suelo Urbano (IDSU)** | Instrumento previsto por la Ley 368-22 para clasificar el suelo en urbano, urbanizable y no urbanizable (arts. 33 y 66). |
+| **Mapeo participativo** | Técnica de producción colectiva de cartografía con la comunidad como informante y co-autor. |
+| **Observatorio urbano** | Dispositivo institucional y digital que integra datos territoriales con procesos participativos para orientar políticas públicas. |
+| **Paisaje urbano** | Lectura integral de las formas, usos y relaciones visibles del tejido construido en su contexto ambiental. |
+| **Participación ciudadana** | Implicación activa de la ciudadanía en los asuntos públicos; distinguida en el libro de la participación comunitaria, social y económica. |
+| **Planes especiales** | Figuras urbanísticas del artículo 26 de la Ley 368-22 para áreas con necesidad de tratamiento específico por uso o vulnerabilidad. |
+| **Porte-cochère** | Área cubierta de acceso vehicular a la entrada de un edificio, que permite a los pasajeros subir o bajar sin exponerse a las inclemencias del clima. |
+| **Presupuesto participativo** | Mecanismo de asignación del presupuesto público local con participación directa de la ciudadanía en la priorización del gasto. |
+| **Razonamiento abductivo** | Forma de inferencia que busca la explicación más plausible de un fenómeno observado; base del modelo Kovacs-Spens. |
+| **Reducción del Riesgo de Desastres (RRD)** | Campo de política pública articulado internacionalmente por el Marco de Sendai 2015-2030. |
+| **Resiliencia urbana** | Capacidad de una ciudad para absorber, adaptarse y recuperarse frente a tensiones y disrupciones manteniendo sus funciones esenciales. |
+| **Retiro** | Distancia mínima obligatoria entre la edificación y los linderos del lote (frontal, lateral o posterior), definida por la normativa. |
+| **Tejidos Degradados de Alta Vulnerabilidad (TDAV)** | Categoría del proyecto para los tejidos urbanos donde convergen degradación física, social y ambiental. |
+| **Tipología de manzana** | Clasificación de una manzana urbana según sus usos de suelo predominantes y su configuración edificatoria. |
+| **Uso de suelo** | Función o actividad permitida en un lote, manzana o sector urbano, como residencial, comercial, industrial o dotacional. |
+| **Vulnerabilidad** | Condiciones físicas, sociales, económicas y ambientales que aumentan la susceptibilidad al daño ante una amenaza. |
+| **Zona de amortiguamiento** | Franja de terreno que separa y mitiga impactos entre áreas de distinto uso, densidad o sensibilidad ambiental. |
+
+: Términos urbanísticos y técnicos empleados en el libro. {#tbl-terminos-urbanisticos-anexoA .striped .smaller tbl-colwidths="[28,72]"}
+
+## Marco normativo de referencia {#sec-marco-normativo-anexoA}
+
+| Norma | Nombre / Ámbito | Relevancia para el proyecto |
+|:---|:---|:---|
+| **Constitución RD** (2010) | Constitución de la República Dominicana, arts. 193 y 194 | Establece los principios de organización territorial y la prioridad del Plan de Ordenamiento Territorial. |
+| **Ley 368-22** | Ley de Ordenamiento Territorial, Uso de Suelo y Asentamientos Humanos | Marco principal del ordenamiento territorial dominicano; define PMOT, IDSU, planes especiales y NSRP. |
+| **Decreto 396-25** | Reglamento de Aplicación de la Ley 368-22 | Desarrolla la operatividad de la Ley 368-22. |
+| **Ley 675-44** | Ley sobre Urbanización y Ornato Público de las Construcciones | Norma histórica sobre edificación y ornato urbano. |
+| **Ley 64-00** | Ley General de Medio Ambiente y Recursos Naturales | Marco ambiental nacional y rectora de MIMARENA. |
+| **Ley 147-02** | Ley sobre Gestión de Riesgos | Crea el Sistema Nacional de Prevención, Mitigación y Respuesta ante Desastres. |
+| **Ley 1-12** | Estrategia Nacional de Desarrollo 2030 | Estrategia país que incluye la GdR como prioridad. |
+| **Ley 176-07** | Ley del Distrito Nacional y los Municipios | Marco legal de los gobiernos locales dominicanos. |
+| **Ley 160-21** | Ley que crea el Ministerio de la Vivienda, Hábitat y Edificaciones (MIVHED) | Crea el rector de la política habitacional. |
+| **Ley 287-04 / 90-19** | Ley sobre Prevención, Supresión y Limitación de Ruidos Nocivos | Regulación de contaminación acústica urbana. |
+| **Decreto 284-91** | Reglamento R-007 para Proyectar Sin Barreras Arquitectónicas | Normativa de accesibilidad universal en edificaciones. |
+| **Decreto 572-10** | Reglamento R-008 para Diseño y Construcción de Instalaciones Sanitarias | Norma técnica sanitaria. |
+| **Decreto 309-07** | Reglamento del Sistema Nacional de Vigilancia Epidemiológica (SINAVE) | Marco del monitoreo epidemiológico usado como referencia en GdR. |
+| **Marco de Sendai 2015-2030** | Marco internacional para la Reducción del Riesgo de Desastres | Referente global del módulo GdR del ecosistema digital. |
+| **Agenda 2030 (ODS)** | Objetivos de Desarrollo Sostenible (ONU) | Marco de referencia para el cumplimiento normativo del proyecto (Anexo A de ODS). |
+| **CRediT (NISO)** | Contributor Roles Taxonomy | Taxonomía aplicada a la atribución de roles del equipo del libro. |
+
+: Marco normativo de referencia del libro. {#tbl-marco-normativo-anexoA .striped .smaller tbl-colwidths="[18,40,42]"}

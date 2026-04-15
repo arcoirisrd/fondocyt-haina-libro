@@ -1,0 +1,512 @@
+---
+title: "Planificación urbana"
+---
+
+> **Fecha:** agosto 2025 **Objetivo específico:** OE1 **Resultado:** R.1 Planificación urbana
+
+## Análisis funcional y situacional del estado actual de la planificación urbana en Bajos de Haina y sus instrumentos asociados {#sec-analisis-funcional-planificacion-04}
+
+La planificación territorial se relaciona con un amplio abanico de políticas locales, regionales, nacionales y comunitarias, y de desarrollo regional, de urbanismo y vivienda e infraestructuras. Sin embargo, todavía siguen predominando los enfoques, intereses y competencias sectoriales sobre las horizontales/territoriales. Dado que el espacio, suelo o territorio, es un bien limitado y su ordenación y uso condiciona las posibilidades de desarrollo futuro, debe procurarse una coherencia al conjunto de actuaciones a realizar sobre él.
+
+Las políticas deben ser coherentes (integradas, visionadas conjuntamente) y fácilmente comprensibles, lo que requiere una implicación cada vez mayor las autoridades responsables a los distintos niveles. La coherencia requiere liderazgo político y un firme compromiso de las instituciones para garantizar un enfoque sólido dentro de un sistema complejo [@dasiGobernanzaTerritorialPara2008].
+
+La gobernanza territorial hace referencia a un nuevo entendimiento de la acción pública y a sus estructuras organizativas, a la forma en que los territorios de un estado son administrados y las políticas aplicadas. Se refiere a una nueva forma de definir la acción de gobierno e implica un nuevo modelo operativo para los actores y niveles de gobierno implicados (nacional, regional, local) y para los procesos de decisión a la hora de hacer política (relación, negociación y formación de consensos). La coordinación aparece como necesaria, entre los distintos niveles de gobierno y entre las distintas políticas con impacto sobre el territorio.
+
+También se entiende como la emergencia y puesta en práctica de innovadoras formas compartidas de planificación y gestión de las dinámicas territoriales, respaldadas por multiplicidad de actores que comparten objetivos y conocen y asumen su papel en su consecución. Se trata de acordar una visión compartida para el futuro del territorio entre todos los niveles y actores concernidos. De esta forma, la gobernanza territorial se interpreta como un elemento cada vez más significativo para lograr objetivos políticos en los territorios. Aceptar esta premisa conduce a querer profundizar más en las relaciones existentes entre la planificación del desarrollo territorial y los principios de una nueva gobernanza territorial.
+
+## Marco teórico {#sec-marco-teorico-04}
+
+Entendiendo que el territorio es una construcción social, y el ordenamiento territorial debe organizar las actividades humanas sobre el territorio, fruto de un proceso de legitimación social, debe atender a criterios técnicos transdisciplinares y, considerar la realidad actual de Republica Dominicana: crecimiento desordenado de las ciudades, migraciones masivas de los pueblos rurales hacia centros urbanos y vulnerables, brechas de inequidad territorial, falta de planificación de nuestros territorios, escasa articulación institucional, y ausencia de modelos territoriales con una visión de futuro construida por su población.
+
+La planificación urbana debe responder a los criterios de pertenencia, habitabilidad, corresponsabilidad, participación, equidad, gobernabilidad, sostenibilidad entre otros, con la finalidad de mejorar y mantener la calidad de vida de la población, fomentando la integración social en el territorio, procurando el buen uso y ocupación del suelo y el aprovechamiento de los Recursos naturales y la Adaptación al Cambio Climático.
+
+Así el "Ordenamiento Territorial es identificado como un instrumento político en grado de impulsar las inversiones públicas, promover las privadas y apoyar las sociales destinadas a mejorar las ciudades y otros asentamientos humanos, para permitir que la población de ciertas zonas (rural) tenga acceso a servicios básicos, vivienda y empleo y que la población de otras zonas (urbana) puedan lograr el mejoramiento de la calidad de vida, equidad y productividad de la ciudad. Será prioritario prestar consideración al medio ambiente en los asentamientos y alrededores, para resolver los problemas actuales y prevenir los que surjan en el futuro [@montesliraOrdenamientoTerritorialComo2001].
+
+Con esta definición [@dgodtGuiaMetodologicaPara2016] y en virtud de la Ley de ordenamiento territorial, uso de suelo y asentamientos humano vigente, los instrumentos de ordenamiento también deberán considerar, entre otros:
+
+Los instrumentos de ordenamiento deben articular una **visión integral y sistémica del territorio**, entendida como el desarrollo integral de las personas en equilibrio con los recursos, con una **perspectiva multidisciplinaria y multiescalar** que identifique motores estratégicos sin perder las relaciones de identidad y responsabilidad compartida, e integre de forma explícita lo **urbano y lo rural** como un continuo vinculado a programas de acción.
+
+La gobernanza de ese territorio exige **integración intersectorial multinivel** desde lo local hacia lo nacional y viceversa, con una **institucionalidad articulada** capaz de generar cambios positivos sobre la división político-administrativa vigente, el marco de vivienda y el de medio ambiente; sobre esa base se despliegan mecanismos permanentes de **participación ciudadana** para la discusión y concertación en todos los niveles, y se fortalece el **tejido social** y la capacidad de acción colectiva del territorio.
+
+El sistema debe apoyarse en **instrumentos confiables y transparentes con mecanismos de seguimiento y revisión en el tiempo,** una clasificación del suelo que revalorice las cualidades territoriales y regule el mercado, sistemas de información integrados alimentados por ONE, IGN, SINI, CATASTROMUNICIPIOS y la información tributaria, instrumentos de financiación consolidados para alcanzar las metas de la Ley, e innovación y tecnología ancladas en academia, centros de investigación e institutos especializados.
+
+Finalmente, el ordenamiento debe garantizar calidad de vida a través de la inclusión social y espacial mediante la activación de los recursos endógenos, la articulación sistemática de variables ambientales con económicas y sociales, modelos de desarrollo rural que preserven la seguridad alimentaria, el conocimiento del territorio por la propia población como fundamento de identidad y pertenencia, el fomento de la cooperación y la creatividad como aprendizaje continuo, y la producción de vivienda digna y adecuada.
+
+**Principios rectores deseables:** La Ley reconoce además un conjunto de principios que orientan la organización del territorio dominicano. En el plano de la organización territorial, la autonomía de las entidades territoriales, la integración entre distintos territorios para el desarrollo comunitario y la prestación de servicios, la regionalización como marco de relaciones geográficas, económicas y culturales, y la asociatividad que propicia alianzas para producir economías de escala. En el plano de la equidad y la diversidad, la solidaridad y equidad entre territorios de distinta capacidad fiscal, el reconocimiento de la diversidad geográfica, institucional, económica, social, étnica y cultural como fundamento de la unidad nacional, la equidad social como búsqueda activa de instrumentos para superar los desequilibrios regionales, y la multietnicidad que garantiza el derecho de los pueblos indígenas y comunidades afrodescendientes a planificar sus territorios. Y en el plano de la gestión y la visión, la gradualidad y flexibilidad para ajustar las formas de división territorial a la diversidad del país, la prospectiva orientada por una visión compartida de país a largo plazo, la paz y convivencia como condición del territorio, la responsabilidad y transparencia en la gobernanza con planificación participativa, y la economía y buen gobierno que garanticen sostenibilidad fiscal y profesionalización administrativa.
+
+### Evolución de la planificación urbana en República Dominicana
+
+La planificación urbana en la República Dominicana ha atravesado diversas etapas a lo largo de su historia, reflejando los cambios políticos, sociales y económicos del país. Durante la etapa precolombina y colonial, hasta finales del siglo XIX, la planificación urbana estuvo marcada por la influencia de las culturas indígenas y el modelo urbano español, con ciudades organizadas alrededor de plazas centrales, iglesias y edificios gubernamentales. La planificación no era sistemática y se basaba en la costumbre y la tradición.
+
+La independencia del país en 1844 inicio a una etapa de transición en la planificación urbana, con un proceso de modernización inspirado en modelos europeos y estadounidenses. Se implementaron planes urbanos para algunas ciudades, como Santo Domingo y Puerto Plata. A partir de la década de 1960, la planificación urbana entró en una etapa moderna, influenciada por las teorías y prácticas del urbanismo moderno. Se elaboraron planes urbanos para las principales ciudades, con énfasis en la zonificación, la infraestructura y la vivienda, incorporando elementos de planificación regional y ambiental.
+
+En las últimas décadas, el ordenamiento territorial en República Dominicana ha experimentado una evolución significativa. Diversos estudios y propuestas han abordado aspectos como la zonificación, los suelos, las cuencas hidrográficas, los recursos forestales e hídricos, y los lineamientos para el desarrollo turístico y minero. Un hito relevante fue la creación de la Secretaría de Estado de Medio Ambiente y Recursos Naturales en el año 2000, junto con la promulgación de la Ley Nacional de Medio Ambiente (Ley 64-00), que destaca el interés nacional en el diseño y ejecución de un Plan de Ordenamiento Territorial que incorpore variables ambientales.
+
+La creación de la Secretaría de Estado de Economía, Planificación y Desarrollo (SEEPyD) en 2006 marcó un avance significativo al integrar el ordenamiento ambiental en la agenda de planificación económica del país. A nivel regional y local, se han desarrollado experiencias pioneras de ordenamiento territorial, como el Plan de Ordenamiento Territorial de la Cuenca Alta del Río Yaque del Norte en Jarabacoa y el Plan de Ordenamiento de los Recursos Naturales de la provincia de Pedernales [@bertiOrdenamientoTerritorialCentroamerica2009].
+
+El caso dominicano presenta tres experiencias aleccionadoras que podrían orientar otros procesos en la región: el Sistema de Planificación e Inversión Pública, que promueve la participación activa de actores políticos de todas las escalas territoriales; el "momentum político" generado por la Cumbre de las Fuerzas Vivas en 2009, donde diversos actores sociales se pronunciaron a favor de avanzar en la construcción de marcos políticos, legales e instrumentales del ordenamiento territorial; y la vinculación reconocida entre ordenamiento territorial y desarrollo económico.
+
+Actualmente, el país enfrenta desafíos como el crecimiento urbano descontrolado, la falta de vivienda adecuada, la congestión vehicular y la contaminación ambiental. La planificación urbana debe abordar estos retos de manera integral y sostenible, considerando las necesidades de las comunidades y el cuidado del medio ambiente. Para el futuro, se requiere un enfoque en la construcción de ciudades más inclusivas, resilientes y sostenibles, con una mayor participación ciudadana en la toma de decisiones sobre el desarrollo urbano, y una integración de la planificación urbana con las políticas públicas en sectores como el transporte, la vivienda y el medio ambiente.
+
+La planificación urbana en la República Dominicana ha evolucionado a través de diferentes etapas, desde la influencia indígena y colonial hasta los enfoques modernos y los desafíos actuales. A pesar de los avances en el marco legal e institucional y las experiencias concretas a distintas escalas, aún existen retos para lograr un abordaje integral y participativo del ordenamiento territorial. Las experiencias aleccionadoras del caso dominicano podrían orientar otros procesos en la región y contribuir a la construcción de una agenda regional de ordenamiento territorial sostenible e inclusivo.
+
+### Instrumentos de Planificación Urbana en la República Dominicana según la Ley 368-22
+
+La Ley No. 368-22 de Ordenamiento Territorial, Uso de Suelo y Asentamientos Humanos ([@congresonacionalrepublicadominicanaLey36822Ordenamiento2002], promulgada en diciembre de 2022, establece un marco legal integral para la planificación urbana en la República Dominicana. Esta ley define diversos instrumentos de planificación que son esenciales para ordenar el territorio y promover un desarrollo urbano sostenible.
+
+| Factor | Descripción | Debilidades y desafíos | Consecuencias e impactos |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| **Marco legal e institucional** | La existencia de un marco legal e institucional sólido y coherente es fundamental para una planificación urbana efectiva. Define competencias, establece mecanismos de participación y garantiza la transparencia. | Leyes y normativas urbanas obsoletas o poco claras; falta de coordinación entre niveles de gobierno; ausencia de mecanismos efectivos de participación ciudadana. | Implementación deficiente de planes urbanos; falta de transparencia y rendición de cuentas; limitada participación de la comunidad en decisiones. |
+| **Estabilidad política** | La estabilidad política es clave para la implementación exitosa de planes urbanos a largo plazo. Un ambiente político estable facilita la planificación y gestión de recursos públicos. | Cambios frecuentes de gobierno a nivel local; inestabilidad política nacional; falta de consenso político. | Dificultad para implementar planes urbanos a largo plazo; incertidumbre en la inversión privada; fragmentación en la gestión urbana. |
+| **Participación ciudadana** | Es esencial para garantizar que los planes y proyectos respondan a las necesidades y prioridades de las comunidades. Contribuye a la identificación de problemas y definición de soluciones. | Escasa participación ciudadana; falta de mecanismos adecuados de consulta y diálogo; exclusión de grupos minoritarios. | Planes urbanos que no responden a necesidades reales; descontento social; falta de apropiación ciudadana de los planes. |
+| **Gobernanza urbana** | Requiere coordinación entre diferentes niveles de gobierno, sector privado y sociedad civil. Permite mejor gestión de recursos, transparencia y rendición de cuentas. | Falta de coordinación entre entidades gubernamentales; limitada capacidad de gestión de recursos; ausencia de transparencia. | Ineficiencia en implementación de proyectos urbanos; corrupción; falta de confianza en instituciones públicas. |
+| **Recursos financieros** | Suficientes recursos financieros son esenciales para la implementación de proyectos urbanos. Pueden provenir de presupuestos públicos, inversión privada y cooperación internacional. | Asignación insuficiente de recursos públicos; dependencia de financiamiento externo; limitada capacidad de recaudar ingresos propios. | Dificultad para implementar planes ambiciosos; falta de infraestructura y servicios básicos; deterioro urbano. |
+
+: Instrumentos de Planificación Urbana en la República Dominicana según la Ley 368-22. Elaboración propia. {#tbl-ley-368-22-factores .smaller}
+
+### Principales instrumentos de planificación urbana establecidos en la Ley 368-22
+
+Los principales instrumentos de planificación urbana en la República Dominicana se organizan en una estructura jerárquica para garantizar la coherencia y coordinación en el ordenamiento territorial a diferentes escalas. El Plan Nacional de Ordenamiento Territorial (PNOT) se encuentra en la cúspide de esta jerarquía, estableciendo las directrices generales para todo el país. A partir del PNOT, se desarrollan los Planes Regionales de Ordenamiento Territorial (PROT) y los Planes Especiales de impacto supramunicipal (PEOT), que abordan características y necesidades específicas de cada región o área singular.
+
+Los Planes Municipales de Ordenamiento Territorial (PMOT) son el instrumento principal a nivel local, derivados de los PROT. Estos planes detallan el uso del suelo, la infraestructura y los equipamientos urbanos. A su vez, los PMOT dan origen a los Planes Parciales de Ordenamiento Territorial (PPOT) y los Planes de Desarrollo Urbano (PDU), que se enfocan en áreas específicas o problemáticas particulares dentro de un municipio.
+
+El sistema de Licencias y Permisos Urbanísticos está directamente vinculado a los PMOT, asegurando el cumplimiento de las normas urbanísticas y promoviendo un desarrollo urbano ordenado. Por último, el Sistema Nacional de Información Territorial (SNIT) actúa como un elemento transversal que proporciona información actualizada y accesible para la toma de decisiones en materia de planificación urbana, apoyando a todos los instrumentos en sus diferentes niveles.
+
+Esta estructura jerárquica y articulada de instrumentos permite abordar la planificación urbana de manera integral, desde las directrices nacionales hasta las intervenciones específicas a nivel local, garantizando así un desarrollo territorial sostenible y coherente en todo el país.
+
+| Línea programática | Programas | Objetivo |
+|:-----------------------|:-----------------------|:-----------------------|
+| **1. Promover el desarrollo del conocimiento y evaluación del riesgo y su socialización** | 1.1. Sistema Integrado Nacional de Información (SINI). 1.2. Evaluación del riesgo y socialización. | Generar e integrar información de calidad de ámbito nacional, provincial, municipal y urbano sobre GIRD para la correcta toma de decisiones. Evaluar el nivel de riesgo y exposición a fenómenos naturales y antropogénicos en asentamientos humanos e infraestructura vital, antes y después de un desastre. |
+| **2. Fortalecer la reducción y la previsión de los factores de riesgo** | 2.1. Previsión de riesgo. 2.2. Reducción del riesgo. 2.3. Reconstrucción y recuperación. | Incorporar la previsión de riesgos en los planes de desarrollo; incorporar los criterios de reducción del riesgo en infraestructura construida; incorporar los criterios de reconstrucción y recuperación segura en los procesos post-desastres. |
+| **3. Mejoramiento de las prácticas y los mecanismos para la alerta y respuesta** | 3.1. Manejo de emergencias y desastres. | Fortalecer las capacidades de monitoreo de los fenómenos peligrosos y los mecanismos para la alerta y respuesta. |
+| **4. Formación de recursos humanos, educación y capacitación** | 4.1. Formación de recursos humanos. 4.2. Educación y capacitación. | Desarrollar un proceso de formación de alto nivel de especialización en Gestión Integral del Riesgo. Desarrollar un proceso de educación y capacitación en GIRD en la sociedad dominicana. |
+| **5. Fortalecimiento de las capacidades interinstitucionales en gestión de riesgos** | 5.1. Capacidades institucionales. 5.2. Instancias de coordinación del Sistema Nacional de PMR. | Fortalecer las capacidades institucionales del Sistema Nacional de PMR y las instancias de coordinación interinstitucional. |
+
+: Jerarquía de instrumentos de Planificación Urbana, Rep. Dominicana establecidos en la Ley 368-22. Elaboración propia. {#tbl-jerarquia-368-22 .smaller}
+
+### Marco legal de la planificación urbana en República Dominicana
+
+El marco legal de la planificación urbana en la República Dominicana parte desde la Constitución y se articula con la División Político-Administrativa del país. La Constitución otorga al Congreso Nacional la atribución de crear, modificar o suprimir unidades territoriales, previo estudio que demuestre su conveniencia. El ordenamiento territorial es un proceso político y técnico-administrativo que involucra la toma de decisiones concertadas de diversos actores para la ocupación ordenada y el uso sostenible del territorio, considerando aspectos como la distribución espacial de la población, la eficiencia tecnológica y la funcionalidad de las ciudades.
+
+La Estrategia Nacional de Desarrollo 2030 (ley 1-12) responde al mandato constitucional y legal, articulándose en cuatro ejes estratégicos que abarcan el Estado Social Democrático de Derecho, la igualdad de derechos y oportunidades, la economía sostenible y la producción y consumo ambientalmente sostenible. Dentro del segundo eje, se destacan objetivos y líneas de acción relacionados con la cohesión territorial y la vivienda digna en entornos saludables, incluyendo el fortalecimiento de las capacidades de planificación, el diseño e implementación de un Plan Nacional de Ordenamiento Territorial, la reducción de la disparidad urbano-rural e interregional, la reubicación de asentamientos en condiciones de riesgo, el desarrollo de proyectos de viviendas seguras y amigables con el medio ambiente, y el acceso universal a servicios básicos.
+
+| Instrumento o componente | Descripción breve | Estado en Haina (octubre 2024) |
+|:-----------------------|:-----------------------|:-----------------------|
+| **CM-PMR** | Comité Municipal de coordinación GRD. | Operativo; requiere consolidación documental (actas, POA, protocolos). |
+| **Plan Municipal de Emergencias y Contingencias** | Plan exigido por el PNE para cada municipio. | No se identificó versión pública vigente; pendiente elaboración o actualización. |
+| **EDAN** | Evaluación de Daños y Análisis de Necesidades. | Equipo definido en simulación; falta formalización y capacitación continua. |
+| **Alerta temprana** | Alertas COE/ONAMET y aplicación Alerta COE. | Operativa; requiere protocolos locales de retransmisión y cobertura barrial. |
+| **Cartografía de riesgo** | Mapas de cañadas, ciclones, inundación y TDAV. | Disponible en el diagnóstico; integrar a repositorio municipal y rutinas de actualización. |
+| **Reporta Haina (niveles 1-2)** | Captura ciudadana y tablero de incidentes. | Piloto operativo; requiere ordenanza y manual de uso. |
+| **TDAV** | Tejidos Degradados de Alta Vulnerabilidad. | Piloto operativo; pendiente validación en campo y flujos EDAN/CM-PMR. |
+| **Bluespots / Inundación** | Visor de exposición pluvial. | Piloto operativo; consolidar criterios y actualización. |
+| **Observatorio y PMAR** | Observatorio urbano y Plan de Adaptación y Resiliencia. | Propuesta normativa; pendiente aprobación municipal. |
+
+: Puntos clave del marco legal de planificación urbana y gestión de riesgos en Bajos de Haina. Elaboración propia. {#tbl-marco-legal-haina-04 .smaller}
+
+### Instrumentos digitales de planificación urbana en República Dominicana
+
+La digitalización de la planificación urbana en la República Dominicana se evidencia a través de un conjunto de instrumentos ya operativos que ofrecen mejoras tangibles en la eficiencia y el acceso a la información. El avance más significativo es la Ventanilla Única de la Construcción (VUC), una plataforma transaccional plenamente funcional que centraliza la gestión de permisos y ha demostrado reducir los tiempos de emisión en más de un 20% [@mivedVentanillaUnicaMIVED2024] .Paralelamente, existe un ecosistema de geoportales institucionales que, aunque fragmentados, proveen datos sectoriales cruciales. Entre ellos destacan el del Ministerio de Obras Públicas (MOPC) sobre infraestructura, el Sistema de Información Geográfica (SIGEO RD) del Ministerio de Medio Ambiente con datos sobre regulaciones ambientales, y el de la Dirección General de Catastro Nacional (DGCN) con información catastral . A nivel municipal, la adopción es desigual; mientras algunas alcaldías como la de Santo Domingo Este avanzan en su modernización con apoyo internacional [@asdeAlcaldiaSantoDomingo2025] otras mantienen procesos menos digitalizados.
+
+El componente estratégico de esta transformación es el Sistema Nacional de Información Territorial (SNIT), un proyecto de integración de datos a largo plazo coordinado por el Ministerio de Economía, Planificación y Desarrollo (MEPyD). Su objetivo es funcionar como un "sistema de sistemas" que articule la información geoespacial actualmente dispersa en silos institucionales para facilitar una toma de decisiones coherente. Aunque el SNIT se encuentra en una fase incipiente de implementación, un avance procesal clave ha sido la reciente aprobación de su reglamento de aplicación, que establece una hoja de ruta para su desarrollo ) [@presidenciadelarepublicadominicanaDecretoNo396252025] Por tanto, el ecosistema digital dominicano se encuentra en una fase de transición, donde el principal desafío no es tecnológico, sino de gobernanza: lograr la interoperabilidad de los datos y superar la fragmentación institucional para consolidar un marco de planificación verdaderamente integrado.
+
+| Instrumento | Institución líder | Función principal | Estado operativo |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| **Sistema Nacional de Información Territorial (SNIT)** | MEPyD | Integración centralizada de datos geoespaciales. | En desarrollo |
+| **Ventanilla Única de la Construcción (VUC)** | MIVHED | Procesamiento digital de permisos de construcción. | Plenamente operacional |
+| **Geoportal IDERD** | Instituto Geográfico Nacional | Directorio de datos geoespaciales nacionales. | Operacional |
+| **Geoportales Sectoriales (MOPC, Medio Ambiente, DGCN)** | Varios ministerios | Visualización de datos de infraestructura, ambientales y catastrales. | Operacional |
+
+: Instrumentos digitales de planificación urbana en República Dominicana. Elaboración propia. {#tbl-instrumentos-digitales-rd .smaller}
+
+### Ley 147-02 sobre gestión de riesgos
+
+En 2002 se publicó la Ley No. 147-02 sobre Gestión de Riesgos, que establece los siguientes fundamentos de la política de gestión de riesgos, especificados en el artículo 1 de dicha ley:
+
+-   **Protección.** Las personas que se encuentran en el territorio nacional deben ser protegidas en su vida e integridad física, estructura productiva, bienes y medio ambiente frente a posibles desastres o eventos peligrosos.
+
+-   **Prevención.** La acción anticipada de reducción de la vulnerabilidad y las medidas tomadas para evitar o mitigar los impactos de eventos peligrosos o desastres son de interés público y de obligatorio cumplimiento.
+
+-   **Ámbito de competencias.** En las actividades de prevención, mitigación, preparación y respuesta ante desastres se observarán los criterios de coordinación, concurrencia, complementariedad y subsidiariedad institucional.
+
+-   **Coordinación.** Las entidades de orden nacional, regional, provincial, municipal y comunitario deberán garantizar la debida armonía, consistencia, coherencia y continuidad en sus actividades con relación a las demás instancias sectoriales y territoriales.
+
+-   **Participación.** Durante las actividades de prevención, mitigación y respuesta ante desastres, las entidades competentes velarán por que se hagan efectivos los canales y procedimientos de participación ciudadana previstos por la ley.
+
+-   **Descentralización.** Los organismos nacionales y las entidades regionales, provinciales y municipales ejercerán libre y autónomamente sus funciones de prevención, mitigación y respuesta ante desastres, sujetándose a las atribuciones asignadas en la Constitución, las leyes y los reglamentos y decretos dictados.
+
+La ley establece la creación del Sistema Nacional para la Prevención, Mitigación y Respuesta ante Desastres (SN-PMR) y define sus funciones. Dentro del marco de prevención y reasentamientos humanos en áreas de riesgo destacan las siguientes:
+
+-   **Realizar estudios de evaluación y análisis de riesgo**, considerando las amenazas naturales, tecnológicas o antrópicas a que está sometido el país y la vulnerabilidad de los asentamientos humanos expuestos.
+-   **Incorporar criterios de gestión de riesgos** en la planificación y, en particular, medidas preventivas de seguridad en los planes de ordenamiento territorial y de desarrollo económico y social.
+-   **Identificar los asentamientos humanos** localizados en zonas de riesgo y realizar el manejo y tratamiento de los mismos con fines de prevención.
+-   **Articular la política ambiental y la de gestión de riesgos**, de modo que la gestión ambiental preventiva contribuya a la protección del ambiente y a la reducción de riesgos.
+-   Diseñar mecanismos eficientes para la coordinación y orientación de procesos de reconstrucción y recuperación sostenible.
+
+La ley establece una serie de instituciones para la coordinación del anterior Sistema Nacional, conformado por Consejo Nacional de Prevención, Mitigación y Respuestas antes Desastres, Comisión Nacional de Emergencias, conformada por el Comité Operativo Nacional de Emergencias y Equipo Consultivo y los Comités regionales (provinciales y municipales).
+
+La ley propone un Plan Nacional de Gestión de Riesgos, donde se desarrollan los diferentes programas y subprogramas de los ejes estructurales del plan, un Plan Nacional de Emergencia, orientado a desastres urgentes, un Sistema Integral Nacional de Información para la recolección intersectorial de información y la coordinación interdisciplinar de la gestión de riesgos y un Fondo Nacional de Prevención, Mitigación y Respuesta ante Desastres, principal instrumento financiero del Sistema Nacional.
+
+### Competencias de los municipios y Alcaldías
+
+De acuerdo con el artículo 4 de la Ley 176-07 del Distrito Nacional y los Municipios, las Alcaldías tendrán como ámbito de actuación las competencias propias, y, además, las coordinadas y delegadas con los demás entes que conformen la administración pública, que le defina la Constitución, su ley, las legislaciones sectoriales y las que rijan las relaciones interadministrativas. Se considera que las competencias de las Alcaldías recaerán sobre todos los ámbitos de la administración pública, exceptuando aquellas que la Constitución reserve para la administración central.
+
+Las competencias propias o exclusivas de la Alcaldía relacionadas con el proyecto de reasentamiento se agrupan en los siguientes:
+
+-   **Tránsito y espacio público** Ordenamiento del tránsito de vehículos y personas en las vías urbanas y rurales en coordinación con el INTRANT. Normar y gestionar el espacio público, sin limitarse a parques, áreas deportivas, jardines o áreas verdes, tanto en el espacio urbano como rural.
+
+-   **Ordenamiento territorial.** Planeamiento urbano, gestión del suelo, ejecución y disciplina urbanística.
+
+-   **Higiene y salubridad.** Normar y gestionar la protección de la higiene y salubridad públicas para garantizar el saneamiento ambiental.
+
+-   **Infraestructura urbana.** Construcción de infraestructuras y equipamientos urbanos, pavimentación de las vías públicas urbanas, construcción y mantenimiento de caminos rurales, construcción y conservación de aceras, contenes y caminos vecinales, en coordinación con los programas de obras e infraestructuras viales del Ministerio de Obras Públicas y Comunicaciones.
+
+-   **Patrimonio.** Preservación del patrimonio histórico y cultural del municipio.
+
+-   **Mataderos y mercados.** Construcción y gestión de mataderos, mercados y ferias.
+
+-   **Alumbrado y residuos.** Instalación y mantenimiento del alumbrado público. Servicios de limpieza y ornato público, recolección, tratamiento y disposición final de residuos sólidos.
+
+-   **Proyectos urbanos.** Diseño y planificación de proyectos de carácter o escala urbana.
+
+#### Competencias compartidas o coordinadas de las Alcaldías
+
+-   **Servicios sociales.** Coordinación en la gestión de la prestación y financiación de servicios sociales y la lucha contra la pobreza, dirigido a los grupos socialmente vulnerables.
+
+-   **Agua y recursos naturales.** Coordinación de la provisión de los servicios de abastecimiento de agua potable, alcantarillado y tratamiento de aguas residuales. Coordinación de la preservación de los recursos naturales, agrarios y cualquier derecho fundamental humano a través de los prestadores de servicios o entidades responsables de su regulación en el territorio nacional.
+
+    Las alcaldías, a los fines de garantizar un desarrollo armónico de los asentamientos urbanos y la preservación de los recursos naturales y un medio ambiente sostenible, tendrán unidades medio ambientales municipales, cuyas atribuciones son:
+
+-   **Normativas ambientales.** Elaborar las normativas para la preservación del medio ambiente y los recursos naturales del municipio, tomando como base fundamental las disposiciones generales contenidas en la ley.
+
+-   **Educación ambiental.** Elaborar los programas de educación ciudadana para el manejo y tratamiento de los residuos sólidos domésticos, comerciales, hospitalarios e industriales que se producen en el municipio, para su sometimiento al concejo municipal por el síndico o alcalde.
+
+-   **Opinión técnica.** Emitir la opinión técnica correspondiente sobre los proyectos que le son sometidos a la Alcaldía y que requieren estudios y evaluaciones de impacto ambiental.
+
+-   **Recomendaciones normativas.** Realizar las recomendaciones correspondientes a los organismos municipales a los fines de garantizar en el municipio el cumplimiento de la Ley General de Medio Ambiente y las resoluciones y reglamentaciones dictadas por los organismos nacionales para tales fines.
+
+-   **Espacios públicos.** Elaborar los programas de aprovechamiento y uso de los espacios de dominio público como parques, plazoletas y áreas verdes municipales.
+
+#### Aspectos no contemplados por la legislación
+
+Pese a la Ley 368-22 y su Reglamento (Decreto 396-25), persisten vacíos que requieren desarrollo normativo y operativo:
+
+-   **Gestión del suelo:** Se precisa reglamentación y arreglos fiscales para captura de plusvalías, contribución por mejoras, bancos de suelo y zonificación inclusiva que habiliten vivienda asequible y renovación urbana; también fortalecer finanzas municipales para ejecutar los planes [@bancomundialHabilitarCaminoPara2022].
+
+-   **Interoperabilidad y datos abiertos:** El despliegue del SNIT demanda alineamiento técnico (metadatos, licencias de uso, ciclos de actualización) con la IDERD y geoportales sectoriales bajo protocolos unificados, especialmente para operación cotidiana municipal.
+
+-   **Clima y gestión de riesgos:** La Ley 147-02 establece principios, pero faltan criterios homogéneos para incorporar análisis de riesgo, umbrales e incentivos urbanísticos en PMOT/PPOT y licencias, en línea con marcos regionales de la Nueva Agenda Urbana [@cepalNuevaAgendaUrbana2022].
+
+-   **Régimen sancionatorio:** La eficacia de los planes exige mecanismos de control y sanciones aplicables a usos y edificaciones, y coordinación sostenida entre MOPC, MIMARENA, MIVHED y ayuntamientos; la Ley 176-07 reconoce competencias locales, pero la capacidad técnica y financiera sigue siendo un cuello de botella [@bancomundialHabilitarCaminoPara2022].
+
+-   **Participación vinculante:** La Ley 368-22 reconoce la participación, pero falta estandarizar mecanismos digitales (plataformas deliberativas, trazabilidad de aportes y consulta cartográfica) con efectos vinculantes en PMOT/PPOT [@presidenciadelarepublicadominicanaDecretoNo396252025].
+
+### Análisis Funcional de la Planificación Urbana en Bajos de Haina
+
+El patrón de urbanización dominicano combina alta velocidad de crecimiento con déficits estructurales en servicios e infraestructura y una capacidad municipal desigual. Los desafíos más persistentes son la expansión informal del suelo urbano, el déficit de vivienda cualitativo y cuantitativo, la congestión y las externalidades ambientales en áreas industriales y portuarias, y la gobernanza multinivel con recursos limitados [@bancomundialHabilitarCaminoPara2022]. En Bajos de Haina, estos problemas se acentúan por la exposición a amenazas hidrometeorológicas y antrópicas y por la fragmentación del suelo urbano evidenciada en este documento.
+
+#### Actores involucrados en la planificación urbana {#sec-actores-planificacion-04}
+
+La arquitectura institucional descansa en un esquema multinivel: el **Poder Ejecutivo/MEPyD** **como órgano rector** del Sistema Nacional de Planificación e Inversión Pública y del Ordenamiento Territorial; l**os gobiernos locales responsables del planeamiento** y control urbanístico (Oficinas de Planeamiento Urbano, artículo 126 de la Ley 176-07); y l**as entidades sectoriales** (MOPC, MIMARENA, MIVHED, entre otras) **con potestades regulatorias específicas**. En Haina, este entramado se aterriza mediante la OPU, el Concejo de Regidores y los instrumentos en elaboración (PMOT/PPOT), conforme a la Ley 368-22 y su reglamento (Decreto 396-25). (Ley 176-07; Ley 496-06; Ley 368-22).
+
+#### Instrumentos de planificación urbana
+
+Los instrumentos de planificación urbana en Bajos de Haina se encuentran enmarcados en el contexto legal y normativo nacional y regional. A continuación, se presenta un análisis de los principales instrumentos que marca la legislación
+
+-   **Plan Estratégico 2023-2027 del Distrito Industrial Haina Nigua (DIHN):** este plan marca una ruta de acciones y productos para lograr objetivos y resultados encaminados a posicionar al DIHN como el referente en la región, en proporcionar un ecosistema de apoyo y servicios de valor agregado que facilitarán a las empresas lograr mayores niveles de crecimiento, productividad, expansión internacional, ingresos, empleos y rentabilidad; contribuyendo a la consolidación del desarrollo sostenible y a la prosperidad del país [@aiehainaPlanificacionEstrategicaDIHN2023].
+
+-   **Plan Municipal de Desarrollo (PMD):** El PMD es el instrumento de planificación urbana de mayor jerarquía en el municipio. Define los objetivos, estrategias y acciones para el desarrollo urbano a largo plazo. En el caso de Bajos de Haina, el PMD se encuentra en proceso de formulación[@mepydGuiaMetodologicaComo2022].
+
+-   **Plan de Ordenamiento Territorial (POT):** El POT define el uso del suelo y la zonificación del municipio, estableciendo las áreas aptas para diferentes actividades, como vivienda, comercio, industria y servicios. El POT de Bajos de Haina se encuentra en proceso de elaboración.
+
+-   **Normativa de Construcción:** La normativa de construcción regula las condiciones técnicas y de seguridad que deben cumplir las edificaciones en el municipio. En Bajos de Haina, la normativa de construcción se basa en las normas nacionales y regionales.
+
+-   **Licencias Urbanísticas:** Las licencias urbanísticas son permisos otorgados por la autoridad municipal para la construcción, modificación o demolición de edificaciones. En Bajos de Haina, el proceso de obtención de licencias urbanísticas es complejo y burocrático, lo que dificulta la inversión en el sector inmobiliario.
+
+#### Carencias y Desafíos
+
+Bajos de Haina carece de los instrumentos básicos de planificación urbana que ordenarían las decisiones sobre uso de suelo, obra pública y gestión de riesgo. Los instrumentos que existen a escala nacional no siempre encuentran traducción operativa local, y cuando lo hacen, funcionan de forma desarticulada entre sí, generando contradicciones que el Ayuntamiento debe resolver caso a caso. La capacidad técnica municipal para sostener estos procesos es limitada: la rotación de personal, la escasa especialización en planificación territorial y la dependencia de asistencia externa reducen la continuidad institucional necesaria para implementar políticas de largo plazo. La participación ciudadana en los ciclos formales ha sido marginal, porque los mecanismos de consulta no están institucionalizados a escala municipal y las comunidades quedan fuera de decisiones que las afectan directamente. A esto se suma una restricción presupuestaria estructural cuyo financiamiento depende en gran medida de transferencias del gobierno central y de proyectos con financiamiento externo.
+
+| \# | Carencia / Desafío | Dimensión |
+|------------------------|------------------------|------------------------|
+| 1 | Inexistencia de instrumentos locales de planificación urbana | Normativa |
+| 2 | Desarticulación entre instrumentos a distintas escalas | Normativa |
+| 3 | Participación ciudadana marginal en los ciclos formales | Gobernanza |
+| 4 | Restricción presupuestaria estructural del Ayuntamiento | Financiera |
+| 5 | Debilidad institucional y baja continuidad técnica | Institucional |
+
+: Carencias y desafíos principales de la planificación urbana en Bajos de Haina. Elaboración propia. {#tbl-carencias-planificacion .striped .smaller}
+
+## Análisis situacional de la planificación urbana {#sec-analisis-situacional-04}
+
+Para ponderar la viabilidad real de los instrumentos en Haina, se evalúan cinco ámbitos interdependientes: político-institucional, tecnológico, socioeconómico-demográfico, sociocultural y ambiental. La hipótesis operativa es que la calidad del planeamiento depende tanto de la capacidad municipal y la interoperabilidad de datos como de la coordinación con MEPyD y sectores; y que, sin un circuito de participación ciudadana y finanzas locales robustas, los planes pierden ejecutoriedad. Esta lectura se alinea con diagnósticos nacionales recientes.
+
+### Factores políticos
+
+| Función municipal | Responsable | Descripción y comentario |
+|:-----------------|:-----------------|:------------------------------------|
+| **Evaluación de riesgos** | CMPMR, Ayuntamiento y Defensa Civil | El sistema municipal de GRD adolece de capacidades para realizar evaluaciones técnicamente sólidas sobre los riesgos físicos y antrópicos. En el aspecto de los riesgos físicos se actúa de forma reactiva ante los eventos ya ocurridos. Las autoridades locales no cuentan, en el aspecto de riesgos antrópicos, con el catálogo de sustancias y procedimientos industriales que allí se realizan. |
+| **Planificación de la GRD** | CMPMR, Ayuntamiento y Defensa Civil | Es obligación del CMPMR desarrollar y actualizar planes de prevención, mitigación y respuesta ante desastres adaptados a las condiciones locales. El Plan de Gestión de Riesgo actual fue desarrollado en el marco de un proyecto del PNUD en 2016. Existe un Plan de Emergencia ante amenazas múltiples y uno específico frente a inundaciones, elaborado por la Defensa Civil y el Ayuntamiento al inicio de la temporada ciclónica. Las instituciones del CMPMR tienen protocolos de actuación, incluyendo hospitales y escuelas, y existe un sistema de refugios. No se obtiene evidencia de que estos planes se sigan de forma adecuada. |
+| **Mitigación** | CMPMR, Ayuntamiento y Defensa Civil, con apoyo del gobierno central | La mitigación de riesgos implica tres pasos: identificar los peligros, evaluar los riesgos y desarrollar estrategias de mitigación. El Ayuntamiento ha ejecutado la canalización de Cañada Libertad Los Reyes, la reconstrucción del badén de la carretera Sánchez a la altura del barrio INVI para mejorar el eje drenante, la intervención del badén de la carretera Sánchez a la altura del KM 17 y la reconstrucción del badén en la avenida Ingenio Río Haina a la altura del Barrio Chino, entre otras acciones. |
+| **Preparación** | CMPMR, Ayuntamiento y Defensa Civil | La UNDRR define la preparación como el conocimiento y las capacidades desarrolladas por gobiernos, organizaciones de respuesta, comunidades y personas para anticipar, responder y recuperarse de los impactos de eventos peligrosos. Sus actividades básicas comprenden sistemas de alerta temprana, capacitación y simulacros, educación y sensibilización pública, infraestructura de respuesta, redes de comunicación y coordinación (a nivel municipal, un Centro de Mando). El levantamiento de información muestra escasas evidencias de que el sistema local implemente de forma sistemática estas actividades. |
+| **Respuesta** | CMPMR, Ayuntamiento y Defensa Civil | La OCHA define la respuesta como las acciones inmediatas y de corto plazo realizadas tras la ocurrencia de un desastre para salvar vidas, aliviar el sufrimiento, garantizar la seguridad de las personas y limitar los daños materiales y ambientales, incluyendo servicios de emergencia, restablecimiento de infraestructura crítica y coordinación de los esfuerzos de socorro. Las dotaciones y herramientas de los cuerpos de respuesta son limitadas; se aprecian dilaciones en el diagnóstico de necesidades y reporte de daños; y ausencia de un mecanismo sistematizado de evaluación colectiva de la respuesta y recuperación. |
+| **Recuperación** | CMPMR, Ayuntamiento y Defensa Civil, con apoyo del gobierno central y empresas locales | El estudio de Fernández de Prada identificó ausencia de un mecanismo estandarizado de evaluación colectiva de la respuesta y reconstrucción; capacidad financiera y técnica limitada de las autoridades locales para diseñar y ejecutar medidas efectivas de mitigación; y persistencia de dinámicas de pobreza, desigualdad y exclusión social vinculadas a prácticas sociales de riesgo que podrían volver fútiles los esfuerzos por aumentar la resiliencia. |
+| **Educación y capacitación** | CMPMR, Ayuntamiento y Defensa Civil | No se obtienen evidencias de un plan coordinado de educación en GRD que involucre a los estudiantes y a la comunidad en general. La vulnerabilidad educativa de la población puede comprometer los resultados de sensibilización. La brecha digital podría dificultar la igualdad de acceso a las herramientas digitales de levantamiento comunitario de información. |
+| **Comunicación** | CMPMR, Ayuntamiento y Defensa Civil | Se observa ausencia de un foro local multi-actor para la construcción colectiva de estrategias para aumentar la resiliencia en el municipio. Tampoco se observan esfuerzos por establecer estrategias eficientes para integrar los medios de comunicación locales en una política integrada de comunicación del riesgo. |
+
+: Factores políticos que intervienen en la planificación urbana. Elaboración propia. {#tbl-factores-politicos .striped .smaller}
+
+### Factores tecnológicos
+
+El municipio presenta una brecha tecnológica significativa: muchos trámites y controles se realizan con procedimientos manuales y ofimática básica. No obstante, existen oportunidades inmediatas para cerrarla:
+
+-   **Catálogo y datos geoespaciales:** La integración a IDERD y la adopción de su geoportal y estándares, con apoyo técnico del IGN, permitiría gestionar capas locales de usos de suelo, riesgos, catastro y licencias con metadatos y versionado.
+
+-   **Tramitación urbanística:** La VUC ya opera a escala nacional y ha probado mejoras de eficiencia; coordinar su uso municipal y el consumo de datos desde el SNIT y la IDERD aceleraría la disciplina urbanística y la trazabilidad de permisos.
+
+El déficit no es tecnológico, sino de gobernanza de datos (roles, estándares, rutinas) y capacidades municipales para sostener plataformas y flujos de información, en línea con los hallazgos nacionales [@bancomundialHabilitarCaminoPara2022].
+
+### Factores socioeconómicos y demográficos
+
+Los principales factores socioeconómicos que inciden sobre la planificación urbana en Bajos de Haina son los siguientes:
+
+-   **Pobreza y desigualdad:** Altos índices de pobreza y desigualdad, concentración de grupos vulnerables en zonas marginales y acceso limitado a servicios básicos, lo que dificulta el acceso a vivienda digna, salud y educación e incrementa la exclusión social.
+
+-   **Informalidad económica:** Prevalencia del sector informal en el mercado laboral, limitado acceso al crédito y a la seguridad social y condiciones laborales precarias, lo que dificulta la generación de ingresos estables y limita la capacidad de ahorro, inversión y protección social.
+
+-   **Desempleo y subempleo:** Altas tasas de desempleo y subempleo, especialmente entre jóvenes y mujeres, con disminución del ingreso familiar, aumento de la pobreza, migración interna y externa, e inestabilidad social.
+
+-   **Vivienda:** Escasez de vivienda digna y asequible, proliferación de asentamientos informales y condiciones precarias de habitabilidad, con consecuencias de hacinamiento, problemas de salud pública y deterioro urbano.
+
+-   **Infraestructura y servicios básicos:** Deficiencias en la infraestructura vial, saneamiento básico, transporte público y espacios públicos, y acceso limitado a agua potable, electricidad y telecomunicaciones, lo que deteriora la calidad de vida y profundiza la exclusión social.
+
+En el plano demográfico, los factores más relevantes son:
+
+-   **Crecimiento poblacional:** Alto ritmo de crecimiento, migración interna hacia la zona y aumento de la densidad, con presión sobre los recursos urbanos y demanda creciente de vivienda, infraestructura y servicios básicos.
+
+-   **Envejecimiento poblacional:** Aumento progresivo de la población adulta mayor y necesidad de atención especial a este grupo vulnerable, con demanda de servicios gerontológicos, espacios públicos inclusivos y adaptación de la infraestructura urbana.
+
+-   **Composición familiar:** Predominio de hogares nucleares, aumento de hogares monoparentales y disminución del tamaño promedio de los hogares, lo que exige diversificar la oferta de vivienda, adaptar los servicios a nuevas estructuras familiares y reforzar los espacios públicos de cohesión social.
+
+### Factores sociales y culturales
+
+**En el plano social destacan tres factores:**
+
+-   **Cohesión social y convivencia.** Baja cohesión social entre los diferentes grupos poblacionales, presencia de conflictos y tensiones sociales y limitada participación ciudadana en la toma de decisiones, lo que dificulta construir una ciudad inclusiva y participativa.
+
+-   **Exclusión social.** Marginación de grupos vulnerables como mujeres, niños, personas con discapacidad y minorías étnicas, y falta de acceso a oportunidades y servicios básicos, con profundización de las desigualdades y aumento de la pobreza.
+
+-   **Violencia e inseguridad.** Altos índices de violencia e inseguridad, presencia de actividades delictivas y miedo a transitar por las calles, lo que deteriora la calidad de vida, limita la movilidad urbana y frena el desarrollo económico.
+
+**En el plano cultural destacan:**
+
+-   **Identidad cultural.** Fuerte arraigo cultural, presencia de tradiciones y valores locales y diversidad cultural de la población, lo que exige preservar el patrimonio y diseñar espacios públicos que reflejen esa diversidad.
+
+-   **Participación ciudadana.** Limitada participación en los procesos de planificación urbana y ausencia de mecanismos adecuados de consulta y diálogo, con planes urbanos que no responden a las necesidades reales de la comunidad.
+
+-   **Educación y formación.** Bajos niveles de escolaridad, limitado acceso a la educación formal y no formal y falta de capacitación en temas urbanos, lo que dificulta desarrollar una ciudadanía activa y participativa.
+
+### Factores ambientales
+
+Los factores ambientales que condicionan la planificación urbana de Bajos de Haina son los siguientes:
+
+-   **Contaminación del aire.** Altos niveles de emisiones industriales, del parque vehicular y por la quema de combustibles fósiles, con consecuencias en forma de problemas respiratorios, enfermedades cardiovasculares y disminución de la calidad de vida.
+
+-   **Contaminación del agua.** Vertido de aguas residuales sin tratamiento, contaminación por actividades industriales y agrícolas e intrusión salina en acuíferos costeros, con deterioro de la calidad del agua y afectación de ecosistemas acuáticos.
+
+-   **Gestión de residuos sólidos.** Manejo inadecuado de los residuos, proliferación de vertederos a cielo abierto y contaminación del suelo y las aguas, con riesgos para la salud pública y deterioro del medio ambiente.
+
+-   **Deforestación y pérdida de biodiversidad.** Destrucción de bosques y áreas verdes para la expansión urbana y las actividades agrícolas, con pérdida de hábitats naturales, erosión del suelo y aumento de los riesgos de desastres naturales.
+
+-   **Vulnerabilidad a desastres naturales.** Ubicación en una zona costera propensa a huracanes, inundaciones y marejadas ciclónicas, con amenaza de daños a la infraestructura y a las viviendas, pérdida de vidas humanas e impactos económicos y sociales.
+
+### Instrumentos asociados a la planificación urbana en Bajos de Haina
+
+#### Zonificación
+
+La zonificación es un instrumento de planificación urbana que divide el territorio en diferentes zonas, estableciendo para cada una de ellas los usos del suelo permitidos, restringidos o prohibidos. Su objetivo es ordenar el crecimiento urbano, proteger el medio ambiente y promover el desarrollo equilibrado de la ciudad.
+
+**Los elementos básicos de la zonificación en Bajos de Haina incluyen:**
+
+-   **Clasificación del suelo urbano.** Se establecen diferentes categorías de uso del suelo urbano, como residencial, comercial, industrial, de servicios públicos, de equipamientos y espacios verdes.
+
+-   **Normas y parámetros urbanísticos.** Se definen las normas y parámetros que regulan cada zona, como la densidad de población permitida, la altura máxima de las edificaciones, la superficie mínima de los lotes y los retiros de las construcciones.
+
+-   **Compatibilidad de usos.** Se establece la compatibilidad entre los diferentes usos del suelo, evitando la ubicación de actividades conflictivas en zonas adyacentes.
+
+#### Regulación del Uso del Suelo
+
+La regulación del uso del suelo es un conjunto de normas y procedimientos que complementan la zonificación, estableciendo los requisitos específicos para el desarrollo de cada tipo de uso del suelo. Su objetivo es garantizar que las construcciones y actividades se realicen de acuerdo con lo establecido en la planificación urbana.
+
+Los elementos de la regulación del uso del suelo en Bajos de Haina pueden incluir:
+
+-   **Permisos de construcción.** Se establecen los requisitos para obtener permisos de construcción, incluyendo la presentación de planos, estudios técnicos y el cumplimiento de las normas urbanísticas.
+
+-   **Licencias de funcionamiento.** Se regulan los requisitos para obtener licencias de funcionamiento para diferentes tipos de actividades comerciales, industriales o de servicios.
+
+-   **Control de la edificación.** Se establecen mecanismos para verificar el cumplimiento de las normas urbanísticas durante la construcción de las edificaciones.
+
+-   **Inspecciones y sanciones.** Se definen procedimientos para realizar inspecciones y aplicar sanciones en caso de incumplimiento de las normas urbanísticas.
+
+#### Aplicación de la Zonificación y la Regulación del Uso del Suelo
+
+Para una efectiva aplicación de la zonificación y la regulación del uso del suelo en Bajos de Haina, es fundamental contar con:
+
+-   **Marco legal sólido.** Leyes y normativas que respalden la zonificación y la regulación del uso del suelo, estableciendo mecanismos claros para su aplicación y sancionando el incumplimiento.
+
+-   **Instituciones competentes.** Entidades gubernamentales con la capacidad técnica y los recursos necesarios para elaborar, implementar y hacer cumplir la zonificación y la regulación del uso del suelo.
+
+-   **Participación ciudadana.** Mecanismos para que la comunidad participe en la definición y actualización de la zonificación y la regulación del uso del suelo, asegurando que responda a las necesidades y realidades de la localidad.
+
+### Planes de desarrollo urbano
+
+Los planes de desarrollo MUNICIPAL (PDM) son instrumentos de planificación estratégica que establecen los objetivos, políticas y estrategias para el desarrollo socioeconómico y territorial de una ciudad a largo plazo. En el caso de Bajos de Haina, la elaboración e implementación de un PDM efectivo es fundamental para abordar los desafíos y oportunidades que enfrenta la localidad.
+
+#### **El PDM en Bajos de Haina deben contar con las siguientes características:**
+
+-   **Visión de futuro.** Definir una visión clara y compartida sobre el futuro deseado para la ciudad, considerando las necesidades y aspiraciones de la comunidad.
+
+-   **Diagnóstico situacional.** Realizar un análisis exhaustivo de la situación actual de la ciudad, incluyendo sus fortalezas, debilidades, oportunidades y amenazas.
+
+-   **Objetivos estratégicos.** Establecer objetivos estratégicos específicos, medibles, alcanzables, relevantes y con plazos definidos para el desarrollo de la ciudad.
+
+-   **Políticas y estrategias.** Desarrollar políticas y estrategias concretas para alcanzar los objetivos estratégicos, considerando aspectos como la economía, el medio ambiente, la infraestructura, la vivienda, la movilidad urbana, la seguridad y la inclusión social.
+
+-   **Participación ciudadana.** Garantizar la participación de la comunidad en la elaboración e implementación del PDU, asegurando que el plan responda a las necesidades y realidades de la población.
+
+-   **Evaluación y seguimiento.** Implementar mecanismos para evaluar y monitorear el avance en la ejecución del PDU, realizando ajustes y actualizaciones periódicas según sea necesario.
+
+#### Elaboración del Plan de Desarrollo Municipal en Bajos de Haina
+
+La elaboración del PDM en Bajos de Haina debe seguir un proceso participativo e inclusivo que involucre a diferentes actores:
+
+-   **Autoridades municipales.** El gobierno local debe liderar el proceso de elaboración del PDM, asignando los recursos necesarios y creando una comisión de planificación urbana.
+
+-   **Sector privado.** Representantes del sector empresarial deben participar en la definición de estrategias para el desarrollo económico y la generación de empleo.
+
+-   **Sociedad civil.** Organizaciones de la sociedad civil deben participar en la identificación de necesidades y la definición de estrategias para la inclusión social y la participación ciudadana.
+
+-   **Academia.** Instituciones educativas y de investigación deben aportar conocimiento técnico y científico para la elaboración del PDU.
+
+-   **Población.** La comunidad debe poder expresar sus opiniones y propuestas por diferentes canales de participación.
+
+#### Implementación del Plan de Desarrollo Urbano Municipal
+
+Es necesario contar con:
+
+-   **Marco legal y normativo.** Un marco legal y normativo que respalde el PDU y facilite su implementación.
+
+-   **Recursos financieros.** Recursos financieros suficientes para ejecutar las acciones y proyectos definidos en el PDU.
+
+-   **Capacidad institucional.** Fortalecer la capacidad institucional del gobierno local para gestionar y ejecutar el PDU.
+
+-   **Monitoreo y evaluación.** Implementar mecanismos para monitorear y evaluar el avance en la ejecución del PDU, realizando ajustes y actualizaciones periódicas según sea necesario.
+
+-   **Comunicación y sensibilización.** Comunicar de manera efectiva el PDU a la comunidad, generando conciencia sobre su importancia y fomentando la participación ciudadana en su implementación.
+
+### Programas de vivienda y desarrollo social
+
+Siguiendo la publicación (*El déficit habitacional en República Dominicana: Panorama actualizado de los requerimientos habitacionales, ONE 2010,) el* déficit cualitativo de componente estructural o de materialidad se presenta en mayor o menor medida en todos los municipios del país. Ahora bien, alrededor del 37% de los municipios del país tienen más de un 10% de sus viviendas con deficiencias de sus estructuras físicas. Los mayores porcentajes de viviendas con esta condición se encuentran en los municipios de Yamasá, Eugenio Ma. de Hostos, Guananico y Jamao al Norte. Inversamente, las comunidades menos afectadas son Santo Domingo, Sabana Yegua, Bajos de Haina, Santiago y Puñal. En el caso de Haina la vivienda está desafiada básicamente por la ubicación inadecuada en zonas de alta vulnerabilidad por su exposición bien a áreas inundables o a riesgo antrópico por cercanías a industrias y empresas contaminantes. Igualmente, las carencias de servicios sociales se relacionan con baja disponibilidad de agua potable intradomiciliaria y recogida adecuada de residuos sólidos. En el área de la cobertura de salud el municipio cuenta con un hospital municipal el cual dispone de 49 camas según ONE 2012, la OMS establece una ratio de 2.5 a 4 camas por cada mil habitantes. En el caso de Haina con su población actual el dato es de 0.307 camas por mil habitantes. En Haina existe con datos del Censo del 2010 un 10.8% de personas con riesgo de movilidad mientras se aprecia que no hay ningún enfoque municipal hacia los desplazamientos de esta población y sus diversas necesidades sociales.
+
+### Estrategias de movilidad y transporte
+
+ **Ordenanza No. 03-2017** regula la gestión integral de los residuos sólidos en el municipio con el fin de garantizar la salud pública y la limpieza urbana. El documento establece que los ciudadanos deben disponer la basura en los horarios y recipientes correctos, separar los residuos y mantener limpias las áreas frente a sus propiedades, prohibiendo estrictamente la quema de desechos y el abandono de escombros en espacios públicos. Para asegurar su cumplimiento, la normativa implementa un régimen de sanciones que varía desde amonestaciones verbales y multas económicas hasta la realización de trabajo comunitario .
+
+## Conclusiones {#sec-conclusiones-04}
+
+### Síntesis de hallazgos
+
+La ciudad de Haina ha visto extender sus límites territoriales de forma acelerada, dispersa y caótica, quedando determinada por el crecimiento natural de la ciudad caracterizado por una excesiva concentración poblacional, que ha consentido al desarrollo de la expansión del tejido urbano bajo patrones de un metabolismo lineal, basado en el incremento de la demanda de recursos (aire-agua-suelo) y el incremento de la producción de los problemas ambientales urbanos. Es por tanto que tales acciones antrópicas, inherentes al proceso de desarrollo y crecimiento urbano representan ser las principales presiones sobre el ambiente, en la medida en que no se involucre este último como eje transversal del desarrollo, que garantice la calidad de vida de los habitantes y la preservación de la biodiversidad en el futuro.
+
+Tales influencias antrópicas resultan ser uno de los principales factores que ejercen cambios y alteraciones en el ambiente natural. La pobreza extrema, el desempleo rural, la inmigración hacia las zonas urbanas, entre otros, contribuyen a ejercer presión sobre los recursos naturales y los ecosistemas generando altos índices de deforestación, contaminación, erosión, etc.
+
+Estos factores ambientales se transforman en hacinamiento, desempleo, miseria, contaminación del aire, aguas, lo que ha provocado en el ámbito urbano el deterioro progresivo y sostenido de la calidad de vida de los asentamientos humanos. Se puede sintetizar tal escenario en el siguiente grupo de presiones que se efectúan sobre el ambiente:
+
+-   Alta concentración poblacional
+-   Constante expansión urbana
+-   Ocupación de suelos de reserva natural
+-   Ocupación de suelos no urbanizables
+-   Proceso de urbanización no planificado
+-   Producción de residuos sólidos urbanos
+-   Aumento de demandas de los recursos no renovables
+-   Débil empoderamiento del tema ambiental por parte de la sociedad civil y reciente abordaje del tema ambiental por parte del estado.
+
+La situación urbana descrita, unida a la necesidad de generar nuevos conceptos, enfoques, métodos y estrategias para el diseño y la gestión de la ciudad, se constituye en el disparador para el abordaje de la investigación a partir de la aplicación de indicadores, que posibiliten conocer y determinar los parámetros cuali-cuantitativos de sostenibilidad ambiental y paisajística urbana; los mismos se seleccionan considerando su funcionalidad y operatividad para valorar el estado del sector en estudio y para determinar las estrategias de diseño y gestión más apropiadas; generando una estructura conceptual y metodológica general y diagnósticos y acciones particularizadas, según su localización en el territorio urbano.
+
+La sostenibilidad, marco de la investigación, que define y establece la necesidad de un nuevo tipo de planificación y gestión del territorio urbano, de su arquitectura y de su paisaje, es una actividad cognoscitiva multidimensional, compleja y dinámica; y pretende acercar el conocimiento científico a la acción proyectual y constituirse en instrumento para programar el uso del espacio urbano, y de las resoluciones morfológicas-tecnológicas a adoptar.
+
+Desde la ecología del paisaje, el estudio desarrolla una perspectiva teórica-metodológica-práctica que da una base importante para el análisis holístico y sistémico del espacio urbano y permite conocer, evaluar, clasificar los indicadores de sostenibilidad y delimitar las unidades homogéneas para su posterior planificación y gestión; diagnosticando y estudiando estrategias para ordenar los aspectos sostenibles del territorio urbano a partir de indicadores que articulen la relación ciencia/proyecto/gestión; para desarrollar una herramienta de conocimiento eficaz para poner en evidencia las relaciones causa-efecto entre la naturaleza y la dinámica antrópica.
+
+La experiencia piloto investiga en una síntesis holística el conocimiento de la problemática; el desarrollo de una metodología general de aplicación; la selección de los indicadores prioritarios a trabajar, acotando para este proyecto algunos relacionados a la estructura del territorio; a la morfología urbana y al confort y habitabilidad del espacio público urbano; arribando a un diagnóstico del área en estudio relacionado a los indicadores investigados.
+
+La investigación parte del concepto holístico y multidimensional de ciudad como sistema compuesto por elementos que interaccionan entre sí, visión que nos posibilita el análisis y la posterior integración de las distintas dimensiones que estructuran el ecosistema urbano. Se plantea así la definición de un marco referencial adaptado a la realidad, y para el caso que nos ocupa, por su enfoque integrado consideramos que el más adecuado es el que refiere al Sistema ambiental-paisajístico. En este marco, nuestro estudio se enfoca en las dimensiones derivadas del ambiente y del paisaje en el ecosistema urbano investigado, al que intentamos conocer en los espacios físicos y en los ciclos funcionales con instrumentos de la ecología urbana y la ecología del paisaje.
+
+Para una actuación urbana hacia la ciudad sostenible, son necesarios para su conocimiento y planificación las interrelaciones entre variables sobre la naturaleza de su territorio geográfico, factores físicos espaciales y socioeconómicos; y desde el análisis de su estructura dada por su trazado, la configuración morfológica de su arquitectura, la tipología de sus espacios abiertos, los estándares de verde urbano, el microclima y confort urbano, etc., nos pueden aproximarnos al conocimiento de los niveles de calidad ambiental y paisajística en el área de actuación.
+
+## Implicaciones para la planificación urbana en Bajos de Haina
+
+La Ley 368-22 de Ordenamiento Territorial, Uso de Suelo y Asentamientos Humanos, promulgada en diciembre de 2022, establece un marco integral que resulta directamente aplicable a Bajos de Haina. Entre los capítulos más relevantes para el municipio se destacan el Capítulo VI, que crea el Sistema Nacional de Información Territorial (SNIT)[^04-planificacion-urbana-1]; el Capítulo VII, que regula el régimen de uso del suelo (urbano, urbanizable, no urbanizable, agropecuario, forestal, minero y costero-marino)[^04-planificacion-urbana-2]; el Capítulo VIII, que establece la delimitación del suelo urbano y las normas subsidiarias regionales de planificación[^04-planificacion-urbana-3]; y el Capítulo IX, que regula los asentamientos humanos y los mecanismos de reubicación y reasentamiento determinados por el Estado[^04-planificacion-urbana-4].
+
+[^04-planificacion-urbana-1]: Ley 368-22, Capítulo VI, artículos 28 a 31 (creación, funciones, puesta en marcha y entidades integradas al SNIT).
+
+[^04-planificacion-urbana-2]: Ley 368-22, Capítulo VII, artículos 32 a 39 y secciones I a V, que regulan los distintos usos del suelo (urbanizado, agropecuario, forestal, minero y costero-marino, artículos 40 a 61).
+
+[^04-planificacion-urbana-3]: Ley 368-22, Capítulo VIII, artículos 65 a 72.
+
+[^04-planificacion-urbana-4]: Ley 368-22, Capítulo IX, artículos 73 a 76.
+
+Un buen modelo de gobernanza territorial aborda el tema del municipio-territorio en su carácter administrativo y en su carácter de planificación y gestión del desarrollo, estableciéndolo como un espacio dinámico para la inversión el desarrollo económico, la inclusión social, el fortalecimiento cultural, la identidad social y el fortalecimiento del capital social.
+
+### Lineamientos generales
+
+Señala MacCormick que la coherencia se balancea entre la necesidad de especificidad del derecho (en cuanto a la necesidad de estipulación de normas detalladas) y la necesidad de que dichas normas sean instancias de principios generales (exigencia de universalidad y generalidad), toda vez que pocas personas pueden conocer el derecho en detalle, mientras que la mayoría pueden conocer los principios y valores generales del mismo [@maccormickLegalReasoningLegal1994].
+
+Las normas relevantes constituyen el cuerpo filosófico amplio que permite que la ley o el derecho sea funcional, entendible de forma amplia y fácilmente asumible por los ciudadanos, confiados estos en que su espíritu favorece el bien colectivo. Algunas de estas normas filosóficas en el plano del ordenamiento territorial están referidas a los siguientes elementos, o parámetros de coherencia, que le otorgan sustento conceptual.
+
+### Equidad territorial
+
+Algunos cientistas sociales de referencia han proclamado las ventajas de la gestión plural de las naciones evitando que "facciones de vencedores" impongan sus intereses particulares por encima del interés colectivo. Por ejemplo, Norberto Bobbio sostiene que el pluralismo encierra el concepto de que una sociedad está mejor gobernada en la medida en que esté más distribuido el poder político y que existan más centros de poder que controlen a los órganos del poder central, esto es, en cuanto sea mayor la distribución tanto territorial como funcional entre soberano y súbditos del poder. La actual ley al centralizar en un organismo del poder ejecutivo con una débil organización de las instancias territoriales está creando un suprapoder que conculca las oportunidades de los territorios para promover un desarrollo equilibrado partiendo de sus propias fuerzas e inteligencias, acotado claro está por leyes nacionales y apoyado por fondos públicos que deben estar disponibles para todos los territorios por igual. El proyecto de ley no hace ninguna referencia la Equidad Territorial como paradigma, tampoco crea ninguna figura o mecanismo de ley para la inversión pública en los territorios de forma equitativa.
+
+### Empoderamiento social
+
+Desde la óptica de Sergio Boisier, un modelo territorial que dimensione los procesos de autonomía y descentralización debe orientarse hacia tres principios denominados por él "Principios de una Planificación Regional"[@boisierTerritorioEstadoSociedad1990], y que son:
+
+-   **Asignación de recursos:** Garantía mínima de la autonomía territorial.
+
+-   **Principio de compensación:** Que permita compensar los posibles impactos negativos de una política económica nacional.
+
+-   **Principio de activación social:** Tendente al fortalecimiento de verdaderas comunidades de base, y a la construcción de una sociedad civil protagonista y actora de su propio desarrollo. Éste es un punto crucial en un verdadero proceso de desarrollo centrado en los territorios. Es por lo menos difícil planear los territorios desde fuera de ellos.
+
+Para Orlando Fals Borda, las reglas de lo que debería ser el marco jurídico de la organización territorial se rige por las siguientes premisas [@fals-bordaRegionHistoriaElementos1996]:
+
+-   **La flexibilidad:** No es realista imponer desde arriba, esquemas organizativos territoriales, las soluciones deberán tener siempre referentes participativos locales: que los pueblos decidan", para ello se deben generar procesos previos para alcanzar plena conciencia y capacidad de juicio crítico.
+
+-   **Equidad**: Compensar regiones, provincias y municipios según su grado de desarrollo o atraso económico y su viabilidad como unidad territorial. Los más prósperos tendrían que contribuir a los atrasados. Para ello parece necesario llegar a alguna forma de clasificación o de categorías cuidando discriminar negativamente, y a la creación de fondos de compensación territorial".
+
+### Democracia territorial
+
+Siguiendo a Gustavo Adolfo Arbeláez Naranjo en su estudio: El ordenamiento territorial: instrumento para la gobernabilidad, encontramos que para la teoría política y del derecho constitucional contemporáneo, el tema del ordenamiento territorial se aborda desde las siguientes premisas [@naranjoOrdenamientoTerritorialInstrumento2005]:
+
+**La primera:** El ordenamiento territorial como un Instrumento, un medio para alcanzar un fin, es decir, está al servicio de una finalidad, de un ethos no es un asunto aislado ni marginal dentro de una agenda política que consulte de forma permanente las estrategias y las necesidades propias del poder político institucional, inherente a cualquier Estado. Las primeras respuestas en cuanto a las directrices marco sobre el tema del ordenamiento territorial deben ser encontradas en las normas constitucionales que la regulan, y en aquellas que tocan la finalidad que rige el ejercicio de la función pública, esto es, la salvaguarda y protección de la dignidad humana como principio y, la satisfacción de las diversas necesidades y derechos de la comunidad. Si miramos el desarrollo histórico de los dos grandes modelos de organización territorial, encontramos, por ejemplo, que el modelo unitario constituyó una necesidad histórica en la Europa de los siglos XVIII y XIX, pues la caída del antiguo régimen monárquico requería de un fuerte sistema centralizado que permitiera cohesionar a toda la sociedad en torno a la voluntad expresada por el Parlamento como depositario de la voluntad general de la nación, justificación diferente tuvo el modelo federal americano: 13 colonias se federaron para formar una gran nación que les garantizara mantener la independencia de la corona inglesa, pero donde cada una de ellas quiso conservar su autonomía para el manejo de sus asuntos internos.
+
+**La segunda:** El ordenamiento territorial en función de la Gobernabilidad, es decir, garantizar la capacidad del sistema político de satisfacer y responder a las demandas sociales. Legitimación permanente del sistema político.
+
+**La tercera premisa:** El ordenamiento territorial Democrático, lo cual presupone la superación del esquema decimonónico de relación Sujeto - Objeto entre Nación y entidades territoriales propio de un esquema jerárquico, autoritario, y homogeneizador para abrir espacio a una nueva relación entre sujetos, por lo que la distribución de diversas funciones. debe ser resultado de un proceso de concertación interinstitucional, entre los órganos de los poderes central y territorial y las comunidades, atendiendo y respetando la manera como los distintos conglomerados humanos que ocupan los espacios geográficos que integran la nación, ejercen funciones sociales, se relacionan con el territorio y construyen referentes de identidad propia. (Esquema horizontal, democrático, pluralista).
+
+**La cuarta idea:** El ordenamiento territorial Plural conlleva a que la distribución de competencias y recursos no puede ser un proceso homogéneo y uniforme para todo el territorio, sino que debe responder a la especificidad propia de las comunidades que lo integran, a sus características culturales y sociales y al proceso de formación de cada entidad territorial, con lo cual se garantizaría una más adecuada optimización de recursos y funciones. Consecuencia de lo anterior, el Ordenamiento Territorial exige, de un lado, la participación de las comunidades locales o regionales en la adopción y la autodeterminación de la forma de ordenamiento que quieren para sí: no es, pues, una decisión impuesta desde arriba, sino que es el resultado de un proceso donde hay una concertación, una comunicación, una participación de doble vía, en la cual las comunidades se hacen destinatarias, y receptoras voluntarias de ciertas funciones o de ciertas competencias; y del otro, el reconocimiento de diferencias sociales, económicas y culturales, que obligan a la adopción de un modelo plural y diferenciado de distribución competencial.
+
+**Como quinta premisa tenemos:** El ordenamiento territorial para la equidad como instrumento de gobernabilidad democrática y plural. El OT debe conducir a la construcción colectiva de un sistema equitativo, por lo que se deben establecer mecanismos institucionales que permitan construir en el mediano y largo plazo un equilibrio regional que vaya cerrando la brecha entre las regiones pobres y atrasadas del país,(territorios del sur y línea noroeste y sus municipios más atrasados) frente a otras regiones mejor dotadas y con un mayor grado de desarrollo, (grandes centros urbanos de Santo Domingo y Santiago, Cibao norte etc.) para lo cual puede valer dos instrumentos básicos.
+
+De un lado, priorizar y concentrar más atención del Estado nacional en aquellas regiones que registren una mayor marginalidad y pobreza frente a aquellas otras que presentan un más elevado desarrollo regional.
+
+De otro lado, disponer y definir la conformación de un "Fondo de Compensaciones Territoriales", que permita una mayor inversión en los territorios que por su condición socioeconómica y de bajo desarrollo, requieran mayor inversión pública.
+
+### Gobernanza
+
+La planificación territorial se relaciona estrechamente con un amplio abanico de políticas locales, regionales, nacionales y comunitarias, y de entre ellas especialmente las de desarrollo regional, de urbanismo y vivienda y de infraestructuras. Sin embargo, todavía siguen predominando los enfoques, intereses y competencias sectoriales sobre las horizontales/territoriales. Dado que el espacio, suelo o territorio, es un bien limitado y su ordenación y uso condiciona las posibilidades de desarrollo futuro, debe procurarse una coherencia al conjunto de actuaciones a realizar sobre él.
+
+Siguiendo a Joaquín Farinós Dasí en su estudio: Gobernanza Territorial Para El Desarrollo Sostenible: Estado De La Cuestión y Agenda, las políticas deben ser coherentes (integradas, visionadas conjuntamente) y fácilmente comprensibles, lo que requiere una implicación cada vez mayor las autoridades responsables a los distintos niveles. La coherencia requiere liderazgo político y un firme compromiso de las instituciones para garantizar un enfoque sólido dentro de un sistema complejo [@dasiGobernanzaTerritorialPara2008].
+
+La gobernanza territorial hace referencia a un nuevo entendimiento de la acción pública y a sus estructuras organizativas, a la forma en que los territorios de un estado son administrados y las políticas aplicadas. Se refiere a una nueva forma de definir la acción de gobierno e implica un nuevo modelo operativo para los actores y niveles de gobierno implicados (nacional, regional, local) y para los procesos de decisión a la hora de hacer política (relación, negociación y formación de consensos). La coordinación aparece como necesaria, entre los distintos niveles de gobierno y entre las distintas políticas con impacto sobre el territorio.
+
+También puede ser entendida como la emergencia y puesta en práctica de innovadoras formas compartidas de planificación y gestión de las dinámicas territoriales, respaldadas por multiplicidad de actores que comparten unos objetivos y conocen y asumen cuál debe ser su papel en su consecución. Se trata de acordar una visión compartida para el futuro del territorio entre todos los niveles y actores concernidos. De esta forma, la gobernanza territorial se interpreta como un elemento cada vez más significativo para lograr objetivos políticos en los territorios. Aceptar esta premisa conduce a querer profundizar más en las relaciones existentes entre la planificación del desarrollo territorial y los principios de una nueva gobernanza territorial.

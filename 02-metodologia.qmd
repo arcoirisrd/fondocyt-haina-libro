@@ -1,0 +1,352 @@
+---
+title: "Metodología"
+---
+
+> **Fecha:** agosto 2025 **Capítulo:** Transversal **Función:** Marco metodológico del proyecto
+
+## Enfoque metodológico {#sec-enfoque-metodologico-02}
+
+La investigación adoptó una estrategia híbrida que articula *Design Science Research* (DSR) con investigación-acción participativa (IAP). La selección de este enfoque dual responde a la naturaleza del objeto de estudio: un sistema sociotécnico que requiere, por un lado, rigor técnico en el diseño y evaluación de artefactos digitales y, por otro, legitimidad social en su implementación territorial. Los principios del DSR, orientados a la creación y evaluación iterativa de artefactos que resuelven problemas complejos [@hevnerDesignScienceInformation2004], estructuraron las tres fases del proyecto. La IAP garantizó la implicación de los actores locales en la producción de conocimiento y soluciones, asegurando que cada iteración incorporara el conocimiento situado de las comunidades, los técnicos municipales y las instituciones sectoriales.
+
+El proceso de investigación siguió una lógica abductiva, entendida como un enfoque que permite generar nuevas ideas y proposiciones teóricas a partir de la observación de patrones emergentes en los datos recogidos, en lugar de limitarse a verificar hipótesis preestablecidas o a describir regularidades estadísticas. Se utilizó como guía el modelo de @kovacsAbductiveReasoningLogistics2005, que articula ocho etapas iterativas: observación del fenómeno, identificación de patrones, formulación de hipótesis, prueba de las hipótesis, refinamiento, creación de un modelo explicativo, prueba del modelo y refinamiento final. Este ciclo abductivo resultó especialmente adecuado para el contexto de Bajos de Haina, donde la ausencia de datos territoriales previos y la complejidad del sistema sociotécnico impidieron un diseño hipotético-deductivo clásico. La lógica abductiva permitió que los hallazgos de cada fase retroalimentaran los supuestos de las fases anteriores: el diagnóstico integral (Fase 1) reveló patrones de vulnerabilidad que reorientaron el diseño de las herramientas digitales (Fase 2), y la implementación piloto (Fase 3) generó evidencia empírica que obligó a refinar tanto las hipótesis iniciales como los propios artefactos.
+
+![Enfoque metodológico abductivo Kovacs-Spens aplicado al proyecto FONDOCYT. El ciclo iterativo articula investigación teórica (arriba) con investigación empírica (abajo), con flujos principales (líneas sólidas) y bucles de retroalimentación secundarios (líneas punteadas). Elaboración propia a partir de @kovacsAbductiveReasoningLogistics2005.](img/metodologia/kovacs-spens-fondocyt.png){#fig-kovacs-spens-02 width="100%"}
+
+La hipótesis central del proyecto sostiene que la integración de herramientas digitales de planificación urbana, gestión de riesgos y participación ciudadana, co-diseñadas con los actores del territorio, fortalece la capacidad de gobernanza local y genera insumos técnicos directamente incorporables a los instrumentos de ordenamiento territorial previstos por la Ley 368-22. De esta hipótesis se derivan dos proposiciones operativas. La primera plantea que un ecosistema digital diseñado mediante procesos participativos alcanza mayor apropiación institucional que las soluciones implementadas de forma vertical. La segunda propone que la caracterización morfológica a escala de manzana, articulada con análisis a escala barrial y municipal, permite identificar Tejidos De Alta Vulnerabilidad (TDAV) y generar recomendaciones normativas diferenciadas por tipología. Ambas proposiciones fueron evaluadas a lo largo de las tres fases del proyecto, siguiendo la lógica abductiva descrita: no como verdades a confirmar, sino como conjeturas a refinar mediante la confrontación iterativa con la evidencia del campo.
+
+## Fases de la investigación {#sec-fases-investigacion-02}
+
+El diseño metodológico se organizó en tres fases secuenciales con retroalimentación iterativa entre ellas, desplegadas a lo largo de diez etapas operativas. La primera fase abarcó el diagnóstico integral del territorio; la segunda, el co-diseño del ecosistema digital mediante procesos participativos; y la tercera, la implementación piloto con levantamiento geoespacial, análisis morfológico y validación institucional. El enfoque iterativo permitió la adaptación continua del modelo y las herramientas a las necesidades específicas del contexto local, de modo que los resultados de cada etapa retroalimentaron las decisiones de las etapas siguientes.
+
+**La Fase 1 (diagnóstico integral)** cubrió cuatro dimensiones complementarias. El análisis documental revisó el marco legal vigente, incluyendo la Ley 368-22 de Ordenamiento Territorial, la Ley 147-02 de Gestión de Riesgos, el Decreto 396-25 y la Estrategia Nacional de Desarrollo 2030, así como los estudios previos realizados por Arcoíris RD en el territorio de Bajos de Haina. El análisis institucional evaluó la capacidad del gobierno local utilizando el marco de Indicadores de Gobernanza de ONU-Hábitat, con atención especial al Comité Municipal de Prevención, Mitigación y Respuesta (CM-PMR) y al Centro de Operaciones de Emergencias (COE). El análisis territorial integró datos del IX Censo Nacional de Población y Vivienda, capas SIG de amenazas proporcionadas por ONAMET y MIMARENA, y proyecciones climáticas del IPCC y el PNUD. El análisis socio-participativo incorporó entrevistas con representantes de 15 barrios y los resultados del estudio de participación ciudadana de Arcoíris RD, que reveló que el 78,83 % de los residentes nunca había participado en actividades municipales y el 67,21 % desconocía el mecanismo de presupuesto participativo. El mapeo de actores clave se realizó mediante técnicas MICMAC y MACTOR para identificar las relaciones de influencia y dependencia entre los actores del sistema territorial.
+
+**La Fase 2 (co-diseño del ecosistema digital)** se articuló en torno al Primer Seminario-Taller de Planificación Urbana Digital de Haina, celebrado los días 11 y 12 de octubre de 2024, con la participación de 47 actores provenientes del gobierno municipal, agencias nacionales, academia, sector privado y organizaciones comunitarias. El diseño del taller siguió una estructura de cuatro momentos: descubrimiento del problema, definición de prioridades, desarrollo de prototipos y entrega de soluciones, aplicada a cada una de las tres mesas temáticas: Mesa 1 de Ordenamiento Territorial (HDOT), Mesa 2 de Gestión de Riesgos (GDR) y Mesa 3 de Participación Ciudadana. Los prototipos resultantes del seminario-taller fueron sometidos a dos rondas de validación iterativa con 12 técnicos municipales y 8 líderes comunitarios durante noviembre y diciembre de 2024, siguiendo el principio DSR de evaluación iterativa [@hevnerDesignScienceInformation2004]. Este proceso permitió ajustar las interfaces, priorizar funcionalidades y definir la arquitectura del ecosistema digital, compuesto por ocho herramientas integradas en la plataforma ArcGIS Online.
+
+**La Fase 3 (implementación piloto)** comprendió el levantamiento geoespacial de detalle, el análisis morfológico, la formulación normativa y la validación institucional. Las 16 manzanas del levantamiento fueron seleccionadas mediante muestreo intencional estratificado con el objetivo de cubrir la totalidad de las tipologías morfológicas presentes en la zona urbana de Haina: 6 manzanas en zona de alta amenaza de inundación, 5 en zona industrial mixta y 5 en tejido residencial de consolidación media. Se identificaron 328 edificaciones, de las cuales 309 fueron relevadas de forma completa (94 % de cobertura). El levantamiento combinó tres técnicas complementarias: LiDAR aéreo y fotogramétrico mediante vehículo aéreo no tripulado (UAV) con GPS en modalidad RTK, encuestas prediales implementadas mediante Survey123 de ArcGIS con 13 variables por edificación, y verificación cruzada del 10 % de los registros para control de consistencia topológica.
+
+![Marco conceptual del diagnóstico integral (OE1). Las tres áreas temáticas —planificación urbana, gestión de riesgos y participación ciudadana— se analizan a partir de la caracterización del municipio y se sintetizan mediante el análisis transversal de factores políticos, tecnológicos, socioeconómicos, culturales y ambientales. Elaboración propia.](img/oe1/oe1_diagnostico_conceptual.png){#fig-diagnostico-conceptual-02 width="100%"}
+
+La siguiente tabla resume las diez etapas operativas del enfoque metodológico y su correspondencia con las tres fases del proyecto.
+
+| Fase | Etapa | Descripción |
+|:-----------------------|:-----------------------|:-----------------------|
+| **Fase 1: Diagnóstico integral** | 1\. Revisión bibliográfica | Estudio de literatura sobre planificación urbana, gestión de riesgos, participación ciudadana y tecnologías digitales en contextos vulnerables. |
+|  | 2\. Análisis del contexto local | Recopilación y análisis de datos demográficos, socioeconómicos y ambientales de Bajos de Haina. Mapeo de actores clave mediante MICMAC y MACTOR. |
+|  | 3\. Desarrollo del modelo de mediación digital | Diseño conceptual del modelo basado en los hallazgos de las etapas anteriores. Definición de componentes clave y sus interrelaciones. |
+| **Fase 2: Co-diseño participativo** | 4\. Diseño de herramientas digitales | Creación de prototipos de herramientas para planificación urbana y gestión de riesgos. Implementación de tecnologías SIG e IA. |
+|  | 5\. Participación ciudadana y co-creación | 155 encuestas domiciliarias (Survey123). Seminario-Taller con 47 actores institucionales y comunitarios (tres mesas temáticas). |
+|  | 6\. Validación y prueba | Implementación piloto en Bajos de Haina. Recopilación de retroalimentación de usuarios (ciudadanos, técnicos y autoridades). |
+| **Fase 3: Implementación piloto** | 7\. Refinamiento y ajuste | Iteración del modelo y las herramientas basada en los resultados de la validación. |
+|  | 8\. Evaluación de impacto | Análisis cuantitativo y cualitativo del impacto del modelo en la planificación urbana y la participación ciudadana. |
+|  | 9\. Integración con iniciativas existentes | Exploración de sinergias con proyectos de investigación y ciencia ciudadana. Articulación con prácticas locales de regeneración urbana. |
+|  | 10\. Documentación y difusión | Elaboración de informes técnicos y académicos. Preparación de materiales de divulgación para diferentes audiencias. |
+
+: Fases y etapas del enfoque metodológico. Elaboración propia. {#tbl-fases-metodologia .smaller}
+
+## Técnicas e instrumentos por objetivo específico {#sec-tecnicas-instrumentos-02}
+
+El diseño metodológico desplegó un repertorio diferenciado de técnicas e instrumentos para cada objetivo específico del proyecto, articulando métodos cualitativos y cuantitativos en función de la naturaleza de los datos requeridos. El OE1 (diagnóstico territorial) combinó revisión documental de marcos legales y planes vigentes, análisis bibliográfico de literatura científica sobre planificación en contextos de riesgo climático, entrevistas semiestructuradas a actores clave del gobierno municipal y la comunidad, análisis situacional mediante observación directa de infraestructuras y zonas de riesgo, diagnóstico de gestión de riesgos a partir de la evaluación de políticas y prácticas locales, análisis de vulnerabilidad con herramientas SIG, y sistematización de los datos recolectados en bases de datos georreferenciadas.
+
+El OE2 (herramientas digitales) se apoyó en el análisis de herramientas existentes para evaluar plataformas digitales aplicadas a la gestión territorial, el diseño de la arquitectura de datos geoespaciales, la validación técnica mediante prototipos y dashboards, el diseño de interfaces de usuario intuitivas, pruebas de usabilidad con usuarios comunitarios y municipales durante el seminario-taller, y la recolección sistemática de retroalimentación mediante encuestas y entrevistas. El OE3 (participación y normativa) empleó encuestas comunitarias a 155 participantes de diversas zonas del municipio, entrevistas en profundidad a líderes comunitarios y funcionarios, análisis de percepción ciudadana, talleres participativos con formulación de objetivos SMART, y sistematización de las estrategias de participación resultantes.
+
+La siguiente tabla sintetiza las principales técnicas e instrumentos empleados, organizados por objetivo específico.
+
+| Objetivo | Técnica | Instrumentos |
+|:-----------------------|:-----------------------|:-----------------------|
+| **OE1: Diagnóstico territorial** | Revisión documental y bibliográfica | Zotero, bases de datos legales, Google Scholar |
+|  | Entrevistas a actores clave | Guiones de entrevista semiestructurada |
+|  | Análisis situacional y de vulnerabilidad | Checklists de observación, SIG (ArcGIS, QGIS), ortofotos |
+|  | Diagnóstico de gestión de riesgos | Checklists de evaluación, informes locales |
+| **OE2: Herramientas digitales** | Análisis de herramientas existentes | QGIS, ArcGIS, plataformas Esri |
+|  | Diseño de arquitectura de datos | Modelado de datos SIG, diagramas UML |
+|  | Validación técnica y pruebas de usabilidad | ArcGIS Dashboard, WebApp Builder, encuestas de retroalimentación |
+| **OE3: Participación y normativa** | Encuestas comunitarias (n = 155) | Survey123, formularios digitales |
+|  | Entrevistas en profundidad | Guiones de entrevista, grabadoras |
+|  | Talleres participativos y co-creación | Seminario-Taller (3 mesas), pizarras digitales |
+|  | Formulación de objetivos SMART | Tablas de objetivos, actas de acuerdos |
+| **Transversal** | Levantamiento LiDAR y fotogramétrico | DJI Phantom 4 RTK, procesamiento de nubes de puntos |
+|  | Encuestas prediales georreferenciadas | Survey123, QuickCapture (ArcGIS Online) |
+|  | Gestión bibliográfica y citación | Zotero, APA 7.ª edición |
+
+: Técnicas e instrumentos de investigación por objetivo específico. Elaboración propia. {#tbl-tecnicas-instrumentos .smaller}
+
+## Área de estudio y muestra {#sec-area-estudio-02}
+
+El municipio de Bajos de Haina se ubica en la provincia de San Cristóbal, a 20 kilómetros al oeste de Santo Domingo, en la desembocadura del río Haina sobre la costa sur de la isla. Según el IX Censo Nacional de Población y Vivienda, el municipio cuenta con 159.888 habitantes y una superficie de 38,49 km². Su perfil socioeconómico combina actividad portuaria e industrial, con la presencia de la Refinería Dominicana de Petróleo (REFIDOMSA) y el principal puerto de carga del país, junto con asentamientos residenciales de alta densidad y vulnerabilidad ambiental. La microcuenca urbana del río Haina, con un área de 2.696.412,8 m² y una red de cañadas de 28.716,5 metros lineales, constituye el ámbito de análisis a escala barrial, donde se levantó un mapa georreferenciado de 27 Juntas de Vecinos en 9 barrios.
+
+El piloto de implementación se concentró en 16 manzanas seleccionadas por muestreo intencional estratificado, con el propósito de representar las seis tipologías morfológicas identificadas: residencial pura, mixta comercial, mixta dotacional, institucional, mixta institucional y tripartita (residencial-comercial-industrial). El levantamiento cubrió 328 edificaciones con una cobertura efectiva del 94 % (309 edificaciones completas), una población muestral de 1.497 personas y una densidad en el área de estudio de 16.462 hab/km², cuatro veces la media urbana municipal[^02-metodologia-1]. El componente participativo incluyó 155 encuestas domiciliarias aplicadas mediante Survey123 y el Seminario-Taller de Planificación Urbana Digital con 47 participantes institucionales y comunitarios. Todos los participantes en encuestas, entrevistas y talleres firmaron consentimiento informado, y los datos de campo fueron anonimizados siguiendo protocolos de procesamiento local sin transferencia a servicios en la nube.
+
+[^02-metodologia-1]: El detalle completo de la operacionalización de variables, el diseño muestral y el análisis estadístico asociado se presenta en los anexos de operacionalización y análisis estadístico al final de este libro.
+
+## Mapa de conocimiento del libro {#sec-mapa-conocimiento-02}
+
+Como cierre del capítulo metodológico se presenta el **mapa de conocimiento** del libro, una visualización interactiva de la estructura conceptual del proyecto FONDOCYT que conecta capítulos, anexos, objetivos específicos y resultados, secciones, tablas, conceptos clave, herramientas digitales, marcos teóricos, instituciones y referencias bibliográficas más citadas.[^02-metodologia-2] El layout es *force-directed* y se inspira en el *graph view* de Obsidian. Este mapa funciona como una segunda metodología lectora: permite al lector navegar el libro no como una secuencia lineal de capítulos, sino como un sistema de relaciones cruzadas donde cada nodo abre múltiples caminos de lectura.
+
+[^02-metodologia-2]: Este mapa solo está disponible en la versión web del libro. En el PDF aparecerá una captura estática del grafo en una próxima revisión.
+
+```{ojs}
+//| echo: false
+data = FileAttachment("data/knowledge_graph.json").json()
+```
+
+```{ojs}
+//| echo: false
+viewof chart = {
+  const width = 1600;
+  const height = 1200;
+
+  // Paleta por grupo (consistente con la del libro)
+  const colorScale = d3.scaleOrdinal()
+    .domain(["chapter", "appendix", "objetivo", "resultado", "section", "table", "figure", "concept", "reference"])
+    .range(["#DB605E", "#777777", "#4C6B91", "#7A92B5", "#B5B5B5", "#9CA3AF", "#9CA3AF", "#6B9E4E", "#D4A53C"]);
+
+  const radiusScale = d => Math.min(24, 5 + Math.sqrt((d.degree || 1)) * 2.6);
+
+  const nodes = data.nodes.map(d => ({...d}));
+  const links = data.links.map(d => ({...d}));
+
+  const chapters = nodes.filter(n => n.group === "chapter" || n.group === "appendix");
+  const objetivos = nodes.filter(n => n.group === "objetivo" || n.group === "resultado");
+
+  const linkCount = new Map();
+  for (const link of links) {
+    const sId = typeof link.source === "object" ? link.source.id : link.source;
+    const tId = typeof link.target === "object" ? link.target.id : link.target;
+    const sNode = nodes.find(n => n.id === sId);
+    const tNode = nodes.find(n => n.id === tId);
+    if (!sNode || !tNode) continue;
+    const sIsCh = sNode.group === "chapter" || sNode.group === "appendix";
+    const tIsCh = tNode.group === "chapter" || tNode.group === "appendix";
+    if (sIsCh && !tIsCh) {
+      const k = `${tId}|${sId}`;
+      linkCount.set(k, (linkCount.get(k) || 0) + 1);
+    } else if (tIsCh && !sIsCh) {
+      const k = `${sId}|${tId}`;
+      linkCount.set(k, (linkCount.get(k) || 0) + 1);
+    }
+  }
+
+  const primaryChapter = new Map();
+  for (const node of nodes) {
+    if (node.group === "chapter" || node.group === "appendix") continue;
+    let best = null;
+    let bestCount = 0;
+    for (const ch of chapters) {
+      const k = `${node.id}|${ch.id}`;
+      const count = linkCount.get(k) || 0;
+      if (count > bestCount) {
+        bestCount = count;
+        best = ch.id;
+      }
+    }
+    if (best) primaryChapter.set(node.id, best);
+  }
+
+  const cx = width / 2;
+  const cy = height / 2;
+  const ringRadius = Math.min(width, height) * 0.36;
+  const chapterPositions = new Map();
+  chapters.forEach((ch, i) => {
+    const angle = (i / chapters.length) * 2 * Math.PI - Math.PI / 2;
+    chapterPositions.set(ch.id, {
+      x: cx + ringRadius * Math.cos(angle),
+      y: cy + ringRadius * Math.sin(angle)
+    });
+  });
+
+  const targetX = d => {
+    if (d.group === "chapter" || d.group === "appendix") {
+      return chapterPositions.get(d.id)?.x || cx;
+    }
+    if (d.group === "objetivo" || d.group === "resultado") {
+      return cx;
+    }
+    const pid = primaryChapter.get(d.id);
+    if (pid) return chapterPositions.get(pid)?.x || cx;
+    return cx;
+  };
+  const targetY = d => {
+    if (d.group === "chapter" || d.group === "appendix") {
+      return chapterPositions.get(d.id)?.y || cy;
+    }
+    if (d.group === "objetivo" || d.group === "resultado") {
+      return cy;
+    }
+    const pid = primaryChapter.get(d.id);
+    if (pid) return chapterPositions.get(pid)?.y || cy;
+    return cy;
+  };
+
+  const simulation = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.id)
+      .distance(d => 60 + (d.value || 1) * 4)
+      .strength(0.1))
+    .force("charge", d3.forceManyBody()
+      .strength(d => (d.group === "chapter" || d.group === "appendix") ? -1500 : -250)
+      .distanceMin(25)
+      .distanceMax(800))
+    .force("collision", d3.forceCollide().radius(d => radiusScale(d) + 12).strength(1))
+    .force("x", d3.forceX(targetX).strength(d =>
+      (d.group === "chapter" || d.group === "appendix") ? 0.4 : 0.18
+    ))
+    .force("y", d3.forceY(targetY).strength(d =>
+      (d.group === "chapter" || d.group === "appendix") ? 0.4 : 0.18
+    ))
+    .alphaDecay(0.01);
+
+  const svg = d3.create("svg")
+    .attr("viewBox", [0, 0, width, height])
+    .attr("style", "max-width: 100%; height: auto; font: 11px 'IBM Plex Sans', sans-serif; background: #FAFAF7; border-radius: 8px;");
+
+  const container = svg.append("g");
+
+  svg.call(d3.zoom()
+    .scaleExtent([0.2, 5])
+    .on("zoom", (event) => container.attr("transform", event.transform)));
+
+  const link = container.append("g")
+    .attr("stroke", "#cfcfcc")
+    .attr("stroke-opacity", 0.5)
+    .selectAll("line")
+    .data(links)
+    .join("line")
+    .attr("stroke-width", d => Math.sqrt(d.value || 1));
+
+  const node = container.append("g")
+    .selectAll("g")
+    .data(nodes)
+    .join("g")
+    .style("cursor", "grab")
+    .call(drag(simulation));
+
+  node.append("circle")
+    .attr("r", radiusScale)
+    .attr("fill", d => colorScale(d.group))
+    .attr("stroke", "#fff")
+    .attr("stroke-width", d => d.href ? 2.2 : 1.5);
+
+  node.append("text")
+    .attr("x", d => radiusScale(d) + 3)
+    .attr("y", "0.31em")
+    .attr("fill", "#474647")
+    .text(d => d.label)
+    .style("pointer-events", "none")
+    .style("font-size", d => (d.group === "chapter" || d.group === "objetivo") ? "12px" : "10px")
+    .style("font-weight", d => (d.group === "chapter" || d.group === "objetivo") ? "600" : "400");
+
+  const tooltip = d3.select("body").append("div")
+    .attr("class", "kg-tooltip")
+    .style("position", "absolute")
+    .style("pointer-events", "none")
+    .style("background", "rgba(247, 247, 243, 0.97)")
+    .style("border", "1px solid #cfcfcc")
+    .style("border-radius", "6px")
+    .style("padding", "8px 10px")
+    .style("font", "11px 'IBM Plex Sans', sans-serif")
+    .style("color", "#474647")
+    .style("max-width", "280px")
+    .style("box-shadow", "0 2px 10px rgba(0,0,0,0.12)")
+    .style("opacity", 0)
+    .style("z-index", "1000")
+    .style("transition", "opacity 0.15s");
+
+  const groupLabels = {
+    chapter: "Capítulo",
+    appendix: "Anexo",
+    objetivo: "Objetivo específico",
+    resultado: "Resultado",
+    section: "Sección referenciada",
+    table: "Tabla",
+    figure: "Figura",
+    concept: "Concepto / herramienta",
+    reference: "Referencia bibliográfica"
+  };
+
+  function tooltipHTML(d) {
+    const groupLabel = groupLabels[d.group] || d.group;
+    const groupColor = colorScale(d.group);
+    let html = `<div style="font-weight:600; font-size:12px; color:#1f2937; margin-bottom:4px">${d.label}</div>`;
+    html += `<div style="font-size:10px; color:${groupColor}; text-transform:uppercase; letter-spacing:0.05em; margin-bottom:6px">${groupLabel}</div>`;
+    if (d.desc) {
+      html += `<div style="font-size:11px; line-height:1.4; color:#4b5563; margin-bottom:6px">${d.desc}</div>`;
+    }
+    html += `<div style="font-size:10px; color:#9ca3af">${d.degree || 0} conexiones`;
+    if (d.href) html += ` &middot; <span style="color:${groupColor}">click para abrir</span>`;
+    html += `</div>`;
+    return html;
+  }
+
+  node.filter(d => d.href).style("cursor", "pointer").on("click", function(event, d) {
+    if (event.defaultPrevented) return;
+    window.location.href = d.href;
+  });
+
+  node.on("mouseover", function(event, d) {
+    const connectedIds = new Set([d.id]);
+    links.forEach(l => {
+      if (l.source.id === d.id) connectedIds.add(l.target.id);
+      if (l.target.id === d.id) connectedIds.add(l.source.id);
+    });
+    node.style("opacity", n => connectedIds.has(n.id) ? 1 : 0.15);
+    link.style("stroke-opacity", l =>
+      (l.source.id === d.id || l.target.id === d.id) ? 0.9 : 0.05
+    ).style("stroke", l =>
+      (l.source.id === d.id || l.target.id === d.id) ? "#DB605E" : "#cfcfcc"
+    );
+    tooltip.html(tooltipHTML(d)).style("opacity", 1);
+  }).on("mousemove", function(event) {
+    tooltip.style("left", (event.pageX + 14) + "px")
+           .style("top", (event.pageY + 14) + "px");
+  }).on("mouseout", function() {
+    node.style("opacity", 1);
+    link.style("stroke-opacity", 0.5).style("stroke", "#cfcfcc");
+    tooltip.style("opacity", 0);
+  });
+
+  simulation.on("tick", () => {
+    link
+      .attr("x1", d => d.source.x)
+      .attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x)
+      .attr("y2", d => d.target.y);
+    node.attr("transform", d => `translate(${d.x},${d.y})`);
+  });
+
+  function drag(sim) {
+    return d3.drag()
+      .on("start", (event, d) => {
+        if (!event.active) sim.alphaTarget(0.3).restart();
+        d.fx = d.x; d.fy = d.y;
+      })
+      .on("drag", (event, d) => {
+        d.fx = event.x; d.fy = event.y;
+      })
+      .on("end", (event, d) => {
+        if (!event.active) sim.alphaTarget(0);
+        d.fx = null; d.fy = null;
+      });
+  }
+
+  return svg.node();
+}
+```
+
+| Color | Grupo | Qué representa |
+|:-----------------------|:-----------------------|:-----------------------|
+|  | Capítulos | Los doce capítulos del libro y el prefacio |
+|  | Anexos | Los anexos A a N del libro |
+|  | Objetivos | OE1, OE2 y OE3 |
+|  | Resultados | OE1-R1, OE1-R2, … OE3-R3 |
+|  | Secciones y tablas | Cross-references internos del libro |
+|  | Conceptos | Herramientas digitales, marcos teóricos, instituciones, leyes |
+|  | Bibliografía | Las quince referencias más citadas en el libro |
+
+: Leyenda del mapa de conocimiento del libro. {.striped tbl-colwidths="\[8,22,70\]"}
+
+::: {.callout-note collapse="true"}
+## Cómo usar e interpretar el mapa
+
+**Cómo navegar.** Cada nodo se puede **arrastrar** dentro del grafo para reorganizarlo. La rueda del ratón aplica *zoom* para acercar o alejar. Al pasar el ratón sobre un nodo (*hover*) se destacan solo sus conexiones directas y se atenúa el resto, y aparece un tooltip con la descripción del elemento. Los nodos de capítulo, anexo y referencia bibliográfica son **clicables** y navegan directamente al contenido correspondiente. El tamaño de cada nodo es proporcional a su grado (número de conexiones): cuanto más referenciado, más grande aparece.
+
+**Cómo se construye.** El JSON que alimenta el grafo se regenera automáticamente con el script `_contexto/scripts/build_knowledge_graph.py`, que parsea los `.qmd` del libro y extrae capítulos, anexos, objetivos, cross-references de tablas, figuras y secciones, conceptos clave (herramientas digitales, marcos teóricos, leyes, instituciones) y las quince referencias bibliográficas más citadas. El resultado se guarda en `libro/data/knowledge_graph.json` con aproximadamente ciento seis nodos y trescientas noventa aristas, y basta con regenerar el JSON y renderizar el libro cada vez que el contenido cambie para mantener el grafo sincronizado.
+:::

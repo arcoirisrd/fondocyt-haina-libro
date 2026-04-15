@@ -1,0 +1,345 @@
+---
+title: 'Widget de IA: «Pregúntale al libro»'
+---
+
+Este anexo documenta el **widget de inteligencia artificial** que acompaña a la versión web del libro y que permite al lector formular preguntas en lenguaje natural sobre el contenido del proyecto y obtener respuestas sintetizadas con citas verificables a las secciones del propio libro. Se incluye en este anexo por razones de **transparencia metodológica**: cualquier respuesta generada por IA debe poder explicarse en términos del contenido fuente, los modelos empleados, la arquitectura del sistema y sus limitaciones.
+
+## Qué es {#sec-anexoL-que-es}
+
+«Pregúntale al libro» es un sistema de **búsqueda semántica con generación aumentada por recuperación** (RAG, *retrieval-augmented generation*) construido sobre el corpus completo del libro FONDOCYT. El lector escribe una pregunta como «¿qué tipologías de manzana se identificaron en Bajos de Haina?» o «¿cuál es la diferencia entre vulnerabilidad social y vulnerabilidad ambiental?», y el sistema:
+
+1. Localiza los fragmentos del libro semánticamente más cercanos a la pregunta.
+2. Pide a un modelo de lenguaje grande (LLM) que sintetice una respuesta breve **únicamente a partir de esos fragmentos**.
+3. Anota cada afirmación con un enlace clicable al ancla `#sec-xxx` correspondiente, de modo que el lector puede verificar inmediatamente la fuente.
+4. Guarda la consulta y la respuesta como **un reporte persistente** (HTML, Markdown y PDF) accesible desde una galería pública.
+
+El widget se presenta como un botón flotante en la esquina inferior derecha de cada página del libro web y abre un panel lateral con la conversación. Está disponible solo en la versión HTML; el PDF del libro no se ve afectado.
+
+## Arquitectura
+
+El sistema se compone de cinco piezas principales, todas ellas en la carpeta `libro/_ia/` del repositorio del proyecto.
+
+| Componente | Archivo | Función |
+|:---|:---|:---|
+| Chunker | `chunker.py` | Parte los 22 archivos `.qmd` del libro en fragmentos semánticos (~320 chunks) preservando el ancla `#sec-xxx`, el capítulo y la jerarquía de encabezados |
+| Indexador | `index.py` | Genera *embeddings* vectoriales de cada chunk con OpenAI `text-embedding-3-small` (en la nube) o `nomic-embed-text` (en local vía Ollama). Guarda el índice en `index.npz` |
+| Servidor | `server.py` | API FastAPI con endpoints `/ask`, `/reports/{id}.{html,md,pdf}`, `/galeria.html`, `/widget.js`, `/widget.css`. Recibe la query, la embebe, recupera los `top_k` chunks por similitud coseno y llama al LLM |
+| Renderer | `render_report.py` | Convierte cada respuesta en una página HTML (estilo Cosmo, igual que el libro), un Markdown y un PDF (vía pandoc + xelatex, el mismo *pipeline* que usa Quarto) |
+| Widget | `widget.js` + `widget.css` + `widget-include.html` | Botón flotante y panel lateral inyectados por Quarto en cada página del libro mediante `format.html.include-in-header` |
+
+: Componentes del widget IA local del proyecto FONDOCYT. {#tbl-anexoL-componentes .unnumbered tbl-colwidths="[18,22,60]"}
+
+El flujo completo de una consulta es:
+
+```
+Pregunta del lector
+  ↓
+[ widget.js ] → POST /ask
+  ↓
+[ server.py ] embebe la query
+  ↓
+similitud coseno contra index.npz (~320 vectores)
+  ↓
+top_k chunks recuperados
+  ↓
+LLM con prompt estricto: "responde solo con esto, anota cada
+                          afirmación con [#sec-xxx], si no está
+                          responde 'No encontrado en el libro'"
+  ↓
+respuesta + chunks fuente + anclas
+  ↓
+[ render_report.py ] genera HTML / Markdown / PDF persistente
+  ↓
+[ widget.js ] muestra en panel lateral con enlaces clicables
+```
+
+## Implementación técnica detallada {#sec-anexoL-implementacion}
+
+Esta sección documenta el detalle algorítmico y de código del sistema, de
+forma que pueda auditarse, reproducirse o reescribirse en otra base de código.
+
+### Chunking del corpus {#sec-anexoL-chunking}
+
+El script `chunker.py` recorre los veintidós archivos `.qmd` listados en
+`_quarto.yml` (trece capítulos más diez anexos, incluido el `index.qmd` del
+prefacio) y produce una lista de fragmentos semánticos. El procedimiento es:
+
+1. Se lee el archivo y se separa el *frontmatter* YAML del cuerpo; del
+   *frontmatter* se extrae el título del capítulo.
+2. Se recorre el cuerpo línea a línea. Cada vez que se encuentra un
+   encabezado de nivel H2, H3 o H4 se cierra el *chunk* anterior y se abre
+   uno nuevo. Los bloques de código delimitados por `` ``` `` se preservan
+   como parte del chunk en el que aparecen pero no disparan cortes.
+3. Cada encabezado se escanea en busca del patrón `{#sec-xxx}`. Si existe,
+   ese es el ancla canónica del chunk. Si no, el chunk hereda la última
+   ancla vista en el documento.
+4. Para cada chunk se construye un `heading_path` jerárquico del tipo
+   *"Contexto territorial > Caracterización > Clima"*, reconstruyendo la
+   pila de encabezados activos en ese punto del archivo.
+5. Antes de guardar el chunk se limpian las imágenes (preservando el texto
+   de la *caption* como `[Figura: ...]` para que el contenido visual quede
+   representado textualmente), los comentarios HTML y los bloques de código.
+6. Los chunks con menos de ochenta caracteres de texto útil se descartan
+   (encabezados sueltos, separadores).
+
+Cada chunk resultante es un objeto con los campos `id`, `file`,
+`chapter_title`, `heading_path`, `anchor`, `level` y `text`. El conjunto
+completo se persiste como `chunks.json`. Para el libro FONDOCYT el proceso
+produce **321 chunks**, con una extensión total aproximada de 618.000
+caracteres distribuidos razonablemente entre todos los capítulos.
+
+### Índice vectorial {#sec-anexoL-indice}
+
+El script `index.py` toma los chunks del paso anterior y genera una
+representación vectorial densa. Para cada chunk construye un texto de
+entrada de la forma *"título del capítulo. jerarquía de encabezados. cuerpo
+del chunk"*, truncado a cuatro mil caracteres para respetar el contexto del
+modelo de *embeddings*, y lo envía al modelo seleccionado por lotes de 64.
+El vector de salida se normaliza a norma uno, lo que permite reemplazar el
+cálculo de similitud coseno por un simple producto escalar.
+
+La matriz resultante, de tamaño `(n_chunks, d)` donde `d` es 1536 para
+`text-embedding-3-small` o 768 para `nomic-embed-text`, se persiste en
+`index.npz` mediante `numpy.savez_compressed`. Los metadatos del índice,
+incluidos los chunks completos, se guardan aparte en `index.meta.json`
+para que el servidor pueda cargar rápidamente tanto los vectores como el
+texto de referencia en una sola lectura.
+
+Para un corpus de 321 chunks no es necesario usar una base de datos
+vectorial especializada (Chroma, Qdrant, Weaviate, pgvector). El producto
+escalar de NumPy en memoria sobre una matriz de $321 \times 1536$ se
+resuelve en menos de un milisegundo, lo que simplifica el *stack* y
+elimina dependencias.
+
+### Pipeline de una consulta {#sec-anexoL-pipeline}
+
+Cuando el *widget* envía una pregunta al endpoint `/ask`, el servidor
+ejecuta el siguiente flujo:
+
+1. **Validación**: se rechazan *queries* vacías o de más de quinientos
+   caracteres para evitar abusos triviales.
+2. **Embedding de la consulta**: se envía la pregunta al modelo de
+   *embeddings* activo, se obtiene un vector de la misma dimensión que los
+   del índice y se normaliza.
+3. **Recuperación**: se calcula el producto escalar de ese vector contra
+   toda la matriz `index.npz` y se seleccionan los `top_k` chunks con
+   mayor similitud. Por defecto `top_k = 7`, valor configurable en `.env`
+   mediante la variable `IA_TOP_K`.
+4. **Construcción del *prompt* de usuario**: para cada chunk recuperado se
+   anota el número, el título del capítulo, la jerarquía de encabezados y
+   el ancla en el formato `[#sec-xxx]`. Los cuerpos se truncan a 1.800
+   caracteres por chunk para no exceder el límite de contexto del modelo
+   generativo y mantener el coste controlado.
+5. **Llamada al LLM**: se invoca al modelo con temperatura 0.2 (favorece
+   reproducibilidad sobre creatividad), pasando el *system prompt* fijo y
+   el *user prompt* construido.
+6. **Generación del reporte**: la respuesta del modelo se pasa a
+   `render_report.py`, que produce los tres artefactos persistentes (HTML,
+   Markdown, PDF) y agrega una entrada al índice de la galería.
+7. **Respuesta al *widget***: el servidor devuelve un objeto JSON con la
+   respuesta en Markdown, la lista de fuentes consultadas, las rutas de
+   descarga y el identificador del reporte.
+
+### *System prompt* del modelo generativo {#sec-anexoL-prompt}
+
+El *prompt* de sistema es la pieza crítica para controlar el
+comportamiento del LLM. Se mantiene deliberadamente corto y explícito, en
+español, y establece seis reglas:
+
+```
+Eres un asistente de investigación del libro FONDOCYT sobre Bajos
+de Haina. Respondes preguntas usando ÚNICAMENTE los fragmentos del
+libro que te pasa el usuario. Reglas:
+
+1. Nunca inventes información. Si la respuesta no está en los
+   fragmentos, responde textualmente: "No encontrado en el libro".
+2. Responde en español, registro académico claro, párrafos de 4
+   a 6 oraciones.
+3. PROHIBIDO usar el guion largo. Usa coma, punto y coma, dos
+   puntos o paréntesis.
+4. Cada afirmación fáctica relevante debe terminar con una
+   referencia al ancla de la sección del libro de donde proviene,
+   en el formato [#sec-xxx]. Usa los anclajes que aparecen en los
+   metadatos de los fragmentos.
+5. Estructura: 2 a 4 párrafos (200 a 400 palabras). Sin listas
+   ni bullets en el cuerpo.
+6. No menciones que estás usando fragmentos, ni digas "según los
+   fragmentos". Habla como si citaras directamente el libro.
+```
+
+La combinación de la primera regla (prohibido inventar), la cuarta (cada
+afirmación con su ancla) y la decisión de pasar *solo* los chunks
+recuperados al contexto del modelo produce una cadena de verificación
+sencilla: si una afirmación no aparece en los chunks, el modelo está
+instruido para responder "No encontrado en el libro"; si el modelo rompe
+la regla e inventa, la ausencia del ancla correspondiente delata la
+invención al lector.
+
+### Endpoints del servidor {#sec-anexoL-endpoints}
+
+El servidor FastAPI expone los siguientes *endpoints*:
+
+| Método | Ruta | Función |
+|:---:|:---|:---|
+| POST | `/ask` | Recibe `{query}`, devuelve respuesta + fuentes + identificador de reporte |
+| GET | `/reports/{id}.html` | Devuelve la página HTML maquetada del reporte |
+| GET | `/reports/{id}.md` | Devuelve el Markdown del reporte como descarga |
+| GET | `/reports/{id}.pdf` | Devuelve el PDF del reporte como descarga |
+| GET | `/galeria.html` | Devuelve la galería con el histórico de consultas |
+| GET | `/widget.js` | Sirve el *script* del botón flotante |
+| GET | `/widget.css` | Sirve los estilos del botón y el panel |
+| GET | `/health` | Devuelve el estado del servidor y las dimensiones del índice |
+
+: *Endpoints* del backend FastAPI del widget IA. {#tbl-anexoL-endpoints .unnumbered tbl-colwidths="[10,32,58]"}
+
+El servidor habilita CORS con `allow_origins=["*"]` para facilitar el
+desarrollo local. En producción se recomienda restringirlo al dominio
+desde el que se sirve el libro HTML.
+
+### Generación del PDF {#sec-anexoL-pdf}
+
+Cada respuesta del sistema se convierte en un PDF descargable. La
+primera versión del prototipo usaba WeasyPrint para evitar dependencias
+externas, pero su instalación en Windows requiere las bibliotecas GTK,
+Cairo y Pango, lo que añade fricción innecesaria. Se adoptó en su lugar
+el mismo motor que ya utiliza Quarto para el libro: `pandoc` más
+`xelatex` sobre TinyTeX.
+
+El procedimiento en `render_report.py::_build_pdf_with_pandoc()` es:
+
+1. Se detecta dinámicamente la ruta de instalación de TinyTeX
+   (candidatas: `C:\ProgramData\TinyTeX\bin\windows`,
+   `~\AppData\Roaming\TinyTeX\bin\windows`, `~\AppData\Local\TinyTeX\bin\windows`).
+2. Se inyecta la ruta encontrada al `PATH` del subproceso que ejecutará
+   `pandoc`, sin modificar el `PATH` global del sistema. Esto es
+   necesario porque Quarto instala TinyTeX pero no expone su `bin` al
+   *shell* padre.
+3. Se intenta la conversión en cascada: primero con `quarto pandoc`
+   (que ya trae *pandoc* bundleado), luego con `pandoc` del sistema si
+   está instalado, probando los motores `xelatex`, `lualatex` y
+   `pdflatex` en ese orden.
+4. Si algún intento tiene éxito, el PDF queda en `reports/<id>/report.pdf`.
+   Si todos fallan, se escribe un `pdf.error.log` en la carpeta del
+   reporte y el sistema degrada graciosamente: el *widget* oculta el
+   botón "Descargar PDF" pero el reporte HTML y el Markdown siguen
+   disponibles.
+
+El PDF resultante respeta los parámetros `geometry:margin=2.2cm`,
+`fontsize=11pt`, `lang=es` y `colorlinks=true`, lo que produce un
+documento consistente con el estilo del libro aunque no idéntico.
+
+### Reescritura de anclas en la respuesta {#sec-anexoL-rewriting}
+
+El LLM devuelve una respuesta en Markdown con anclas del tipo
+`[#sec-xxx]` incrustadas al final de cada afirmación. Antes de entregar
+la respuesta al lector, `render_report.py::rewrite_anchor_links()` las
+transforma en enlaces Markdown reales: cada `[#sec-xxx]` pasa a ser
+`[§](<ruta>/capitulo.html#sec-xxx)`, donde la ruta relativa se calcula
+en función de la ubicación del reporte (`../..` desde
+`reports/<id>/report.html` hasta la raíz del libro). Esta reescritura
+se ejecuta tanto para el HTML del reporte (donde el símbolo `§` se
+convierte en un enlace clicable al libro) como para el Markdown
+descargable (donde queda como referencia textual de la sección).
+
+### Integración con Quarto {#sec-anexoL-quarto}
+
+La única modificación necesaria en el proyecto Quarto del libro es una
+línea en `libro/_quarto.yml`, dentro del bloque `format.html`:
+
+```yaml
+format:
+  html:
+    include-in-header:
+      - _ia/widget-include.html
+```
+
+El archivo `_ia/widget-include.html` es un fragmento de HTML mínimo que
+declara la variable global `window.IA_API_URL`, carga el CSS del
+*widget* y el *script* `widget.js` desde el servidor FastAPI local. La
+directiva `include-in-header` de Quarto solo afecta a la salida HTML, de
+forma que el PDF del libro no se ve modificado en absoluto. Los demás
+archivos del libro (`.qmd`, `references.bib`, `custom.scss`) no
+requieren ninguna modificación.
+
+## Modelos utilizados {#sec-anexoL-modelos}
+
+El sistema soporta dos *backends* intercambiables, configurables mediante la variable de entorno `IA_BACKEND`:
+
+| Backend | Modelo de embeddings | Modelo de generación | Lugar de cómputo |
+|:---|:---|:---|:---|
+| **OpenAI** (por defecto) | `text-embedding-3-small` (1536 dim) | `gpt-4o-mini` o equivalente | API en la nube |
+| **Ollama local** | `nomic-embed-text` (768 dim) | `gemma4:26b-a4b` | Servidor `gt-srv01` del proyecto, sin salida de datos a Internet |
+
+: Backends de IA soportados por el widget. {#tbl-anexoL-backends .unnumbered tbl-colwidths="[20,30,30,20]"}
+
+El cambio de *backend* se hace editando `_ia/.env` y re-ejecutando `python _ia/index.py` para regenerar el índice con el backend nuevo (los vectores de OpenAI y los de Ollama no son compatibles entre sí). En entornos donde el contenido del libro es sensible o se quiere garantizar privacidad total, se usa el backend Ollama local sobre el servidor de IA del proyecto descrito en el [colofón técnico del prefacio](../index.qmd#sec-colofon-tecnico).
+
+## Restricciones impuestas al modelo {#sec-anexoL-restricciones}
+
+El *prompt* que recibe el LLM en cada consulta es deliberadamente estricto:
+
+- **Prohibido inventar**: el modelo solo puede usar la información que aparece en los chunks recuperados.
+- **Prohibido el guion largo** (regla de estilo del libro).
+- **Cada afirmación termina con un ancla `[#sec-xxx]`** verificable y clicable.
+- **Si la respuesta no está en los chunks**, el modelo responde literalmente «No encontrado en el libro» en lugar de extrapolar.
+- **Idioma de respuesta**: español, registro académico claro y natural, mismo tono que el cuerpo del libro.
+
+Esta arquitectura RAG con citas obligatorias minimiza el riesgo de alucinación, pero **no lo elimina**. Cualquier afirmación generada por el widget debe verificarse contra la sección del libro a la que apunta el ancla.
+
+## Reportes persistentes y galería pública {#sec-anexoL-reportes}
+
+A diferencia de un *chatbot* convencional, cada consulta queda registrada como un reporte permanente con un identificador único en `reports/<id>/`:
+
+- `report.html` — página maquetada con el mismo estilo Cosmo que el libro, lista para compartir
+- `report.md` — markdown plano con *frontmatter* (autor, fecha, modelo, query original, chunks usados)
+- `report.pdf` — versión imprimible generada con pandoc + xelatex
+
+Los reportes son accesibles desde una **galería pública** en `/galeria.html` que lista todas las consultas anteriores ordenadas por fecha. Esto permite que las preguntas más útiles formuladas por unos lectores sirvan como punto de entrada para otros, y crea un registro de cómo el libro se está usando.
+
+## Privacidad y declaración ética {#sec-anexoL-etica}
+
+- Cuando el *backend* es OpenAI, las consultas y los chunks recuperados se envían al servicio de OpenAI bajo sus términos de uso. **No se envían datos personales del lector**: solo la pregunta tal como la escribe.
+- Cuando el *backend* es Ollama local, **ningún dato sale del servidor del proyecto**.
+- La galería de reportes es pública por defecto; las consultas que el lector formula quedan visibles para futuros visitantes. Si esto no es deseable, el administrador puede restringir la galería con autenticación básica o desactivarla en el `.env`.
+- El widget está bajo la misma **declaración ética de uso de la IA** que el resto del libro (ver [colofón técnico del prefacio](../index.qmd#sec-colofon-declaracion-ia)): herramienta de apoyo al trabajo humano, supervisión del equipo, trazabilidad documental hacia las fuentes primarias.
+
+## Limitaciones conocidas {#sec-anexoL-limitaciones}
+
+- **Cobertura del corpus**: el índice se construye solo a partir de los `.qmd` del libro. Los anexos administrativos, los datos brutos del Survey123 y los entregables `.docx` originales del proyecto no están indexados; las preguntas que los requieran devuelven «No encontrado en el libro».
+- **Granularidad del chunking**: cada *chunk* tiene un tamaño máximo de unas 800 palabras. Las preguntas que requieren cruzar información de más de cinco secciones distantes pueden no recuperar todos los fragmentos relevantes.
+- **Sesgo del modelo**: aunque el *prompt* exige citas, el LLM puede sintetizar de forma sesgada o privilegiar ciertos enfoques sobre otros. Las respuestas son una **interpretación asistida**, no una cita textual del libro.
+- **Multilingüismo**: el modelo de embeddings funciona razonablemente en español, pero las consultas en otros idiomas (incluido inglés) pueden recuperar chunks subóptimos.
+- **Persistencia**: los reportes guardados en `reports/` no migran automáticamente entre instancias del servidor. Si el servidor se reinicia con un volumen distinto, los reportes anteriores quedan inaccesibles.
+
+## Reproducibilidad
+
+El widget completo, incluyendo su pipeline de indexación, su servidor FastAPI y sus plantillas de reporte, está versionado en el repositorio público del proyecto en la carpeta `libro/_ia/` (excepto los artefactos generados localmente: `chunks.json`, `index.npz`, `reports/`, `.env`, todos en `.gitignore`). El archivo `libro/_ia/README.md` contiene las instrucciones técnicas de puesta en marcha. La instalación requiere Python 3.10+, las dependencias listadas en `requirements.txt` y, opcionalmente, una clave de API de OpenAI o un servidor Ollama local con los modelos `gemma4:26b-a4b` y `nomic-embed-text`.
+
+## Cómo se construye el índice
+
+Como referencia técnica para quien quiera reproducirlo:
+
+```bash
+# 1. Dependencias (entorno Python 3.10+)
+pip install -r libro/_ia/requirements.txt
+
+# 2. Credenciales (solo si se usa OpenAI)
+cp libro/_ia/.env.example libro/_ia/.env
+# editar libro/_ia/.env con la API key
+
+# 3. Construir el índice
+cd libro
+python _ia/chunker.py    # genera _ia/chunks.json (~320 chunks)
+python _ia/index.py      # genera _ia/index.npz + meta
+
+# 4. Levantar el backend
+cd _ia
+python -m uvicorn server:app --host 0.0.0.0 --port 8000 --reload
+
+# 5. Renderizar el libro y servirlo
+cd ..
+quarto render
+python -m http.server 8080 -d _book
+```
+
+El widget aparece automáticamente como botón flotante en la esquina inferior derecha de cualquier página del libro web abierta en `http://localhost:8080/`. El coste estimado de generar el índice de embeddings con `text-embedding-3-small` para los 320 chunks del libro es de aproximadamente **0,02 dólares**.

@@ -1,0 +1,68 @@
+---
+title: "Cartografía histórica de Bajos de Haina"
+subtitle: "Galería de fotografías y documentos históricos"
+---
+
+La siguiente galería presenta el material histórico recopilado sobre Bajos de Haina y su entorno, organizado cronológicamente. Estas imágenes documentan la evolución del territorio desde principios del siglo XX hasta finales de la década de 1990 y constituyen un recurso fundamental para comprender las transformaciones urbanas, portuarias e industriales del municipio.
+
+## Principios del siglo XX (1916-1922) {#sec-siglo-xx-anexoD}
+
+![Distrito Nacional, 1916.](../datos/historico/IMG_Haina_Distrito_Nac_1916.jpg){#fig-hist-01}
+
+![Bajos de Haina, 1922.](../datos/historico/1922.jpg){#fig-hist-02}
+
+## Década de 1940 {#sec-1940-anexoD}
+
+![Bajos de Haina, 1944.](../datos/historico/1944.jpg){#fig-hist-03}
+
+![Bajos de Haina, 1945 (a).](../datos/historico/IMG_Haina_a_1945.jpg){#fig-hist-04}
+
+![Bajos de Haina, 1945.](../datos/historico/1945.jpg){#fig-hist-05}
+
+![Bajos de Haina, 1945 (b).](../datos/historico/1945b.jpg){#fig-hist-06}
+
+![Central de Haina, 1949.](../datos/historico/IMG_Haina_Central_de_haina_1949.png){#fig-hist-07}
+
+## Década de 1950 {#sec-1950-anexoD}
+
+![Casa de pescadores, 1951.](../datos/historico/IMG_Haina_casa_pescadors_1951.jpg){#fig-hist-08}
+
+![Vista del Puerto de Haina y de la Central Río Haina, 1955. La foto muestra la zona oeste del Puerto de Haina y las instalaciones de la Central Río Haina; se observan al fondo los desarrollos urbanos que construyó la Central para alojar funcionarios y empleados. Fuente: Olivier, José Bienvenido (1955). *Foto de la Central Río Haina y sus áreas adyacentes*, Haina, R.D.](../datos/historico/1955.jpg){#fig-hist-09}
+
+![Maqueta, 1956.](../datos/historico/IMG_Haina_maqueta_1956.jpg){#fig-hist-10}
+
+![Puente Presidente Troncoso, 1956.](../datos/historico/IMG_Haina_puente_presidente_troncoso_1956.jpg){#fig-hist-11}
+
+![Bajos de Haina, 1957.](../datos/historico/1957.jpg){#fig-hist-12}
+
+![República Dominicana, 1958.](../datos/historico/IMG_Haina_RD_1958.jpg){#fig-hist-13}
+
+![Bajos de Haina, 1958.](../datos/historico/1958.jpg){#fig-hist-14}
+
+![Bajos de Haina, 1959.](../datos/historico/1959.jpg){#fig-hist-15}
+
+## Década de 1960 {#sec-1960-anexoD}
+
+![Puente flotante, 1965.](../datos/historico/IMG_Haina_puente_flotante_1965.jpg){#fig-hist-16}
+
+![Foto aérea del municipio de Haina, 1967. En 1967 Haina ya tiene el casco urbano configurado al norte de la Central; al suroeste, entre las líneas del ferrocarril y las antiguas fincas agrícolas de caña y cítricos, se observa la Laguna Nagá. El desarrollo de la ciudad tuvo como centro articulador la actividad de REFIDOMSA. Fuente: IGU (1967). *Foto aérea del Municipio de Haina*, Santo Domingo, R.D.: Instituto Geográfico Universitario.](../datos/historico/1967.jpg){#fig-hist-17}
+
+## Década de 1970 {#sec-1970-anexoD}
+
+![Bajos de Haina, 1972.](../datos/historico/1972.jpg){#fig-hist-18}
+
+![Foto aérea del municipio de Haina, 1974. A partir de 1968, con la aprobación de la Ley Núm. 299 del 23 de abril de 1968 sobre Incentivo y Protección Industrial, Haina recibió cuantiosas inversiones. En la foto se observa al fondo, en la esquina, la Refinería Dominicana de Petróleos (REFIDOMSA) y el inicio de los trabajos para la instalación del Parque Industrial de Haina; todavía se aprecia la Laguna Nagá a la derecha de la Refidomsa. Fuente: IGU (1974). *Foto aérea del Municipio de Haina*. Santo Domingo, R.D.: Instituto Geográfico Universitario.](../datos/historico/1974.jpg){#fig-hist-19}
+
+![Bajos de Haina, 1976.](../datos/historico/1976.jpg){#fig-hist-20}
+
+![Bajos de Haina, 1976 (b).](../datos/historico/IMG_Haina_b_1976.jpg){#fig-hist-21}
+
+## Década de 1980-1990 {#sec-1980-anexoD}
+
+![Foto aérea del municipio de Haina, 1983. Entre 1974 y 1983 la zona industrial ha sido configurada por completo. Como consecuencia del paso del huracán David y de la tormenta Federico, zonas que no estaban habitadas fueron ocupadas por personas que perdieron sus viviendas. Fuente: ICM (1983). *Foto aérea del Municipio de Haina*. Santo Domingo, R.D.: Instituto Cartográfico Militar.](../datos/historico/1983.jpg){#fig-hist-22}
+
+![Bajos de Haina, 1994.](../datos/historico/1994.jpg){#fig-hist-23}
+
+## Otras imágenes {#sec-otras-imagenes-anexoD}
+
+![Vista general, sin fecha.](../datos/historico/DOC_FuenteHistorica_00099621.jpg){#fig-hist-24}

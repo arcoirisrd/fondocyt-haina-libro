@@ -1,0 +1,122 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Herramientas digitales de planificación urbana, gestión de riesgos y participación pública"
+  subtitle: "Caso de estudio: Bajos de Haina. Proyecto FONDOCYT 2023-1-3A13-0725"
+  output-file: libro-fondocyt-2023-1-3A13-0725
+  author:
+    - name: Ana Moyano Molina
+      orcid: 0009-0004-7502-0409
+      affiliation: Arcoíris RD
+    - name: Jorge Armando Recio Martínez
+      orcid: 0000-0001-7979-5392
+      affiliation: Arcoíris RD
+    - name: Javier Fernando Villamizar Fernández
+      orcid: 0000-0001-6083-2835
+      affiliation: TECCA Caribe
+    - name: Carlos Manuel Ramírez Arias
+      affiliation: Arcoíris RD
+    - name: Karina Pérez Teruel
+      orcid: 0000-0001-8792-5900
+      affiliation: BARNA Management School
+    - name: Ana Solís Alonso
+      orcid: 0009-0001-4738-2363
+      affiliation: Arcoíris RD
+    - name: Yssamar Vismarkis Reyes Sánchez
+      affiliation: Arcoíris RD
+    - name: Danilo Minaya
+      affiliation: Arcoíris RD
+    - name: Jaime R. Hernández Peña
+      affiliation: BARNA Management School
+    - name: Lucía Navarro de Corcuera
+      orcid: 0000-0002-9232-8323
+      affiliation: Arcoíris RD
+    - name: Anyerlina Hernández
+      affiliation: Arcoíris RD
+  date: "2025"
+  date-format: "YYYY"
+
+  chapters:
+    - index.qmd
+
+    - part: "Parte I. Contexto y metodología"
+      chapters:
+        - 01-introduccion.qmd
+        - 02-metodologia.qmd
+
+    - part: "Parte II. Diagnóstico territorial (OE1)"
+      chapters:
+        - 03-territorio.qmd
+        - 04-planificacion-urbana.qmd
+        - 05-gestion-riesgos.qmd
+        - 06-participacion-diagnostico.qmd
+
+    - part: "Parte III. Herramientas digitales (OE2)"
+      chapters:
+        - 07-sistema-digital.qmd
+
+    - part: "Parte IV. Gobernanza y normativa (OE3)"
+      chapters:
+        - 08-normativa-tipologias.qmd
+        - 09-participacion-observatorio.qmd
+        - 10-actividades-normativa.qmd
+
+    - part: "Parte V. Transferencia y validación"
+      chapters:
+        - 11-seminario-taller.qmd
+
+    - part: "Parte VI. Cierre"
+      chapters:
+        - 12-conclusiones.qmd
+
+    - references.qmd
+
+  appendices:
+    - anexos/A-acronimos-glosario.qmd
+    - anexos/B-semblanza-equipo.qmd
+    - anexos/C-operacionalizacion.qmd
+    - anexos/D-cartografia-historica.qmd
+    - anexos/E-analisis-estadistico.qmd
+    - anexos/F-codigo-r-analisis.qmd
+    - anexos/G-fichas-tipologias.qmd
+    - anexos/H-silabos-seminario-taller.qmd
+    - anexos/I-brief-isotipo.qmd
+    - anexos/J-catalogo-proyecto.qmd
+    - anexos/L-widget-ia.qmd
+    - anexos/M-urblex-cac.qmd
+    - anexos/N-urblex-ai.qmd
+
+bibliography: references.bib
+csl: apa.csl
+lang: es
+number-sections: true
+number-depth: 4
+link-citations: true
+link-bibliography: true
+
+crossref:
+  fig-title: "Figura"
+  tbl-title: "Tabla"
+  fig-prefix: "Fig."
+  tbl-prefix: "Tabla"
+  chapters: true
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    code-fold: true
+    grid:
+      sidebar-width: 320px
+      body-width: 900px
+      margin-width: 250px

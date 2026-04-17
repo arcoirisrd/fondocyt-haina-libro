@@ -3,6 +3,7 @@ _freeze/
 .quarto/
 *.log
 *.bak
+*.quarto_ipynb
 datos/
 __pycache__/
 .DS_Store

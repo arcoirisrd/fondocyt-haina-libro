@@ -1,6 +1,5 @@
 ---
 title: "Normativa por tipologías de manzana"
-suppress-bibliography: true
 ---
 
 > **Fecha:** agosto 2025 **Objetivo específico:** **OE3** **Resultado:** R.1 Normativa **Palabras clave:** Tipologías de manzana, Normativa urbanística, Ley 368-22, Decreto 396-25, Ordenamiento territorial, Bajos de Haina

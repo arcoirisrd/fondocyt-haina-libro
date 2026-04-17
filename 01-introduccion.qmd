@@ -1,6 +1,5 @@
 ---
 title: "Introducción"
-suppress-bibliography: true
 ---
 
 ## El problema: vulnerabilidad urbana y cambio climático en República Dominicana {#sec-problema-01}

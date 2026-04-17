@@ -1,7 +1,6 @@
 ---
 title: "Seminario-Taller de Planificación Urbana Digital"
 subtitle: "Sistematización del evento, 11-12 de octubre de 2024"
-suppress-bibliography: true
 ---
 
 ![Afiche oficial del Seminario-Taller de Planificación Urbana Digital celebrado el 11 y 12 de octubre de 2024 en el Edificio de Laboratorios de Alta Tecnología "Ing. Juan Miguel Rosado Montes de Oca" (salón FIA-LAB 505) de la Universidad Autónoma de Santo Domingo, en el marco de la XI Bienal Internacional de Arquitectura y Urbanismo de República Dominicana.](img/mesa3/portada_seminario_taller.jpg){#fig-sem-portada}

@@ -1,6 +1,5 @@
 ---
 title: "Gestión de riesgos"
-suppress-bibliography: true
 ---
 
 > **Fecha:** agosto 2025 **Objetivo específico:** **OE1** **Resultado:** R.2 Gestión de riesgos **Palabras clave:** Ley 147-02, SN-PMR, COE, CMPMR, Amenazas multipeligro, Inundaciones y riesgo industrial, Defensa Civil, Análisis FODA, 38 Bluespots

@@ -1,6 +1,5 @@
 ---
 title: "Contexto territorial de Bajos de Haina"
-suppress-bibliography: true
 ---
 
 > **Fecha:** agosto 2025 **Objetivo específico:** **OE1** **Resultado:** R.4 Diagnóstico municipal **Palabras clave:** Bajos de Haina, REFIDOMSA, Contaminación por plomo, Densidad urbana, Amenazas naturales y antrópicas, Censo 2022, 16 Manzanas piloto

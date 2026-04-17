@@ -1,6 +1,5 @@
 ---
 title: "Sistema digital integrado"
-suppress-bibliography: true
 ---
 
 > **Fecha:** agosto 2025 **Objetivo específico:** **OE2** **Resultado:** R.1 y R.2 Sistema digital integrado **Palabras clave:** Sistemas digitales urbanos, Dashboards geoespaciales, ArcGIS Online, Planificación territorial, Municipios resilientes

@@ -1,6 +1,5 @@
 ---
 title: "Metodología"
-suppress-bibliography: true
 ---
 
 > **Fecha:** agosto 2025 **Capítulo:** Transversal **Función:** Marco metodológico del proyecto **Palabras clave:** Design Science Research, Investigación-acción participativa, Abducción Kovacs-Spens, LiDAR y UAV, Survey123, Seminario-taller, 16 Manzanas piloto

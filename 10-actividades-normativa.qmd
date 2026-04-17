@@ -1,6 +1,5 @@
 ---
 title: "Actividades asociadas al desarrollo normativo"
-suppress-bibliography: true
 ---
 
 > **Fecha:** agosto 2025 **Objetivo específico:** **OE3** **Resultado:** R.1 Actividades normativa **Palabras clave:** Normativa urbanística, Tipologías de manzana, LIDAR, Survey123, Ley 368-22, Decreto 396-25, Validación comunitaria

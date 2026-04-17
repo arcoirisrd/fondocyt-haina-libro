@@ -1,7 +1,6 @@
 ---
 title: "Anexo H. Sílabos del Seminario-Taller PUD"
 subtitle: "Planificación Urbana Digital, octubre 2024"
-suppress-bibliography: true
 ---
 
 > **Fecha:** agosto 2025 **Anexo:** H. Sílabos del Seminario-Taller PUD **Función:** reproduce los sílabos didácticos de las tres mesas del Seminario-Taller de Planificación Urbana Digital celebrado en Bajos de Haina en octubre de 2024 **Palabras clave:** Sílabo, Seminario-Taller PUD, Ordenamiento territorial, Gestión de riesgos, Participación ciudadana, Bajos de Haina

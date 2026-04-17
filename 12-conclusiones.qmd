@@ -1,6 +1,5 @@
 ---
 title: "Conclusiones y recomendaciones"
-suppress-bibliography: true
 ---
 
 > **Fecha:** agosto 2025 **Capítulo:** Cierre **Función:** Síntesis y recomendaciones **Palabras clave:** Modelo GTAC, Hipótesis catalítica, Bajos de Haina, Escalabilidad, FEDOMU, Gobernanza territorial

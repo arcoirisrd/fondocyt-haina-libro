@@ -1,6 +1,5 @@
 ---
 title: "Planificación urbana"
-suppress-bibliography: true
 ---
 
 > **Fecha:** agosto 2025 **Objetivo específico:** **OE1** **Resultado:** R.1 Planificación urbana **Palabras clave:** Ley 368-22, Decreto 396-25, PMOT, Ordenamiento territorial, Gobernanza territorial multinivel, Oficina de Planeamiento Urbano, Ley 176-07, SNIT

@@ -2,6 +2,8 @@
 title: 'Widget de IA: «Pregúntale al libro»'
 ---
 
+> **Fecha:** agosto 2025 **Anexo:** L. Widget de IA «Pregúntale al libro» **Función:** documenta la arquitectura RAG, los componentes técnicos y las restricciones éticas del widget de búsqueda semántica integrado en la versión web del libro **Palabras clave:** RAG, Búsqueda semántica, Embeddings, FastAPI, Transparencia metodológica, Privacidad
+
 Este anexo documenta el **widget de inteligencia artificial** que acompaña a la versión web del libro y que permite al lector formular preguntas en lenguaje natural sobre el contenido del proyecto y obtener respuestas sintetizadas con citas verificables a las secciones del propio libro. Se incluye en este anexo por razones de **transparencia metodológica**: cualquier respuesta generada por IA debe poder explicarse en términos del contenido fuente, los modelos empleados, la arquitectura del sistema y sus limitaciones.
 
 ## Qué es {#sec-anexoL-que-es}
@@ -15,17 +17,17 @@ Este anexo documenta el **widget de inteligencia artificial** que acompaña a la
 
 El widget se presenta como un botón flotante en la esquina inferior derecha de cada página del libro web y abre un panel lateral con la conversación. Está disponible solo en la versión HTML; el PDF del libro no se ve afectado.
 
-## Arquitectura
+## Arquitectura {#sec-anexoL-arquitectura}
 
 El sistema se compone de cinco piezas principales, todas ellas en la carpeta `libro/_ia/` del repositorio del proyecto.
 
 | Componente | Archivo | Función |
 |:---|:---|:---|
-| Chunker | `chunker.py` | Parte los 22 archivos `.qmd` del libro en fragmentos semánticos (~320 chunks) preservando el ancla `#sec-xxx`, el capítulo y la jerarquía de encabezados |
-| Indexador | `index.py` | Genera *embeddings* vectoriales de cada chunk con OpenAI `text-embedding-3-small` (en la nube) o `nomic-embed-text` (en local vía Ollama). Guarda el índice en `index.npz` |
-| Servidor | `server.py` | API FastAPI con endpoints `/ask`, `/reports/{id}.{html,md,pdf}`, `/galeria.html`, `/widget.js`, `/widget.css`. Recibe la query, la embebe, recupera los `top_k` chunks por similitud coseno y llama al LLM |
-| Renderer | `render_report.py` | Convierte cada respuesta en una página HTML (estilo Cosmo, igual que el libro), un Markdown y un PDF (vía pandoc + xelatex, el mismo *pipeline* que usa Quarto) |
-| Widget | `widget.js` + `widget.css` + `widget-include.html` | Botón flotante y panel lateral inyectados por Quarto en cada página del libro mediante `format.html.include-in-header` |
+| **Chunker** | `chunker.py` | Parte los 22 archivos `.qmd` del libro en fragmentos semánticos (~320 chunks) preservando el ancla `#sec-xxx`, el capítulo y la jerarquía de encabezados |
+| **Indexador** | `index.py` | Genera *embeddings* vectoriales de cada chunk con OpenAI `text-embedding-3-small` (en la nube) o `nomic-embed-text` (en local vía Ollama). Guarda el índice en `index.npz` |
+| **Servidor** | `server.py` | API FastAPI con endpoints `/ask`, `/reports/{id}.{html,md,pdf}`, `/galeria.html`, `/widget.js`, `/widget.css`. Recibe la query, la embebe, recupera los `top_k` chunks por similitud coseno y llama al LLM |
+| **Renderer** | `render_report.py` | Convierte cada respuesta en una página HTML (estilo Cosmo, igual que el libro), un Markdown y un PDF (vía pandoc + xelatex, el mismo *pipeline* que usa Quarto) |
+| **Widget** | `widget.js` + `widget.css` + `widget-include.html` | Botón flotante y panel lateral inyectados por Quarto en cada página del libro mediante `format.html.include-in-header` |
 
 : Componentes del widget IA local del proyecto FONDOCYT. {#tbl-anexoL-componentes .unnumbered tbl-colwidths="[18,22,60]"}
 
@@ -85,7 +87,7 @@ prefacio) y produce una lista de fragmentos semánticos. El procedimiento es:
 Cada chunk resultante es un objeto con los campos `id`, `file`,
 `chapter_title`, `heading_path`, `anchor`, `level` y `text`. El conjunto
 completo se persiste como `chunks.json`. Para el libro FONDOCYT el proceso
-produce **321 chunks**, con una extensión total aproximada de 618.000
+produce **321 chunks**, con una extensión total aproximada de 618,000
 caracteres distribuidos razonablemente entre todos los capítulos.
 
 ### Índice vectorial {#sec-anexoL-indice}
@@ -127,7 +129,7 @@ ejecuta el siguiente flujo:
    mediante la variable `IA_TOP_K`.
 4. **Construcción del *prompt* de usuario**: para cada chunk recuperado se
    anota el número, el título del capítulo, la jerarquía de encabezados y
-   el ancla en el formato `[#sec-xxx]`. Los cuerpos se truncan a 1.800
+   el ancla en el formato `[#sec-xxx]`. Los cuerpos se truncan a 1,800
    caracteres por chunk para no exceder el límite de contexto del modelo
    generativo y mantener el coste controlado.
 5. **Llamada al LLM**: se invoca al modelo con temperatura 0.2 (favorece
@@ -181,14 +183,14 @@ El servidor FastAPI expone los siguientes *endpoints*:
 
 | Método | Ruta | Función |
 |:---:|:---|:---|
-| POST | `/ask` | Recibe `{query}`, devuelve respuesta + fuentes + identificador de reporte |
-| GET | `/reports/{id}.html` | Devuelve la página HTML maquetada del reporte |
-| GET | `/reports/{id}.md` | Devuelve el Markdown del reporte como descarga |
-| GET | `/reports/{id}.pdf` | Devuelve el PDF del reporte como descarga |
-| GET | `/galeria.html` | Devuelve la galería con el histórico de consultas |
-| GET | `/widget.js` | Sirve el *script* del botón flotante |
-| GET | `/widget.css` | Sirve los estilos del botón y el panel |
-| GET | `/health` | Devuelve el estado del servidor y las dimensiones del índice |
+| **POST** | `/ask` | Recibe `{query}`, devuelve respuesta + fuentes + identificador de reporte |
+| **GET** | `/reports/{id}.html` | Devuelve la página HTML maquetada del reporte |
+| **GET** | `/reports/{id}.md` | Devuelve el Markdown del reporte como descarga |
+| **GET** | `/reports/{id}.pdf` | Devuelve el PDF del reporte como descarga |
+| **GET** | `/galeria.html` | Devuelve la galería con el histórico de consultas |
+| **GET** | `/widget.js` | Sirve el *script* del botón flotante |
+| **GET** | `/widget.css` | Sirve los estilos del botón y el panel |
+| **GET** | `/health` | Devuelve el estado del servidor y las dimensiones del índice |
 
 : *Endpoints* del backend FastAPI del widget IA. {#tbl-anexoL-endpoints .unnumbered tbl-colwidths="[10,32,58]"}
 
@@ -290,9 +292,9 @@ Esta arquitectura RAG con citas obligatorias minimiza el riesgo de alucinación,
 
 A diferencia de un *chatbot* convencional, cada consulta queda registrada como un reporte permanente con un identificador único en `reports/<id>/`:
 
-- `report.html` — página maquetada con el mismo estilo Cosmo que el libro, lista para compartir
-- `report.md` — markdown plano con *frontmatter* (autor, fecha, modelo, query original, chunks usados)
-- `report.pdf` — versión imprimible generada con pandoc + xelatex
+- `report.html`: página maquetada con el mismo estilo Cosmo que el libro, lista para compartir
+- `report.md`: markdown plano con *frontmatter* (autor, fecha, modelo, query original, chunks usados)
+- `report.pdf`: versión imprimible generada con pandoc + xelatex
 
 Los reportes son accesibles desde una **galería pública** en `/galeria.html` que lista todas las consultas anteriores ordenadas por fecha. Esto permite que las preguntas más útiles formuladas por unos lectores sirvan como punto de entrada para otros, y crea un registro de cómo el libro se está usando.
 
@@ -311,11 +313,11 @@ Los reportes son accesibles desde una **galería pública** en `/galeria.html` q
 - **Multilingüismo**: el modelo de embeddings funciona razonablemente en español, pero las consultas en otros idiomas (incluido inglés) pueden recuperar chunks subóptimos.
 - **Persistencia**: los reportes guardados en `reports/` no migran automáticamente entre instancias del servidor. Si el servidor se reinicia con un volumen distinto, los reportes anteriores quedan inaccesibles.
 
-## Reproducibilidad
+## Reproducibilidad {#sec-anexoL-reproducibilidad}
 
 El widget completo, incluyendo su pipeline de indexación, su servidor FastAPI y sus plantillas de reporte, está versionado en el repositorio público del proyecto en la carpeta `libro/_ia/` (excepto los artefactos generados localmente: `chunks.json`, `index.npz`, `reports/`, `.env`, todos en `.gitignore`). El archivo `libro/_ia/README.md` contiene las instrucciones técnicas de puesta en marcha. La instalación requiere Python 3.10+, las dependencias listadas en `requirements.txt` y, opcionalmente, una clave de API de OpenAI o un servidor Ollama local con los modelos `gemma4:26b-a4b` y `nomic-embed-text`.
 
-## Cómo se construye el índice
+## Cómo se construye el índice {#sec-anexoL-como-construir}
 
 Como referencia técnica para quien quiera reproducirlo:
 
@@ -342,4 +344,4 @@ quarto render
 python -m http.server 8080 -d _book
 ```
 
-El widget aparece automáticamente como botón flotante en la esquina inferior derecha de cualquier página del libro web abierta en `http://localhost:8080/`. El coste estimado de generar el índice de embeddings con `text-embedding-3-small` para los 320 chunks del libro es de aproximadamente **0,02 dólares**.
+El widget aparece automáticamente como botón flotante en la esquina inferior derecha de cualquier página del libro web abierta en `http://localhost:8080/`. El coste estimado de generar el índice de embeddings con `text-embedding-3-small` para los 320 chunks del libro es de aproximadamente **0.02 dólares**.

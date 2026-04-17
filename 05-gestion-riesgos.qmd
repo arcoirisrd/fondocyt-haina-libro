@@ -1,44 +1,33 @@
 ---
 title: "Gestión de riesgos"
+suppress-bibliography: true
 ---
 
-> **Fecha:** agosto 2025 **Objetivo específico:** OE1 **Resultado:** R.2 Gestión de riesgos
+> **Fecha:** agosto 2025 **Objetivo específico:** **OE1** **Resultado:** R.2 Gestión de riesgos **Palabras clave:** Ley 147-02, SN-PMR, COE, CMPMR, Amenazas multipeligro, Inundaciones y riesgo industrial, Defensa Civil, Análisis FODA, 38 Bluespots
+
+El municipio de Bajos de Haina presenta un perfil de riesgo singular en el contexto caribeño: combina amenazas naturales recurrentes, principalmente inundaciones por desbordamiento de cañadas y eventos hidrometeorológicos de alta intensidad, con riesgos industriales propios del mayor complejo industrial del país, sobre un tejido residencial con indicadores de vulnerabilidad elevados. La sistematización del diagnóstico de gestión de riesgos de desastres (GRD), realizada en el marco del **OE1** del proyecto FONDOCYT, integra el análisis del marco legal e institucional vigente, el estado de los instrumentos de planificación y las capacidades operativas del Comité Municipal de Prevención, Mitigación y Respuesta (CM-PMR). El recorrido se apoya en la revisión documental del Sistema Nacional de Prevención, Mitigación y Respuesta (SN-PMR), la encuesta de diagnóstico domiciliario (n = 155 hogares), el trabajo con las Redes Comunitarias de PMR y los aportes de la Mesa 2 del Seminario-Taller de Planificación Urbana Digital (octubre 2024).
 
 ## Marco teórico {#sec-marco-teorico-05}
 
-### Gestión de Riesgos conceptos y enfoques
+### Gestión de riesgos: conceptos y enfoques
 
-La gestión de riesgo de desastres en la República Dominicana se fundamenta en un marco legal y normativo surgido en la Primera década del 2000, establecido principalmente por la Ley 147-02 sobre Gestión de Riesgo. Esta ley proporciona las bases para la identificación, análisis, y mitigación de riesgos, así como para la preparación y respuesta ante desastres naturales y antrópicos. Dentro de sus principales conceptos están:
+La gestión de riesgo de desastres en la República Dominicana se fundamenta en un marco legal y normativo establecido principalmente por la Ley 147-02 sobre Gestión de Riesgo [@congresonacionalrepublicadominicanaLey14702Sobre2002], articulado en el plano internacional con el Marco de Sendai 2015-2030 [@undrr2015sendai]. Esta ley provee las bases para la identificación, análisis y mitigación de riesgos, así como para la preparación y respuesta ante desastres naturales y antrópicos. La tabla siguiente sintetiza los conceptos centrales y su aplicación específica en Bajos de Haina:
 
-**Gestión de Riesgo de Desastres:** Este concepto se refiere al proceso integral de identificar, evaluar y reducir los riesgos asociados con los desastres provocados por fenómenos naturales y antrópicos. Incluye todas las actividades de prevención, mitigación, preparación, respuesta y recuperación, con el objetivo de minimizar los impactos negativos en la sociedad, la economía y el medio ambiente.
+| Concepto | Definición | Aplicación en Bajos de Haina |
+|:---------|:-----------|:-----------------------------|
+| **Gestión de Riesgo de Desastres (GRD)** | Proceso integral que cubre prevención, mitigación, preparación, respuesta y recuperación para minimizar impactos negativos en la sociedad [@lavellClimateChangeNew2012] | CM-PMR reactivado con apoyo del proyecto; Plan Municipal de Emergencias pendiente de formalización |
+| **Riesgo** | Probabilidad de ocurrencia de un evento adverso; construcción social resultante de la interacción entre amenaza y vulnerabilidad [@blaikieRiskNaturalHazards2014] | Combinación de riesgo de inundación (cañadas), riesgo industrial (REFIDOMSA) y vulnerabilidad social documentada por el diagnóstico FONDOCYT |
+| **Amenaza** | Fenómeno natural o humano con potencial de causar daño | Principales: inundaciones en cañadas, tsunamis, riesgo de accidentes industriales en el Complejo Industrial de Haina |
+| **Vulnerabilidad** | Condiciones que hacen susceptible a una comunidad a los efectos de una amenaza; multidimensional [@wilches-chauxVulnerabilidadGlobal1993] | ICU promedio 1.4/3; 100% de edificaciones incumplen retiros normativos; tejidos de alta vulnerabilidad (TDAV) identificados en 16 manzanas |
+| **Prevención** | Medidas para evitar o reducir el impacto de desastres antes de que ocurran | Normativa diferenciada por tipología de manzana; propuesta de PMOT con restricciones por zona de riesgo |
+| **Mitigación** | Acciones para reducir la severidad de los efectos una vez que el riesgo existe | Plataforma Bluespots de exposición pluvial; Tejidos Degradados de Alta Vulnerabilidad (TDAV); sistema Reporta Haina |
+| **Preparación** | Desarrollo de capacidades y planificación para responder efectivamente | Formación del equipo EDAN; simulacros de la Defensa Civil; reactivación del CM-PMR |
+| **Respuesta** | Acciones inmediatas para salvar vidas y minimizar daños | Sistema de Alerta Temprana (SAT) multinivel del COE; plan de emergencias anual del Ayuntamiento |
+| **Recuperación** | Acciones para restablecer condiciones normales tras un desastre | Protocolo pre-EDAN probado en ejercicios; pendiente de formalización mediante resolución local |
+| **Resiliencia** | Capacidad de un sistema para absorber perturbaciones y reorganizarse conservando sus funciones [@hollingResilienceStabilityEcological1973; @cardonaa.ImpactoEconomicoDesastres2001] | Observatorio Ciudadano como infraestructura cognitiva de monitoreo continuo; ecosistema digital FONDOCYT como capacidad instalada |
+| **Participación comunitaria** | Involucramiento de comunidades locales en la identificación de riesgos y planificación de respuestas [@wilches-chauxVulnerabilidadGlobal1993] | 155 encuestas domiciliarias; validación con juntas de vecinos; Mesa 2 GRD del Seminario-Taller (47 participantes) |
 
-**Enfoque de Desarrollo Sostenible:** La GRD debe integrarse en el marco del desarrollo sostenible [@cardonaa.ImpactoEconomicoDesastres2001]. Esto significa que las estrategias de gestión de riesgos deben estar alineadas con los objetivos de desarrollo económico, social y ambiental a largo plazo. La integración de la GRD en las políticas de desarrollo contribuye a la reducción de la pobreza, la protección del medio ambiente y el fortalecimiento de la equidad social.
-
-**Educación y Sensibilización:** La educación y sensibilización sobre riesgos de desastres son fundamentales para crear una cultura de prevención y preparación. Lavell [@lavellClimateChangeNew2012]enfatiza que la formación en GRD debe incluirse en los currículos escolares y en programas de capacitación para profesionales y la comunidad en general. La concienciación pública ayuda a reducir la vulnerabilidad y a fortalecer la resiliencia.
-
-**Riesgo:** Es la probabilidad de que ocurra un evento adverso y sus posibles consecuencias. En el contexto de desastres, implica la interacción de amenazas naturales o antrópicas con la vulnerabilidad de las comunidades y los sistemas. El riesgo se puede entender como una construcción social que resulta de la interacción entre una amenaza y las condiciones de vulnerabilidad existentes en una sociedad. No es una característica inherente a un fenómeno natural, sino una combinación de factores sociales, económicos, políticos y ambientales que determinan la capacidad de una comunidad para enfrentar y recuperarse de un evento adverso.
-
-**Amenaza:** La amenaza es cualquier fenómeno natural o humano que tiene el potencial de causar daño. En la República Dominicana, las principales amenazas incluyen huracanes, terremotos, inundaciones, sequías, y actividades industriales peligrosas.
-
-**Vulnerabilidad:** La vulnerabilidad se refiere a las condiciones y características de una comunidad, infraestructura o sistema que los hacen susceptibles a los efectos de una amenaza. Esto incluye factores socioeconómicos, demográficos, de infraestructura y ambientales. Gustavo Wilches-Chaux define la vulnerabilidad como la susceptibilidad de una comunidad a sufrir daños debido a su exposición a amenazas y su capacidad limitada para resistir y recuperarse, siendo esta multifacética, abarcando dimensiones físicas, económicas, sociales, políticas y ambientales. La reducción de la vulnerabilidad es, por tanto, un proceso integral que requiere intervenciones en todos estos ámbitos [@wilches-chauxVulnerabilidadGlobal1993].
-
-**Prevención:** La prevención abarca todas las medidas y acciones tomadas para evitar que los desastres ocurran o para reducir su impacto en caso de que sucedan. Esto incluye el desarrollo de políticas y planes de ordenamiento territorial, la construcción de infraestructuras resistentes y la implementación de prácticas sostenibles de manejo de recursos.
-
-**Mitigación:** La mitigación se refiere a las acciones destinadas a reducir la severidad de los efectos de los desastres. Esto puede incluir la construcción de diques y presas, la reforestación de cuencas hidrográficas, y la mejora de los sistemas de alerta temprana.
-
-**Preparación:** La preparación implica el desarrollo de capacidades y la planificación para responder de manera efectiva ante un desastre. Esto incluye la educación y capacitación de la población, la elaboración de planes de emergencia, y la realización de simulacros y ejercicios de respuesta.
-
-**Respuesta:** La respuesta se refiere a las acciones tomadas inmediatamente antes, durante y después de un desastre para salvar vidas, proteger propiedades y minimizar daños. Esto incluye la movilización de equipos de emergencia, la provisión de asistencia humanitaria y la coordinación entre agencias y organizaciones.
-
-**Recuperación:** La recuperación implica las acciones necesarias para restablecer las condiciones normales después de un desastre. Esto incluye la rehabilitación de infraestructuras, la reconstrucción de viviendas, y la restauración de servicios básicos y medios de vida.
-
-**Enfoque integral:** La Ley 147-02 promueve un enfoque integral de la gestión de riesgos que involucra a todas las instituciones del Estado, el sector privado, la sociedad civil y las comunidades. Este enfoque enfatiza la importancia de la cooperación y coordinación interinstitucional, la participación comunitaria y la incorporación de la gestión de riesgos en el desarrollo sostenible.
-
-**Uso de tecnologías digitales:** Las acciones institucionales para gestionar lo referente a la GRD ha procurado incluir la gestión adecuada de información. En ese esfuerzo se procura desarrollar un área para tratar las informaciones relacionadas. El Sistema Integrado de Nacional de Información (SINI) es promovido mediante el artículo 19 de la ley 147-02 donde se establece: Sistema Integrado Nacional de Información. Para efectos de sistematizar el conocimiento de las amenazas, vulnerabilidades y riesgos en el territorio nacional y contar con información relativa a sistemas de vigilancia y alerta, capacidad de respuesta y procesos de gestión interinstitucional, la CNE debe promover y poner en marcha un Sistema Integrado Nacional de Información de Gestión de Riesgos, el cual debe mantenerse actualizado para servicio del Sistema Nacional. se define e incorpora al sistema nacional de GRD mediante el Decreto No.874-09 Reglamento De Aplicación de la Ley 147-02.
-
-**Capacidad de Resiliencia:** La resiliencia es la capacidad de una comunidad para absorber, adaptarse y recuperarse de los impactos de un desastre [@hollingResilienceStabilityEcological1973]. La construcción de resiliencia implica fortalecer las capacidades locales, promover la participación comunitaria y asegurar el acceso a recursos y servicios esenciales, así como la capacidad de aprender y adaptarse a nuevas condiciones y desafíos [@cardonaa.ImpactoEconomicoDesastres2001].
-
-**Participación Comunitaria:** Gustavo Wilches-Chaux destaca la importancia de la participación comunitaria en la GRD. Las comunidades locales son las primeras en responder a los desastres y poseen un conocimiento invaluable sobre su entorno y sus riesgos. Involucrar a las comunidades en la identificación de riesgos, la planificación de medidas de mitigación y la implementación de estrategias de respuesta es esencial para el éxito de la GRD [@wilches-chauxVulnerabilidadGlobal1993].
+: Conceptos centrales de la Gestión de Riesgo de Desastres y su aplicación en Bajos de Haina. Elaboración propia con base en [@undrr2015sendai; @lavellClimateChangeNew2012; @wilches-chauxVulnerabilidadGlobal1993]. {#tbl-conceptos-grd .striped .smaller}
 
 La Gestión de Riesgo de Desastres (GRD) es un campo multidisciplinario que ha evolucionado a lo largo del tiempo, integrando diversos enfoques y teorías para abordar la complejidad de los desastres naturales y antrópicos. A continuación, se describen los principales enfoques de la GRD y las investigaciones y teóricos asociados a cada uno de ellos:
 
@@ -48,11 +37,11 @@ La Gestión de Riesgo de Desastres (GRD) es un campo multidisciplinario que ha e
 
 **Enfoque de resiliencia.** C.S. Holling introdujo el concepto de resiliencia en el ámbito ecológico en la década de 1970, el cual ha sido adaptado para la GRD. La resiliencia se refiere a la capacidad de un sistema para absorber perturbaciones y reorganizarse mientras cambia, conservando esencialmente las mismas funciones, estructura e identidad [@hollingResilienceStabilityEcological1973]. En el ámbito comunitario, la resiliencia comprende la capacidad de las comunidades para adaptarse, aprender y recuperarse de los desastres, integrando dimensiones sociales, económicas y ambientales [@cardonaa.ImpactoEconomicoDesastres2001].
 
-**Enfoque integral de gestión de riesgos.** Alan Lavell es uno de los principales promotores del enfoque integral de la gestión de riesgos en América Latina. Lavell aboga por un enfoque que incluya la prevención, mitigación, preparación, respuesta y recuperación, enfatizando la necesidad de una planificación coherente y coordinada [@lavellClimateChangeNew2012]. La Estrategia Internacional para la Reducción de Desastres (EIRD) promueve un enfoque integral para la reducción de riesgos, que incluye la integración de la GRD en el desarrollo sostenible y la gobernanza [@undrrSendaiFrameworkDisaster2015].
+**Enfoque integral de gestión de riesgos.** Alan Lavell es uno de los principales promotores del enfoque integral de la gestión de riesgos en América Latina. Lavell aboga por un enfoque que incluya la prevención, mitigación, preparación, respuesta y recuperación, enfatizando la necesidad de una planificación coherente y coordinada [@lavellClimateChangeNew2012]. La Estrategia Internacional para la Reducción de Desastres (EIRD) promueve un enfoque integral para la reducción de riesgos, que incluye la integración de la GRD en el desarrollo sostenible y la gobernanza [@undrr2015sendai].
 
 **Enfoque de desarrollo sostenible y GRD.** Gustavo Wilches-Chaux y Alan Lavell subrayan que la GRD debe integrarse en el desarrollo sostenible, argumentando que los desastres son una manifestación de problemas de desarrollo. La reducción de riesgos de desastres debe ser parte integral de las políticas de desarrollo económico, social y ambiental [@wilches-chauxVulnerabilidadGlobal1993; @lavellClimateChangeNew2012]. Las Naciones Unidas han incorporado la reducción de riesgos de desastres como un componente clave de los Objetivos de Desarrollo Sostenible (ODS), particularmente en el ODS 11 (Ciudades y Comunidades Sostenibles) y el ODS 13 (Acción por el Clima) [@unTransformingOurWorld2015].
 
-**Enfoque de gobernanza del riesgo.** David Alexander, en su trabajo sobre la gobernanza del riesgo, examina cómo las estructuras de gobernanza afectan la eficacia de la GRD. Este enfoque pone énfasis en la importancia de la cooperación entre diferentes niveles de gobierno, el sector privado y la sociedad civil [@alexanderPrinciplesEmergencyPlanning2002]. La UNISDR (Oficina de Naciones Unidas para la Reducción del Riesgo de Desastres) promueve la gobernanza del riesgo como un elemento esencial para la reducción de desastres, destacando la necesidad de marcos legales e institucionales robustos [@undrrSendaiFrameworkDisaster2015].
+**Enfoque de gobernanza del riesgo.** David Alexander, en su trabajo sobre la gobernanza del riesgo, examina cómo las estructuras de gobernanza afectan la eficacia de la GRD. Este enfoque pone énfasis en la importancia de la cooperación entre diferentes niveles de gobierno, el sector privado y la sociedad civil [@alexanderPrinciplesEmergencyPlanning2002]. La UNISDR (Oficina de Naciones Unidas para la Reducción del Riesgo de Desastres) promueve la gobernanza del riesgo como un elemento esencial para la reducción de desastres, destacando la necesidad de marcos legales e institucionales robustos [@undrr2015sendai].
 
 **Enfoque de participación comunitaria.** Gustavo Wilches-Chaux defiende la participación comunitaria como fundamental en la GRD. Las comunidades locales poseen conocimiento tradicional y experiencia que son cruciales para identificar riesgos y desarrollar estrategias de mitigación efectivas [@wilches-chauxVulnerabilidadGlobal1993]. Marla Petal ha mostrado en su investigación cómo la participación comunitaria en la planificación y respuesta ante desastres puede aumentar significativamente la efectividad de las intervenciones [@petalDisasterRiskReduction2007].
 
@@ -62,56 +51,36 @@ La Gestión de Riesgo de Desastres (GRD) es un campo multidisciplinario que ha e
 
 | Enfoque | Autores clave | Aporte central |
 |------------------------|------------------------|------------------------|
-| Vulnerabilidad y capacidades | Wisner, Blaikie, Cannon, Davis; Wilches-Chaux | Modelo PAR: los desastres resultan de la interacción entre amenazas y vulnerabilidad social [@blaikieRiskNaturalHazards2014; @wilches-chauxVulnerabilidadGlobal1993] |
-| Resiliencia | Holling; Cardona | Capacidad del sistema para absorber perturbaciones y reorganizarse conservando sus funciones; en el ámbito comunitario integra dimensiones sociales, económicas y ambientales [@hollingResilienceStabilityEcological1973; @cardonaa.ImpactoEconomicoDesastres2001] |
-| Integral de GRD | Lavell; EIRD | Ciclo completo: prevención, mitigación, preparación, respuesta y recuperación coordinadas [@lavellClimateChangeNew2012; @undrrSendaiFrameworkDisaster2015] |
-| Desarrollo sostenible y GRD | Wilches-Chaux; Lavell; ONU (ODS 11, 13) | Los desastres son manifestación de problemas de desarrollo; la reducción de riesgo es política transversal [@wilches-chauxVulnerabilidadGlobal1993; @lavellClimateChangeNew2012; @unTransformingOurWorld2015] |
-| Gobernanza del riesgo | Alexander; UNISDR | Las estructuras de gobernanza multinivel determinan la eficacia de la GRD [@alexanderPrinciplesEmergencyPlanning2002; @undrrSendaiFrameworkDisaster2015] |
-| Participación comunitaria | Wilches-Chaux; Petal | El conocimiento local es insumo esencial para identificar riesgos y diseñar estrategias de mitigación [@wilches-chauxVulnerabilidadGlobal1993; @petalDisasterRiskReduction2007] |
-| Tecnológico e innovación | Scanlon; Lavell | Las TIC, SIG y plataformas digitales mejoran la comunicación, el monitoreo y la toma de decisiones [@lavellClimateChangeNew2012; @scanlonCopingMediaDisasters1985] |
-| Género y diversidad | Enarson; Bradshaw | Las mujeres y grupos marginados son desproporcionadamente afectados; las políticas deben reconocer estas diferencias [@enarsonGenderDisasterFoundations2007; @bradshawGenderDevelopmentDisasters2013] |
+| **Vulnerabilidad y capacidades** | Wisner, Blaikie, Cannon, Davis; Wilches-Chaux | Modelo PAR: los desastres resultan de la interacción entre amenazas y vulnerabilidad social [@blaikieRiskNaturalHazards2014; @wilches-chauxVulnerabilidadGlobal1993] |
+| **Resiliencia** | Holling; Cardona | Capacidad del sistema para absorber perturbaciones y reorganizarse conservando sus funciones; en el ámbito comunitario integra dimensiones sociales, económicas y ambientales [@hollingResilienceStabilityEcological1973; @cardonaa.ImpactoEconomicoDesastres2001] |
+| **Integral de GRD** | Lavell; EIRD | Ciclo completo: prevención, mitigación, preparación, respuesta y recuperación coordinadas [@lavellClimateChangeNew2012; @undrr2015sendai] |
+| **Desarrollo sostenible y GRD** | Wilches-Chaux; Lavell; ONU (ODS 11, 13) | Los desastres son manifestación de problemas de desarrollo; la reducción de riesgo es política transversal [@wilches-chauxVulnerabilidadGlobal1993; @lavellClimateChangeNew2012; @unTransformingOurWorld2015] |
+| **Gobernanza del riesgo** | Alexander; UNISDR | Las estructuras de gobernanza multinivel determinan la eficacia de la GRD [@alexanderPrinciplesEmergencyPlanning2002; @undrr2015sendai] |
+| **Participación comunitaria** | Wilches-Chaux; Petal | El conocimiento local es insumo esencial para identificar riesgos y diseñar estrategias de mitigación [@wilches-chauxVulnerabilidadGlobal1993; @petalDisasterRiskReduction2007] |
+| **Tecnológico e innovación** | Scanlon; Lavell | Las TIC, SIG y plataformas digitales mejoran la comunicación, el monitoreo y la toma de decisiones [@lavellClimateChangeNew2012; @scanlonCopingMediaDisasters1985] |
+| **Género y diversidad** | Enarson; Bradshaw | Las mujeres y grupos marginados son desproporcionadamente afectados; las políticas deben reconocer estas diferencias [@enarsonGenderDisasterFoundations2007; @bradshawGenderDevelopmentDisasters2013] |
 
 : Enfoques teóricos principales de la Gestión de Riesgo de Desastres y sus referentes. Elaboración propia. {#tbl-enfoques-grd .striped .smaller}
 
-### Evolución de la Gestión de Riesgos en República Dominicana
+### Evolución de la gestión de riesgos en República Dominicana
 
-Durante décadas, la actuación del Estado Dominicano frente a los desastres estuvo marcada por una orientación básicamente reactiva y la ausencia de un adecuado marco normativo e institucional. La preocupación por superar aquellos vacíos legales y mejorar la capacidad institucional en términos organizativos y de gestión de la respuesta, da lugar, en el año 1966, a la creación de la Oficina Nacional de Defensa Civil13 y la formulación de primer plan y programa general para la defensa civil en todo el país [@viplandeacciondipechoparaelcaribeAnalisisRiesgosDesastres2009] .
+La gestión de riesgos en República Dominicana transitó, a lo largo del siglo XX, de una orientación esencialmente reactiva hacia un marco institucional progresivo. La creación de la Oficina Nacional de Defensa Civil en 1966 y de la Comisión de Defensa Civil Nacional en 1968 constituyeron los primeros pasos formales; el Primer Simposio Estatal sobre Desastres Naturales (1981) sentó las bases de una coordinación interinstitucional que culminó, en 2001, en el Centro de Operaciones de Emergencias (COE, Decreto No. 360) y, en 2002, en la Ley No. 147-02, que estableció el Sistema Nacional de Prevención, Mitigación y Respuesta como arquitectura institucional permanente. El detalle de los instrumentos legales y la estructura institucional resultante se presenta en la sección @sec-marco-legal-gdr-05.
 
-Complementariamente, con el objetivo de orientar las actividades de todos "los grupos que se dedican a realizar obras de salvamento y ayuda", se crea, en 1968, la Comisión de Defensa Civil Nacional, que estaría presidida por la Oficina de Defensa Civil. Entre 1970 y 1980, República Dominicana sufrió más de 400 eventos originados por una gran variedad de causas y con diversos niveles de afectación. A raíz de estos eventos, se convocó a más de 25 instituciones del estado a realizar el Primer Simposio Estatal sobre Desastres Naturales. Este simposio generó los insumos para la creación, en 1981, de la Comisión "Plan Nacional de Emergencia"; siendo las principales facultades de esta el "trazar una política nacional a ser seguida en caso de catástrofe, establecer planes coordinados para la prevención y evaluación de daños (...), establecer los planes específicos, los contenidos en los manuales de operaciones de cada una de las instituciones del estado (...) y crear organismos que se ocupen de la prevención de catástrofes".
+### Instrumentos de planificación de gestión de riesgos en República Dominicana
 
-En el año 2001, mediante Decreto No. 360 se crea el Centro de Operaciones de Emergencia a fin de ejercer un mayor control de la información durante un estado de amenaza o desastre, así como garantizar una respuesta más coherente y coordinada de las operaciones de respuesta y rehabilitación. El mismo año, mediante los Decretos 361 y 487, se crea la Comisión Nacional de Emergencia, se designan los representantes permanentes de las instituciones estatales y de la sociedad civil ante la misma y se le confiere la atribución de "revisar, analizar, decidir y someter al poder Ejecutivo, los planes, programas, proyectos o propuestas que se formulen en el área de gestión de riesgo en el país y que involucre la participación del Estado Dominicano". En concordancia, mediante Decreto 320 del año 2002, la Unidad Ejecutora Sectorial del Sub-Programa de Prevención de Desastres del Secretariado Técnico de la Presidencia es transferida a la Comisión Nacional de Emergencia.
-
-Bajo los preceptos de la Constitución de República Dominicana modificada en el año 2002 (y 2010) dentro de los lineamientos internacionales de la "Estrategia Internacional para la Reducción de Desastres" de Naciones Unidas, se estableció un nuevo marco legal para la gestión de riesgos: Ley No. 147-02 de Gestión de Riesgos y su Reglamento. Esta norma establece los instrumentos de la política nacional de gestión de riesgos:
-
--   El Sistema Nacional de Prevención, Mitigación y Respuesta ante desastres.
-
--   El Plan Nacional de Gestión de Riesgos.
-
--   El Plan Nacional de Emergencia.
-
--   El Sistema Integrado Nacional de Información.
-
--   El Fondo Nacional de Prevención, Mitigación y Respuesta ante desastres.
-
-### Instrumentos de planificación de Gestión de Riesgos en República Dominicana
-
-#### Plan Nacional de Gestión de Riesgos
+#### Plan Nacional de gestión de riesgos
 
 Fundamentado en la alianza entre el Gobierno, sector privado y la comunidad, tiene como objetivo prioritario contribuir a la mejora de la calidad de vida, el bienestar de la población y la protección del patrimonio económico, social y ambiental del país, a través del establecimiento de lineamientos, políticas, competencias y responsabilidades, del sector público, privado y sociedad civil, que fomenten mayores niveles de seguridad frente a los riesgos.
 
 La articulación interinstitucional y descentralizada, así como la inclusión de la política de gestión del riesgo como eje transversal, a nivel de los diferentes sectores y colectividades territoriales, constituyen la base de toda actuación. Asimismo, se reconoce como condición indispensable la participación ciudadana en la toma de decisiones sobre gestión de riesgos, en la definición de las prioridades, en el diseño y aplicación de instrumentos de intervención.
 
-El Plan Nacional de Gestión de Riesgos constituye la estrategia del gobierno para orientar las acciones de SN-PMR. Establece los principios y programa básicos para la gestión de riesgos, define las prioridades y pautas para la ejecución de los distintos programas y delimita los roles y responsabilidades de las instituciones y los organismos que integran el SN-PMR, dentro del marco de los 5 ejes programáticos estipulados por Ley:
+El Plan Nacional de gestión de riesgos constituye la estrategia del gobierno para orientar las acciones del SN-PMR. Establece los principios y programas básicos para la gestión de riesgos, define las prioridades y pautas para la ejecución de los distintos programas y delimita los roles y responsabilidades de las instituciones y los organismos que integran el SN-PMR, dentro del marco de los cinco ejes programáticos estipulados por Ley:
 
-1.  **Promover el desarrollo del conocimiento y evaluación del riesgo y su socialización.**
-
-2.  **Fortalecer la reducción y la previsión de los factores de riesgo.**
-
-3.  **Mejoramiento de las prácticas y los mecanismos para la alerta y respuesta.**
-
-4.  **Formación de recursos humanos, educación y capacitación.**
-
-5.  **Fortalecimiento de las capacidades interinstitucionales en gestión de riesgos.**
+1.  Promover el desarrollo del conocimiento y evaluación del riesgo y su socialización.
+2.  Fortalecer la reducción y la previsión de los factores de riesgo.
+3.  Mejorar las prácticas y los mecanismos para la alerta y respuesta.
+4.  Formar recursos humanos, educación y capacitación.
+5.  Fortalecer las capacidades interinstitucionales en gestión de riesgos.
 
 | Instrumento | Propósito | Cobertura / Fuente | Estado (ago-2025) | Próximos pasos |
 |:--------------|:--------------|:--------------|:--------------|:--------------|
@@ -124,89 +93,29 @@ El Plan Nacional de Gestión de Riesgos constituye la estrategia del gobierno pa
 | **TDAV / Bluespots** | Vulnerabilidad e inundación pluvial | Municipal / Proyecto | Piloto funcional | Validación en campo, actualización de capas y geoprocesos |
 | **Cartografía de riesgo (diagnóstico)** | Priorización de mitigación/ordenamiento | Municipal / Proyecto | Disponible | Repositorio municipal con metadatos y rutinas de actualización |
 
-: Plan Nacional de Gestión de Riesgos: instrumentos, cobertura y estado (ago-2025). Elaboración propia. {#tbl-plan-nacional-gdr .smaller}
+: Plan Nacional de gestión de riesgos: instrumentos, cobertura y estado (ago-2025). Elaboración propia. {#tbl-plan-nacional-gdr .smaller}
 
 #### Plan Nacional de Emergencia
 
-Elaborado por la Comisión, establece las responsabilidades en el manejo de los desastres de todas las entidades que intervienen en la emergencia, haciendo más efectiva y eficiente, en términos organizativos y funcionales, la actuación durante las fases de preparación, alerta, respuesta, rehabilitación y recuperación. Para tal efecto, determina los mecanismos de coordinación y flujo de información entre los diferentes niveles y componentes de la Administración Pública. \`\`Este Plan fue realizado originalmente en 1981 (última actualización plan 2000) como el Plan Nacional de Emergencia para casos de Desastres en la Republica Dominicana, recibiendo varias actualizaciones hasta la fecha. El Centro de Operaciones de Emergencia (COE), se ratifica mediante la Ley 147-02 en su artículo 12; el COE es el órgano operativo del Sistema Nacional de Gestión de Riesgo, el cual es responsable de promover y mantener la coordinación y operación conjunta entre los diferentes niveles, jurisdicciones y funciones de las instituciones involucradas en el manejo y atención de emergencias y desastres en el país [@coePlanNacionalEmergencias2018].
+Elaborado por la Comisión, establece las responsabilidades en el manejo de los desastres de todas las entidades que intervienen en la emergencia, haciendo más efectiva y eficiente, en términos organizativos y funcionales, la actuación durante las fases de preparación, alerta, respuesta, rehabilitación y recuperación. Para tal efecto, determina los mecanismos de coordinación y flujo de información entre los diferentes niveles y componentes de la Administración Pública. \`\`Este Plan fue realizado originalmente en 1981 (última actualización plan 2000) como el Plan Nacional de Emergencia para casos de Desastres en la República Dominicana, recibiendo varias actualizaciones hasta la fecha. El Centro de Operaciones de Emergencia (COE), se ratifica mediante la Ley 147-02 en su artículo 12; el COE es el órgano operativo del Sistema Nacional de Gestión de Riesgo, el cual es responsable de promover y mantener la coordinación y operación conjunta entre los diferentes niveles, jurisdicciones y funciones de las instituciones involucradas en el manejo y atención de emergencias y desastres en el país [@coePlanNacionalEmergencias2018].
 
-#### El Plan Municipal de Gestión de Riesgos en los municipios
+#### El Plan Municipal de gestión de riesgos en los municipios
 
-Se elabora con el objetivo de fortalecer la capacidad de estos para prevenir, mitigar, preparar, responder y recuperarse de los desastres naturales y antrópicos. Este plan integra los instrumentos legales, técnicos y operativos necesarios para garantizar la seguridad y el bienestar de la población, así como la protección del medio ambiente y la infraestructura.
-
-**Objetivos:**
-
--   Prevenir y mitigar los riesgos de desastres mediante la identificación y reducción de vulnerabilidades.
-
--   Fortalecer la capacidad de respuesta de las instituciones locales y de la comunidad.
-
--   Garantizar la recuperación efectiva y sostenible post-desastres.
-
--   Promover la educación y la concientización sobre gestión de riesgos en la población.
+Este plan se elabora con el objetivo de fortalecer la capacidad municipal para prevenir, mitigar, preparar, responder y recuperarse ante desastres naturales y antrópicos, integrando los instrumentos legales, técnicos y operativos que garanticen la seguridad y el bienestar de la población junto con la protección del medio ambiente y la infraestructura. Sus objetivos se concentran en prevenir y mitigar los riesgos mediante la identificación y reducción de vulnerabilidades, fortalecer la capacidad de respuesta de las instituciones locales y de la comunidad, garantizar la recuperación efectiva y sostenible tras un desastre, y promover la educación y la concientización ciudadana en materia de gestión de riesgos.
 
 #### El Plan Municipal de Emergencia y Contingencia de los municipios
 
-Está diseñado para preparar, coordinar y ejecutar acciones eficientes en respuesta a situaciones de emergencia y desastres naturales o antrópicos. Este plan es fundamental para salvaguardar la vida, la propiedad y el bienestar de la comunidad, asegurando una respuesta rápida y eficaz en momentos críticos.
+Este plan está diseñado para preparar, coordinar y ejecutar acciones eficientes en respuesta a situaciones de emergencia y desastres naturales o antrópicos, salvaguardando la vida, la propiedad y el bienestar de la comunidad con una respuesta rápida y eficaz en momentos críticos. Sus objetivos incluyen proteger la vida y la salud de los habitantes, minimizar los daños materiales y preservar el medio ambiente, asegurar una respuesta organizada y eficiente ante emergencias, y facilitar una recuperación rápida y sostenible posterior al evento.
 
-**Objetivos:**
+### Instrumentos tecnológicos de gestión de riesgos en República Dominicana
 
--   Proteger la vida y la salud de los habitantes.
+El ecosistema tecnológico nacional de GRD combina infraestructura de datos espaciales, sistemas de alerta y plataformas de captura y difusión. En el plano de la **información geoespacial**, la Infraestructura de Datos Espaciales de la República Dominicana (IDERD) articula políticas, tecnologías y estructuras institucionales que facilitan el acceso a información espacial para usuarios gubernamentales, académicos, del sector privado y ciudadanos, e integra los geoportales de MOPC, Servicio Geológico Nacional (SGN), INDRHI, INAPA, Ministerio de Medio Ambiente y Dirección General de Catastro Nacional (DGCN). El Instituto Geográfico Nacional complementa ese sistema con servicios de cartografía, geoportal, formación en SIG y redes geodésicas. La Oficina Nacional de Evaluación Sísmica y Vulnerabilidad de Infraestructuras y Edificaciones (ONESVIE) ha desarrollado herramientas online para evaluaciones detalladas y visuales rápidas de vulnerabilidad sísmica en edificaciones e infraestructuras. En el ámbito epidemiológico, el Sistema Nacional de Vigilancia Epidemiológica (SINAVE), regulado por el Decreto 309-07, monitorea y evalúa las amenazas que inciden en la salud pública y orienta las medidas de mitigación [@mspBoletinEpidemiologicoSemanal2018].
 
--   Minimizar los daños materiales y preservar el medio ambiente.
+En el plano de los **sistemas de alerta temprana**, la Dirección Nacional de Gestión de Riesgo de Desastres ha avanzado una política nacional con ejes estratégicos, objetivos y lineamientos para la gobernanza, el conocimiento del riesgo, la comunicación de alertas y la respuesta, con mecanismos de articulación y coordinación interinstitucional; el documento se encuentra aún en fase preliminar. Los **drones y sensores remotos** se utilizan para la detección de anomalías en sistemas con potencial de generar peligros (deslizamientos, inundaciones), la evaluación rápida de daños y la vigilancia ambiental posterior a un desastre, aportando imágenes y datos en tiempo real que facilitan la planificación de la recuperación [@gomezUsoDronesSensores2021]. Las **plataformas de gestión de información**, como el Sistema Nacional de Información sobre Gestión de Riesgos, integran datos de diversas fuentes para análisis y gestión en situaciones de emergencia.
 
--   Asegurar una respuesta organizada y eficiente ante emergencias.
+Las **aplicaciones móviles y redes sociales** operan como canal de comunicación rápida con la población para alertas y actualizaciones en tiempo real, alineadas con la Prioridad 1 del Marco de Sendai sobre comprensión del riesgo [@undrr2015sendai]. Un caso concreto es la aplicación Alerta COE, que permite consultar las últimas alertas emitidas por el COE con información sobre provincias afectadas, nivel de alerta y tipo de evento generador. Los **sensores de calidad del aire y del agua** monitorean continuamente las condiciones ambientales, proporcionan datos críticos para la gestión de salud pública y activan medidas de emergencia al detectar niveles peligrosos de contaminantes, con especial relevancia en áreas industriales y urbanas. Finalmente, los **modelos de simulación y pronóstico** permiten predecir el comportamiento de fenómenos naturales y estimar impactos potenciales; son utilizados por ONAMET y otras entidades para planificar acciones preventivas y respuestas efectivas.
 
--   Facilitar una recuperación rápida y sostenible post-desastres.
-
-### Instrumentos tecnológicos de Gestión de Riesgos en República Dominicana
-
-En la República Dominicana, se utilizan varios instrumentos tecnológicos para la Gestión de Riesgo de Desastres (GRD). A continuación, se describen algunos de los principales:
-
-#### **Sistemas de Información Geográfica (SIG)**
-
-La República Dominicana cuenta con el IDERD Infraestructura de Datos Espaciales de RD. Esta se define como: Una colección de tecnologías, políticas y estructuras institucionales que facilitan la disponibilidad y acceso a la información espacial. Las IDERD proporciona una base para la localización de datos espaciales, su evaluación y su utilización por los usuarios, a todo tipo de niveles: Gubernamental, Sector Comercial, Organizaciones sin fines de lucro (ONG's), Sector Académico y Ciudanía Dominicana. Entre los recursos disponibles del IDERD cuenta con directorio de servicios, catálogo de metadatos, repositorios d documentos y mapas. Hasta ahora IDERD alberga los geoportales siguientes: Ministerio de Obras Públicas y Comunicaciones (MOPC), Servicio Geológico Nacional (SGN), instituto Nacional de Recursos Hidráulicos (INDRHI), Instituto Nacional de Agua Potable y Alcantarillados (INAPA), Ministerio de Medio Ambiente. (MARENA), Dirección General de Catastro Nacional (DGCN).
-
-El Instituto Geográfico Nacional cuenta con un catálogo de servicios en el área de tecnologías asociadas a la información geográfica tales como: cartografía, certificación de mapas, formación en GIS, geoportal, capacitación en uso de equipos geodésicos, georreferenciación de puntos geodésicos, diseño de redes geodésicas, certificación CORS, certificación de puntos geodésicos para obras de infraestructuras.
-
-En el caso de la Oficina Nacional de Evaluación Sísmica y Vulnerabilidad de Infraestructuras y Edificaciones (ONESVIE). Esta entidad ha desarrollado instrumentos y herramientas online para la evaluación de la vulnerabilidad sísmica. Estas herramientas son: herramienta para las Evaluaciones Detalladas para Determinación de la Vulnerabilidad Sísmica de Edificaciones, Infraestructuras y Líneas Vitales y Evaluaciones Visuales Rápidas (EVR) para Determinación de la Vulnerabilidad Sísmica de Edificaciones, Infraestructuras y Líneas Vitales.
-
-En el caso de la Dirección Nacional de Epidemiologia mediante el decreto No. 309-07 que establece el Reglamento del Sistema Nacional de Vigilancia Epidemiológica, (SINAVE) con el objeto de regular el manejo epidemiológico de enfermedades y eventos de importancia para la salud pública dominicana. "La vigilancia epidemiológica es una disciplina esencial y transversal para el monitoreo y evaluación de la salud de los pueblos, puesto que permite identificar las posibles amenazas que alteren la salud, así como implementar medidas que mitiguen o disminuyan los efectos de estas amenazas"[@mspBoletinEpidemiologicoSemanal2018].
-
-#### **Sistemas de Alerta Temprana**
-
-Estos sistemas integran tecnologías de monitoreo meteorológico, climáticos, epidemiológicos y sísmico para emitir alertas tempranas sobre fenómenos naturales como huracanes, terremotos e inundaciones. La dirección Nacional de Gestión de Riesgo de Desastres ha trabajado en una política nacional de implementación de sistemas de alerta temprana. Existe ya un documento preliminar que deberá evolucionar hasta la política definitiva y los instrumentos asociados. El documento de política plantea la definición de un sistema único de alerta temprana y establece ejes estratégicos, objetivos y lineamientos para cada uno de los componentes de los SATs, en cuanto a la gobernanza, conocimiento del riesgo, comunicación de las alertas y respuesta y establecerá los mecanismos de articulación y coordinación interinstitucional.
-
-#### **Drones y Sensores Remotos**
-
-Los drones y sensores remotos se utilizan para la detección de anomalías y comportamientos peligrosos de sistemas potenciales de generar peligros. Por ejemplo, deslizamientos de tierra, imágenes áreas de gran carga de información, así como para evaluación rápida de daños y la vigilancia ambiental después de un desastre [@gomezUsoDronesSensores2021].
-
-Estas tecnologías permiten obtener imágenes y datos en tiempo real sobre áreas afectadas, facilitando una respuesta más eficiente y la planificación de acciones de recuperación.
-
-#### **Plataformas de Gestión de Información**
-
-Plataformas digitales como el Sistema Nacional de Información sobre Gestión de Riesgos (SINAGERD) integran datos de diversas fuentes para la gestión y análisis de información relevante en situaciones de emergencia.
-
-#### **Aplicaciones Móviles y Redes Sociales**
-
-El Marco de Sendai orienta sobre los usos pertinentes de la tecnología y los recursos aportados por las TICs para la adecuada gestión de los riesgos. De hecho, en su Prioridad 1: Comprender el riesgo de desastres. Establece: "Las políticas y prácticas para la gestión del riesgo de desastres deben basarse en una comprensión del riesgo de desastres en todas sus dimensiones de vulnerabilidad, capacidad, grado de exposición de personas y bienes, características de las amenazas y entorno. Esos conocimientos se pueden aprovechar para la evaluación del riesgo previo a los desastres, para la prevención y mitigación y para la elaboración y aplicación de medidas adecuadas de preparación y respuesta eficaz para casos de desastre"[@undrrSendaiFrameworkDisaster2015].
-
-Aplicaciones móviles y redes sociales se utilizan para la comunicación rápida con la población, ofreciendo alertas y actualizaciones en tiempo real.
-
-Promover el acceso en tiempo real a datos fiables, hacer uso de información espacial e in situ, incluidos los sistemas de información geográfica (SIG), y utilizar las innovaciones en materia de tecnología de la información y las comunicaciones para mejorar los instrumentos de medición y la recopilación, el análisis y la difusión de datos; Las autoridades locales y nacionales utilizan estas herramientas para difundir información sobre emergencias, recomendaciones de seguridad y actualizaciones sobre la situación en tiempo real.
-
-Alerta COE. Esta aplicación permite conocer las últimas alertas emitidas por el COE al público, con detalles como: Provincias afectadas, Nivel de Alerta, Tipo de Evento Generador (Huracán, Terremoto) entre otros detalles.
-
-#### **Sensores de Calidad del Aire y del Agua**
-
-**Descripción:** Estos sensores monitorizan continuamente la calidad del aire y del agua, proporcionando datos cruciales para la gestión de la salud pública y la respuesta a incidentes de contaminación.
-
-**Aplicación:** Implementados en áreas industriales y urbanas para detectar niveles peligrosos de contaminantes y activar medidas de emergencia cuando sea necesario.
-
-#### **Modelos de Simulación y Pronóstico**
-
-**Descripción:** Herramientas de simulación y pronóstico que permiten predecir el comportamiento de fenómenos naturales y evaluar los impactos potenciales de desastres.
-
-**Aplicación:** Utilizados por ONAMET y otras entidades para planificar acciones preventivas y respuestas efectivas.
+<!-- TODO diagrama J-05-07: Mapa conceptual del ecosistema tecnológico nacional de GRD (IDERD, ONESVIE, SINAVE, SAT, drones, SINAGERD, Alerta COE, sensores, modelos) con flujos de datos entre niveles. -->
 
 ### Estado actual de los instrumentos de GRD Bajos de Haina
 
@@ -230,7 +139,7 @@ En cuanto al **estado actual**, Haina dispone de estructura operativa (CM-PMR y 
 
 Haina dispone de organización y prototipos funcionales, pero necesita: (i) formalizar el Plan Municipal de Emergencias/Contingencias y manuales (incluido EDAN) en línea con el PNE-2023; (ii) institucionalizar las herramientas digitales (Reporta, TDAV, Bluespots) mediante ordenanza y POA; y (iii) asegurar gobernanza de datos para que la cartografía diagnóstica alimente rutinas de decisiones y control urbano.
 
-### Marco legal de la Gestión de Riesgos en República Dominicana
+### Marco legal de la gestión de riesgos en República Dominicana {#sec-marco-legal-gdr-05}
 
 Durante décadas, la actuación del estado dominicano frente a los desastres estuvo marcada por una orientación básicamente reactiva y la ausencia de un adecuado marco normativo e institucional. La preocupación por superar aquellos vacíos legales y mejorar la capacidad institucional en términos organizativos y de gestión de la respuesta, da lugar, en el año 1966, a la creación de la Oficina Nacional de Defensa Civil[^05-gestion-riesgos-1] y la formulación del primer plan y programa general para la defensa civil en todo el país. Complementariamente, con el objetivo de orientar las actividades de todos "los grupos que se dedican a realizar obras de salvamento y ayuda", se crea, en 1968, la Comisión de Defensa Civil Nacional[^05-gestion-riesgos-2], que estaría presidida por la Oficina de Defensa Civil.
 
@@ -238,17 +147,17 @@ Durante décadas, la actuación del estado dominicano frente a los desastres est
 
 [^05-gestion-riesgos-2]: Decreto No. 2045 del 5 de junio de 1968.
 
-Complementariamente, con el objetivo de orientar las actividades de todos "los grupos que se dedican a realizar obras de salvamento y ayuda", se crea, en 1968, la Comisión de Defensa Civil Nacional, que estaría presidida por la Oficina de Defensa Civil. Entre 1970 y 1980, República Dominicana sufrió más de 400 eventos originados por una gran variedad de causas y con diversos niveles de afectación[^05-gestion-riesgos-3]. A raíz de estos eventos, se convocó a más de 25 instituciones del estado a realizar el Primer Simposio Estatal sobre Desastres Naturales. Este simposio generó los insumos para la creación, en 1981, de la Comisión "Plan Nacional de Emergencia"; siendo las principales facultades de esta el "trazar una política nacional a ser seguida en caso de catástrofe, establecer planes coordinados para la prevención y evaluación de daños (...), establecer los planes específicos, los contenidos en los manuales de operaciones de cada una de las instituciones del estado (...) y crear organismos que se ocupen de la prevención de catástrofes".
+Entre 1970 y 1980, República Dominicana sufrió más de 400 eventos originados por una gran variedad de causas y con diversos niveles de afectación[^05-gestion-riesgos-3]. A raíz de estos eventos, se convocó a más de 25 instituciones del estado a realizar el Primer Simposio Estatal sobre Desastres Naturales. Este simposio generó los insumos para la creación, en 1981, de la Comisión "Plan Nacional de Emergencia"; siendo las principales facultades de esta el "trazar una política nacional a ser seguida en caso de catástrofe, establecer planes coordinados para la prevención y evaluación de daños (...), establecer los planes específicos, los contenidos en los manuales de operaciones de cada una de las instituciones del estado (...) y crear organismos que se ocupen de la prevención de catástrofes".
 
 [^05-gestion-riesgos-3]: Los Desastres ocurridos en la República Dominicana 1966-2000. Omar Darío Cardona. Secretariado Técnico de la Presidencia. LA RED. ICF Consulting. BID. Santo Domingo, 2001.
 
 En el año 2001, mediante Decreto No. 360 se crea el Centro de Operaciones de Emergencia a fin de ejercer un mayor control de la información durante un estado de amenaza o desastre, así como garantizar una respuesta más coherente y coordinada de las operaciones de respuesta y rehabilitación. El mismo año, mediante los Decretos 361 y 487, se crea la Comisión Nacional de Emergencia, se designan los representantes permanentes de las instituciones estatales y de la sociedad civil ante la misma y se le confiere la atribución de "revisar, analizar, decidir y someter al poder Ejecutivo, los planes, programas, proyectos o propuestas que se formulen en el área de gestión de riesgo en el país y que involucre la participación del Estado Dominicano". En concordancia, mediante Decreto 320 del año 2002, la Unidad Ejecutora Sectorial del Sub-Programa de Prevención de Desastres del Secretariado Técnico de la Presidencia es transferida a la Comisión Nacional de Emergencia.
 
-Bajo los preceptos de la Constitución de República Dominicana modificada en el año 2002 y dentro de los lineamientos internacionales de la "Estrategia Internacional para la Reducción de Desastres" de Naciones Unidas, se estableció un nuevo marco legal para la gestión de riesgos: Ley No. 147-02 de Gestión de Riesgos y su Reglamento. Esta norma establece los instrumentos de la política nacional de gestión de riesgos:
+Bajo los preceptos de la Constitución de República Dominicana modificada en el año 2002 y dentro de los lineamientos internacionales de la "Estrategia Internacional para la Reducción de Desastres" de Naciones Unidas, se estableció un nuevo marco legal para la gestión de riesgos: Ley No. 147-02 de gestión de riesgos y su Reglamento. Esta norma establece los instrumentos de la política nacional de gestión de riesgos:
 
 1.  El Sistema Nacional de Prevención, Mitigación y Respuesta ante desastres- SN-PMR,
 
-2.  El Plan Nacional de Gestión de Riesgos;
+2.  El Plan Nacional de gestión de riesgos;
 
 3.  El Plan Nacional de Emergencia;
 
@@ -262,13 +171,13 @@ Es el mecanismo del poder ejecutivo que reordena e integra las instituciones y r
 
 #### Consejo Nacional de Prevención, Mitigación y Respuesta ante Desastres (CNPMR)
 
-Creado mediante la Ley 147, está presidido por el presidente de la República e integrado por ministerios, directores de oficinas gubernamentales, el alcalde del Ayuntamiento del Distrito Nacional de Santo Domingo y representantes de la Sociedad Civil. Es la "instancia rectora encargada de orientar, dirigir, planificar y coordinar el Sistema Nacional de Gestión de Riesgos".
+Creado mediante la Ley 147, está presidido por el presidente de la República e integrado por ministerios, directores de oficinas gubernamentales, el alcalde del Ayuntamiento del Distrito Nacional de Santo Domingo y representantes de la Sociedad Civil. Es la "instancia rectora encargada de orientar, dirigir, planificar y coordinar el Sistema Nacional de gestión de riesgos".
 
 #### Comisión Nacional de Emergencias (CNE)
 
 Ratificada por la Ley 147, pasó a depender del CN-PMR. Es presidida y coordinada por el director ejecutivo de la Defensa Civil y cuenta con las siguientes instancias:
 
-**Comité Técnico:** Adscrito a la Comisión Nacional de Emergencias, fue creado el 26 de marzo del 2008 conforme a lo estipulado en el artículo 11 de la Ley 147 del 2002; funciona como organismo de carácter asesor y coordina las actividades de reducción de riesgos. Propone la actualización del Plan Nacional de Gestión de Riesgos y el Plan Nacional de Emergencias. Está conformado por representantes de 22 instituciones, incluyendo el sector académico y la Cruz Roja Dominicana.
+**Comité Técnico:** Adscrito a la Comisión Nacional de Emergencias, fue creado el 26 de marzo del 2008 conforme a lo estipulado en el artículo 11 de la Ley 147 del 2002; funciona como organismo de carácter asesor y coordina las actividades de reducción de riesgos. Propone la actualización del Plan Nacional de gestión de riesgos y el Plan Nacional de Emergencias. Está conformado por representantes de 22 instituciones, incluyendo el sector académico y la Cruz Roja Dominicana.
 
 **Comité Operativo Nacional:** Conforme a la Ley 147 es una instancia de coordinación dependiente de la Comisión Nacional. Sin embargo, a la fecha no está reglamentado.
 
@@ -276,25 +185,59 @@ Ratificada por la Ley 147, pasó a depender del CN-PMR. Es presidida y coordinad
 
 **Centro de Operaciones de Emergencias (COE):** Ratificado mediante la Ley 147, es el órgano operativo de la CNE y funciona como organismo de coordinación para la preparación y respuesta en caso de desastres. El COE está dirigido por la Defensa Civil, la Secretaría de Estado de las Fuerzas Armadas y el Cuerpo de Bomberos de Santo Domingo.
 
-#### **Comités Regionales, Provinciales y Municipales de Prevención, Mitigación y Respuesta ante Desastres**
+#### Comités regionales, provinciales y municipales de prevención, mitigación y respuesta ante desastres {#sec-sistema-grd-05}
 
 Estos comités se crean en cada una de las demarcaciones geográficas y municipios del país teniendo como atribución brindar asesoría y orientación en los procesos de preparación de la respuesta así como en las labores de socorro, rehabilitación y reconstrucción, fomentar procesos de educación y capacitación institucional y comunitaria en temas de prevención y mitigación, brindar apoyo técnico en la identificación de riesgos y facilitar la inclusión del componente de prevención dentro de los planes de desarrollo de su jurisdicción.
 
-#### **Sistema Integrado de Información (SINI)**
+La ley establece la creación de un Comité Municipal de Prevención, Mitigación y Respuesta (CMPMR) en cada municipio, presidido por el alcalde y formado por los representantes de las principales autoridades institucionales locales. En Bajos de Haina, el CMPMR opera como equipo multidisciplinario en relación directa con las comunidades, asegurando el cumplimiento de las políticas de GRD a nivel local.
 
-Un sistema integrado de información tiene por objetivo sistematizar toda la información sobre amenazas y vulnerabilidades y hacer un diagnóstico del riesgo y la capacidad de respuesta institucional, permitiendo la priorización de acciones, programas y proyectos. La Ley 147 asignó la responsabilidad de su creación y operatividad a la CNE junto con la colaboración de las instituciones del SN-PMR, las mismas que deben facilitar la información actualizada del ámbito de su competencia. Por su parte, el Anexo del Plan Nacional de Emergencia, precisa que el Sistema Nacional de Geo-Informática constituye un recurso del Sistema Nacional Integrado de Información para la obtención de datos, información y pronósticos oportunos para prevenir a la población de la ocurrencia de fenómenos hidrometeorológicos severos y sísmicos. Dicho sistema debe incluir: Una red de observación hidrometeorológica que operará la ONAMET en el componente meteorológico y el INDRHI en el componente hidrológico; una red de registro y observación sísmica que operará el ISU de la UASD, con fines de localización y diagnóstico rápido de la acción de terremotos, incluyéndose la red sísmica del INDRHI; un sistema de telecomunicaciones entre varias instituciones y el COE para intercambiar datos, información y pronósticos en tiempo real; sistemas locales de detección de inundaciones; entre otros aspectos.
+| Institución | Institución |
+|:---|:---|
+| **Planificación** | **Medio Ambiente y Recursos Naturales** |
+| **Obras Públicas y Comunicaciones** | **Educación** |
+| **Agricultura** | **Salud Pública y Asistencia Social** |
+| **Fuerzas Armadas** | **Policía Nacional** |
+| **Defensa Civil** | **Cruz Roja** |
+| **Bomberos** | **Recursos Hidráulicos** |
+| **Agua Potable y Alcantarillados** | **Vivienda** |
+| **Organismos Municipales** |  |
+
+: Instituciones integrantes del Comité Municipal de Prevención, Mitigación y Respuesta (CMPMR). Elaboración propia. {#tbl-cmpmr-instituciones .smaller}
+
+El CMPMR incorpora además dos representantes de la sociedad civil organizada, elegidos entre asociaciones gremiales, profesionales o comunitarias. Otras entidades públicas o privadas pueden integrarse a los trabajos del comité mediante invitación del alcalde municipal. El mapa completo de actores activos en la gestión de riesgos del municipio, con sus respectivos mandatos legales, se sintetiza en la tabla siguiente.
+
+| Categoría | Nombre | Detalle de mandato |
+|:-----------------------|:-----------------------|:-----------------------|
+| **Instituciones Públicas** | Ayuntamiento de Bajos de Haina (Departamento Municipal de Planificación y Programación; Departamento de Gestión Ambiental y del Riesgo) | Gobierno municipal encargado por ley de la GRD en el municipio (Ley 147-02 y Ley 170-07). |
+| **Instituciones Públicas** | Defensa Civil Haina | Asegura que los operativos del país sean adecuados para los perjuicios que se originen por desastres causados por inundación, terremoto, tormenta, huracán, fuego, escasez o distribución deficiente de suministros, y en general para proveer el orden, salud y bienestar económico, seguridad pública y preservación de la vida y de la propiedad (Ley 287 de 1966). |
+| **Instituciones Públicas** | Cruz Roja Dominicana | Decreto No. 477 de 1932, que otorgó reconocimiento gubernamental a la Cruz Roja Dominicana. Es asesora en materia de GRD del gobierno dominicano. |
+| **Instituciones Públicas** | Cuerpo de Bomberos de Haina | Ley 5110, relativa a los Cuerpos de Bomberos, de fecha 29 de junio de 1912; responsable de extinción de incendios y auxilio a la población en situaciones de emergencia. |
+| **Instituciones Públicas** | Policía Nacional | Ley Orgánica de la Policía Nacional, No. 590-16, del 15 de julio de 2016. Mandato: salvaguardar la seguridad ciudadana; prevenir y controlar los delitos; perseguir e investigar las infracciones penales; mantener el orden público. |
+| **Instituciones Públicas** | Policía Municipal | Ley 176-07 art. 173 y 174. Institución obligada a preservar los bienes municipales y hacer cumplir las leyes, ordenanzas, resoluciones, reglamentos y disposiciones municipales. |
+| **Instituciones Públicas** | Hospital Barsequillo | Entidad pública de salud que hace parte del sistema nacional de salud y principal entidad en el entorno municipal. |
+| **Instituciones Públicas** | Distrito Escolar 04-06 Haina | Órgano de gestión que rige un conjunto de centros escolares de distintos niveles y modalidad, bajo los lineamientos del Ministerio de Educación. |
+| **ONG con mandato en GRD** | Centro de Acción Social y Promoción del Desarrollo ARCOÍRIS | Fundado el 6 de mayo de 2001, legalizado mediante resolución 033-ONG del 31 de octubre de 2006 e inscrito en el registro de ASFL con el número 4953 del 3 de julio de 2012. La GRD es una de sus áreas prioritarias. |
+| **ONG con mandato en GRD** | World Vision | Confraternidad internacional con misión de asistencia en catástrofes, emergencias y gestión de desastres. |
+| **ONG con mandato en GRD** | COOPCEA | ONG local con interés en la gestión de riesgo de desastres y el medio ambiente. |
+| **Organizaciones Comunitarias de Base** | Juntas de Vecinos | Organizaciones comunitarias, barriales o sectoriales de una demarcación territorial, mediadoras en los conflictos que surgen entre sus miembros y frente a las autoridades municipales y nacionales, con facultad para denunciar violaciones a las normas de planeamiento urbano, medio ambiente y demás normas de la vida municipal. |
+| **Organizaciones Comunitarias de Base** | Coordinadora de Juntas de Vecinos | Entidad que agrupa a las juntas de vecinos del municipio de Haina. |
+| **Organizaciones Comunitarias de Base** | Redes Comunitarias de Prevención, Mitigación y Respuesta | Entidades locales en los barrios y comunidades con mandato social para intervenir en la GRD. |
+| **Empresas** | Asociación de Industrias de Haina y el Sur | Entidad no gubernamental sin fines de lucro, creada el 17 de septiembre de 1981, constituida por Decreto Presidencial No. 3361 del 27 de octubre de 1983, bajo la Ley No. 520 del 26 de julio de 1925. Trabaja en la solución de los problemas que afectan a los asociados y su entorno. |
+| **Empresas** | Patronato Pro-Desarrollo de Haina | PADESHA es una organización privada sin fines de lucro fundada en 1992 y con personería jurídica adquirida el 31 de diciembre de 1993 mediante la Ley 53-93. Trabaja en la mejora de la calidad de vida de los moradores de Haina. |
+
+: Actores involucrados en la Gestión de Riesgos en Bajos de Haina. Elaboración propia. {#tbl-actores-grd .striped .smaller}
+
+**SINI.** Un sistema integrado de información tiene por objetivo sistematizar toda la información sobre amenazas y vulnerabilidades y hacer un diagnóstico del riesgo y la capacidad de respuesta institucional, permitiendo la priorización de acciones, programas y proyectos. La Ley 147 asignó la responsabilidad de su creación y operatividad a la CNE junto con la colaboración de las instituciones del SN-PMR, las mismas que deben facilitar la información actualizada del ámbito de su competencia. Por su parte, el Anexo del Plan Nacional de Emergencia, precisa que el Sistema Nacional de Geo-Informática constituye un recurso del Sistema Nacional Integrado de Información para la obtención de datos, información y pronósticos oportunos para prevenir a la población de la ocurrencia de fenómenos hidrometeorológicos severos y sísmicos. Dicho sistema debe incluir: Una red de observación hidrometeorológica que operará la ONAMET en el componente meteorológico y el INDRHI en el componente hidrológico; una red de registro y observación sísmica que operará el ISU de la UASD, con fines de localización y diagnóstico rápido de la acción de terremotos, incluyéndose la red sísmica del INDRHI; un sistema de telecomunicaciones entre varias instituciones y el COE para intercambiar datos, información y pronósticos en tiempo real; sistemas locales de detección de inundaciones; entre otros aspectos.
 
 El SINI declara como sus funciones las siguientes: ´´El Sistema Integrado Nacional de Información (SINI) tiene como finalidad principal sistematizar el conocimiento de las amenazas, vulnerabilidades y riesgos en el territorio nacional y contar con información relativa a sistemas de vigilancia y alerta, capacidad de respuesta y procesos de gestión interinstitucional y colaborar de una manera oportuna y eficiente en los procesos de toma de decisiones´´ EL SINI en la actualidad desarrolla Informes Ejecutivos en el nivel provincial.
 
-#### **Defensa Civil**
-
-La Ley No. 257 del 17 de junio de 1966 crea la Oficina de Defensa Civil con jurisdicción nacional, siendo su principal objetivo "proveer el orden, salud y bienestar económico, seguridad pública, preservación de la vida y de la propiedad, así como coordinar las funciones de los distintos departamentos del Estado, de sus organizaciones autónomas, de las entidades privadas de toda clase, para que se realice la más eficaz preparación de los recursos humanos, económicos y facilidades en caso de desastre".
+**Defensa Civil.** La Ley No. 257 del 17 de junio de 1966 crea la Oficina de Defensa Civil con jurisdicción nacional, siendo su principal objetivo "proveer el orden, salud y bienestar económico, seguridad pública, preservación de la vida y de la propiedad, así como coordinar las funciones de los distintos departamentos del Estado, de sus organizaciones autónomas, de las entidades privadas de toda clase, para que se realice la más eficaz preparación de los recursos humanos, económicos y facilidades en caso de desastre".
 
 ## Análisis funcional de la gestión de riesgos en Bajos de Haina {#sec-analisis-funcional-gdr-05}
 
 El análisis funcional de la Gestión de Riesgo de Desastres (GRD) implica descomponer el sistema de GRD en sus componentes fundamentales para entender mejor cómo cada función contribuye a la gestión efectiva del riesgo de desastres. El Sistema de GRD en Bajos de Haina y el resto de los municipios del país está regido según indica la ley 147-02 por el CM-PMR.
 
-Se identifican las. (CMPMR) algunas de las funciones clave incluyen:
+Algunas de las funciones clave del CMPMR incluyen:
 
 | Aspecto | Descripción | Impacto |
 |:-----------------------|:-----------------------|:-----------------------|
@@ -312,30 +255,9 @@ En materia de desastres y riesgos es claro que la velocidad del problema supera 
 
 [^05-gestion-riesgos-4]: Metodología para la evaluación del desempeño de la gestión del riesgo, M. L. Carreño O. D. Cardona A. H. Barbat
 
-El CMPMR del Municipio de Los Bajos de Haina muestra un desempeño muy mejorable en varias áreas clave de la gestión de riesgos de desastres. Sin embargo, hay áreas específicas que deben intervenirse con urgencia para aumentar la eficacia y resiliencia del Comité de PMR y de la comunidad en general. Entre estas mejoras se incluye conocer el riesgo local de forma integral, mejorar de forma sostenible la planificación del riesgo antrópico de gran presencia en el municipio por su carácter industrial, y una mayor participación comunitaria incluso participando en simulacros organizados con temporalidad adecuada y frente a diversas amenazas. Es necesario la implementación de Sistemas de Alerta temprana y su publicidad. También se necesitan tecnologías avanzadas para el monitoreo y la formalización de redes de cooperación más amplias. Al abordar estas áreas, el CMPMR podrá fortalecer su capacidad para gestionar eficazmente los riesgos y responder a los riesgos presentes en el municipio.
+El CMPMR del Municipio de Bajos de Haina muestra un desempeño muy mejorable en varias áreas clave de la gestión de riesgos de desastres. Sin embargo, hay áreas específicas que deben intervenirse con urgencia para aumentar la eficacia y resiliencia del Comité de PMR y de la comunidad en general. Entre estas mejoras se incluye conocer el riesgo local de forma integral, mejorar de forma sostenible la planificación del riesgo antrópico de gran presencia en el municipio por su carácter industrial, y una mayor participación comunitaria incluso participando en simulacros organizados con temporalidad adecuada y frente a diversas amenazas. Es necesario la implementación de Sistemas de Alerta temprana y su publicidad. También se necesitan tecnologías avanzadas para el monitoreo y la formalización de redes de cooperación más amplias. Al abordar estas áreas, el CMPMR podrá fortalecer su capacidad para gestionar eficazmente los riesgos y responder a los riesgos presentes en el municipio.
 
-### Análisis de los instrumentos de Gestión de Riesgos
-
-La operación local de la GRD en Haina combina **capas nacionales** alertas del COE y redes hidrometeorológicas (ONAMET/INDRHI) con dispositivos y prototipos municipales desplegados por el proyecto (Reporta Haina, TDAV y Bluespots), y con la experiencia previa de monitoreo online de daños impulsada por ARCOIRIS/ICHaB/ETSAM. A nivel normativo y operativo, el Plan Nacional de Emergencias 2023 exige que cada municipio cuente con su plan de emergencias/contingencias, articulado con el COE; además, el COE ofrece la app Alerta COE para difusión de avisos y albergues, y el INDRHI avanza en la cuenca del río Haina hacia un sistema integrado de monitoreo y pronóstico de inundaciones. En Haina, ARCOIRIS/ICHaB documentó un modelo de doble nivel de reporte de daños (ciudadano y validado tipo pre-EDAN) y el proyecto retomó esa arquitectura con Reporta Haina y tableros en tiempo real. El desafío principal no es tecnológico, sino de institucionalización (ordenanzas, protocolos y manuales) y gobernanza de datos para conectar sensores, alertas y reportes con decisiones rutinarias del CM-PMR.
-
-En cuanto al **estado actual**, Haina dispone de estructura operativa (CM-PMR y vínculos con COE/Defensa Civil) y de prototipos funcionales (Reporta Haina, TDAV, Bluespots), pero no se ha identificado públicamente un Plan Municipal de Emergencias/Contingencias vigente, pese a la exigencia del PNE-2023. El pre-EDAN se probó en ejercicios y requiere formalización (resolución local, manuales, entrenamiento periódico); las alertas nacionales funcionan, pero necesitan protocolos municipales de retransmisión (sirenas, perifoneo, mensajería) para cobertura en barrios vulnerables; y las capas de riesgo levantadas por el diagnóstico deben alojarse en un repositorio municipal interoperable. Prioridades: (i) aprobar el Plan Municipal de Emergencias y manuales EDAN/pre-EDAN; (ii) adoptar por ordenanza Reporta Haina/TDAV/Bluespots con POA y KPIs; y (iii) cerrar convenios de interoperabilidad con ONAMET/INDRHI para datos en tiempo real con umbrales de activación. [@diariolibreAlertaCOEAplicacion2024; @ichab-etsamMonitoreoOnlineDanos2020; @indhriINDRHIRealizaReconocimiento2021]
-
-<!-- Tabla duplicada de tbl-plan-nacional-gdr; se conserva aquí como referencia dentro del análisis de instrumentos. -->
-
-| Instrumento | Propósito | Cobertura / Fuente | Estado (ago-2025) | Próximos pasos |
-|:--------------|:--------------|:--------------|:--------------|:--------------|
-| **CM-PMR** | Coordinación local de gestión del riesgo | Municipal / Defensa Civil-COE | Operativo, requiere consolidar actas, POA y protocolos | Formalizar reglamento interno y plan anual |
-| **Plan Municipal de Emergencias/Contingencias** | Guía de respuesta y roles | Municipal / PNE-2023 | No identificado público y vigente | Elaborar, validar y aprobar por Concejo |
-| **Monitoreo online de daños (ARCOIRIS/ICHaB)** | Reporte ciudadano + pre-EDAN validado | Piloto La Pared / StoryMap + UPM | Probado; pendiente institucionalización | Ordenanza, manuales EDAN/pre-EDAN |
-| **App Alerta COE** | Difusión de alertas y albergues | Nacional / COE | Operativa | Protocolo local de retransmisión |
-| **ONAMET/INDRHI** | Datos meteo-hidrológicos y alerta | Nacional / Cuenca río Haina | Operativas/en despliegue | Convenios para datos en tiempo real |
-| **Reporta Haina (niveles 1-2)** | Captura y validación de incidentes | Municipal / Proyecto | Piloto funcional | Ordenanza, manual operativo, KPIs |
-| **TDAV / Bluespots** | Vulnerabilidad e inundación pluvial | Municipal / Proyecto | Piloto funcional | Validación en campo, actualización de capas |
-| **Cartografía de riesgo (diagnóstico)** | Priorización de mitigación | Municipal / Proyecto | Disponible | Repositorio municipal con metadatos |
-
-: Instrumentos de gestión de riesgos: propósito, cobertura y estado (ago-2025). Elaboración propia. {#tbl-instrumentos-gdr-ago2025 .smaller}
-
-### Evaluación de la eficacia de las políticas de Gestión de Riesgos
+### Análisis de los instrumentos de gestión de riesgos
 
 Las municipalidades, con sus ayuntamientos, son una instancia fundamental para desarrollar políticas locales, en directo beneficio de las personas y comunidades que viven, estudian o trabajan en cierta comunidad. En el caso de la gestión de riesgo de desastres los ayuntamientos tienen transferidas todas las responsabilidades para gestionar el riesgo en sus respectivos términos territoriales, pero no poseen fondos especiales para atender esas emergencias o mitigar los riesgos y peligros observables y diagnosticados. La ley 176-07 destaca la responsabilidad de los gobiernos locales para intervenir en la gestión de riesgo de desastres. De forma específica los faculta para:
 
@@ -354,7 +276,7 @@ Sin embargo, se observan tres desafíos básicos en la capacidad de estas entida
 
 Beatriz Fernández de Prada, en su trabajo *Plan de acción social para la gestión integral del riesgo de desastres en el municipio de Bajos de Haina, República Dominicana* (tesis de maestría en sociología, Universidad Politécnica de Madrid, 2023), identifica cuatro problemas centrales. Su metodología, basada en observación participante, entrevistas a actores clave y una encuesta de Conocimientos, Actitudes y Prácticas (CAP), es de enfoque cualitativo. [@fernandezdepradaPlanAccionSocial2023]
 
-**Problema I:** Conocimiento del riesgo limitado. El conocimiento del riesgo en el municipio es limitado: parcial, escasamente sistematizado y de producción vertical. A nivel institucional, el riesgo, y, en particular el riesgo de inundación, no se concibe como el resultado de una suerte de amenaza natural inevitable. Se reconocen algunos factores antrópicos que infunden vulnerabilidad a zonas y poblaciones afectadas de manera desproporcionada, y que podrían intervenirse mediante acciones de prevención y mitigación. El Ayuntamiento, responsable último de garantizar el bienestar de los munícipes, no concibe el riesgo y su análisis pormenorizado como una cuestión prioritaria para el desarrollo local. El último informe de evaluación de la reducción del riesgo a nivel global apunta que, según la investigación cognitiva, "las decisiones relativas a los desastres suelen estar influidas por el pensamiento a corto plazo" [@undrrSendaiFrameworkDisaster2015]. En Haina, esa visión cortoplacista se vincula a una escasa capacidad fiscal y presupuestos acotados para afrontar la multiplicidad de desafíos simultáneos. Los esfuerzos de ciertas instituciones (Defensa Civil, Cuerpo de Bomberos, Departamento de Gestión Ambiental y del Riesgo) por aproximarse y diagnosticar el riesgo adolecen de procedimientos no estandarizados y herramientas de medición insuficientes.
+**Problema I:** Conocimiento del riesgo limitado. El conocimiento del riesgo en el municipio es limitado: parcial, escasamente sistematizado y de producción vertical. A nivel institucional, el riesgo, y, en particular el riesgo de inundación, no se concibe como el resultado de una suerte de amenaza natural inevitable. Se reconocen algunos factores antrópicos que infunden vulnerabilidad a zonas y poblaciones afectadas de manera desproporcionada, y que podrían intervenirse mediante acciones de prevención y mitigación. El Ayuntamiento, responsable último de garantizar el bienestar de los munícipes, no concibe el riesgo y su análisis pormenorizado como una cuestión prioritaria para el desarrollo local. El último informe de evaluación de la reducción del riesgo a nivel global apunta que, según la investigación cognitiva, "las decisiones relativas a los desastres suelen estar influidas por el pensamiento a corto plazo" [@undrr2015sendai]. En Haina, esa visión cortoplacista se vincula a una escasa capacidad fiscal y presupuestos acotados para afrontar la multiplicidad de desafíos simultáneos. Los esfuerzos de ciertas instituciones (Defensa Civil, Cuerpo de Bomberos, Departamento de Gestión Ambiental y del Riesgo) por aproximarse y diagnosticar el riesgo adolecen de procedimientos no estandarizados y herramientas de medición insuficientes.
 
 **Problema II:** Inversión en reducción del riesgo de desastres insuficiente. Las iniciativas de reducción del riesgo de desastres resultan insuficientes para consolidar un municipio resiliente. La inversión pública y privada para la reducción del riesgo de desastres mediante medidas estructurales (obras públicas) y no estructurales (planificación y sensibilización) resulta clave para construir territorios limpios, resilientes y adaptados al cambio climático. En Bajos de Haina, la ausencia de un sistema de drenaje urbano de aguas pluviales y superficiales contribuye a las inundaciones recurrentes. La falta de alcantarillado es la muestra más fehaciente de la insuficiencia de inversión estructural en el municipio. Tampoco se aprecia inversión significativa en medidas no estructurales de RRD: algunos instrumentos de planificación urbana no incorporan el riesgo y, en los que sí lo integran, el control de cumplimiento de normas y códigos de construcción es débil, como muestra la proporción de viviendas ubicadas en zonas de alto riesgo. La acumulación persistente de residuos en las cañadas, que obstruyen los cauces de agua pluvial, evidencia las deficiencias de sensibilización ambiental y la necesidad de medidas de mitigación más eficaces.
 
@@ -382,7 +304,7 @@ El Marco de Sendai[^05-gestion-riesgos-5] para la reducción del riesgo de desas
 
 -   **Prioridad 4:** Aumentar la preparación para casos de desastre a fin de dar una respuesta eficaz y para "reconstruir mejor" en los ámbitos de la recuperación, la rehabilitación y la reconstrucción.
 
-### Evaluación de la participación ciudadana en el proceso de planificación y definición de planes de Gestión de Riesgos
+### Evaluación de la participación ciudadana en el proceso de planificación y definición de planes de gestión de riesgos
 
 Fernández de Prada [-@fernandezdepradaPlanAccionSocial2023] documenta el estado de la participación ciudadana en estos procesos con base en trabajo de campo directo en Bajos de Haina:
 
@@ -392,23 +314,29 @@ Detrás de esta débil participación se esconde una autopercepción como sujeto
 
 La percepción del riesgo viene mediada por la escasez estructural en la que vive la población en las zonas en riesgo. La preocupación por satisfacer las necesidades materiales más básicas relega a un segundo plano el riesgo asumido cotidianamente al habitar zonas inundables. Las herramientas cognitivas para observar ese problema con perspectiva quedan soterradas por la inmediatez de la supervivencia: las cuotas pendientes, los ingresos inciertos, el costo de la comida semanal ocupan una capacidad cognitiva que hace más difícil proyectarse a futuro. Como señala Mullainathan y Shafir, "con la mente enfocada en la escasez presente, la previsión corre el riesgo de convertirse en otra víctima del gravamen de la visión de túnel" [@mullainathanScarcityWhyHaving2013, p. 123].
 
-<!-- TODO: desarrollar análisis sobre efectividad de la representación vecinal en los CM-PMR. La ley 147-02 instruye incorporar Juntas de Vecinos a los comités, pero no aclara la efectividad de su funcionamiento territorial efectivo. Rebasa el alcance actual de esta sección. -->
-
-### Identificación de áreas de mejora en la Gestión de Riesgos, problemas y desafíos
+### Identificación de áreas de mejora en la gestión de riesgos, problemas y desafíos
 
 Las áreas de mejora en la GRD en el municipio de Haina quedan claramente especificadas en los párrafos anteriores y coinciden en gran medida con los postulados de prioridades que establece el Marco de Sendai para la Reducción de Riesgos de Desastres.
 
-**Desafío 1: comprender el riesgo.** Ampliar el conocimiento de la población sobre la vulnerabilidad a la que está enfrentada y sobre su necesidad de incrementar sus capacidades para reducir su condición de riesgo es una necesidad apremiante. Las autoridades locales deben fortalecer sus capacidades de reflexión y apropiarse de los conocimientos técnicos y herramientas necesarios para gestionar adecuadamente el riesgo. Las Juntas de Vecinos, las organizaciones que las agrupan, los gremios profesionales, los comerciantes asociados y los empresarios deben ser integrados y dotados de responsabilidad y capacidad para actuar de forma efectiva.
+#### Desafío 1: comprender el riesgo
 
-**Desafío 2: fortalecer la gobernanza del riesgo.** Siguiendo al Marco de Sendai, es necesario elaborar y fortalecer mecanismos para el seguimiento, la evaluación periódica y la comunicación pública de los avances en los planes locales, promoviendo el escrutinio público y alentando los debates institucionales entre regidores y funcionarios pertinentes. Asimismo, asignar funciones y tareas claras a los representantes comunitarios dentro de los procesos e instituciones de gestión del riesgo, por medio de marcos jurídicos pertinentes, y organizar consultas públicas y comunitarias extensas durante la elaboración de esas disposiciones.
+Ampliar el conocimiento de la población sobre la vulnerabilidad a la que está enfrentada y sobre su necesidad de incrementar sus capacidades para reducir su condición de riesgo es una necesidad apremiante. Las autoridades locales deben fortalecer sus capacidades de reflexión y apropiarse de los conocimientos técnicos y herramientas necesarios para gestionar adecuadamente el riesgo. Las Juntas de Vecinos, las organizaciones que las agrupan, los gremios profesionales, los comerciantes asociados y los empresarios deben ser integrados y dotados de responsabilidad y capacidad para actuar de forma efectiva.
 
-**Desafío 3: invertir en la reducción del riesgo.** El Marco de Sendai recomienda que las inversiones públicas y privadas para la prevención y reducción del riesgo, mediante medidas estructurales y no estructurales, son esenciales para aumentar la resiliencia económica, social, sanitaria y cultural de las personas, las comunidades y el medio ambiente. Estas medidas son eficaces en función del costo y fundamentales para salvar vidas, prevenir pérdidas y asegurar la recuperación.
+#### Desafío 2: fortalecer la gobernanza del riesgo
 
-**Desafío 4: aumentar la preparación para la respuesta.** El Marco de Sendai sugiere adoptar medidas con anticipación a los acontecimientos, integrar la reducción del riesgo en la preparación y asegurar que se cuente con capacidad suficiente para una respuesta y recuperación eficaces a todos los niveles. Es esencial empoderar a las mujeres y a las personas con discapacidad para que encabecen enfoques basados en la equidad de género y el acceso universal. La fase de recuperación, rehabilitación y reconstrucción, preparada con antelación, es una oportunidad fundamental para "reconstruir mejor".
+Siguiendo al Marco de Sendai, es necesario elaborar y fortalecer mecanismos para el seguimiento, la evaluación periódica y la comunicación pública de los avances en los planes locales, promoviendo el escrutinio público y alentando los debates institucionales entre regidores y funcionarios pertinentes. Asimismo, asignar funciones y tareas claras a los representantes comunitarios dentro de los procesos e instituciones de gestión del riesgo, por medio de marcos jurídicos pertinentes, y organizar consultas públicas y comunitarias extensas durante la elaboración de esas disposiciones.
 
-## Análisis Situacional de la Gestión de riesgos {#sec-analisis-situacional-gdr-05}
+#### Desafío 3: invertir en la reducción del riesgo
 
-La evaluación situacional del CMPMR de Los Bajos de Haina implica analizar el contexto interno y externo que afecta su capacidad para gestionar los riesgos y responder a desastres. Este análisis considera los recursos disponibles, las fortalezas y debilidades internas, así como las oportunidades y amenazas externas.
+El Marco de Sendai recomienda que las inversiones públicas y privadas para la prevención y reducción del riesgo, mediante medidas estructurales y no estructurales, son esenciales para aumentar la resiliencia económica, social, sanitaria y cultural de las personas, las comunidades y el medio ambiente. Estas medidas son eficaces en función del costo y fundamentales para salvar vidas, prevenir pérdidas y asegurar la recuperación.
+
+#### Desafío 4: aumentar la preparación para la respuesta
+
+El Marco de Sendai sugiere adoptar medidas con anticipación a los acontecimientos, integrar la reducción del riesgo en la preparación y asegurar que se cuente con capacidad suficiente para una respuesta y recuperación eficaces a todos los niveles. Es esencial empoderar a las mujeres y a las personas con discapacidad para que encabecen enfoques basados en la equidad de género y el acceso universal. La fase de recuperación, rehabilitación y reconstrucción, preparada con antelación, es una oportunidad fundamental para "reconstruir mejor".
+
+## Análisis situacional de la gestión de riesgos {#sec-analisis-situacional-gdr-05}
+
+La evaluación situacional del CMPMR de Bajos de Haina implica analizar el contexto interno y externo que afecta su capacidad para gestionar los riesgos y responder a desastres. Este análisis considera los recursos disponibles, las fortalezas y debilidades internas, así como las oportunidades y amenazas externas.
 
 ### Análisis FODA
 
@@ -481,7 +409,7 @@ El análisis de Fortalezas, Oportunidades, Debilidades y Amenazas (FODA) realiza
 -   **A2.** Dinámicas estructurales de pobreza y exclusión.
 -   **A3.** Simultaneidad de problemáticas que compiten por atención.
 -   **A4.** Debilidad fiscal de autoridades locales.
--   **A5.** Sólo el 9,9% de la ayuda al desarrollo se orienta a resiliencia [@undrrSendaiFrameworkDisaster2015].
+-   **A5.** Sólo el 9.9% de la ayuda al desarrollo se orienta a resiliencia [@undrr2015sendai].
 -   **A6.** Brecha digital restringe el acceso equitativo a herramientas.
 -   **A7.** Grupos de presión de empresas contaminantes.
 -   **A8.** Politización de organizaciones comunitarias.
@@ -494,15 +422,15 @@ El análisis de Fortalezas, Oportunidades, Debilidades y Amenazas (FODA) realiza
 
 | Cuadrante | Recuento | Porcentaje | Síntesis |
 |:-----------------|-----------------:|-----------------:|:-----------------|
-| **Fortalezas** | 17 | 30,4% | Estructura institucional activa y redes comunitarias existentes |
-| **Debilidades** | 16 | 28,6% | Capacidades técnicas, digitales y financieras limitadas |
-| **Oportunidades** | 11 | 19,6% | Marco internacional y alianzas con academia, ONG y donantes |
-| **Amenazas** | 12 | 21,4% | Cambio climático, desigualdad estructural y debilidad fiscal |
+| **Fortalezas** | 17 | 30.4% | Estructura institucional activa y redes comunitarias existentes |
+| **Debilidades** | 16 | 28.6% | Capacidades técnicas, digitales y financieras limitadas |
+| **Oportunidades** | 11 | 19.6% | Marco internacional y alianzas con academia, ONG y donantes |
+| **Amenazas** | 12 | 21.4% | Cambio climático, desigualdad estructural y debilidad fiscal |
 | **Total** | 56 | 100% |  |
 
 : Análisis FODA del CMPMR de Bajos de Haina, con los 56 elementos distribuidos en los cuatro cuadrantes. Adaptado de Fernández de Prada (2023). {#tbl-foda-gdr-haina}
 
-### Resumen cuantitativo de Analisis FODA
+### Resumen cuantitativo del análisis FODA
 
 El balance interno (17 fortalezas frente a 16 debilidades) refleja una situación relativamente equilibrada con ligera ventaja positiva: existen capacidades institucionales que requieren fortalecimiento y coordinación. El balance externo (11 oportunidades frente a 12 amenazas) describe un entorno ligeramente desfavorable pero con oportunidades significativas, en un marco nacional e internacional propicio aunque con amenazas climáticas y sociales persistentes. La posición estratégica resultante es de **reorientación**: aprovechar las fortalezas internas para minimizar las amenazas externas y capitalizar las oportunidades disponibles, priorizando el fortalecimiento de las capacidades técnicas y financieras locales mientras se aprovechan los marcos de apoyo nacional e internacional.
 
@@ -511,7 +439,7 @@ El balance interno (17 fortalezas frente a 16 debilidades) refleja una situació
 La matriz descriptiva es una herramienta útil en el análisis situacional del riesgo: aporta de forma básica la información relevante y evita amplias definiciones textuales. Su uso facilita la comunicación de aspectos claves y ayuda a desarrollar estrategias efectivas sobre los elementos que integran una política de mitigación y respuesta. El siguiente listado organiza los siete factores identificados en Bajos de Haina, con su descripción y su impacto sobre la gestión del riesgo de desastres.
 
 ::: {.callout-note}
-## Factores del análisis situacional · 7
+## Factores del análisis situacional {#sec-05-factores-analisis}
 
 F1. **Factores políticos.** Coordinación débil del CMPMR pese a alineación partidaria común; pugnas políticas señaladas como causa del mal desempeño institucional. → *Debilita estructuras y limita la coordinación interinstitucional.*
 
@@ -528,9 +456,55 @@ F6. **Factores ambientales.** Contaminación, residuos sólidos, degradación de
 F7. **Instrumentos de planificación de GRD.** Plan del PNUD 2016/2019; sin planes de contingencia vigentes; acciones básicas tras alertas del COE. → *La falta de planes actualizados reduce la eficiencia de la gestión.*
 :::
 
-## Conclusiones {#sec-conclusiones-05}
+### Factores socioeconómicos y demográficos {#sec-05-factores-socioeconomicos}
 
-Los Bajos de Haina enfrenta una situación compleja en términos de gestión de riesgos de desastres (GRD), influenciada por factores tanto naturales como antropogénicos. La combinación de riesgos industriales, debido a la alta concentración de industrias, y riesgos naturales, como huracanes e inundaciones, crea un entorno desafiante para la gestión de riesgos.
+La gestión del riesgo de desastres en Bajos de Haina está condicionada por una interacción compleja de factores socioeconómicos y demográficos que configuran un escenario de alta vulnerabilidad estructural. Estos factores se articulan en torno a dinámicas poblacionales aceleradas y condiciones socioeconómicas precarias que amplifican la exposición al riesgo.
+
+| Indicador | Valor | Comparación | Impacto en vulnerabilidad |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| **Densidad poblacional (municipio)** | 4,050 hab/km² | 18 veces mayor que promedio nacional (220 hab/km²) | Hacinamiento crítico y presión sobre servicios |
+| **Población total municipio (2022)** | 159,888 habitantes | 5º municipio más poblado (no cabecera provincial) | Alta demanda de infraestructura urbana |
+| **Población D.M. Bajos de Haina (área del proyecto)** | 100,527 habitantes | 62.9% del total municipal | Caso de estudio del diagnóstico FONDOCYT |
+| **Distribución por género** | 77,950 hombres / 81,938 mujeres | Proporción equilibrada | Necesidad de políticas diferenciadas |
+| **Certificación industrial** | Primer Distrito Industrial RD | Reconocimiento MICM y PRO-INDUSTRIA | Paradoja desarrollo económico vs. pobreza |
+| **Movimiento portuario (2023)** | 13 mil millones kg | Principal puerto del país | Presión ambiental y logística |
+| **Informalidad laboral** | \>60% (estimado) | Superior al promedio nacional | Ausencia de protección social |
+| **Déficit habitacional** | No cuantificado | Proliferación asentamientos informales | Ocupación de zonas de riesgo |
+
+: Indicadores demográficos y socioeconómicos de Bajos de Haina. Elaboración propia basada en [@oneBoletinTuMunicipio2022] y diagnóstico territorial del proyecto. {#tbl-indicadores-demografico-se-05 .smaller}
+
+El municipio presenta una densidad poblacional de 4,050 habitantes por kilómetro cuadrado, superando en más de 18 veces la densidad promedio nacional de 220 hab/km² y en más de 7 veces la densidad provincial de 524 hab/km² [@oneBoletinTuMunicipio2022]. La concentración de 159,888 habitantes a escala municipal según el Censo 2022, de los cuales 100,527 corresponden al Distrito Municipal de Bajos de Haina (cabecera) que constituye el caso de estudio, genera condiciones de hacinamiento que operan como factor amplificador de la vulnerabilidad territorial.
+
+La dimensión económica presenta una paradoja relevante para la gestión del riesgo. Haina ostenta la certificación como Primer Distrito Industrial de República Dominicana otorgada por el MICM y PRO-INDUSTRIA, reconociendo su impacto en generación de empleos, exportaciones y compras internas [@micmGobiernoDeclaraPrimer2022]. El Puerto de Haina, en enero-agosto 2023, movilizó aproximadamente 13 mil millones de kilogramos brutos en mercancías, consolidándose como el "Corazón de la industria de República Dominicana" según la Asociación de Industriales y Empresas de Haina y el Sur [@periodicoeldineroAIEHainaRegionPresenta2020]. Esta robustez industrial contrasta con indicadores sociales que revelan la desconexión entre el desarrollo económico macro y el bienestar micro de la población local, desconexión que se traduce en cinco factores socioeconómicos críticos con consecuencias directas para la GRD.
+
+| Factor | Situación actual | Consecuencias directas | Impacto en gestión de riesgos |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| **Pobreza y desigualdad** | Altos índices, concentración en zonas marginales | Acceso limitado a vivienda digna, salud y educación | Menor capacidad de respuesta y recuperación ante desastres |
+| **Informalidad económica** | Prevalencia del sector informal, sin seguridad social | Ingresos inestables, ausencia de ahorro | Vulnerabilidad económica extrema post-desastre |
+| **Desempleo/subempleo** | Tasas elevadas, especialmente en jóvenes y mujeres | Migración interna, inestabilidad social | Presión sobre asentamientos informales |
+| **Déficit de vivienda** | Escasez de vivienda digna y asequible | Hacinamiento, problemas de salud pública | Ocupación de cauces y laderas inestables |
+| **Infraestructura deficiente** | Limitaciones en vialidad, saneamiento y servicios | Deterioro calidad de vida, exclusión social | Dificultad para evacuación y respuesta a emergencias |
+
+: Factores socioeconómicos críticos y sus consecuencias para la gestión de riesgos. Sistematización de hallazgos del diagnóstico participativo. Elaboración propia. {#tbl-factores-se-criticos-05 .smaller}
+
+### Factores sociales y culturales frente al riesgo {#sec-05-factores-sociales}
+
+Los factores sociales y culturales en Bajos de Haina, identificados tanto en el diagnóstico técnico como en los talleres participativos, están dominados por comportamientos inadecuados frente al riesgo por parte de los cuatro grupos de actores clave del territorio.
+
+| Actor | Comportamiento identificado | Consecuencia directa | Efecto multiplicador |
+|:-----------------|:-----------------|:-----------------|:-----------------|
+| **Residentes** | Arrojan desperdicios a corrientes durante inundaciones | Obstrucción de cauces | Amplificación de inundaciones |
+| **Industrias** | Operan sin medidas correctivas ambientales | Contaminación sistemática | Degradación salud pública |
+| **Autoridades locales** | Respuesta reactiva, no preventiva | Gestión ineficiente | Pérdida de confianza ciudadana |
+| **Organizaciones comunitarias** | Trabajo aislado, sin coordinación | Duplicación de esfuerzos | Impacto limitado de intervenciones |
+
+: Comportamientos de actores clave y sus consecuencias para la gestión de riesgos. Observaciones de campo y entrevistas con actores clave. Elaboración propia. {#tbl-comportamientos-actores-gdr-05 .smaller}
+
+La cohesión social presenta debilidades significativas, con baja articulación entre grupos poblacionales, conflictos y tensiones sociales, y limitada participación ciudadana en la toma de decisiones municipales. El diagnóstico participativo del proyecto (n=155) confirma estas dinámicas y se desarrolla en detalle en el @sec-resultados-encuesta-06.
+
+## Síntesis {#sec-sintesis-05}
+
+Bajos de Haina enfrenta una situación compleja en términos de gestión de riesgos de desastres (GRD), influenciada por factores tanto naturales como antropogénicos. La combinación de riesgos industriales, debido a la alta concentración de industrias, y riesgos naturales, como huracanes e inundaciones, crea un entorno desafiante para la gestión de riesgos.
 
 La Ley 147-02 establece el marco legal y operativo a través del Comité Municipal de Prevención, Mitigación y Respuesta (CMPMR), encargado de coordinar las acciones de GRD, sin embargo, dicha ley no establece mecanismos para el acceso a fondos a cargo de las entidades locales para garantizar el funcionamiento de estas entidades, las cuales deben proveerse a sí mismas. Por otro lado, se ha constatado que las mismas no cuentan con los conocimientos ni capacidades requeridas para actuar de forma eficiente.
 
@@ -566,45 +540,26 @@ En materia instrumental, se dispone de **prototipos digitales** (Reporta Haina, 
 
 ### Implicaciones para la planificación urbana en Bajos de Haina
 
-La planificación debe **integrar la GRD y la adaptación climática** en el núcleo regulatorio: zonificación condicionada por riesgos, estándares constructivos resilientes, control de ocupaciones en cañadas y umbrales de activación para licencias y obras. Sin una ordenanza transitoria que amarre usos/densidades y un PMOT que consolide la estructura urbana, persistirán los incentivos a la expansión en zonas peligrosas (En la gestión diaria, la clave es pasar de "herramientas en piloto" a sistema operativo municipal: repositorio de datos interoperable, protocolos EDAN, "Reporta Haina" como ventanilla digital de incidentes y un Observatorio que conecte participación y evidencia para priorizar inversión pública .
+La planificación debe **integrar la GRD y la adaptación climática** en el núcleo regulatorio: zonificación condicionada por riesgos, estándares constructivos resilientes, control de ocupaciones en cañadas y umbrales de activación para licencias y obras. Sin una ordenanza transitoria que amarre usos/densidades y un PMOT que consolide la estructura urbana, persistirán los incentivos a la expansión en zonas peligrosas. En la gestión diaria, la clave es pasar de herramientas en piloto a sistema operativo municipal: repositorio de datos interoperable, protocolos EDAN, Reporta Haina como ventanilla digital de incidentes y un Observatorio que conecte participación y evidencia para priorizar inversión pública.
 
 ### Recomendaciones para futuras intervenciones
 
-### A. Lineamientos generales
+**Lineamientos generales.** Los lineamientos generales articulan los principios que deben gobernar cualquier intervención futura en materia de gestión del riesgo. El criterio de **prevención primero** exige que todo proyecto urbano demuestre reducción de exposición y vulnerabilidad antes de su aprobación. La **evidencia y trazabilidad** requiere decisiones soportadas en datos geoespaciales y registros administrativos auditables. La **interoperabilidad** implica mantener un repositorio municipal con metadatos y rutinas de actualización para riesgos, licencias y obras. La **participación vinculante** se expresa en mecanismos del Observatorio que permitan a los aportes ciudadanos modificar prioridades. Y el refuerzo de **capacidades y financiamiento** implica fortalecer la OPU y el CM-PMR con formación, equipamiento y presupuesto multianual.
 
-Los lineamientos generales articulan los principios que deben gobernar cualquier intervención futura en materia de gestión del riesgo:
+**Acciones específicas.** Las acciones específicas se priorizan en diez intervenciones concretas, ordenadas por urgencia operativa:
 
-**Prevención primero.** Todo proyecto urbano debe demostrar reducción de exposición y vulnerabilidad antes de su aprobación.
+1.  Ordenanza transitoria de uso de suelo por tipologías, mientras se formula el PMOT.
+2.  Plan Municipal de Emergencias y Contingencias, con protocolos EDAN y cadena de mando definida.
+3.  Consolidación del Observatorio Bajos de Haina como plataforma de seguimiento de riesgos, obras y licencias.
+4.  Puesta en producción de Reporta Haina, con manuales, flujos de validación e indicadores trimestrales.
+5.  Validación en campo del inventario TDAV, con medidas correctivas (limpieza de cañadas, micro-obras hidráulicas).
+6.  Convenios de datos con entidades sectoriales (hidrometría, meteorología, catastro) para alertas y licencias.
+7.  Catálogo municipal de sustancias peligrosas y plan de contingencias tecnológicas con las industrias del polígono.
+8.  Programa de regularización y reasentamiento en zonas de alto riesgo, con apoyo social y soluciones habitacionales.
+9.  Plan de limpieza y control de residuos en cañadas, con fiscalización y participación barrial.
+10. Presupuesto participativo temático en resiliencia (pequeñas obras y mantenimiento) y educación comunitaria continua.
 
-**Evidencia y trazabilidad.** Decisiones soportadas en datos geoespaciales y registros administrativos auditables.
-
-**Interoperabilidad.** Repositorio municipal con metadatos y rutinas de actualización para riesgos, licencias y obras.
-
-**Participación vinculante.** Mecanismos del Observatorio para que los aportes ciudadanos modifiquen prioridades.
-
-**Capacidades y financiamiento.** Fortalecer OPU y CM-PMR con formación, equipamiento y presupuesto multianual.
-
-### B. Acciones específicas (priorizadas)
-
-**Ordenanza transitoria de uso de suelo por tipologías**, mientras se formula el PMOT.
-
-**Plan Municipal de Emergencias/Contingencias**, con protocolos EDAN y cadena de mando.
-
-**Observatorio Bajos de Haina**, consolidado como plataforma de seguimiento de riesgos, obras y licencias.
-
-**Reporta Haina en producción**, con manuales, flujos de validación y KPIs trimestrales.
-
-**Validación en campo del inventario TDAV**, con medidas correctivas (limpieza de cañadas, micro-obras hidráulicas).
-
-**Convenios de datos** con entidades sectoriales (hidrometría/meteorología, catastro) para alertas y licencias.
-
-**Catálogo municipal de sustancias peligrosas** y plan de contingencias tecnológicas con industrias del polígono.
-
-**Programa de regularización y reasentamiento** en zonas de alto riesgo, con apoyo social y soluciones habitacionales.
-
-**Plan de limpieza y control de residuos en cañadas**, con fiscalización y participación barrial.
-
-**Presupuesto participativo temático en resiliencia** (pequeñas obras y mantenimiento) y educación comunitaria continua.
+<!-- TODO diagrama J-05-08: Esquema temporal de las 10 acciones específicas organizadas en las 4 fases del plan de implementación (Arranque 0-3, Despliegue I 3-9, Despliegue II 9-15, Cierre 15-18 meses). -->
 
 ### Plan de implementación (18 meses)
 
@@ -616,3 +571,109 @@ Los lineamientos generales articulan los principios que deben gobernar cualquier
 | **Cierre de ciclo** | 15-18 meses | PMOT en consulta pública; evaluación del Observatorio; actualización del Plan de Emergencias | Alcaldía/OPU, MEPyD local, CM-PMR | PMOT en consulta; tablero con KPIs anuales; plan socializado |
 
 : Hoja de ruta de implementación del ecosistema digital de gestión territorial (18 meses). Elaboración propia. {#tbl-hoja-ruta-18m .smaller}
+
+<!-- BEGIN refs-per-chapter -->
+## Referencias del capítulo {.unnumbered}
+
+:::: {#refs-cap05 .references .csl-bib-body .hanging-indent entry-spacing="0" line-spacing="2"}
+::: {#ref-alexanderPrinciplesEmergencyPlanning2002 .csl-entry}
+**Alexander, D.** (2002). *Principles of emergency planning and management* (p. 352). Terra Publishing.
+:::
+
+::: {#ref-blaikieRiskNaturalHazards2014 .csl-entry}
+**Blaikie, P.**, **Cannon, T.**, **Davis, I.**, & **Wisner, B.** (2014). *At Risk: Natural Hazards, People's Vulnerability and Disasters*. Routledge.
+:::
+
+::: {#ref-bradshawGenderDevelopmentDisasters2013 .csl-entry}
+**Bradshaw, S.** (2013). *Gender, development and disasters*. Edward Elgar Publishing. <https://www.elgaronline.com/display/9781849804462.xml>
+:::
+
+::: {#ref-cardonaa.ImpactoEconomicoDesastres2001 .csl-entry}
+**Cardona A., O. D.**, **Ramírez G., F.**, **Fernandez, A.**, **Wilches Chaux, G.**, **Lavell, A.**, **Mattingly, S.**, **Arguello, M.**, & **Mansilla, E.** (2001). El impacto económico de los desastres : esfuerzos de medición existentes y propuesta alternativa. In *El impacto económico de los desastres : esfuerzos de medición existentes y propuesta alternativa* (pp. 34--34).
+:::
+
+::: {#ref-coePlanNacionalEmergencias2018 .csl-entry}
+**COE**. (2018). *Plan nacional de emergencias*.
+:::
+
+::: {#ref-congresonacionalrepublicadominicanaLey14702Sobre2002 .csl-entry}
+**Congreso Nacional República Dominicana**. (2002). *Ley 147-02 Sobre gestión de riesgos* (147-02).
+:::
+
+::: {#ref-enarsonGenderDisasterFoundations2007 .csl-entry}
+**Enarson, E.**, **Fothergill, A.**, & **Peek, L.** (2007). Gender and disaster: Foundations and directions. In H. Rodríguez, E. L. Quarantelli, & R. R. Dynes (Eds.), *Handbook of disaster research* (pp. 130--146). Springer. <https://doi.org/10.1007/978-0-387-32353-4_8>
+:::
+
+::: {#ref-fernandezdepradaPlanAccionSocial2023 .csl-entry}
+**Fernández de Prada, B.** (2023). Plan de acción social para la gestión integral del riesgo de desastres en el municipio de bajos de haina, república dominicana. Fortaleciendo las capacidades locales para transformar territorios vulnerables en comunidades resilientes \[Master's thesis\]. In *Ingenieria_2014* (p. 177). Agronomica.
+:::
+
+::: {#ref-gomezUsoDronesSensores2021 .csl-entry}
+**Gómez, L. F. A.**, & **Pabon, S. B. C.** (2021). Uso de drones y sensores remotos para el monitoreo de laderas: una revisión. *Ingenierías USBMed*, *12*(2), 65--73. <https://doi.org/10.21500/20275846.5158>
+:::
+
+::: {#ref-hollingResilienceStabilityEcological1973 .csl-entry}
+**Holling, C. S.** (1973). Resilience and stability of ecological systems. *Annual Review of Ecology and Systematics*, *4*(1), 1--23. <https://doi.org/10.1146/annurev.es.04.110173.000245>
+:::
+
+::: {#ref-ichab-etsamMonitoreoOnlineDanos2020 .csl-entry}
+**ICHAB-ETSAM, A. e**. (2020). Monitoreo online de daños. In *ArcGIS StoryMaps*. https://storymaps.arcgis.com/stories/fe6e4e1aaa264f1f9a61d65be0ee33a5.
+:::
+
+::: {#ref-lavellClimateChangeNew2012 .csl-entry}
+**Lavell, A.**, **Oppenheimer, M.**, **Diop, C.**, **Hess, J.**, **Lempert, R.**, **Li, J.**, **Muir-Wood, R.**, **Myeong, S.**, **Moser, S.**, **Takeuchi, K.**, **Cardona, O. D.**, **Hallegatte, S.**, **Lemos, M.**, **Little, C.**, **Lotsch, A.**, & **Weber, E.** (2012). Climate change: New dimensions in disaster risk, exposure, vulnerability, and resilience. In *Managing the Risks of Extreme Events and Disasters to Advance Climate Change Adaptation: Special Report of the Intergovernmental Panel on Climate Change* (pp. 25--64). Cambridge University Press. <https://doi.org/10.1017/CBO9781139177245.004>
+:::
+
+::: {#ref-lopezPobrezaUrbanaVulnerabilidad2016 .csl-entry}
+**López**. (2016). *Pobreza urbana y vulnerabilidad territorial*.
+:::
+
+::: {#ref-micmGobiernoDeclaraPrimer2022 .csl-entry}
+**MICM**. (2022). Gobierno declara primer "Distrito industrial" de RD en haina. In *Ministerio de Industria, Comercio y Mipymes - MICM*. https://micm.gob.do/transparencia/gobierno-declara-primer-distrito-industrial-de-rd-en-haina.
+:::
+
+::: {#ref-mspBoletinEpidemiologicoSemanal2018 .csl-entry}
+**MSP**. (2018). *Boletín epidemiológico semanal: Semana epidemiológica no. 51, año 2018*.
+:::
+
+::: {#ref-mullainathanScarcityWhyHaving2013 .csl-entry}
+**Mullainathan, S.**, & **Shafir, E.** (2013). *Scarcity: Why Having Too Little Means So Much*. Times Books.
+:::
+
+::: {#ref-onametDatosEstacionesMeteorologicas .csl-entry}
+**ONAMET**. (n.d.). *Datos de estaciones meteorológicas*. https://www.estaciones.onamet.gov.do/datos-extremos.
+:::
+
+::: {#ref-oneBoletinTuMunicipio2022 .csl-entry}
+**ONE**. (2022). *Boletín tu municipio en cifras bajos de haina - valdesia- san cristobal - el carril*. Oficina Nacional de Estadística.
+:::
+
+::: {#ref-periodicoeldineroAIEHainaRegionPresenta2020 .csl-entry}
+**Periódico elDinero**. (2020). AIEHaina y región sur presenta estudio sobre impacto económico del distrito industrial de haina. *Periódico elDinero*.
+:::
+
+::: {#ref-petalDisasterRiskReduction2007 .csl-entry}
+**Petal, M.** (2007). Disaster risk reduction education: Material development, organization, evaluation. *Regional Development Dialogue*, *28*(2), 1--25. <https://www.researchgate.net/publication/277821824>
+:::
+
+::: {#ref-scanlonCopingMediaDisasters1985 .csl-entry}
+**Scanlon, J.**, **Alldred, S.**, **Farrell, A.**, & **Prawzick, A.** (1985). Coping with the media in disasters: Some predictable problems. *Public Administration Review*, *45*, 123--133. <https://www.jstor.org/stable/3135007>
+:::
+
+::: {#ref-RedesComunitariasPrevencion2015 .csl-entry}
+**Servicios de Acento.com.do**. (2015). Redes Comunitarias de Prevención de RD son reconocidas en la ONU por su liderazgo. *Acento*.
+:::
+
+::: {#ref-undrr2015sendai .csl-entry}
+**UNISDR**. (2015). *Marco de Sendai para la Reducción del Riesgo de Desastres 2015-2030*. Oficina de las Naciones Unidas para la Reducción del Riesgo de Desastres.
+:::
+
+::: {#ref-unTransformingOurWorld2015 .csl-entry}
+**United Nations General Assembly**. (2015). *Transforming our world: The 2030 agenda for sustainable development*. Resolution A/RES/70/1, adopted 25 September 2015. <https://undocs.org/A/RES/70/1>
+:::
+
+::: {#ref-wilches-chauxVulnerabilidadGlobal1993 .csl-entry}
+**Wilches-Chaux, G.** (1993). La vulnerabilidad global. *Los Desastres No Son Naturales*, *1144*.
+:::
+::::
+<!-- END refs-per-chapter -->

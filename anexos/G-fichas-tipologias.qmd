@@ -1,7 +1,9 @@
 ---
-title: "Fichas de Tipologías de Manzana"
+title: "Fichas de tipologías de manzana"
 subtitle: "Parámetros normativos urbanísticos por tipología"
 ---
+
+> **Fecha:** agosto 2025 **Anexo:** G. Fichas de tipologías de manzana **Objetivo específico:** **OE3** **Función:** Lineamientos normativos clave para las seis tipologías de manzana identificadas en el levantamiento de campo **Palabras clave:** Tipologías de manzana, Normativa urbanística, COS, Retiros, Densidad, Ley 368-22
 
 Las siguientes fichas resumen los lineamientos normativos clave de las seis tipologías de manzana identificadas en el levantamiento de campo y los análisis morfológicos de 16 manzanas modeladas en 3D del municipio de Bajos de Haina. Estos parámetros se proponen como marco reglamentario transitorio, en consonancia con la Ley 368-22[^ley-368-22-anexoG], su Reglamento (Decreto 396-25) y las Normas Subsidiarias Regionales de Planificación (NSRP).
 
@@ -23,7 +25,7 @@ Las siguientes fichas resumen los lineamientos normativos clave de las seis tipo
 
 [^normativa-fondocyt]: Ver entregable `INF_OE3_NormativaTipologias_2025.docx` en el repositorio del proyecto, elaborado en el marco del OE3 del proyecto FONDOCYT 2023-1-3A13-0725.
 
-## Ficha 1: Tipología Residencial Pura {#sec-ficha1-anexoG}
+## Ficha 1: Tipología residencial pura {#sec-ficha1-anexoG}
 
 **Descripción:** Manzanas de uso predominantemente habitacional, sin mezclas significativas con actividades comerciales ni institucionales. Sectores netamente residenciales, generalmente consolidados con viviendas unifamiliares o bifamiliares y algunos edificios de apartamentos de baja altura.
 
@@ -43,7 +45,7 @@ Las siguientes fichas resumen los lineamientos normativos clave de las seis tipo
 
 **Vialidad:** Calles con ancho mínimo de 8 m de calzada vehicular (doble sentido), con aceras peatonales de al menos 1.5 m a cada lado.
 
-## Ficha 2: Tipología Mixta con Comercial {#sec-ficha2-anexoG}
+## Ficha 2: Tipología mixta con comercial {#sec-ficha2-anexoG}
 
 **Descripción:** Manzanas de uso residencial que incorporan actividad comercial localizada (tiendas, colmados, talleres artesanales, oficinas locales). Frecuentes a lo largo de ejes viales comerciales o en intersecciones importantes.
 
@@ -61,7 +63,7 @@ Las siguientes fichas resumen los lineamientos normativos clave de las seis tipo
 
 **Vialidad:** Aceras amplias (mínimo 2 m) en fachadas comerciales. Bahías de detención para carga/descarga en vías arteriales.
 
-## Ficha 3: Tipología Mixta con Dotacional {#sec-ficha3-anexoG}
+## Ficha 3: Tipología mixta con dotacional {#sec-ficha3-anexoG}
 
 **Descripción:** Manzanas que combinan uso residencial con uso dotacional (equipamientos de servicio público o comunitario: centros educativos, de salud, deportivos, culturales, iglesias, etc.).
 
@@ -77,7 +79,7 @@ Las siguientes fichas resumen los lineamientos normativos clave de las seis tipo
 
 **Infraestructura:** Al menos una de las calles de acceso al equipamiento con ancho no menor a 10 m de calzada más aceras de 2 m. Bahías de ascenso/descenso de pasajeros (buses escolares, ambulancias) en el frente.
 
-## Ficha 4: Tipología Institucional {#sec-ficha4-anexoG}
+## Ficha 4: Tipología institucional {#sec-ficha4-anexoG}
 
 **Descripción:** Manzanas ocupadas mayormente por instalaciones de instituciones públicas o de interés público, sin presencia significativa de viviendas privadas ni comercios regulares (campus institucional, hospital, palacio municipal, etc.).
 
@@ -95,7 +97,7 @@ Las siguientes fichas resumen los lineamientos normativos clave de las seis tipo
 
 **Infraestructura:** Al menos un lado conectado con vía colectora o arterial. Planta eléctrica de emergencia, cisterna de gran capacidad, sistemas de protección contra incendios, accesibilidad universal.
 
-## Ficha 5: Tipología Mixta con Institucional {#sec-ficha5-anexoG}
+## Ficha 5: Tipología mixta con institucional {#sec-ficha5-anexoG}
 
 **Descripción:** Manzanas donde coexisten usos residenciales con una instalación institucional de menor escala (oficina de gobierno, iglesia de barrio, centro comunal), posiblemente acompañadas de comercios de apoyo limitados.
 
@@ -111,7 +113,7 @@ Las siguientes fichas resumen los lineamientos normativos clave de las seis tipo
 
 **Estacionamientos:** La institución debe procurar dentro de su lote al menos 3-5 espacios para empleados o visitas. Se prohíbe estacionamiento que obstruya frente a la institución.
 
-## Ficha 6: Tipología Mixta Tripartita (Residencial, Comercial e Institucional) {#sec-ficha6-anexoG}
+## Ficha 6: Tipología mixta tripartita (residencial, comercial e institucional) {#sec-ficha6-anexoG}
 
 **Descripción:** La tipología más compleja y diversa, correspondiente a áreas céntricas donde convergen usos residenciales, comerciales e institucionales. Equivale al "centro cívico" local con mezcla intensa de actividades.
 

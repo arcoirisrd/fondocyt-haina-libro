@@ -2,6 +2,8 @@
 title: "Catálogo del material del proyecto"
 ---
 
+> **Fecha:** agosto 2025 **Anexo:** J. Catálogo del material del proyecto **Función:** documenta la totalidad del material producido durante el proyecto FONDOCYT 2023-1-3A13-0725, garantizando trazabilidad y reproducibilidad **Palabras clave:** Catálogo, Trazabilidad, Reproducibilidad, Informes técnicos, Ecosistema digital, Datos de campo
+
 Este anexo documenta la totalidad del material producido, recopilado y procesado durante el proyecto FONDOCYT 2023-1-3A13-0725. El objetivo es garantizar la trazabilidad, reproducibilidad y acceso ordenado a todos los productos y datos generados.
 
 ## Productos principales del proyecto {#sec-productos-principales-anexoJ}
@@ -69,9 +71,9 @@ Las capturas de pantalla de cada herramienta se encuentran integradas en el [cap
 |:---|:---|:---|:---|:---|
 | **Encuestas domiciliarias** | Survey123, diagnóstico de participación ciudadana | n=155, 3 barrios | `datos/participacion/` | Alta (PII) |
 | **Levantamiento edificaciones** | Drone, LIDAR y Survey123 | 328 edificaciones, 16 manzanas | ArcGIS Online (acceso restringido) | Media |
-| **Fotografía aérea** | DJI drone, 9 campañas de vuelo | 173 imágenes, 3,6 GB | `datos/cartografia/` | Baja |
+| **Fotografía aérea** | DJI drone, 9 campañas de vuelo | 173 imágenes, 3.6 GB | `datos/cartografia/` | Baja |
 | **Cartografía temática** | Densidad, evolución urbana, TDAV, usos del suelo | 4 planos PDF | `datos/cartografia/` | Baja |
-| **Fotografía histórica** | Evolución urbana de Bajos de Haina, 1916 a 1994 | 26 imágenes, 1,2 GB | `datos/historico/` | Baja |
+| **Fotografía histórica** | Evolución urbana de Bajos de Haina, 1916 a 1994 | 26 imágenes, 1.2 GB | `datos/historico/` | Baja |
 | **Datos demográficos** | Censo ONE 2022, proyecciones, comercio exterior | Múltiples archivos XLSX | `datos/demografico/` | Baja |
 | **Indicadores de referencia** | Matrices ENZAV, APTI, GIZ, indicadores alineados | 6 archivos XLSX | `datos/indicadores_referencias/` | Baja |
 | **Verificación de campo** | Comprobación de cañadas y toponimia, julio 2024 | 1 informe | `datos/campo/` | Baja |

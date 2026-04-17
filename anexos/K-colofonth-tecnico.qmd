@@ -1,0 +1,100 @@
+---
+title: "Infraestructura técnica y reproducibilidad"
+---
+
+> **Fecha:** agosto 2025 **Anexo:** K. Infraestructura técnica y reproducibilidad **Función:** documenta las versiones de software, el entorno Python, los modelos de IA y el hardware utilizados en la producción editorial del libro, por transparencia metodológica **Palabras clave:** Reproducibilidad, Quarto, XeLaTeX, Python, IA local, Ollama, Infraestructura técnica
+
+Este anexo documenta la infraestructura técnica completa utilizada en la producción editorial del libro: versiones de software, entorno Python, modelos de inteligencia artificial y hardware. Se incluye por transparencia metodológica y reproducibilidad, conforme a las buenas prácticas de investigación abierta. {#sec-colofonth-k}
+
+## Formato y compilación {#sec-k-formato}
+
+El libro está construido como un proyecto Quarto book que comparte una única fuente en Markdown extendido (`.qmd`) para generar simultáneamente un sitio web estático (HTML) y un PDF impreso. El pipeline de compilación es:
+
+```
+.qmd  →  pandoc (AST)  →  { HTML5 + CSS ,  LaTeX → xelatex → PDF }
+```
+
+| Componente | Versión | Función |
+|:---|:---|:---|
+| **Quarto** | 1.8.27 | Sistema de publicación científica multiformato. Proyecto tipo `book`. |
+| **Pandoc** | 3.7.0 | Parser de Markdown y conversor universal. Filtros: `citeproc` (APA 7). |
+| **TeX Live** | 2025 | Distribución TeX: XeLaTeX, fontspec, hyperref, etc. |
+| **XeLaTeX** | 3.141592653-2.6-0.999997 | Motor TeX con soporte Unicode y OpenType para el PDF. |
+
+: Motores de compilación. {#tbl-k-motores .unnumbered tbl-colwidths="[20,20,60]"}
+
+La configuración del proyecto define `documentclass: scrbook` (KOMA-Script) con `DIV=12`, `papersize: a4`, márgenes 16/16/16/18 mm, `fontsize: 8.5pt` y `linestretch: 1.15`. El HTML usa el tema `cosmo` con hoja de estilos personalizada. La gestión bibliográfica se realiza con Zotero y Better BibTeX, exportando a `references.bib` con formato APA 7.ª edición via CSL.
+
+## Control de versiones {#sec-k-git}
+
+El código fuente del libro está versionado con Git y disponible en <https://github.com/arcoirisrd/fondocyt-haina-libro>. El repositorio de trabajo completo del proyecto (incluyendo datos, informes y material bruto) es privado. El PDF se compila localmente con XeLaTeX por dependencia de las fuentes IBM Plex en `_recursos/fonts/`.
+
+## Entorno Python {#sec-k-python}
+
+El repositorio incluye un virtualenv `.venv` con Python 3.14.3 para scripts auxiliares de normalización, extracción de documentos, consultas a Zotero y orquestación MCP.
+
+| Paquete | Versión | Función |
+|:---|:---|:---|
+| **python-docx** | 1.2.0 | Lectura de `.docx` canónicos del corpus |
+| **python-pptx** | 1.0.2 | Extracción de texto e imágenes de presentaciones |
+| **pdfplumber** | 0.11.9 | Parseo de PDFs (informes, cartografía) |
+| **Pillow (PIL)** | 12.2.0 | Generación de hojas de contacto fotográficas |
+| **pyzotero** | 1.11.0 | Cliente Python de la API de Zotero |
+| **bibtexparser** | 1.4.4 | Manipulación programática de `references.bib` |
+| **zotero-mcp-server** | 0.3.0 | Servidor MCP para integración Zotero con agentes IA |
+| **fastmcp** | 3.2.3 | Framework para servidores MCP locales |
+| **openpyxl** | 3.1.5 | Lectura de hojas de cálculo del proyecto |
+| **numpy** | 2.4.4 | Operaciones numéricas auxiliares |
+| **PyYAML** | 6.0.3 | Lectura y escritura de YAML y frontmatter |
+
+: Paquetes Python del entorno `.venv`. {#tbl-k-python .unnumbered tbl-colwidths="[25,15,60]"}
+
+## Infraestructura de IA local {#sec-k-ia}
+
+Para el procesamiento de datos sensibles del proyecto (encuestas domiciliarias, transcripciones, imágenes de campo, normativa y documentos internos) se utilizó un stack de IA completamente local, ejecutado en infraestructura propia y sin envío de información a servicios externos.
+
+### Servidor de IA
+
+| Capa | Componentes | Uso en el proyecto |
+|:---|:---|:---|
+| **Hardware** | AMD Ryzen 9 5950X (16c/32t). 128 GB DDR4. NVIDIA RTX 5090 32 GB VRAM | Ejecución local de modelos 30-70B parámetros |
+| **OS** | Ubuntu Server 24.04 LTS. Driver NVIDIA 550+. CUDA 12.8 | Base del stack CUDA |
+| **Runtimes** | Python. Docker + NVIDIA Container Toolkit | Aislamiento de servicios |
+| **Modelo runtime** | Ollama 0.17+ (servicio systemd, puerto 11434) | Servidor HTTP local para modelos de lenguaje y visión |
+| **Frontend** | Open WebUI (Docker) con RAG integrado | Interfaz web del equipo con chat y carga de documentos |
+| **Fine-tuning** | LLaMA-Factory, Unsloth Studio | Evaluado, no usado para contenido del libro |
+
+: Stack del servidor local de IA. {#tbl-k-server .unnumbered tbl-colwidths="[15,45,40]"}
+
+| Modelo | Uso en el proyecto |
+|:---|:---|
+| **`gemma4:26b-a4b`** | Motor OCR canónico del proyecto. Extracción de tablas y texto denso. |
+| **`gemma3:27b`** | Fallback VLM y modelo de redacción larga. |
+| **`qwen3:32b`** | Razonamiento estructurado, análisis de normativa urbana. |
+| **`qwen3-coder:30b`** | Generación y revisión de scripts Python. |
+| **`deepseek-r1:32b`** | Razonamiento para análisis espacial. |
+| **`nomic-embed-text`** | Embeddings para el RAG sobre el corpus del proyecto. |
+| **DeepSeek-OCR-2 (vLLM)** | OCR especializado de alto volumen (informes escaneados, cartografía histórica). |
+
+: Modelos de IA locales y su función. {#tbl-k-models .unnumbered tbl-colwidths="[30,70]"}
+
+### Estación de trabajo editorial
+
+| Componente | Especificación |
+|:---|:---|
+| **CPU** | AMD Ryzen (Family 26, Model 68), 32 hilos a ~4.3 GHz |
+| **Memoria** | 128 GB DDR4 |
+| **GPU** | NVIDIA GeForce RTX 5090, 32 GB VRAM |
+| **Almacenamiento** | NVMe Samsung 980 PRO 2 TB · NVMe WD_BLACK SN850X 4 TB |
+| **Sistema operativo** | Windows 11 Pro for Workstations (build 26200) |
+| **Entorno Linux** | WSL2 con Ubuntu 24.04 para scripts bash y pipeline Quarto |
+
+: Estación de trabajo editorial. {#tbl-k-hardware .unnumbered tbl-colwidths="[30,70]"}
+
+## Trazabilidad bibliográfica {#sec-k-zotero}
+
+La bibliografía externa citada en este libro reside en la biblioteca Zotero del proyecto FONDOCYT. Cada referencia está vinculada a su PDF original, notas de lectura y anotaciones internas. Como acompañamiento a este informe final se está preparando un repositorio abierto con los PDFs de la biblioteca Zotero (respetando licencias y derechos de los editores), de modo que cualquier lector pueda consultar las fuentes primarias y verificar la evidencia detrás de cada afirmación.
+
+## Reproducibilidad {#sec-k-reproducibilidad}
+
+El código fuente de este libro (Quarto, LaTeX, Python), la bibliografía (`references.bib`) y los datos derivados están versionados con Git. Todas las herramientas de software, modelos abiertos y tipografías utilizadas son libres u open source. Los modelos comerciales (Anthropic Claude) se documentan nominalmente para trazabilidad del proceso editorial pero no son necesarios para reproducir el resultado a partir del código fuente.

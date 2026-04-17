@@ -1,8 +1,21 @@
 ---
 title: "Metodología"
+suppress-bibliography: true
 ---
 
-> **Fecha:** agosto 2025 **Capítulo:** Transversal **Función:** Marco metodológico del proyecto
+> **Fecha:** agosto 2025 **Capítulo:** Transversal **Función:** Marco metodológico del proyecto **Palabras clave:** Design Science Research, Investigación-acción participativa, Abducción Kovacs-Spens, LiDAR y UAV, Survey123, Seminario-taller, 16 Manzanas piloto
+
+La metodología del proyecto FONDOCYT 2023-1-3A13-0725 articuló un enfoque de investigación aplicada para el desarrollo y validación de artefactos digitales de planificación urbana, gestión de riesgos y participación ciudadana en Bajos de Haina. La decisión de combinar *Design Science Research* con investigación-acción participativa respondió a la naturaleza híbrida del objeto de estudio: un sistema sociotécnico que exige a la vez rigor técnico en el diseño de artefactos y legitimidad social en su implantación territorial. Las páginas siguientes recorren el estado del arte internacional y nacional, el encuadre teórico-conceptual, el diseño metodológico en tres fases y diez etapas operativas, el área de estudio y la muestra, los instrumentos de recolección y análisis, y las consideraciones éticas y límites asumidos.
+
+## Antecedentes y estado del arte {#sec-edart-02}
+
+Desde inicios de la década de 2010, la aplicación de tecnologías digitales a la planificación y gestión urbanas ha generado un corpus de investigación y práctica que ha transformado los instrumentos disponibles para los planificadores [@geertmanPlanningSupportScience2020]. La aceleración de esta tendencia durante la pandemia de COVID-19, que evidenció el papel estratégico de las plataformas digitales en la gestión de emergencias urbanas [@kimSmartCitiesPlatform2021; @allamCoronavirusCOVID19Outbreak2020], consolidó un modelo de ciudad que las Naciones Unidas denomina Ciudad Incluyente, Sostenible e Inteligente (CISI): un entorno donde las redes de servicios tradicionales ganan eficiencia mediante soluciones digitales orientadas al bienestar de sus habitantes. Este modelo impulsó iniciativas globales como la United for Smart Sustainable Cities (U4SSC), coordinada por la UIT, la CEPE y ONU-Hábitat, que hoy agrupa a más de cincuenta ciudades. La literatura advierte, sin embargo, que la adopción acrítica de este modelo puede amplificar desigualdades sociales, aumentar el consumo energético y profundizar la brecha digital entre municipios con capacidades instaladas asimétricas [@reddickDeterminantsBroadbandAccess2020].
+
+La participación ciudadana digital emerge en este contexto como condición necesaria para que las herramientas tecnológicas generen gobernanza efectiva y no solo eficiencia administrativa. Los sistemas que incorporan procesos participativos mejoran la sostenibilidad de las decisiones urbanas al enriquecer la base de conocimiento con datos generados por los propios habitantes [@floresInteligenciaRelacionalInteligencia2021]. Las plataformas de ciencia ciudadana permiten, además, documentar el conocimiento local sobre riesgos con un nivel de detalle que ningún levantamiento técnico puede replicar de forma autónoma [@ferriValueCitizenScience2020]. La literatura sobre participación y cambio climático subraya que los mecanismos de involucramiento no son opcionales: son parte constitutiva de la legitimidad de cualquier instrumento de planificación adaptativa [@hugelPublicParticipationEngagement2020; @ostadHeRolePublic2021]. Las herramientas de participación digital amplían el espectro de quiénes pueden involucrarse, aunque con el riesgo de excluir a quienes carecen de competencia digital, lo que exige diseños de interfaz y acompañamiento diferenciados [@perssonDigitalCitizenParticipation2022].
+
+En el plano técnico, los avances en teledetección con inteligencia artificial, los sistemas SIG de código abierto y las tecnologías UAV han reducido significativamente el coste de obtención de datos morfológicos en barrios vulnerables [@kufferMappingMorphologyUrban2021]. Este conjunto de herramientas permite caracterizar tejidos de alta vulnerabilidad a escala de manzana, una escala que los censos y cartografías nacionales generalmente no alcanzan, y vincular esa información con datos de riesgo climático y participación ciudadana en plataformas interoperables. La integración de estas tecnologías en un ecosistema digital coherente, capaz de alimentar simultáneamente la planificación urbana, la gestión de riesgos y los mecanismos de gobernanza participativa, constituye la frontera activa de la investigación en este campo, con experiencias documentadas principalmente en ciudades de Europa, América del Norte y Asia, y con escasos precedentes en el Caribe hispanófono.
+
+La República Dominicana no ha permanecido ajena a estas tendencias. La Estrategia Nacional de Desarrollo 2030 y la Ley 368-22 de Ordenamiento Territorial reconocen la participación ciudadana digital como un componente esencial de la planificación territorial [@cepalNuevaAgendaUrbana2022]. Sin embargo, al inicio del presente proyecto las iniciativas de participación digital sistematizada en el país eran escasas y fragmentadas: ningún municipio contaba con una plataforma de reporte ciudadano georreferenciado, los planes de gestión de riesgos carecían de componentes digitales interoperables, y la brecha entre el marco normativo y los instrumentos disponibles era considerable. Esta situación definió el espacio de intervención del proyecto y justificó la adopción de un enfoque de *Design Science Research* orientado al desarrollo y evaluación iterativa de artefactos digitales en condiciones de incertidumbre institucional, con participación activa como eje transversal del diseño.
 
 ## Enfoque metodológico {#sec-enfoque-metodologico-02}
 
@@ -10,7 +23,7 @@ La investigación adoptó una estrategia híbrida que articula *Design Science R
 
 El proceso de investigación siguió una lógica abductiva, entendida como un enfoque que permite generar nuevas ideas y proposiciones teóricas a partir de la observación de patrones emergentes en los datos recogidos, en lugar de limitarse a verificar hipótesis preestablecidas o a describir regularidades estadísticas. Se utilizó como guía el modelo de @kovacsAbductiveReasoningLogistics2005, que articula ocho etapas iterativas: observación del fenómeno, identificación de patrones, formulación de hipótesis, prueba de las hipótesis, refinamiento, creación de un modelo explicativo, prueba del modelo y refinamiento final. Este ciclo abductivo resultó especialmente adecuado para el contexto de Bajos de Haina, donde la ausencia de datos territoriales previos y la complejidad del sistema sociotécnico impidieron un diseño hipotético-deductivo clásico. La lógica abductiva permitió que los hallazgos de cada fase retroalimentaran los supuestos de las fases anteriores: el diagnóstico integral (Fase 1) reveló patrones de vulnerabilidad que reorientaron el diseño de las herramientas digitales (Fase 2), y la implementación piloto (Fase 3) generó evidencia empírica que obligó a refinar tanto las hipótesis iniciales como los propios artefactos.
 
-![Enfoque metodológico abductivo Kovacs-Spens aplicado al proyecto FONDOCYT. El ciclo iterativo articula investigación teórica (arriba) con investigación empírica (abajo), con flujos principales (líneas sólidas) y bucles de retroalimentación secundarios (líneas punteadas). Elaboración propia a partir de @kovacsAbductiveReasoningLogistics2005.](img/metodologia/kovacs-spens-fondocyt.png){#fig-kovacs-spens-02 width="100%"}
+![Enfoque metodológico abductivo Kovacs-Spens aplicado al proyecto FONDOCYT. El ciclo iterativo articula investigación teórica (arriba) con investigación empírica (abajo), con flujos principales (líneas sólidas) y bucles de retroalimentación secundarios (líneas punteadas). Elaboración propia a partir de [@kovacsAbductiveReasoningLogistics2005].](img/metodologia/kovacs-spens-fondocyt.png){#fig-kovacs-spens-02 width="100%"}
 
 La hipótesis central del proyecto sostiene que la integración de herramientas digitales de planificación urbana, gestión de riesgos y participación ciudadana, co-diseñadas con los actores del territorio, fortalece la capacidad de gobernanza local y genera insumos técnicos directamente incorporables a los instrumentos de ordenamiento territorial previstos por la Ley 368-22. De esta hipótesis se derivan dos proposiciones operativas. La primera plantea que un ecosistema digital diseñado mediante procesos participativos alcanza mayor apropiación institucional que las soluciones implementadas de forma vertical. La segunda propone que la caracterización morfológica a escala de manzana, articulada con análisis a escala barrial y municipal, permite identificar Tejidos De Alta Vulnerabilidad (TDAV) y generar recomendaciones normativas diferenciadas por tipología. Ambas proposiciones fueron evaluadas a lo largo de las tres fases del proyecto, siguiendo la lógica abductiva descrita: no como verdades a confirmar, sino como conjeturas a refinar mediante la confrontación iterativa con la evidencia del campo.
 
@@ -18,13 +31,13 @@ La hipótesis central del proyecto sostiene que la integración de herramientas 
 
 El diseño metodológico se organizó en tres fases secuenciales con retroalimentación iterativa entre ellas, desplegadas a lo largo de diez etapas operativas. La primera fase abarcó el diagnóstico integral del territorio; la segunda, el co-diseño del ecosistema digital mediante procesos participativos; y la tercera, la implementación piloto con levantamiento geoespacial, análisis morfológico y validación institucional. El enfoque iterativo permitió la adaptación continua del modelo y las herramientas a las necesidades específicas del contexto local, de modo que los resultados de cada etapa retroalimentaron las decisiones de las etapas siguientes.
 
-**La Fase 1 (diagnóstico integral)** cubrió cuatro dimensiones complementarias. El análisis documental revisó el marco legal vigente, incluyendo la Ley 368-22 de Ordenamiento Territorial, la Ley 147-02 de Gestión de Riesgos, el Decreto 396-25 y la Estrategia Nacional de Desarrollo 2030, así como los estudios previos realizados por Arcoíris RD en el territorio de Bajos de Haina. El análisis institucional evaluó la capacidad del gobierno local utilizando el marco de Indicadores de Gobernanza de ONU-Hábitat, con atención especial al Comité Municipal de Prevención, Mitigación y Respuesta (CM-PMR) y al Centro de Operaciones de Emergencias (COE). El análisis territorial integró datos del IX Censo Nacional de Población y Vivienda, capas SIG de amenazas proporcionadas por ONAMET y MIMARENA, y proyecciones climáticas del IPCC y el PNUD. El análisis socio-participativo incorporó entrevistas con representantes de 15 barrios y los resultados del estudio de participación ciudadana de Arcoíris RD, que reveló que el 78,83 % de los residentes nunca había participado en actividades municipales y el 67,21 % desconocía el mecanismo de presupuesto participativo. El mapeo de actores clave se realizó mediante técnicas MICMAC y MACTOR para identificar las relaciones de influencia y dependencia entre los actores del sistema territorial.
+**La Fase 1 (diagnóstico integral)** cubrió cuatro dimensiones complementarias. El análisis documental revisó el marco legal vigente, incluyendo la Ley 368-22 de Ordenamiento Territorial, la Ley 147-02 de Gestión de Riesgos, el Decreto 396-25 y la Estrategia Nacional de Desarrollo 2030, así como los estudios previos realizados por Arcoíris RD en el territorio de Bajos de Haina. El análisis institucional evaluó la capacidad del gobierno local utilizando el marco de Indicadores de Gobernanza de ONU-Hábitat, con atención especial al Comité Municipal de Prevención, Mitigación y Respuesta (CM-PMR) y al Centro de Operaciones de Emergencias (COE). El análisis territorial integró datos del X Censo Nacional de Población y Vivienda, capas SIG de amenazas proporcionadas por ONAMET y MIMARENA, y proyecciones climáticas del IPCC y el PNUD. El análisis socio-participativo incorporó entrevistas con representantes de 15 barrios y los resultados del estudio de participación ciudadana de Arcoíris RD, que reveló que el 78.83 % de los residentes nunca había participado en actividades municipales y el 67.21 % desconocía el mecanismo de presupuesto participativo. El mapeo de actores clave se realizó mediante técnicas MICMAC y MACTOR para identificar las relaciones de influencia y dependencia entre los actores del sistema territorial.
 
 **La Fase 2 (co-diseño del ecosistema digital)** se articuló en torno al Primer Seminario-Taller de Planificación Urbana Digital de Haina, celebrado los días 11 y 12 de octubre de 2024, con la participación de 47 actores provenientes del gobierno municipal, agencias nacionales, academia, sector privado y organizaciones comunitarias. El diseño del taller siguió una estructura de cuatro momentos: descubrimiento del problema, definición de prioridades, desarrollo de prototipos y entrega de soluciones, aplicada a cada una de las tres mesas temáticas: Mesa 1 de Ordenamiento Territorial (HDOT), Mesa 2 de Gestión de Riesgos (GDR) y Mesa 3 de Participación Ciudadana. Los prototipos resultantes del seminario-taller fueron sometidos a dos rondas de validación iterativa con 12 técnicos municipales y 8 líderes comunitarios durante noviembre y diciembre de 2024, siguiendo el principio DSR de evaluación iterativa [@hevnerDesignScienceInformation2004]. Este proceso permitió ajustar las interfaces, priorizar funcionalidades y definir la arquitectura del ecosistema digital, compuesto por ocho herramientas integradas en la plataforma ArcGIS Online.
 
 **La Fase 3 (implementación piloto)** comprendió el levantamiento geoespacial de detalle, el análisis morfológico, la formulación normativa y la validación institucional. Las 16 manzanas del levantamiento fueron seleccionadas mediante muestreo intencional estratificado con el objetivo de cubrir la totalidad de las tipologías morfológicas presentes en la zona urbana de Haina: 6 manzanas en zona de alta amenaza de inundación, 5 en zona industrial mixta y 5 en tejido residencial de consolidación media. Se identificaron 328 edificaciones, de las cuales 309 fueron relevadas de forma completa (94 % de cobertura). El levantamiento combinó tres técnicas complementarias: LiDAR aéreo y fotogramétrico mediante vehículo aéreo no tripulado (UAV) con GPS en modalidad RTK, encuestas prediales implementadas mediante Survey123 de ArcGIS con 13 variables por edificación, y verificación cruzada del 10 % de los registros para control de consistencia topológica.
 
-![Marco conceptual del diagnóstico integral (OE1). Las tres áreas temáticas —planificación urbana, gestión de riesgos y participación ciudadana— se analizan a partir de la caracterización del municipio y se sintetizan mediante el análisis transversal de factores políticos, tecnológicos, socioeconómicos, culturales y ambientales. Elaboración propia.](img/oe1/oe1_diagnostico_conceptual.png){#fig-diagnostico-conceptual-02 width="100%"}
+![Marco conceptual del diagnóstico integral (OE1). Las tres áreas temáticas: planificación urbana, gestión de riesgos y participación ciudadana, se analizan a partir de la caracterización del municipio y se sintetizan mediante el análisis transversal de factores políticos, tecnológicos, socioeconómicos, culturales y ambientales. Elaboración propia.](img/oe1/oe1_diagnostico_conceptual.png){#fig-diagnostico-conceptual-02 width="100%"}
 
 La siguiente tabla resume las diez etapas operativas del enfoque metodológico y su correspondencia con las tres fases del proyecto.
 
@@ -45,9 +58,9 @@ La siguiente tabla resume las diez etapas operativas del enfoque metodológico y
 
 ## Técnicas e instrumentos por objetivo específico {#sec-tecnicas-instrumentos-02}
 
-El diseño metodológico desplegó un repertorio diferenciado de técnicas e instrumentos para cada objetivo específico del proyecto, articulando métodos cualitativos y cuantitativos en función de la naturaleza de los datos requeridos. El OE1 (diagnóstico territorial) combinó revisión documental de marcos legales y planes vigentes, análisis bibliográfico de literatura científica sobre planificación en contextos de riesgo climático, entrevistas semiestructuradas a actores clave del gobierno municipal y la comunidad, análisis situacional mediante observación directa de infraestructuras y zonas de riesgo, diagnóstico de gestión de riesgos a partir de la evaluación de políticas y prácticas locales, análisis de vulnerabilidad con herramientas SIG, y sistematización de los datos recolectados en bases de datos georreferenciadas.
+El diseño metodológico desplegó un repertorio diferenciado de técnicas e instrumentos para cada objetivo específico del proyecto, articulando métodos cualitativos y cuantitativos en función de la naturaleza de los datos requeridos. El **OE1** (diagnóstico territorial) combinó revisión documental de marcos legales y planes vigentes, análisis bibliográfico de literatura científica sobre planificación en contextos de riesgo climático, entrevistas semiestructuradas a actores clave del gobierno municipal y la comunidad, análisis situacional mediante observación directa de infraestructuras y zonas de riesgo, diagnóstico de gestión de riesgos a partir de la evaluación de políticas y prácticas locales, análisis de vulnerabilidad con herramientas SIG, y sistematización de los datos recolectados en bases de datos georreferenciadas.
 
-El OE2 (herramientas digitales) se apoyó en el análisis de herramientas existentes para evaluar plataformas digitales aplicadas a la gestión territorial, el diseño de la arquitectura de datos geoespaciales, la validación técnica mediante prototipos y dashboards, el diseño de interfaces de usuario intuitivas, pruebas de usabilidad con usuarios comunitarios y municipales durante el seminario-taller, y la recolección sistemática de retroalimentación mediante encuestas y entrevistas. El OE3 (participación y normativa) empleó encuestas comunitarias a 155 participantes de diversas zonas del municipio, entrevistas en profundidad a líderes comunitarios y funcionarios, análisis de percepción ciudadana, talleres participativos con formulación de objetivos SMART, y sistematización de las estrategias de participación resultantes.
+El **OE2** (herramientas digitales) se apoyó en el análisis de herramientas existentes para evaluar plataformas digitales aplicadas a la gestión territorial, el diseño de la arquitectura de datos geoespaciales, la validación técnica mediante prototipos y dashboards, el diseño de interfaces de usuario intuitivas, pruebas de usabilidad con usuarios comunitarios y municipales durante el seminario-taller, y la recolección sistemática de retroalimentación mediante encuestas y entrevistas. El **OE3** (participación y normativa) empleó encuestas comunitarias a 155 participantes de diversas zonas del municipio, entrevistas en profundidad a líderes comunitarios y funcionarios, análisis de percepción ciudadana, talleres participativos con formulación de objetivos SMART, y sistematización de las estrategias de participación resultantes.
 
 La siguiente tabla sintetiza las principales técnicas e instrumentos empleados, organizados por objetivo específico.
 
@@ -72,15 +85,15 @@ La siguiente tabla sintetiza las principales técnicas e instrumentos empleados,
 
 ## Área de estudio y muestra {#sec-area-estudio-02}
 
-El municipio de Bajos de Haina se ubica en la provincia de San Cristóbal, a 20 kilómetros al oeste de Santo Domingo, en la desembocadura del río Haina sobre la costa sur de la isla. Según el IX Censo Nacional de Población y Vivienda, el municipio cuenta con 159.888 habitantes y una superficie de 38,49 km². Su perfil socioeconómico combina actividad portuaria e industrial, con la presencia de la Refinería Dominicana de Petróleo (REFIDOMSA) y el principal puerto de carga del país, junto con asentamientos residenciales de alta densidad y vulnerabilidad ambiental. La microcuenca urbana del río Haina, con un área de 2.696.412,8 m² y una red de cañadas de 28.716,5 metros lineales, constituye el ámbito de análisis a escala barrial, donde se levantó un mapa georreferenciado de 27 Juntas de Vecinos en 9 barrios.
+El municipio de Bajos de Haina se ubica en la provincia de San Cristóbal, a 20 kilómetros al oeste de Santo Domingo, en la desembocadura del río Haina sobre la costa sur de la isla. Según el X Censo Nacional de Población y Vivienda, el municipio cuenta con 159,888 habitantes y una superficie de 39.5 km² [@oneBoletinTuMunicipio2022]. Su perfil socioeconómico combina actividad portuaria e industrial, con la presencia de la Refinería Dominicana de Petróleo (REFIDOMSA) y el principal puerto de carga del país, junto con asentamientos residenciales de alta densidad y vulnerabilidad ambiental. La microcuenca urbana del río Haina, con un área de 2,696,412.8 m² y una red de cañadas de 28,716.5 metros lineales, constituye el ámbito de análisis a escala barrial, donde se levantó un mapa georreferenciado de 27 Juntas de Vecinos en 9 barrios.
 
-El piloto de implementación se concentró en 16 manzanas seleccionadas por muestreo intencional estratificado, con el propósito de representar las seis tipologías morfológicas identificadas: residencial pura, mixta comercial, mixta dotacional, institucional, mixta institucional y tripartita (residencial-comercial-industrial). El levantamiento cubrió 328 edificaciones con una cobertura efectiva del 94 % (309 edificaciones completas), una población muestral de 1.497 personas y una densidad en el área de estudio de 16.462 hab/km², cuatro veces la media urbana municipal[^02-metodologia-1]. El componente participativo incluyó 155 encuestas domiciliarias aplicadas mediante Survey123 y el Seminario-Taller de Planificación Urbana Digital con 47 participantes institucionales y comunitarios. Todos los participantes en encuestas, entrevistas y talleres firmaron consentimiento informado, y los datos de campo fueron anonimizados siguiendo protocolos de procesamiento local sin transferencia a servicios en la nube.
+El piloto de implementación se concentró en 16 manzanas seleccionadas por muestreo intencional estratificado, con el propósito de representar las seis tipologías morfológicas identificadas: residencial pura, mixta comercial, mixta dotacional, institucional, mixta institucional y tripartita (residencial-comercial-industrial). El levantamiento cubrió 328 edificaciones con una cobertura efectiva del 94 % (309 edificaciones completas), una población muestral de 1,497 personas y una densidad en el área de estudio de 16,462 hab/km², cuatro veces la media urbana municipal[^02-metodologia-1]. El componente participativo incluyó 155 encuestas domiciliarias aplicadas mediante Survey123 y el Seminario-Taller de Planificación Urbana Digital con 47 participantes institucionales y comunitarios. Todos los participantes en encuestas, entrevistas y talleres firmaron consentimiento informado, y los datos de campo fueron anonimizados siguiendo protocolos de procesamiento local sin transferencia a servicios en la nube.
 
 [^02-metodologia-1]: El detalle completo de la operacionalización de variables, el diseño muestral y el análisis estadístico asociado se presenta en los anexos de operacionalización y análisis estadístico al final de este libro.
 
 ## Mapa de conocimiento del libro {#sec-mapa-conocimiento-02}
 
-Como cierre del capítulo metodológico se presenta el **mapa de conocimiento** del libro, una visualización interactiva de la estructura conceptual del proyecto FONDOCYT que conecta capítulos, anexos, objetivos específicos y resultados, secciones, tablas, conceptos clave, herramientas digitales, marcos teóricos, instituciones y referencias bibliográficas más citadas.[^02-metodologia-2] El layout es *force-directed* y se inspira en el *graph view* de Obsidian. Este mapa funciona como una segunda metodología lectora: permite al lector navegar el libro no como una secuencia lineal de capítulos, sino como un sistema de relaciones cruzadas donde cada nodo abre múltiples caminos de lectura.
+Como cierre del capítulo metodológico se presenta el mapa de conocimiento del libro, una visualización interactiva de la estructura conceptual del proyecto FONDOCYT que conecta capítulos, anexos, objetivos específicos y resultados, secciones, tablas, conceptos clave, herramientas digitales, marcos teóricos, instituciones y referencias bibliográficas más citadas.[^02-metodologia-2] El layout es *force-directed* y se inspira en el *graph view* de Obsidian. Este mapa funciona como una segunda metodología lectora: permite al lector navegar el libro no como una secuencia lineal de capítulos, sino como un sistema de relaciones cruzadas donde cada nodo abre múltiples caminos de lectura.
 
 [^02-metodologia-2]: Este mapa solo está disponible en la versión web del libro. En el PDF aparecerá una captura estática del grafo en una próxima revisión.
 
@@ -332,21 +345,83 @@ viewof chart = {
 ```
 
 | Color | Grupo | Qué representa |
-|:-----------------------|:-----------------------|:-----------------------|
-|  | Capítulos | Los doce capítulos del libro y el prefacio |
-|  | Anexos | Los anexos A a N del libro |
-|  | Objetivos | OE1, OE2 y OE3 |
-|  | Resultados | OE1-R1, OE1-R2, … OE3-R3 |
-|  | Secciones y tablas | Cross-references internos del libro |
-|  | Conceptos | Herramientas digitales, marcos teóricos, instituciones, leyes |
-|  | Bibliografía | Las quince referencias más citadas en el libro |
+|:---|:---|:---|
+| **<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#DB605E;vertical-align:middle"></span>** | Capítulos | Los doce capítulos del libro y el prefacio |
+| **<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#777777;vertical-align:middle"></span>** | Anexos | Los anexos A a N del libro |
+| **<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#4C6B91;vertical-align:middle"></span>** | Objetivos | OE1, OE2 y OE3 |
+| **<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#7A92B5;vertical-align:middle"></span>** | Resultados | OE1-R1, OE1-R2, … OE3-R3 |
+| **<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#9CA3AF;vertical-align:middle"></span>** | Secciones y tablas | Cross-references internos del libro |
+| **<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#6B9E4E;vertical-align:middle"></span>** | Conceptos | Herramientas digitales, marcos teóricos, instituciones, leyes |
+| **<span style="display:inline-block;width:14px;height:14px;border-radius:50%;background:#D4A53C;vertical-align:middle"></span>** | Bibliografía | Las quince referencias más citadas en el libro |
 
-: Leyenda del mapa de conocimiento del libro. {.striped tbl-colwidths="\[8,22,70\]"}
+: Leyenda del mapa de conocimiento del libro. {.striped tbl-colwidths="[8,22,70]"}
 
 ::: {.callout-note collapse="true"}
-## Cómo usar e interpretar el mapa
+## Cómo usar e interpretar el mapa {#sec-como-usar-mapa-02}
 
 **Cómo navegar.** Cada nodo se puede **arrastrar** dentro del grafo para reorganizarlo. La rueda del ratón aplica *zoom* para acercar o alejar. Al pasar el ratón sobre un nodo (*hover*) se destacan solo sus conexiones directas y se atenúa el resto, y aparece un tooltip con la descripción del elemento. Los nodos de capítulo, anexo y referencia bibliográfica son **clicables** y navegan directamente al contenido correspondiente. El tamaño de cada nodo es proporcional a su grado (número de conexiones): cuanto más referenciado, más grande aparece.
 
 **Cómo se construye.** El JSON que alimenta el grafo se regenera automáticamente con el script `_contexto/scripts/build_knowledge_graph.py`, que parsea los `.qmd` del libro y extrae capítulos, anexos, objetivos, cross-references de tablas, figuras y secciones, conceptos clave (herramientas digitales, marcos teóricos, leyes, instituciones) y las quince referencias bibliográficas más citadas. El resultado se guarda en `libro/data/knowledge_graph.json` con aproximadamente ciento seis nodos y trescientas noventa aristas, y basta con regenerar el JSON y renderizar el libro cada vez que el contenido cambie para mantener el grafo sincronizado.
 :::
+
+<!-- BEGIN refs-per-chapter -->
+## Referencias del capítulo {.unnumbered}
+
+:::: {#refs-cap02 .references .csl-bib-body .hanging-indent entry-spacing="0" line-spacing="2"}
+::: {#ref-allamCoronavirusCOVID19Outbreak2020 .csl-entry}
+**Allam, Z.**, & **Jones, D. S.** (2020). On the coronavirus (COVID-19) outbreak and the smart city network: Universal data sharing standards coupled with artificial intelligence (AI) to benefit urban health monitoring and management. *Healthcare*, *8*(1), 46. <https://doi.org/10.3390/healthcare8010046>
+:::
+
+::: {#ref-cepalNuevaAgendaUrbana2022 .csl-entry}
+**CEPAL**. (2022). *Nueva agenda urbana en América Latina y el Caribe: Implementación 2018-2022*.
+:::
+
+::: {#ref-ferriValueCitizenScience2020 .csl-entry}
+**Ferri, M.**, **Wehn, U.**, **See, L.**, **Monego, M.**, & **Fritz, S.** (2020). The value of citizen science for flood risk reduction: Cost--benefit analysis of a citizen observatory in the brenta-bacchiglione catchment. *Hydrology and Earth System Sciences*, *24*(12), 5781--5798. <https://doi.org/10/gtq886>
+:::
+
+::: {#ref-floresInteligenciaRelacionalInteligencia2021 .csl-entry}
+**Flores, D.**, **Miedes, B.**, & **Wanner, P.** (2021). Inteligencia relacional, inteligencia artificial y participación ciudadana. El caso de la plataforma digital cooperativa les oiseaux de passage. *Ecerca, Revista de Pensament I Anàlisi, Núm*, *26*(2), 2254-4135- 1-25. <https://doi.org/10/gtq885>
+:::
+
+::: {#ref-geertmanPlanningSupportScience2020 .csl-entry}
+**Geertman, S.**, & **Stillwell, J.** (2020). Planning support science: Developments and challenges. *EPB: Urban Analytics and City Science*, *47*(8).
+:::
+
+::: {#ref-hevnerDesignScienceInformation2004 .csl-entry}
+**Hevner, A. R.**, **March, S. T.**, **Park, J.**, & **Ram, S.** (2004). Design Science in Information Systems Research. *MIS Quarterly*, *28*(1), 75--105. <https://doi.org/10.2307/25148625>
+:::
+
+::: {#ref-hugelPublicParticipationEngagement2020 .csl-entry}
+**Hügel, S.**, & **Davies, A.** (2020). Public participation, engagement, and climate changeadaptation: A review of the research literature. *WIREs Clim Change.2020*, *11*, 645. <https://doi.org/10/gtq883>
+:::
+
+::: {#ref-kimSmartCitiesPlatform2021 .csl-entry}
+**Kim, H.**, **Sabri, S.**, & **Kent, A.** (2021). Smart cities as a platform for technological and social innovation in productivity, sustainability, and livability: A conceptual framework. In *Smart cities for technological and social innovation* (pp. 9--28). Elsevier.
+:::
+
+::: {#ref-kovacsAbductiveReasoningLogistics2005 .csl-entry}
+**Kovács, G.**, & **Spens, K. M.** (2005). Abductive reasoning in logistics research. *International Journal of Physical Distribution & Logistics Management*, *35*(2), 132--144. <https://doi.org/10.1108/09600030510590318>
+:::
+
+::: {#ref-kufferMappingMorphologyUrban2021 .csl-entry}
+**Kuffer, M.**, **Grippa, T.**, **Persello, C.**, **Taubenböck, H.**, **Pfeffer, K.**, & **Sliuzas, R.** (2021). Mapping the morphology of urban deprivation: The role of remote sensing for developing a global slum repository. In X. Yang (Ed.), *Urban Remote Sensing* (1st ed., pp. 305--323). Wiley. <https://doi.org/10.1002/9781119625865.ch14>
+:::
+
+::: {#ref-oneBoletinTuMunicipio2022 .csl-entry}
+**ONE**. (2022). *Boletín tu municipio en cifras bajos de haina - valdesia- san cristobal - el carril*. Oficina Nacional de Estadística.
+:::
+
+::: {#ref-ostadHeRolePublic2021 .csl-entry}
+**Ostad, K.**, **Gholami, H.**, **Dehghan, S.**, & **Ghane, M.** (2021). He role of public participation in promoting urban planning. *American Journal of Engineering and Applied Sciences*, *14*(2), 177 184. <https://doi.org/10/gtq884>
+:::
+
+::: {#ref-perssonDigitalCitizenParticipation2022 .csl-entry}
+**Persson, M.** (2022). *Digital citizen participation in urban planning. A comparative analysis between helsingborg and linköping smart cities*. Department of Urban Studies, Faculty of Culture and Society, Malmö University.
+:::
+
+::: {#ref-reddickDeterminantsBroadbandAccess2020 .csl-entry}
+**Reddick, C.**, **Enriquez, R.**, **Harris, R.**, & **Sharma, B.** (2020). Determinants of broadband access and affordability: An analysis of a community survey on the digital divide. *Cities*, *106*, 102904. <https://doi.org/10/ghjhwp>
+:::
+::::
+<!-- END refs-per-chapter -->

@@ -1,31 +1,32 @@
-# Herramientas digitales de planificación urbana, gestión de riesgos y participación pública
+# Libro FONDOCYT · Bajos de Haina (repo público)
 
-**Proyecto FONDOCYT 2023-1-3A13-0725**
-Caso de estudio: Bajos de Haina, República Dominicana
+Fuentes Quarto publicables del libro derivado del proyecto FONDOCYT 2023-1-3A13-0725 (MESCYT). Este repositorio existe para **citabilidad académica y transparencia**; el PDF de producción, la configuración LaTeX y el widget IA viven en el repo privado de trabajo.
 
-**Financiamiento:** MESCYT / FONDOCYT, Convocatoria 2023
-**Consorcio:** Arcoíris RD · TECCA Caribe · BARNA Management School
-**Estado:** Completado (2023-2025)
+- Código proyecto: `2023-1-3A13-0725` · Convocatoria 2023
+- Organización ejecutora: Arcoíris RD · TECCA Caribe · BARNA Management School
+- Territorio: Bajos de Haina, San Cristóbal, República Dominicana
 
----
+## Contenido
 
-Fuente del libro de resultados del proyecto, escrito en [Quarto](https://quarto.org/).
+- 12 capítulos + 14 anexos (`.qmd`)
+- Bibliografía APA 7 (`references.bib` + `apa.csl`)
+- Figuras, mapas y logotipos en `img/`, `logos/`
+- `_quarto.yml` simplificado (tema cosmo, sin fuentes ni LaTeX custom)
 
-## Autores
-
-Ana Moyano Molina · Jorge Armando Recio Martínez · Javier Fernando Villamizar Fernández · Carlos Manuel Ramírez Arias · Karina Pérez Teruel · Ana Solís Alonso · Yssamar Vismarkis Reyes Sánchez · Danilo Minaya · Jaime R. Hernández Peña · Lucía Navarro de Corcuera · Anyerlina Hernández
-
-## Cómo renderizar
-
-Requiere Quarto 1.5+.
+## Render (HTML rápido)
 
 ```bash
-quarto render
+quarto render --to html
 ```
 
-El resultado se genera en `_book/`.
+No se publica PDF desde este repo; la edición de producción se hace en el repo privado con IBM Plex + xelatex.
 
-## Licencia
+## Cómo se genera
 
-© 2025 Arcoíris RD / FONDOCYT. Todos los derechos reservados.
-Contacto: info@arcoirisrd.org
+Este repo se mantiene sincronizado desde el repo privado vía `libro/_sync_public.py`. No editar aquí: los cambios deben ir al repo privado y propagarse con el script.
+
+## Cita
+
+> Moyano Molina, A., Recio Martínez, J. A., Villamizar Fernández, J. F., et al. (2025). *Herramientas digitales de planificación urbana, gestión de riesgos y participación pública. Caso de estudio: Bajos de Haina.* Proyecto FONDOCYT 2023-1-3A13-0725. MESCYT, República Dominicana.
+
+_Última sincronización: 2026-04-17._

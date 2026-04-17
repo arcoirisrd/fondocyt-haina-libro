@@ -2,6 +2,8 @@
 title: "Código R de las tablas del proyecto"
 ---
 
+> **Fecha:** agosto 2025 **Anexo:** F. Código R de las tablas del proyecto **Función:** Tablas de datos del proyecto en formato R tidyverse para análisis estadístico reproducible **Palabras clave:** R, Tidyverse, Reproducibilidad, Tribble, Análisis estadístico, Datos abiertos
+
 Este anexo recoge, en **formato R (tidyverse)**, las tablas de datos más relevantes del proyecto FONDOCYT, para facilitar su carga directa en *scripts* de análisis estadístico reproducible. Cada bloque reproduce una tabla que también aparece en formato narrativo en los anexos A y B; el lector técnico puede copiar y pegar cualquiera de estos bloques en un entorno R con `tidyverse` instalado (`install.packages("tidyverse")`) y trabajar inmediatamente con los datos.
 
 El formato elegido es `tibble::tribble()` del paquete **tibble** (parte del *tidyverse*), que permite escribir una tabla de datos fila por fila de forma legible. Es el estándar de facto en investigación estadística social reproducible y el formato recomendado por la comunidad académica para publicar datos tabulares en manuscritos y anexos.
@@ -226,7 +228,7 @@ diferencias_ks <- tribble(
 )
 ```
 
-## Visualización: estadísticas de localización con IC 95%
+## Visualización: estadísticas de localización con IC 95% {#sec-visualizacion-localizacion-anexoF}
 
 Como lectura visual de los `tibble` definidos arriba, el siguiente gráfico presenta la valoración media de los factores del diagnóstico de participación ciudadana junto con su intervalo de confianza al 95%. Los colores agrupan los factores por nivel de valoración: verde para valores altos (≥ 6), ámbar para valores medios (5–6) y rojo para valores bajos (< 5).
 
@@ -303,6 +305,6 @@ plt.tight_layout()
 plt.show()
 ```
 
-## Nota sobre reproducibilidad {.unnumbered}
+## Nota sobre reproducibilidad {#sec-nota-reproducibilidad-anexoF .unnumbered}
 
 Los objetos `matriz_operacionalizada`, `estadisticas_localizacion`, `normalidad_ks` y `diferencias_ks` definidos en este anexo son `tibble` válidos del ecosistema *tidyverse*. Pueden exportarse a CSV con `readr::write_csv()`, a Excel con `writexl::write_xlsx()`, o cargarse en `ggplot2`, `gt`, `kableExtra` y otras herramientas de visualización académica sin necesidad de transformación adicional. La matriz operacionalizada se mantiene además disponible en los entregables canónicos del proyecto (`INF_OE1_DiagnosticoIntegral_2025.docx` y `INF_OE3_AmbitosParticipacionCiudadana_2025.docx`).

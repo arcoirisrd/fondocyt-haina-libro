@@ -2,6 +2,8 @@
 title: "Operacionalización de las variables"
 ---
 
+> **Fecha:** agosto 2025 **Anexo:** C. Operacionalización de las variables **Función:** Matriz de 96 variables operacionalizadas distribuidas por objetivo específico, dimensión y factor **Palabras clave:** Operacionalización, Variables, Matriz de indicadores, Objetivos específicos, Diagnóstico, Participación ciudadana
+
 ## Mapa de objetivos y resultados {#sec-mapa-objetivos-anexoC}
 
 - **OE1**, Diagnóstico integral de Bajos de Haina
@@ -65,55 +67,55 @@ El primer bloque operacionaliza el **Objetivo Específico 1**, dedicado al diagn
 
 | Dimensión | Factor | Variable | Pregunta o indicador |
 |:---|:---|:---|:---|
-| Planificación urbana | Territorio, paisaje y biodiversidad | Instrumentos de ordenación territorial | ¿Se han incorporado en los instrumentos de ordenación territorial y urbanística criterios para asegurar el uso racional del suelo que atienda al principio de desarrollo sostenible? |
-| Planificación urbana | Territorio, paisaje y biodiversidad | Plan de gestión del patrimonio | ¿Se dispone de un Plan de gestión municipal del patrimonio natural y cultural, o instrumento equivalente, para asegurar su adecuada conservación y puesta en valor? |
-| Planificación urbana | Territorio, paisaje y biodiversidad | Planificación en red de infraestructuras verdes y azules | ¿Se ha realizado una planificación del desarrollo en red y de la conectividad de las infraestructuras verdes y azules con el contexto natural? |
-| Planificación urbana | Territorio, paisaje y biodiversidad | Correlación urbanización–demografía `+ R4` | Correlación entre urbanización de suelo, dinámica demográfica, empleo y actividades económicas |
-| Planificación urbana | Territorio, paisaje y biodiversidad | Infraestructuras verdes recuperadas | Superficie de suelo destinado a infraestructuras verdes urbanas sobre las que se van a realizar actuaciones de recuperación, mejora e interconexión |
-| Planificación urbana | Territorio, paisaje y biodiversidad | Presupuesto de actuaciones | Presupuesto de las actuaciones previstas para este indicador |
-| Planificación urbana | Modelo de ciudad | Compacidad y equilibrio urbano | ¿Se han incorporado en los instrumentos de ordenación criterios que mejoren la compacidad y el equilibrio urbano en la ciudad consolidada y en los nuevos desarrollos? |
-| Planificación urbana | Modelo de ciudad | Complejidad funcional y mezcla de usos | ¿Se han incorporado en los instrumentos de ordenación criterios que mejoren la complejidad funcional y la mezcla de usos en la ciudad consolidada y en los nuevos desarrollos? |
-| Planificación urbana | Modelo de ciudad | Plan de mejora del espacio público | ¿Se dispone de un plan de mejora del espacio público que identifique los problemas y programe actuaciones para garantizar la accesibilidad universal y la reducción del ruido? |
-| Planificación urbana | Modelo de ciudad | Planes de calidad ambiental urbana | ¿Se dispone de planes de mejora de la calidad del medio ambiente urbano orientados a la mejora de las zonas verdes urbanas y a la reducción de la contaminación? |
-| Planificación urbana | Modelo de ciudad | Plan de regeneración urbana de barrios | ¿Se dispone de algún plan de regeneración urbana de barrios que incorpore actuaciones de mejora social, económica y ambiental? |
-| Planificación urbana | Modelo de ciudad | Plan de rehabilitación de edificios | ¿Se dispone de algún plan de rehabilitación de los edificios que realice un diagnóstico de su situación y establezca prioridades y actuaciones para impulsar su mejora? |
-| Planificación urbana | Modelo de ciudad | Cobertura de servicios básicos `+ R4` | Porcentaje de la población con los servicios básicos, completos e ininterrumpidos |
-| Planificación urbana | Modelo de ciudad | Proximidad a zonas verdes `+ R4` | Porcentaje de población próxima a zonas verdes urbanas o áreas de esparcimiento |
-| Planificación urbana | Modelo de ciudad | Presupuesto en barrios vulnerables | Presupuesto de las actuaciones de regeneración urbana previstas en barrios vulnerables desde el punto de vista social, económico o ambiental |
-| Planificación urbana | Gestión sostenible de recursos y economía circular | PAES o equivalente | ¿Se dispone de algún Plan o Estrategia de Acción para la Energía sostenible (PAES) o instrumento equivalente? |
-| Planificación urbana | Gestión sostenible de recursos y economía circular | Plan de gestión sostenible del agua | ¿Se dispone de algún plan de gestión sostenible del agua o instrumento equivalente? |
-| Planificación urbana | Gestión sostenible de recursos y economía circular | Economía circular en gestión urbana | ¿Se han incorporado criterios en la gestión urbana encaminados a fomentar el ciclo sostenible de los materiales y recursos en el marco de la economía circular? |
-| Planificación urbana | Gestión sostenible de recursos y economía circular | Planes de gestión de residuos | ¿Se disponen de planes de gestión de residuos, o equivalentes, con el objetivo de aumentar el porcentaje de recogida selectiva y reciclaje? |
-| Planificación urbana | Gestión sostenible de recursos y economía circular | Autosuficiencia hídrica `+ R4` | Porcentaje de autosuficiencia hídrica |
-| Planificación urbana | Gestión sostenible de recursos y economía circular | Inversión en materiales locales | Presupuesto invertido en actuaciones que emplean materiales locales y fácilmente reciclables |
-| Planificación urbana | Gestión sostenible de recursos y economía circular | Generación de residuos per cápita `+ R4` | Generación de residuos por habitante |
-| Planificación urbana | Movilidad y transporte | Planes de Transporte al Trabajo | ¿Se dispone en la ciudad de Planes de Transporte al Trabajo (PTT) para racionalizar los desplazamientos a los principales centros de trabajo? |
-| Planificación urbana | Movilidad y transporte | Plan de Movilidad Urbana Sostenible | ¿Se dispone de un Plan de Movilidad Urbana Sostenible (PMUS) en la ciudad? |
-| Planificación urbana | Movilidad y transporte | Flota de bajas emisiones | Flota de autobuses de bajas emisiones o con combustibles limpios dedicados al transporte público urbano |
-| Planificación urbana | Cohesión social e igualdad de oportunidades | Identificación de entornos vulnerables `+ R4` | ¿Se encuentran adecuadamente identificados los entornos urbanos que presentan un mayor grado de vulnerabilidad social, económica y ambiental? |
-| Planificación urbana | Cohesión social e igualdad de oportunidades | Plan de igualdad de oportunidades | ¿Se dispone de un Plan o Estrategia a nivel local para garantizar la igualdad de oportunidades, el acceso al mercado de trabajo y la vida pública en condiciones de igualdad? |
-| Planificación urbana | Cohesión social e igualdad de oportunidades | Inversión en barrios vulnerables | Presupuesto invertido en actuaciones realizadas en barrios vulnerables desde el punto de vista social, económico o ambiental |
-| Planificación urbana | Economía urbana | Plan de mejora económica local `+ R4` | ¿Se dispone de planes de mejora de la economía y competitividad local que recojan actuaciones en materia de empleo y actividad económica? |
-| Planificación urbana | Economía urbana | Reactivación turismo, comercio e industria `+ R4` | ¿Se dispone de planes específicos de reactivación económica e innovación en el ámbito del turismo sostenible, comercio e industria en Bajos de Haina? |
-| Planificación urbana | Economía urbana | Presupuesto dinamización local | Presupuesto de las actuaciones previstas para la dinamización del comercio e industria local y de impulso de la actividad turística sostenible |
-| Planificación urbana | Vivienda | Plan local de vivienda `+ R4` | ¿Se dispone de un plan de vivienda local que favorezca un parque público y privado adecuado a la demanda e impulse la vivienda en alquiler a precios asequibles? |
-| Planificación urbana | Vivienda | Plan de ayudas al acceso | ¿Se dispone de un plan de ayudas para garantizar el acceso a la vivienda por parte de los hogares y colectivos más vulnerables? |
-| Planificación urbana | Vivienda | Beneficiarios de planes públicos | Número de personas beneficiarias de los programas incluidos en planes públicos de vivienda |
-| Planificación urbana | Vivienda | Viviendas en alquiler social | Número de viviendas destinadas a alquiler social a precio asequible |
-| Planificación urbana | Innovación digital | Estrategia de ciudad inteligente `+ OE2-R1` | ¿Se dispone de un plan o estrategia local para avanzar en un modelo urbano inteligente? |
-| Planificación urbana | Innovación digital | Administración electrónica `+ OE2-R1` | ¿Se han incorporado criterios para mejorar los servicios de administración electrónica y reducir la brecha digital? |
-| Gestión de riesgos | Cambio climático | Estrategia de adaptación local | ¿Se dispone de algún plan o estrategia para la adaptación al cambio climático de ámbito local y prevención frente a los riesgos naturales? |
-| Gestión de riesgos | Cambio climático | Estrategia de calidad del aire | ¿Se dispone de algún plan o estrategia de calidad del aire que realice un diagnóstico y establezca prioridades de mejora? |
-| Gestión de riesgos | Cambio climático | Estrategia de resiliencia | ¿Se dispone de algún plan o estrategia para la mejora de la resiliencia de Bajos de Haina ante situaciones adversas y la reducción de daños? |
-| Gestión de riesgos | Cambio climático | Reducción anual de GEI | Reducción anual estimada de gases de efecto invernadero y del número de días en que se superan los límites de calidad del aire |
-| Gestión de riesgos | Fenómenos naturales | Atención a población vulnerable | ¿Se dispone de recursos para atender a la población más vulnerable por inundaciones? |
-| Gestión de riesgos | Fenómenos naturales | Prevención de riesgos en suelo urbano | Superficie de suelo urbano en la que se prevé realizar actuaciones de mejora o prevención de riesgos naturales, incluyendo incendios e inundaciones |
-| Instrumentos de planificación | Intervención y gobernanza | Compatibilidad normativa `+ OE3-R1` | ¿Las ordenanzas municipales son plenamente compatibles y coherentes con la legislación estatal? |
-| Instrumentos de planificación | Intervención y gobernanza | Presupuestos participativos `+ OE3-R2` | ¿Se dispone de presupuestos participativos y/o un plan municipal de participación ciudadana que impulse la ciudadanía activa y el empoderamiento? |
-| Instrumentos de planificación | Intervención y gobernanza | Acceso a programas y ayudas | ¿Se cuenta con los medios para acceder a los programas y ayudas públicas de alcance internacional, nacional y autonómico en materia de desarrollo urbano? |
-| Instrumentos de planificación | Intervención y gobernanza | Plan de formación y sensibilización | ¿Se dispone de un plan o estrategia de formación y sensibilización ciudadana que favorezca la consecución de los objetivos de la agenda urbana? |
-| Instrumentos de planificación | Intervención y gobernanza | Publicación electrónica del planeamiento `+ OE2-R1` | ¿Se ofrece el contenido del planeamiento urbanístico por medios electrónicos y se ha incorporado a los sistemas de información de nivel supramunicipal? |
-| Instrumentos de planificación | Intervención y gobernanza | Beneficiarios de formación | Número de personas beneficiarias de actividades de formación y sensibilización en las materias incluidas en la agenda urbana |
+| **Planificación urbana** | Territorio, paisaje y biodiversidad | Instrumentos de ordenación territorial | ¿Se han incorporado en los instrumentos de ordenación territorial y urbanística criterios para asegurar el uso racional del suelo que atienda al principio de desarrollo sostenible? |
+| **Planificación urbana** | Territorio, paisaje y biodiversidad | Plan de gestión del patrimonio | ¿Se dispone de un Plan de gestión municipal del patrimonio natural y cultural, o instrumento equivalente, para asegurar su adecuada conservación y puesta en valor? |
+| **Planificación urbana** | Territorio, paisaje y biodiversidad | Planificación en red de infraestructuras verdes y azules | ¿Se ha realizado una planificación del desarrollo en red y de la conectividad de las infraestructuras verdes y azules con el contexto natural? |
+| **Planificación urbana** | Territorio, paisaje y biodiversidad | Correlación urbanización–demografía `+ R4` | Correlación entre urbanización de suelo, dinámica demográfica, empleo y actividades económicas |
+| **Planificación urbana** | Territorio, paisaje y biodiversidad | Infraestructuras verdes recuperadas | Superficie de suelo destinado a infraestructuras verdes urbanas sobre las que se van a realizar actuaciones de recuperación, mejora e interconexión |
+| **Planificación urbana** | Territorio, paisaje y biodiversidad | Presupuesto de actuaciones | Presupuesto de las actuaciones previstas para este indicador |
+| **Planificación urbana** | Modelo de ciudad | Compacidad y equilibrio urbano | ¿Se han incorporado en los instrumentos de ordenación criterios que mejoren la compacidad y el equilibrio urbano en la ciudad consolidada y en los nuevos desarrollos? |
+| **Planificación urbana** | Modelo de ciudad | Complejidad funcional y mezcla de usos | ¿Se han incorporado en los instrumentos de ordenación criterios que mejoren la complejidad funcional y la mezcla de usos en la ciudad consolidada y en los nuevos desarrollos? |
+| **Planificación urbana** | Modelo de ciudad | Plan de mejora del espacio público | ¿Se dispone de un plan de mejora del espacio público que identifique los problemas y programe actuaciones para garantizar la accesibilidad universal y la reducción del ruido? |
+| **Planificación urbana** | Modelo de ciudad | Planes de calidad ambiental urbana | ¿Se dispone de planes de mejora de la calidad del medio ambiente urbano orientados a la mejora de las zonas verdes urbanas y a la reducción de la contaminación? |
+| **Planificación urbana** | Modelo de ciudad | Plan de regeneración urbana de barrios | ¿Se dispone de algún plan de regeneración urbana de barrios que incorpore actuaciones de mejora social, económica y ambiental? |
+| **Planificación urbana** | Modelo de ciudad | Plan de rehabilitación de edificios | ¿Se dispone de algún plan de rehabilitación de los edificios que realice un diagnóstico de su situación y establezca prioridades y actuaciones para impulsar su mejora? |
+| **Planificación urbana** | Modelo de ciudad | Cobertura de servicios básicos `+ R4` | Porcentaje de la población con los servicios básicos, completos e ininterrumpidos |
+| **Planificación urbana** | Modelo de ciudad | Proximidad a zonas verdes `+ R4` | Porcentaje de población próxima a zonas verdes urbanas o áreas de esparcimiento |
+| **Planificación urbana** | Modelo de ciudad | Presupuesto en barrios vulnerables | Presupuesto de las actuaciones de regeneración urbana previstas en barrios vulnerables desde el punto de vista social, económico o ambiental |
+| **Planificación urbana** | Gestión sostenible de recursos y economía circular | PAES o equivalente | ¿Se dispone de algún Plan o Estrategia de Acción para la Energía sostenible (PAES) o instrumento equivalente? |
+| **Planificación urbana** | Gestión sostenible de recursos y economía circular | Plan de gestión sostenible del agua | ¿Se dispone de algún plan de gestión sostenible del agua o instrumento equivalente? |
+| **Planificación urbana** | Gestión sostenible de recursos y economía circular | Economía circular en gestión urbana | ¿Se han incorporado criterios en la gestión urbana encaminados a fomentar el ciclo sostenible de los materiales y recursos en el marco de la economía circular? |
+| **Planificación urbana** | Gestión sostenible de recursos y economía circular | Planes de gestión de residuos | ¿Se disponen de planes de gestión de residuos, o equivalentes, con el objetivo de aumentar el porcentaje de recogida selectiva y reciclaje? |
+| **Planificación urbana** | Gestión sostenible de recursos y economía circular | Autosuficiencia hídrica `+ R4` | Porcentaje de autosuficiencia hídrica |
+| **Planificación urbana** | Gestión sostenible de recursos y economía circular | Inversión en materiales locales | Presupuesto invertido en actuaciones que emplean materiales locales y fácilmente reciclables |
+| **Planificación urbana** | Gestión sostenible de recursos y economía circular | Generación de residuos per cápita `+ R4` | Generación de residuos por habitante |
+| **Planificación urbana** | Movilidad y transporte | Planes de Transporte al Trabajo | ¿Se dispone en la ciudad de Planes de Transporte al Trabajo (PTT) para racionalizar los desplazamientos a los principales centros de trabajo? |
+| **Planificación urbana** | Movilidad y transporte | Plan de Movilidad Urbana Sostenible | ¿Se dispone de un Plan de Movilidad Urbana Sostenible (PMUS) en la ciudad? |
+| **Planificación urbana** | Movilidad y transporte | Flota de bajas emisiones | Flota de autobuses de bajas emisiones o con combustibles limpios dedicados al transporte público urbano |
+| **Planificación urbana** | Cohesión social e igualdad de oportunidades | Identificación de entornos vulnerables `+ R4` | ¿Se encuentran adecuadamente identificados los entornos urbanos que presentan un mayor grado de vulnerabilidad social, económica y ambiental? |
+| **Planificación urbana** | Cohesión social e igualdad de oportunidades | Plan de igualdad de oportunidades | ¿Se dispone de un Plan o Estrategia a nivel local para garantizar la igualdad de oportunidades, el acceso al mercado de trabajo y la vida pública en condiciones de igualdad? |
+| **Planificación urbana** | Cohesión social e igualdad de oportunidades | Inversión en barrios vulnerables | Presupuesto invertido en actuaciones realizadas en barrios vulnerables desde el punto de vista social, económico o ambiental |
+| **Planificación urbana** | Economía urbana | Plan de mejora económica local `+ R4` | ¿Se dispone de planes de mejora de la economía y competitividad local que recojan actuaciones en materia de empleo y actividad económica? |
+| **Planificación urbana** | Economía urbana | Reactivación turismo, comercio e industria `+ R4` | ¿Se dispone de planes específicos de reactivación económica e innovación en el ámbito del turismo sostenible, comercio e industria en Bajos de Haina? |
+| **Planificación urbana** | Economía urbana | Presupuesto dinamización local | Presupuesto de las actuaciones previstas para la dinamización del comercio e industria local y de impulso de la actividad turística sostenible |
+| **Planificación urbana** | Vivienda | Plan local de vivienda `+ R4` | ¿Se dispone de un plan de vivienda local que favorezca un parque público y privado adecuado a la demanda e impulse la vivienda en alquiler a precios asequibles? |
+| **Planificación urbana** | Vivienda | Plan de ayudas al acceso | ¿Se dispone de un plan de ayudas para garantizar el acceso a la vivienda por parte de los hogares y colectivos más vulnerables? |
+| **Planificación urbana** | Vivienda | Beneficiarios de planes públicos | Número de personas beneficiarias de los programas incluidos en planes públicos de vivienda |
+| **Planificación urbana** | Vivienda | Viviendas en alquiler social | Número de viviendas destinadas a alquiler social a precio asequible |
+| **Planificación urbana** | Innovación digital | Estrategia de ciudad inteligente `+ OE2-R1` | ¿Se dispone de un plan o estrategia local para avanzar en un modelo urbano inteligente? |
+| **Planificación urbana** | Innovación digital | Administración electrónica `+ OE2-R1` | ¿Se han incorporado criterios para mejorar los servicios de administración electrónica y reducir la brecha digital? |
+| **Gestión de riesgos** | Cambio climático | Estrategia de adaptación local | ¿Se dispone de algún plan o estrategia para la adaptación al cambio climático de ámbito local y prevención frente a los riesgos naturales? |
+| **Gestión de riesgos** | Cambio climático | Estrategia de calidad del aire | ¿Se dispone de algún plan o estrategia de calidad del aire que realice un diagnóstico y establezca prioridades de mejora? |
+| **Gestión de riesgos** | Cambio climático | Estrategia de resiliencia | ¿Se dispone de algún plan o estrategia para la mejora de la resiliencia de Bajos de Haina ante situaciones adversas y la reducción de daños? |
+| **Gestión de riesgos** | Cambio climático | Reducción anual de GEI | Reducción anual estimada de gases de efecto invernadero y del número de días en que se superan los límites de calidad del aire |
+| **Gestión de riesgos** | Fenómenos naturales | Atención a población vulnerable | ¿Se dispone de recursos para atender a la población más vulnerable por inundaciones? |
+| **Gestión de riesgos** | Fenómenos naturales | Prevención de riesgos en suelo urbano | Superficie de suelo urbano en la que se prevé realizar actuaciones de mejora o prevención de riesgos naturales, incluyendo incendios e inundaciones |
+| **Instrumentos de planificación** | Intervención y gobernanza | Compatibilidad normativa `+ OE3-R1` | ¿Las ordenanzas municipales son plenamente compatibles y coherentes con la legislación estatal? |
+| **Instrumentos de planificación** | Intervención y gobernanza | Presupuestos participativos `+ OE3-R2` | ¿Se dispone de presupuestos participativos y/o un plan municipal de participación ciudadana que impulse la ciudadanía activa y el empoderamiento? |
+| **Instrumentos de planificación** | Intervención y gobernanza | Acceso a programas y ayudas | ¿Se cuenta con los medios para acceder a los programas y ayudas públicas de alcance internacional, nacional y autonómico en materia de desarrollo urbano? |
+| **Instrumentos de planificación** | Intervención y gobernanza | Plan de formación y sensibilización | ¿Se dispone de un plan o estrategia de formación y sensibilización ciudadana que favorezca la consecución de los objetivos de la agenda urbana? |
+| **Instrumentos de planificación** | Intervención y gobernanza | Publicación electrónica del planeamiento `+ OE2-R1` | ¿Se ofrece el contenido del planeamiento urbanístico por medios electrónicos y se ha incorporado a los sistemas de información de nivel supramunicipal? |
+| **Instrumentos de planificación** | Intervención y gobernanza | Beneficiarios de formación | Número de personas beneficiarias de actividades de formación y sensibilización en las materias incluidas en la agenda urbana |
 
 : Matriz operacionalizada del OE1 (48 variables). Las etiquetas `+ R2`, `+ R3`, `+ R4` indican variables con clasificación múltiple dentro del mismo OE; las etiquetas `+ OE2-R1` o `+ OE3-Rx` marcan los cruces transversales con otros objetivos específicos. Elaboración propia. {#tbl-matriz-oe1 .smaller tbl-colwidths="[18,18,24,40]"}
 
@@ -126,32 +128,32 @@ El segundo bloque operacionaliza el **Objetivo Específico 2**, dedicado al inve
 
 | Dimensión | Factor | Variable | Pregunta o indicador |
 |:---|:---|:---|:---|
-| Tecnologías existentes | Inventario y evaluación cualitativa | Descripción cualitativa | Descripción cualitativa de las herramientas existentes, sus ventajas y desventajas |
-| Tecnologías existentes | Ciudad inteligente | Estrategia local | ¿Se dispone de un plan o estrategia local para avanzar en un modelo urbano inteligente? |
-| Tecnologías existentes | Administración electrónica | Criterios incorporados | ¿Se han incorporado criterios para mejorar los servicios de administración electrónica y reducir la brecha digital? |
-| Desarrollo de herramientas | Planificación urbana | Nivel de mejora | Nivel de mejora en la planificación urbana (escala 1 a 10) |
-| Desarrollo de herramientas | Gestión de riesgos | Nivel de mejora | Nivel de mejora en la gestión de riesgos (escala 1 a 10) |
-| Desarrollo de herramientas | Participación ciudadana `+ OE3-R2` | Inclusión de grupos de interés | Inclusión y facilidad para involucrar a los grupos de interés (escala 1 a 10) |
-| Desarrollo de herramientas | Efectividad | Capacidad de alcance de objetivos | Capacidad del producto para que los usuarios alcancen sus objetivos con precisión, corrección, exhaustividad e integridad (porcentaje de tareas completadas) |
-| Desarrollo de herramientas | Eficiencia | Velocidad de tareas | Rapidez con que los usuarios pueden completar sus tareas (porcentaje de tareas logrado por unidad de tiempo) |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Visibilidad del estado del sistema | Respuesta en el menor tiempo posible |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Relación sistema y mundo real | Imágenes claras, orden lógico, interacción natural |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Control y libertad del usuario | Posibilidad de subsanar el error |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Consistencia y estándares | Seguir los convenios establecidos para ciertos iconos |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Prevención de errores | Prevenir cualquier error que pueda cometer el usuario |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Reconocer antes que recordar | Mejor reconocer que obligar al usuario a memorizar acciones u objetos |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Flexibilidad y eficiencia de uso | Preparado para usuarios novatos y experimentados |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Diseño estético y minimalista | No contener información innecesaria |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Recuperación ante errores | Ayudar a los usuarios a reconocer, diagnosticar y corregir los errores en lenguaje entendible |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Ayuda y documentación | Manual de funcionamiento |
-| Desarrollo de herramientas | Usabilidad (Nielsen) | Evaluación general | Evaluación general de usabilidad y accesibilidad (escala 1 a 10) |
-| Desarrollo de herramientas | Adaptabilidad | Búsqueda interna | Presencia de búsqueda interna en cada página |
-| Desarrollo de herramientas | Adaptabilidad | Predictibilidad | Etiquetas de enlaces significativas, comprensibles y diferenciables |
-| Desarrollo de herramientas | Adaptabilidad | Realimentación al usuario | Designar enlaces utilizados y ubicación del usuario |
-| Desarrollo de herramientas | Adaptabilidad | Determinación de acciones | Opciones principales en página de inicio, menús apropiados, acceso desde cualquier página |
-| Desarrollo de herramientas | Adaptabilidad | Confiabilidad | Ausencia de enlaces rotos internos, externos y páginas huérfanas |
-| Desarrollo de herramientas | Adaptabilidad | Evaluación general | Evaluación general de adaptabilidad a las necesidades del usuario (escala 1 a 10) |
-| Desarrollo de herramientas | Evaluación global | Escala consolidada | Escala de 1 a 10 |
+| **Tecnologías existentes** | Inventario y evaluación cualitativa | Descripción cualitativa | Descripción cualitativa de las herramientas existentes, sus ventajas y desventajas |
+| **Tecnologías existentes** | Ciudad inteligente | Estrategia local | ¿Se dispone de un plan o estrategia local para avanzar en un modelo urbano inteligente? |
+| **Tecnologías existentes** | Administración electrónica | Criterios incorporados | ¿Se han incorporado criterios para mejorar los servicios de administración electrónica y reducir la brecha digital? |
+| **Desarrollo de herramientas** | Planificación urbana | Nivel de mejora | Nivel de mejora en la planificación urbana (escala 1 a 10) |
+| **Desarrollo de herramientas** | Gestión de riesgos | Nivel de mejora | Nivel de mejora en la gestión de riesgos (escala 1 a 10) |
+| **Desarrollo de herramientas** | Participación ciudadana `+ OE3-R2` | Inclusión de grupos de interés | Inclusión y facilidad para involucrar a los grupos de interés (escala 1 a 10) |
+| **Desarrollo de herramientas** | Efectividad | Capacidad de alcance de objetivos | Capacidad del producto para que los usuarios alcancen sus objetivos con precisión, corrección, exhaustividad e integridad (porcentaje de tareas completadas) |
+| **Desarrollo de herramientas** | Eficiencia | Velocidad de tareas | Rapidez con que los usuarios pueden completar sus tareas (porcentaje de tareas logrado por unidad de tiempo) |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Visibilidad del estado del sistema | Respuesta en el menor tiempo posible |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Relación sistema y mundo real | Imágenes claras, orden lógico, interacción natural |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Control y libertad del usuario | Posibilidad de subsanar el error |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Consistencia y estándares | Seguir los convenios establecidos para ciertos iconos |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Prevención de errores | Prevenir cualquier error que pueda cometer el usuario |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Reconocer antes que recordar | Mejor reconocer que obligar al usuario a memorizar acciones u objetos |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Flexibilidad y eficiencia de uso | Preparado para usuarios novatos y experimentados |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Diseño estético y minimalista | No contener información innecesaria |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Recuperación ante errores | Ayudar a los usuarios a reconocer, diagnosticar y corregir los errores en lenguaje entendible |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Ayuda y documentación | Manual de funcionamiento |
+| **Desarrollo de herramientas** | Usabilidad (Nielsen) | Evaluación general | Evaluación general de usabilidad y accesibilidad (escala 1 a 10) |
+| **Desarrollo de herramientas** | Adaptabilidad | Búsqueda interna | Presencia de búsqueda interna en cada página |
+| **Desarrollo de herramientas** | Adaptabilidad | Predictibilidad | Etiquetas de enlaces significativas, comprensibles y diferenciables |
+| **Desarrollo de herramientas** | Adaptabilidad | Realimentación al usuario | Designar enlaces utilizados y ubicación del usuario |
+| **Desarrollo de herramientas** | Adaptabilidad | Determinación de acciones | Opciones principales en página de inicio, menús apropiados, acceso desde cualquier página |
+| **Desarrollo de herramientas** | Adaptabilidad | Confiabilidad | Ausencia de enlaces rotos internos, externos y páginas huérfanas |
+| **Desarrollo de herramientas** | Adaptabilidad | Evaluación general | Evaluación general de adaptabilidad a las necesidades del usuario (escala 1 a 10) |
+| **Desarrollo de herramientas** | Evaluación global | Escala consolidada | Escala de 1 a 10 |
 
 : Matriz operacionalizada del OE2 (26 variables). Los 10 factores de usabilidad siguen los principios heurísticos de Jacob Nielsen. Elaboración propia. {#tbl-matriz-oe2 .smaller tbl-colwidths="[20,22,22,36]"}
 
@@ -164,26 +166,26 @@ El tercer bloque operacionaliza el **Objetivo Específico 3**, dedicado al anál
 
 | Dimensión | Factor | Variable | Pregunta o indicador |
 |:---|:---|:---|:---|
-| Condiciones territoriales | Formación | Participación en formación | Participación en procesos de formación ciudadana |
-| Condiciones territoriales | Infraestructura de internet `+ OE2-R1` | Uso para reclamos y reuniones | Uso del internet para presentar quejas u opiniones ante el gobierno municipal, para convocar o participar de reuniones entre vecinos u otros grupos |
-| Condiciones territoriales | Recursos | Limitaciones personales | Limitaciones monetarias, de tiempo o de interés |
-| Condiciones territoriales | Recursos | Préstamo de espacios | Préstamo de espacios en instituciones públicas o sedes comunales para actividades comunitarias |
-| Condiciones territoriales | Recursos | Condiciones físicas de espacios | Condiciones físicas de los espacios usados para actividades de participación |
-| Condiciones territoriales | Recursos | Contribución de medios | Contribución de los medios de comunicación para motivar y promover la participación ciudadana |
-| Condiciones territoriales | Restricciones | Amenazas percibidas | Amenazas |
-| Actores y prácticas | Trabajo en equipo | Disposición intercultural | Disposición para trabajar en equipo con personas de diferente religión, raza, estratos, edades, partido político, género y rol |
-| Actores y prácticas | Motivos de participación | Intereses particulares | Uso de la participación por intereses y beneficios particulares |
-| Actores y prácticas | Conflictos | Tipos de conflictos | Tipos de conflictos en los colectivos u organizaciones |
-| Actores y prácticas | Exclusión | Patrones de exclusión | Patrones de exclusión en los procesos comunitarios |
-| Actores y prácticas | Confianza | Nivel de confianza política | Nivel de confianza en actores políticos |
-| Actores y prácticas | Liderazgo | Comportamiento y decisiones | Comportamiento y toma de decisiones de líderes |
-| Actores y prácticas | Liderazgo | Cantidad de procesos | Cantidad de procesos en los que se ejerce liderazgo |
-| Actores y prácticas | Liderazgo | Disposición a liderar | Disposición para liderar procesos comunitarios |
-| Actores y prácticas | Liderazgo | Permanencia en el cargo | Tiempo en el ejercicio del liderazgo (promedio años de permanencia en Junta de Vecinos) |
-| Formas de asociación | Tipos de asociación | Juntas de vecinos | Número de juntas de vecinos |
-| Apoyo | Apoyo del Ayuntamiento | Presupuesto asignado | Presupuesto asignado a la participación ciudadana |
-| Apoyo | Apoyo de ONGs | Listado de ONGs | Listado de ONGs que apoyan la participación ciudadana en Bajos de Haina |
-| Apoyo | Apoyo de ONGs | Nivel de apoyo | Nivel de apoyo ofrecido por las ONGs |
+| **Condiciones territoriales** | Formación | Participación en formación | Participación en procesos de formación ciudadana |
+| **Condiciones territoriales** | Infraestructura de internet `+ OE2-R1` | Uso para reclamos y reuniones | Uso del internet para presentar quejas u opiniones ante el gobierno municipal, para convocar o participar de reuniones entre vecinos u otros grupos |
+| **Condiciones territoriales** | Recursos | Limitaciones personales | Limitaciones monetarias, de tiempo o de interés |
+| **Condiciones territoriales** | Recursos | Préstamo de espacios | Préstamo de espacios en instituciones públicas o sedes comunales para actividades comunitarias |
+| **Condiciones territoriales** | Recursos | Condiciones físicas de espacios | Condiciones físicas de los espacios usados para actividades de participación |
+| **Condiciones territoriales** | Recursos | Contribución de medios | Contribución de los medios de comunicación para motivar y promover la participación ciudadana |
+| **Condiciones territoriales** | Restricciones | Amenazas percibidas | Amenazas |
+| **Actores y prácticas** | Trabajo en equipo | Disposición intercultural | Disposición para trabajar en equipo con personas de diferente religión, raza, estratos, edades, partido político, género y rol |
+| **Actores y prácticas** | Motivos de participación | Intereses particulares | Uso de la participación por intereses y beneficios particulares |
+| **Actores y prácticas** | Conflictos | Tipos de conflictos | Tipos de conflictos en los colectivos u organizaciones |
+| **Actores y prácticas** | Exclusión | Patrones de exclusión | Patrones de exclusión en los procesos comunitarios |
+| **Actores y prácticas** | Confianza | Nivel de confianza política | Nivel de confianza en actores políticos |
+| **Actores y prácticas** | Liderazgo | Comportamiento y decisiones | Comportamiento y toma de decisiones de líderes |
+| **Actores y prácticas** | Liderazgo | Cantidad de procesos | Cantidad de procesos en los que se ejerce liderazgo |
+| **Actores y prácticas** | Liderazgo | Disposición a liderar | Disposición para liderar procesos comunitarios |
+| **Actores y prácticas** | Liderazgo | Permanencia en el cargo | Tiempo en el ejercicio del liderazgo (promedio años de permanencia en Junta de Vecinos) |
+| **Formas de asociación** | Tipos de asociación | Juntas de vecinos | Número de juntas de vecinos |
+| **Apoyo** | Apoyo del Ayuntamiento | Presupuesto asignado | Presupuesto asignado a la participación ciudadana |
+| **Apoyo** | Apoyo de ONGs | Listado de ONGs | Listado de ONGs que apoyan la participación ciudadana en Bajos de Haina |
+| **Apoyo** | Apoyo de ONGs | Nivel de apoyo | Nivel de apoyo ofrecido por las ONGs |
 
 : Matriz operacionalizada del OE3 (22 variables). Elaboración propia. {#tbl-matriz-oe3 .smaller tbl-colwidths="[20,22,24,34]"}
 

@@ -2,6 +2,8 @@
 title: "Perfil técnico del equipo de investigación"
 ---
 
+> **Fecha:** agosto 2025 **Anexo:** B. Perfil técnico del equipo de investigación **Función:** documenta las competencias técnicas individuales y la cobertura colectiva del equipo en ocho dimensiones, complementando la ficha CRediT del prefacio **Palabras clave:** CRediT, Competencias técnicas, Equipo investigador, Urbanismo, SIG, Inteligencia artificial, Gestión de riesgos
+
 Este anexo documenta el perfil técnico del equipo del proyecto FONDOCYT 2023-1-3A13-0725 como complemento a la ficha CRediT del prefacio. El objetivo no es biográfico sino operativo: mostrar de forma explícita qué competencias técnicas aporta cada miembro del equipo al desarrollo del sistema digital integrado descrito en los capítulos anteriores, y cómo esas competencias se articulan entre sí para cubrir el abanico de dominios exigidos por una investigación aplicada en planificación urbana, gestión de riesgos y participación ciudadana. El anexo se estructura en tres partes. La primera parte presenta el marco de competencias sobre el que se analiza el equipo. La segunda parte consolida la matriz de cobertura competencial, que permite leer la composición del equipo como un único sistema antes que como una suma de individualidades. La tercera parte desarrolla los perfiles técnicos individuales en el orden oficial de la autoría CRediT.
 
 ## Marco de competencias del proyecto {#sec-competencias-h}
@@ -20,19 +22,19 @@ La matriz siguiente consolida la cobertura del equipo sobre las ocho dimensiones
 
 | # | Integrante | Urbanismo / OT | SIG / Cartografía | Estadística / Cuantitativo | Dev. software | Gestión de riesgos | Participación / Comunidad | Gobernanza / Políticas | IA / Ciencia de datos |
 |--:|:---|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| 1 | Ana Moyano Molina | ●●● | ●● | ● | — | ●●● | ●●● | ●●● | ● |
-| 2 | Jorge Recio Martínez | ●●● | ●● | ● | ●● | ● | ●● | ● | ●● |
-| 3 | Javier Villamizar | ● | ●● | ●●● | ● | — | ● | ● | ●● |
-| 4 | Carlos Ramírez Arias | ●● | — | — | — | ●●● | ●●● | ●●● | — |
-| 5 | Karina Pérez Teruel | — | — | ●● | ●●● | — | — | ● | ●●● |
-| 6 | Ana Solís Alonso | ●●● | ●●● | — | — | ● | ●● | — | — |
-| 7 | Yssamar Reyes Sánchez | ●● | ● | — | — | ● | ●● | ● | — |
-| 8 | Danilo Minaya | ● | — | — | — | ●● | ● | ● | — |
-| 9 | Jaime Hernández Peña | — | — | — | ●●● | — | — | — | ● |
-| 10 | Lucía Navarro de Corcuera | ● | — | — | — | ● | ● | ● | — |
-| 11 | Anyerlina Hernández | ●● | — | — | — | ● | ● | ●● | — |
+| **1** | Ana Moyano Molina | ●●● | ●● | ● | ○ | ●●● | ●●● | ●●● | ● |
+| **2** | Jorge Recio Martínez | ●●● | ●● | ● | ●● | ● | ●● | ● | ●● |
+| **3** | Javier Villamizar | ● | ●● | ●●● | ● | ○ | ● | ● | ●● |
+| **4** | Carlos Ramírez Arias | ●● | ○ | ○ | ○ | ●●● | ●●● | ●●● | ○ |
+| **5** | Karina Pérez Teruel | ○ | ○ | ●● | ●●● | ○ | ○ | ● | ●●● |
+| **6** | Ana Solís Alonso | ●●● | ●●● | ○ | ○ | ● | ●● | ○ | ○ |
+| **7** | Yssamar Reyes Sánchez | ●● | ● | ○ | ○ | ● | ●● | ● | ○ |
+| **8** | Danilo Minaya | ● | ○ | ○ | ○ | ●● | ● | ● | ○ |
+| **9** | Jaime Hernández Peña | ○ | ○ | ○ | ●●● | ○ | ○ | ○ | ● |
+| **10** | Lucía Navarro de Corcuera | ● | ○ | ○ | ○ | ● | ● | ● | ○ |
+| **11** | Anyerlina Hernández | ●●● | ●●● | ○ | ○ | ● | ● | ●● | ○ |
 
-: Matriz de cobertura competencial del equipo FONDOCYT sobre ocho dimensiones técnicas. Escala: ●●● especialización avanzada, ●● experiencia profesional comprobada, ● formación básica o aplicada, — competencia no aplicable al rol en el proyecto. Elaboración propia a partir de los currículos archivados en `_admin/cvs/`. {#tbl-matriz-competencias-h .striped}
+: Matriz de cobertura competencial del equipo FONDOCYT sobre ocho dimensiones técnicas. Escala: ●●● especialización avanzada, ●● experiencia profesional comprobada, ● formación básica o aplicada, ○ competencia no aplicable al rol en el proyecto. Elaboración propia a partir de los currículos archivados en `_admin/cvs/`. {#tbl-matriz-competencias-h .striped}
 
 La lectura por columna revela la **composición simétrica del equipo**: cada dimensión cuenta con al menos una persona con especialización avanzada y con al menos dos con experiencia profesional o formación aplicada, lo que garantiza la ausencia de cuellos de botella en cualquiera de las ocho dimensiones. La dimensión de urbanismo y ordenamiento territorial está cubierta por dos especialistas doctorales activos en el proyecto (Moyano y Recio) más una experta en diseño urbano (Solís), con aporte heredado de la investigación doctoral previa de Navarro. La dimensión de SIG y cartografía encuentra su punto fuerte en Ana Solís, con apoyo de perfiles de uso intensivo (Moyano, Recio, Villamizar). La dimensión estadística es el aporte nuclear de Villamizar, con formación doctoral específica en métodos cuantitativos. El desarrollo de software está garantizado por el eje Pérez Teruel–Hernández Peña, con Recio como apoyo secundario. La gestión de riesgos y la participación ciudadana, dos dimensiones transversales al proyecto, son los dominios donde concurre el mayor número de especialistas avanzados: Moyano y Ramírez Arias en riesgos, y los mismos dos en participación, con apoyo de Reyes Sánchez en el trabajo comunitario. La gobernanza y las políticas públicas tienen su punto fuerte en Moyano y Ramírez Arias, con Hernández como apoyo en el componente normativo. La dimensión de inteligencia artificial y ciencia de datos se apoya en Pérez Teruel como especialista doctoral, con Recio y Villamizar como perfiles de uso avanzado y Jaime Hernández Peña como desarrollador.
 
@@ -53,7 +55,7 @@ La lectura por fila revela los **perfiles individuales como especializaciones co
 
 ### 2. Jorge Armando Recio Martínez, PhD (c)
 
-**Rol en el proyecto:** co-investigador principal y editor del libro y la web.
+**Rol en el proyecto:** co-investigador y editor del libro y la web.
 **Adscripción:** UASD · UPM-ETSAMadrid.
 
 **Especialización.** Arquitecto por la UASD y máster en Proyectos Arquitectónicos Avanzados por la UPM-ETSAMadrid, doctorando en el Departamento de Proyectos Arquitectónicos desde 2019 con tesis sobre sistema proyectual mediante tecnologías integradas en barrios resilientes. Consultor registrado en la plataforma QUANTUMM de Naciones Unidas.
@@ -89,7 +91,7 @@ La lectura por fila revela los **perfiles individuales como especializaciones co
 **Rol en el proyecto:** co-investigadora (gestión administrativa).
 **Adscripción:** BARNA Management School · Universidad de las Ciencias Informáticas.
 
-**Especialización.** Ingeniera Informática por el ISPJAE de La Habana, máster en Bioinformática y doctora en Ciencias Técnicas por la Universidad de las Ciencias Informáticas de La Habana, con tesis sobre modelos de consenso en mapas cognitivos difusos para la toma de decisiones en grupo. Investigadora titular y actual Directora del Centro de Investigación en Sostenibilidad de BARNA Management School.
+**Especialización.** Ingeniera Informática por el ISPJAE de La Habana, máster en Bioinformática y doctora en Ciencias Técnicas por la Universidad de las Ciencias Informáticas de La Habana, con tesis sobre modelos de consenso en mapas cognitivos difusos para la toma de decisiones en grupo. Investigadora titular y Directora durante el período de la investigación del Centro de Investigación en Sostenibilidad de BARNA Management School.
 
 **Competencias clave aplicadas al proyecto:** ingeniería de software, gestión de proyectos tecnológicos, inteligencia artificial aplicada a la toma de decisiones, diseño centrado en las personas, curación y gobernanza de datos.
 
@@ -152,11 +154,11 @@ La lectura por fila revela los **perfiles individuales como especializaciones co
 
 ### 11. Anyerlina Hernández
 
-**Rol en el proyecto:** asistente.
-**Adscripción:** Arcoíris RD · UASD.
+**Rol en el proyecto:** asistente (normativa urbana y SIG).
+**Adscripción:** Arcoíris RD · UTESA · UASD.
 
-**Especialización.** Equipo Arcoíris RD con formación de base en la UASD. Su contribución se concentra en la investigación y curación de datos del componente normativo urbano.
+**Especialización.** Consultora en urbanismo, sostenibilidad y sistemas de información geográfica con más de diez años de trayectoria profesional. Arquitecta por la Universidad Tecnológica de Santiago (UTESA, 2005-2011) y máster en Ordenamiento, Energía y Ecología Territorial con mención en Eco-Barrios por la Université de Versailles Saint Quentin en Yvelines (2013-2015). Combina una sólida formación territorial europea con experiencia de campo aplicada a contextos caribeños y latinoamericanos.
 
-**Competencias clave aplicadas al proyecto:** análisis del marco normativo urbanístico dominicano, curación de datos sobre tipologías residenciales, apoyo a la redacción del componente de normativa.
+**Competencias clave aplicadas al proyecto:** análisis del marco normativo urbanístico dominicano, manejo avanzado de ArcGIS para levantamiento y georreferenciación, curación de datos sobre tipologías de manzana, docencia en sostenibilidad ambiental y cambio climático (PUCMM, 2018-2026) y en diseño urbano y sociología urbana (UTESA, 2016-2019).
 
-**Aplicación directa al FONDOCYT:** sistematización del marco normativo nacional y análisis de las tipologías de manzana de Bajos de Haina. Currículo ampliado pendiente de incorporación en la próxima revisión.
+**Aplicación directa al FONDOCYT:** sistematización del marco normativo nacional aplicable a los seis tipos de manzana identificados en Bajos de Haina, análisis de las tipologías residenciales para el componente OE3, y curación de datos del ecosistema digital en el ámbito de la normativa urbana. Su experiencia como analista de información geográfica en el Sistema Nacional de Atención a Emergencias y Seguridad 9-1-1 (2017-2026) y su trabajo de campo en comunidades vulnerables de Santiago y Monte Plata aportan una perspectiva operativa directamente transferible al contexto de Haina.

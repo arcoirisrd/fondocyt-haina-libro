@@ -1,6 +1,53 @@
 ---
 title: "Acrónimos y glosario de términos urbanísticos"
+suppress-bibliography: true
 ---
+
+```{=latex}
+% ─── PORTADILLA ANEXOS (bluesteel full-bleed) ───
+\clearpage
+\thispagestyle{empty}
+\newgeometry{top=0cm, bottom=0cm, left=0cm, right=0cm}
+\pagecolor{bluesteel}\color{white}
+\noindent\mbox{}
+\vspace*{\fill}
+\begin{center}\begin{minipage}{\dimexpr\paperwidth-5.6cm\relax}
+{\footnotesize\sffamily\color{white!60}%
+PROYECTO FONDOCYT 2023-1-3A13-0725\par}
+\vspace{0.6cm}
+{\fontsize{48}{52}\selectfont\sffamily\bfseries\color{white}%
+Anexos\par}
+\vspace{0.4cm}
+{\large\sffamily\itshape\color{white!85}%
+Documentación técnica complementaria\par}
+\end{minipage}\end{center}
+\vspace*{\fill}
+\noindent\colorbox{white}{%
+  \begin{minipage}[c][2.8cm][c]{\paperwidth}%
+  \centering
+  \begin{minipage}{0.18\paperwidth}\centering
+    \includegraphics[width=\linewidth, height=1.3cm, keepaspectratio]{logos/arcoiris_logo_trans.png}
+  \end{minipage}\hfill
+  \begin{minipage}{0.15\paperwidth}\centering
+    \includegraphics[width=\linewidth, height=1.3cm, keepaspectratio]{logos/tecca_trans.png}
+  \end{minipage}\hfill
+  \begin{minipage}{0.22\paperwidth}\centering
+    \includegraphics[width=\linewidth, height=1.3cm, keepaspectratio]{logos/barna_logo_trans.png}
+  \end{minipage}\hfill
+  \begin{minipage}{0.14\paperwidth}\centering
+    \includegraphics[width=\linewidth, height=1.3cm, keepaspectratio]{logos/mescyt_logo_trans.png}
+  \end{minipage}\hfill
+  \begin{minipage}{0.20\paperwidth}\centering
+    \includegraphics[width=\linewidth, height=1.3cm, keepaspectratio]{logos/fondocyt_logo_trans.png}
+  \end{minipage}
+  \end{minipage}%
+}
+\restoregeometry
+\clearpage
+\pagecolor{white}\color{charcoal}
+```
+
+> **Fecha:** agosto 2025 **Anexo:** A. Acrónimos y glosario de términos urbanísticos **Función:** Vocabulario técnico, institucional y normativo de referencia para el libro **Palabras clave:** Acrónimos, Glosario, Terminología urbanística, Instituciones dominicanas, Tipologías de manzana, Marco normativo
 
 Este anexo reúne el vocabulario técnico, institucional y normativo que se emplea a lo largo del libro. Los términos se organizan en cinco tablas densas para facilitar su consulta: acrónimos y etiquetas del proyecto, instituciones dominicanas, tipologías de manzana, términos urbanísticos y marco normativo de referencia. Cada entrada incluye su definición operativa dentro del proyecto FONDOCYT.
 
@@ -172,3 +219,13 @@ Este anexo reúne el vocabulario técnico, institucional y normativo que se empl
 | **CRediT (NISO)** | Contributor Roles Taxonomy | Taxonomía aplicada a la atribución de roles del equipo del libro. |
 
 : Marco normativo de referencia del libro. {#tbl-marco-normativo-anexoA .striped .smaller tbl-colwidths="[18,40,42]"}
+
+<!-- BEGIN refs-per-chapter -->
+## Referencias del capítulo {.unnumbered}
+
+:::: {#refs-anexoA .references .csl-bib-body .hanging-indent entry-spacing="0" line-spacing="2"}
+::: {#ref-wilkinson2016fair .csl-entry}
+**Wilkinson, M. D.**, **Dumontier, M.**, **Aalbersberg, Ij. J.**, **Appleton, G.**, **Axton, M.**, **Baak, A.**, **Blomberg, N.**, **Boiten, J.-W.**, **da Silva Santos, L. B.**, **Bourne, P. E.**, **Bouwman, J.**, **Brookes, A. J.**, **Clark, T.**, **Crosas, M.**, **Dillo, I.**, **Dumon, O.**, **Edmunds, S.**, **Evelo, C. T.**, **Finkers, R.**, ... **Mons, B.** (2016). The FAIR Guiding Principles for scientific data management and stewardship. *Scientific Data*, *3*, 160018. <https://doi.org/10.1038/sdata.2016.18>
+:::
+::::
+<!-- END refs-per-chapter -->

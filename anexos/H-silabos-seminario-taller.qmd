@@ -1,7 +1,10 @@
 ---
 title: "Anexo H. Sílabos del Seminario-Taller PUD"
 subtitle: "Planificación Urbana Digital, octubre 2024"
+suppress-bibliography: true
 ---
+
+> **Fecha:** agosto 2025 **Anexo:** H. Sílabos del Seminario-Taller PUD **Función:** reproduce los sílabos didácticos de las tres mesas del Seminario-Taller de Planificación Urbana Digital celebrado en Bajos de Haina en octubre de 2024 **Palabras clave:** Sílabo, Seminario-Taller PUD, Ordenamiento territorial, Gestión de riesgos, Participación ciudadana, Bajos de Haina
 
 Este anexo reproduce los sílabos didácticos de las tres mesas del Seminario-Taller de Planificación Urbana Digital (SPUD) celebrado en Bajos de Haina los días 11 y 12 de octubre de 2024. Los sílabos son los documentos formativos entregados a participantes y facilitadores: describen la descripción del taller, los objetivos, las competencias a desarrollar, la agenda detallada, la metodología, los recursos y la bibliografía recomendada de cada mesa. Complementan la sistematización editorial del Capítulo 11 con el marco pedagógico que guió el diseño del evento. Los tres sílabos se presentan aquí con la misma estructura canónica para facilitar la lectura comparada.
 
@@ -16,7 +19,7 @@ Este anexo reproduce los sílabos didácticos de las tres mesas del Seminario-Ta
 | **Modalidad** | Presencial |
 | **Fecha** | Viernes 11 de octubre de 2024 |
 | **Horario** | 14:00 a 17:30 |
-| **Duración** | 3,5 horas (210 minutos) |
+| **Duración** | 3.5 horas (210 minutos) |
 | **Lugar** | Salón FIA-Lab 505, Laboratorio de Alta Tecnología, UASD |
 | **Facilitadores** | Ana Solís (Arcoíris RD), Jorge Recio (Arcoíris RD), Karina Pérez Teruel (BARNA) |
 
@@ -57,13 +60,13 @@ El taller está dirigido a profesionales y académicos en áreas de arquitectura
 
 | Bloque | Tiempo (min) |
 |:---|---:|
-| Registro y bienvenida | 15 |
-| F1. Comprensión de los conceptos fundamentales del OT | 30 |
-| F2. Estructura y gobernanza de datos | 30 |
-| Pausa | 15 |
-| F3. Aplicación de herramientas digitales | 60 |
-| Presentación de prototipos y retroalimentación | 45 |
-| Evaluación final y clausura | 15 |
+| **Registro y bienvenida** | 15 |
+| **F1. Comprensión de los conceptos fundamentales del OT** | 30 |
+| **F2. Estructura y gobernanza de datos** | 30 |
+| **Pausa** | 15 |
+| **F3. Aplicación de herramientas digitales** | 60 |
+| **Presentación de prototipos y retroalimentación** | 45 |
+| **Evaluación final y clausura** | 15 |
 
 : Agenda del taller de la Mesa 1. {#tbl-silabo-mesa1-agenda .smaller}
 
@@ -130,7 +133,7 @@ Se otorga un certificado de participación a quienes completen satisfactoriament
 | **Modalidad** | Presencial |
 | **Fecha** | 11 y 12 de octubre de 2024 |
 | **Horario** | 14:00 a 17:30 |
-| **Duración** | 3,5 horas (210 minutos) |
+| **Duración** | 3.5 horas (210 minutos) |
 | **Lugar** | UASD, Santo Domingo |
 | **Facilitadores** | Ana Moyano (Arcoíris RD), Yssamar Reyes (Arcoíris RD), Danilo Minaya (BARNA) |
 
@@ -173,12 +176,12 @@ Están invitadas a participar las personas que pertenecen a instituciones de la 
 
 | Bloque | Tiempo (min) |
 |:---|---:|
-| Introducción | 10 |
-| Riesgo urbano y adaptación al cambio climático | 35 |
-| Vulnerabilidad urbana | 45 |
-| Preparación, respuesta y recuperación | 30 |
-| Integración de vulnerabilidad y riesgo en la planificación urbana digital | 50 |
-| Insumos plenaria y evaluación de la mesa | 20 |
+| **Introducción** | 10 |
+| **Riesgo urbano y adaptación al cambio climático** | 35 |
+| **Vulnerabilidad urbana** | 45 |
+| **Preparación, respuesta y recuperación** | 30 |
+| **Integración de vulnerabilidad y riesgo en la planificación urbana digital** | 50 |
+| **Insumos plenaria y evaluación de la mesa** | 20 |
 
 : Agenda del taller de la Mesa 2. {#tbl-silabo-mesa2-agenda .smaller}
 
@@ -247,7 +250,7 @@ La evaluación de la mesa se realiza al cierre mediante discusión grupal y pres
 | **Modalidad** | Presencial |
 | **Fecha** | 11 y 12 de octubre de 2024 |
 | **Horario** | 14:00 a 17:30 |
-| **Duración** | 3,5 horas (210 minutos) |
+| **Duración** | 3.5 horas (210 minutos) |
 | **Lugar** | UASD, Santo Domingo |
 | **Facilitadores** | Carlos Ramírez Arias (Arcoíris RD), Javier Villamizar (TECCA Caribe) |
 
@@ -265,15 +268,15 @@ Un Observatorio Metropolitano presenta, a través de sus indicadores, un alcance
 
 | Territorio y soporte físico | Economía y conectividad | Población y calidad de vida |
 |:---|:---|:---|
-| Urbanización | Ocupación laboral | Población y demografía |
-| Catastro | Producción | Pobreza |
-| Ruralidad | Renta del suelo | Salud |
-| Seguridad territorial | Conectividad | Educación |
-| Espacio público | Innovación | Cultura |
-| Movilidad | | Tecnologías de la información y las comunicaciones |
-| Servicios públicos | | Seguridad ciudadana |
-| Recursos naturales | | Género |
-| Residuos | | |
+| **Urbanización** | Ocupación laboral | Población y demografía |
+| **Catastro** | Producción | Pobreza |
+| **Ruralidad** | Renta del suelo | Salud |
+| **Seguridad territorial** | Conectividad | Educación |
+| **Espacio público** | Innovación | Cultura |
+| **Movilidad** | | Tecnologías de la información y las comunicaciones |
+| **Servicios públicos** | | Seguridad ciudadana |
+| **Recursos naturales** | | Género |
+| **Residuos** | | |
 
 : Temáticas propuestas para los indicadores del Observatorio Metropolitano. Organización en tres dimensiones temáticas según el marco de referencia [@unhabitatObservatoriosMetroHub2020]. {#tbl-silabo-mesa3-indicadores .smaller}
 
@@ -306,10 +309,10 @@ Se invita a aquellas personas que agregan valor al proceso de participación soc
 
 | Fase | Actividad | Tiempo (min) |
 |:---|:---|---:|
-| Fase 1 | Presentación del propósito del taller, herramientas de participación ciudadana, conceptos y resultados de la investigación | 45 |
-| Fase 2 | Cada equipo incorpora sus opiniones en la pizarra digital | 30 |
-| Fase 3 | Integración de toda la información en matriz FODA y formulación de estrategias a partir de los cuadrantes (una por equipo) | 45 |
-| Fase 4 | Cada equipo expone sus estrategias y se priorizan en consenso según su aporte al Objetivo SMART (10 min por equipo) | 40 |
+| **Fase 1** | Presentación del propósito del taller, herramientas de participación ciudadana, conceptos y resultados de la investigación | 45 |
+| **Fase 2** | Cada equipo incorpora sus opiniones en la pizarra digital | 30 |
+| **Fase 3** | Integración de toda la información en matriz FODA y formulación de estrategias a partir de los cuadrantes (una por equipo) | 45 |
+| **Fase 4** | Cada equipo expone sus estrategias y se priorizan en consenso según su aporte al Objetivo SMART (10 min por equipo) | 40 |
 
 : Agenda del taller de la Mesa 3. {#tbl-silabo-mesa3-agenda .smaller}
 
@@ -346,3 +349,25 @@ La evaluación de la mesa se realiza al cierre mediante la presentación y prior
 - ONU-Hábitat (2003). *Global Urban Observatories Initiative*. Programa de las Naciones Unidas para los Asentamientos Humanos.
 - ONU-Hábitat (2020a). *Observatorios Metropolitanos: MetroHub Metropolitan Management Academy*. Programa de las Naciones Unidas para los Asentamientos Humanos.
 - ONU-Hábitat (2020b). *Urban Observatory Guide*. Programa de las Naciones Unidas para los Asentamientos Humanos.
+
+<!-- BEGIN refs-per-chapter -->
+## Referencias del capítulo {.unnumbered}
+
+:::: {#refs-anexoH .references .csl-bib-body .hanging-indent entry-spacing="0" line-spacing="2"}
+::: {#ref-congresonacionalrepublicadominicanaLey14702Sobre2002 .csl-entry}
+**Congreso Nacional República Dominicana**. (2002). *Ley 147-02 Sobre gestión de riesgos* (147-02).
+:::
+
+::: {#ref-aecid2012guia .csl-entry}
+**FEDOMU**. (2012). *Guía sobre la participación ciudadana en la gestión municipal*. Federación Dominicana de Municipios (FEDOMU).
+:::
+
+::: {#ref-lavellGestionLocalRiesgo2003 .csl-entry}
+**Lavell, A.** (2003). *La gestión local del riesgo: Nociones y precisiones en torno al concepto y la práctica*. CEPREDENAC-PNUD.
+:::
+
+::: {#ref-unhabitatObservatoriosMetroHub2020 .csl-entry}
+**UN-Habitat**. (2020). *Observatorios metropolitanos: Guía para la estructuración e implementación*. ONU-Habitat, Iniciativa MetroHUB. <https://unhabitat.org/sites/default/files/2020/08/observatorios_metrohub-05082020.pdf>
+:::
+::::
+<!-- END refs-per-chapter -->

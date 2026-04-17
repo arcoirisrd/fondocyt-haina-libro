@@ -1,14 +1,15 @@
 ---
 title: "Introducción"
+suppress-bibliography: true
 ---
 
 ## El problema: vulnerabilidad urbana y cambio climático en República Dominicana {#sec-problema-01}
 
-La República Dominicana se enfrenta a un dilema histórico: cómo transformar sus municipios, marcados por la vulnerabilidad estructural, en territorios resilientes capaces de anticipar, resistir y adaptarse a los embates del cambio climático y la urbanización acelerada. Actualmente el 83,8% de la población dominicana vive en ciudades, un proceso que pasó del 27% en 1955 al 56% en 1990 y que se proyecta al 95,4% en 2050. En menos de setenta años la población urbana se ha multiplicado por trece, y de cada persona urbana contemporánea aproximadamente 8 775 viven en situación de pobreza y 2 000 en pobreza extrema [@undrr2015sendai].
+La República Dominicana se enfrenta a un dilema histórico: cómo transformar sus municipios, marcados por la vulnerabilidad estructural, en territorios resilientes capaces de anticipar, resistir y adaptarse a los embates del cambio climático y la urbanización acelerada. Actualmente el 83.8% de la población dominicana vive en ciudades [@oneCensoNacionalPoblacion2022], un proceso que pasó del 27% en 1955 al 56% en 1990 y que se proyecta al 95.4% en 2050 [@unitednationsWorldUrbanizationProspects2018]. En menos de setenta años la población urbana se ha multiplicado 13.5 veces, aunque este crecimiento no ha erradicado la pobreza: el 27.0% de la población urbana dominicana vivía en situación de pobreza monetaria en 2022, porcentaje que descendió al 22.7% en 2023 [@mepydBoletinPobrezaMonetaria2023].
 
-Esta expansión urbana acelerada, combinada con la debilidad crónica de los instrumentos locales de planificación y gestión de riesgos, amplifica la exposición de la población a eventos hidrometeorológicos extremos, deslizamientos, inundaciones y pasivos ambientales acumulados. La ausencia o desactualización de planes de ordenamiento territorial en la mayoría de los municipios dominicanos reduce severamente la capacidad institucional para gobernar el crecimiento urbano con criterios de equidad y sostenibilidad [@lavell2007apuntes; @cardonaDisasterRiskRisk2011]. El reto no es únicamente técnico: es también un reto de gobernanza, de participación ciudadana y de articulación multinivel entre las escalas local, provincial y nacional.
+Esta expansión urbana acelerada, combinada con la debilidad crónica de los instrumentos locales de planificación y gestión de riesgos, amplifica la exposición de la población a eventos hidrometeorológicos extremos, deslizamientos, inundaciones y pasivos ambientales acumulados. La ausencia o desactualización de planes de ordenamiento territorial en la mayoría de los municipios dominicanos reduce severamente la capacidad institucional para gobernar el crecimiento urbano con criterios de equidad y sostenibilidad [@lavellApuntesParaReflexion2007; @cardonaDisasterRiskRisk2011]. El reto no es únicamente técnico: es también un reto de gobernanza, de participación ciudadana y de articulación multinivel entre las escalas local, provincial y nacional.
 
-**Bajos de Haina** concentra estos desafíos de forma particularmente aguda. Municipio costero ubicado veinte kilómetros al oeste de Santo Domingo, en la provincia San Cristóbal, alberga tejidos urbanos de alta vulnerabilidad, pasivos ambientales históricos ligados a la Refinería Dominicana de Petróleo y al Río Haina, y una expansión territorial acelerada que ocupa áreas no urbanizables. El municipio carece de un Plan de Ordenamiento Territorial actualizado, de un Plan de Desarrollo Municipal y de un Plan de Gestión de Riesgos moderno. En este contexto, la elección de Bajos de Haina como caso de estudio no fue casual: el municipio representa un escenario paradigmático donde las herramientas digitales pueden demostrar su capacidad real para transformar la gobernanza territorial en condiciones difíciles.
+**Bajos de Haina** concentra estos desafíos de forma particularmente aguda. Municipio costero ubicado veinte kilómetros al oeste de Santo Domingo, en la provincia San Cristóbal, alberga tejidos urbanos de alta vulnerabilidad, pasivos ambientales históricos ligados a la Refinería Dominicana de Petróleo y al Río Haina, y una expansión territorial acelerada que ocupa áreas no urbanizables. El municipio carece de un Plan de Ordenamiento Territorial actualizado, de un Plan de Desarrollo Municipal y de un Plan de Gestión de Riesgos moderno. En este contexto, la elección de Bajos de Haina como caso de estudio no fue casual: el municipio representa un escenario paradigmático donde las herramientas digitales pueden demostrar su capacidad real para transformar la gobernanza territorial en condiciones difíciles. El posicionamiento de la investigación respecto a la literatura internacional sobre herramientas digitales, ciudades inteligentes y participación ciudadana se desarrolla en la sección de antecedentes del capítulo de metodología (@sec-edart-02).
 
 ## El proyecto FONDOCYT: por qué y para qué {#sec-proyecto-01}
 
@@ -18,22 +19,62 @@ El proyecto se articuló en torno a tres Objetivos Específicos. El **OE1** real
 
 ## Preguntas que guían este libro {#sec-preguntas-01}
 
-La investigación se guió por cinco preguntas principales que estructuran tanto el informe final del proyecto como la organización de este libro:
+Las preguntas que orientaron la investigación fueron las siguientes; sus respuestas atraviesan transversalmente los capítulos del libro:
 
-1.  ¿Las herramientas digitales podrán contribuir a que los municipios de la República Dominicana puedan ser incluyentes, seguros, resilientes y sostenibles?
+1.  ¿En qué medida las herramientas digitales contribuyen a que los municipios de la República Dominicana sean incluyentes, seguros, resilientes y sostenibles?
 2.  ¿Qué tipo de información manejamos para analizar, tipificar, clasificar y proponer modelos de desarrollo en los tejidos de alta vulnerabilidad?
 3.  ¿Con qué instrumentos contamos para la gestión del territorio en los diferentes niveles territoriales?
 4.  ¿Existen mecanismos de articulación para cogestión, concertación y participación ciudadana en los territorios?
 5.  ¿Hay flexibilidad, creatividad, efectividad, eficiencia, participación, cooperación y corresponsabilidad para la gobernanza territorial?
 
-Cada una de estas preguntas atraviesa transversalmente varios capítulos del libro y encuentra su respuesta en la conjunción entre el diagnóstico integral, el sistema digital desplegado, la propuesta normativa y la experiencia del Seminario-Taller.
-
 ## Hipótesis {#sec-hipotesis-01}
 
-La investigación parte de una **hipótesis** [^01-introduccion-1] el desarrollo y la aplicación de herramientas digitales construidas desde la lógica de lo local (adaptadas al contexto, apropiadas colectivamente y articuladas con los marcos normativos nacionales) pero conectadas a las infraestructuras globales de datos y conocimiento (estándares FAIR, plataformas SIG interoperables, observatorios urbanos internacionales), con participación pública activa, mejoran efectivamente la capacidad de los municipios dominicanos frente al riesgo climático y su adaptación. Los resultados del caso Haina, documentados en este libro y sintetizados en la discusión final, confirman esta hipótesis con contundencia empírica.
+La investigación parte de una **hipótesis** *glocal*[^01-introduccion-1]: el desarrollo y la aplicación de herramientas digitales construidas desde la lógica de lo local (adaptadas al contexto, apropiadas colectivamente y articuladas con los marcos normativos nacionales) pero conectadas a las infraestructuras globales de datos y conocimiento (estándares FAIR, plataformas SIG interoperables, observatorios urbanos internacionales), con participación pública activa, pueden mejorar la capacidad de municipios con condiciones comparables a Bajos de Haina frente al riesgo climático y su adaptación. Los resultados del caso Haina, documentados en este libro y sintetizados en la discusión final, ofrecen evidencia empírica congruente con esta hipótesis.
 
-[^01-introduccion-1]: El concepto *glocal* alude a la tensión dinámica entre lo global y lo local: los fenómenos globales no se imponen de forma homogénea, sino que son reinterpretados y adaptados según cada contexto cultural y territorial, al tiempo que lo local retroalimenta y transforma lo global. El término fue desarrollado por Robertson , quien lo definió como la interpenetración simultánea de ambas escalas [@robertson1995].
+[^01-introduccion-1]: El concepto *glocal* alude a la tensión dinámica entre lo global y lo local: los fenómenos globales no se imponen de forma homogénea, sino que son reinterpretados y adaptados según cada contexto cultural y territorial, al tiempo que lo local retroalimenta y transforma lo global. El término fue desarrollado por Robertson, quien lo definió como la interpenetración simultánea de ambas escalas [@robertson1995].
 
 ## Estructura del libro {#sec-estructura-01}
 
-Este libro documenta el proceso completo y los resultados del proyecto en seis partes. La **Parte I** presenta el contexto y la metodología abductiva empleada, basada en el modelo de Kovacs y Spens. La **Parte II** despliega el diagnóstico territorial del OE1 en cuatro capítulos que cubren el territorio, la planificación urbana, la gestión de riesgos y la participación diagnóstica. La **Parte III** documenta las herramientas digitales del OE2, incluyendo la arquitectura del ecosistema, los tres módulos funcionales y la visión prospectiva. La **Parte IV** aborda la gobernanza y la normativa del OE3, con la propuesta de ordenamiento por tipologías de manzana y el Observatorio Ciudadano. La **Parte V** recoge la experiencia del Seminario-Taller de Planificación Urbana Digital como ejercicio de transferencia y validación. La **Parte VI** cierra con las conclusiones y recomendaciones derivadas del conjunto de la investigación, incluyendo las trece líneas de trabajo que el proyecto identifica como continuidad natural del ecosistema actual.
+El libro sigue la secuencia lógica de una investigación aplicada: primero se establece el problema y el método; luego se construye el diagnóstico; a continuación se presentan las respuestas instrumentales y normativas; y finalmente se documenta la validación con actores y se sintetizan las conclusiones. Esta estructura refleja el orden en que el equipo investigador fue acumulando evidencia y tomando decisiones, y puede leerse tanto de forma lineal como por partes según el interés del lector.
+
+**Parte I.** (Contexto y metodología) fundamenta el enfoque del proyecto. El capítulo de metodología explica por qué se optó por un diseño abductivo basado en el modelo de Kovacs y Spens, una elección deliberada para articular diagnóstico empírico y diseño de herramientas en un territorio con información parcial y alta incertidumbre institucional. Sin comprender esta decisión metodológica, los capítulos posteriores perderían parte de su coherencia interna.
+
+**Parte II.** (Diagnóstico territorial, OE1) responde a la segunda y tercera preguntas de investigación: qué información existe sobre los tejidos de alta vulnerabilidad y con qué instrumentos se gestiona el territorio. Sus cuatro capítulos avanzan desde la escala del municipio (territorio y planificación urbana) hasta la escala del barrio y la manzana (gestión de riesgos y participación diagnóstica), construyendo progresivamente el argumento de que la vulnerabilidad en Bajos de Haina es a la vez física, institucional y participativa.
+
+**Parte III.** (Herramientas digitales, OE2) describe el sistema que el proyecto desarrolló en respuesta a ese diagnóstico. Se documenta aquí la arquitectura del ecosistema digital, los tres módulos funcionales y la integración del Observatorio Ciudadano de Haina como dispositivo de articulación institucional, dando respuesta a la primera pregunta de investigación sobre la capacidad transformadora de las herramientas digitales.
+
+**Parte IV.** (Gobernanza y normativa, OE3) aborda la cuarta y quinta preguntas: los mecanismos de participación y cogestión, y las condiciones institucionales para la gobernanza territorial. La propuesta normativa por tipologías de manzana y el diseño del Observatorio Ciudadano se presentan aquí como instrumentos que articulan la dimensión técnica con la dimensión política del proyecto.
+
+**Parte V.** (Transferencia y validación) documenta el Primer Seminario-Taller de Planificación Urbana Digital como momento de cierre del ciclo investigador: el sistema y la propuesta normativa se sometieron a la crítica y validación de más de cien participantes de treinta instituciones, aportando la dimensión de legitimidad social que ningún diagnóstico técnico puede sustituir.
+
+**Parte VI.** (Conclusiones) sintetiza los hallazgos, retoma las preguntas de investigación y formula trece líneas de continuidad que el proyecto identifica como trabajo pendiente para consolidar el ecosistema en la siguiente fase.
+
+<!-- BEGIN refs-per-chapter -->
+## Referencias del capítulo {.unnumbered}
+
+:::: {#refs-cap01 .references .csl-bib-body .hanging-indent entry-spacing="0" line-spacing="2"}
+::: {#ref-cardonaDisasterRiskRisk2011 .csl-entry}
+**Cardona, O. D.** (2011). *Disaster Risk and Risk Management Benchmarking: A Methodology Based on Indicators at National Level*. Inter-American Development Bank.
+:::
+
+::: {#ref-lavellApuntesParaReflexion2007 .csl-entry}
+**Lavell, A.** (2007). *Apuntes para una reflexión institucional en países de la subregión andina sobre el enfoque de la gestión del riesgo*.
+:::
+
+::: {#ref-mepydBoletinPobrezaMonetaria2023 .csl-entry}
+**Ministerio de Economía, Planificación y Desarrollo**. (2023). *Boletín de estadísticas oficiales de pobreza monetaria en la República Dominicana 2023*. MEPyD, Comité Técnico Interinstitucional de Medición de la Pobreza. <https://mepyd.gob.do/publicaciones/boletin-de-estadisticas-oficiales-de-pobreza-monetaria-en-republica-dominicana-2023>
+:::
+
+::: {#ref-oneCensoNacionalPoblacion2022 .csl-entry}
+**ONE**. (2022). *X censo nacional de población y vivienda*. Oficina Nacional de Estadística.
+:::
+
+::: {#ref-robertson1995 .csl-entry}
+**Robertson, R.** (1995). Glocalization: [Time-space]{.nocase} and homogeneity-heterogeneity. In M. Featherstone, S. Lash, & R. Robertson (Eds.), *Global modernities* (pp. 25--44). Sage Publications.
+:::
+
+::: {#ref-unitednationsWorldUrbanizationProspects2018 .csl-entry}
+**United Nations, Department of Economic and Social Affairs, Population Division**. (2018). *World urbanization prospects: The 2018 revision* (ST/ESA/SER.A/420). United Nations. <https://population.un.org/wup/publications/Files/WUP2018-Report.pdf>
+:::
+::::
+<!-- END refs-per-chapter -->

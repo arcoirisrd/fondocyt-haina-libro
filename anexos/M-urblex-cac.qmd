@@ -3,15 +3,17 @@ title: "URB-LEX-CAC: Análisis comparativo de la normativa urbanística de Centr
 subtitle: "Resumen ejecutivo de un borrador de investigación derivado del proyecto FONDOCYT"
 ---
 
+> **Fecha:** agosto 2025 **Anexo:** M. URB-LEX-CAC **Función:** sintetiza el borrador de investigación comparativa sobre la normativa urbanística de cinco países centroamericanos y caribeños como contexto para la Ley 368-22 y el caso de Bajos de Haina **Palabras clave:** Normativa urbanística, Derecho comparado, Centroamérica, Caribe, Ley 368-22, Convergencia normativa
+
 > **Estado del borrador:** documento de investigación en fase exploratoria, archivado en `publicaciones/borradores/urb-lex/Normativa_urbana_Centroamerica_y_Caribe_.docx`. Esta entrada del libro presenta su síntesis ejecutiva. La versión completa del borrador y la consolidación bibliográfica formal en Zotero quedan pendientes para el ciclo de publicaciones derivadas del proyecto. Las referencias a fuentes legales se citan inline en formato `(Autor, año)` siguiendo la práctica habitual del derecho comparado.
 
-## Por qué un análisis comparativo de la normativa urbanística regional
+## Por qué un análisis comparativo de la normativa urbanística regional {#sec-m-por-que}
 
 El capítulo 8 del libro documentó el desarrollo normativo del proyecto FONDOCYT para Bajos de Haina y la elaboración de la Normativa Urbanística por Tipologías de Manzana (NUR-Haina-2025). Ese trabajo se inscribe en un marco nacional reciente, la Ley 368-22 de Ordenamiento Territorial, Uso de Suelo y Asentamientos Humanos, promulgada en diciembre de 2022 y reglamentada por el Decreto 396-25 de julio de 2025. La pregunta que motivó la línea de investigación URB-LEX fue saber si la trayectoria normativa dominicana es una excepción regional, una réplica de prácticas vecinas o un caso intermedio dentro de un patrón más amplio de convergencia. Responder a esa pregunta exigía construir un análisis comparativo del marco normativo de planificación urbana en países representativos de Centroamérica y el Caribe, con énfasis en la trayectoria histórica de cada sistema, sus instituciones rectoras, sus instrumentos formales de planificación y los marcos regionales que los influyen.
 
 El borrador URB-LEX-CAC recoge ese ejercicio comparativo. El alcance final del estudio incluye cinco países (Costa Rica, El Salvador, Honduras, Guatemala y la propia República Dominicana) y dos marcos de integración subregional (Sistema de la Integración Centroamericana, SICA, y Comunidad del Caribe, CARICOM). El resultado es una visión estructurada del panorama normativo regional que sirve, por un lado, como contexto para entender la posición específica del proyecto FONDOCYT en su entorno geográfico inmediato y, por otro, como base para futuras publicaciones académicas en revistas de derecho urbanístico comparado, urbanismo iberoamericano o cooperación regional.
 
-## Hallazgos principales del análisis comparativo
+## Hallazgos principales del análisis comparativo {#sec-m-hallazgos}
 
 El estudio identifica cuatro conclusiones sustantivas que organizan el resto del borrador.
 
@@ -23,7 +25,7 @@ El estudio identifica cuatro conclusiones sustantivas que organizan el resto del
 
 **Posición intermedia de República Dominicana.** El caso dominicano se posiciona en un punto intermedio del espectro regional. Por un lado, su pertenencia formal al SICA lo expone a la convergencia explícita del PRINAU-SICA. Por otro lado, su localización geográfica caribeña y su tradición de cooperación con organismos internacionales lo conectan con la convergencia implícita global. La Ley 368-22 refleja esta doble influencia: incorpora el lenguaje de la Nueva Agenda Urbana, distingue las categorías clásicas de suelo urbano, urbanizable y no urbanizable, y reconoce el rol central de los Planes Municipales de Ordenamiento Territorial al tiempo que admite el Instrumento de Delimitación del Suelo Urbano como figura transitoria para municipios que aún no disponen de PMOT. El caso de Bajos de Haina, que el proyecto FONDOCYT documenta, ilustra precisamente esa figura transitoria: un municipio sin PMOT que, a través de instrumentos parciales como la NUR-Haina-2025 y el ecosistema digital descrito en el capítulo 7, comienza a aproximarse al marco normativo nacional desde la práctica concreta.
 
-## Aplicación al proyecto FONDOCYT y a sus publicaciones derivadas
+## Aplicación al proyecto FONDOCYT y a sus publicaciones derivadas {#sec-m-aplicacion}
 
 El análisis comparativo de URB-LEX-CAC tiene tres aplicaciones inmediatas para el proyecto FONDOCYT y para su ciclo de publicaciones derivadas.
 
@@ -33,7 +35,7 @@ La segunda aplicación es de **insumo para futuras propuestas de cooperación re
 
 La tercera aplicación es de **sustrato para la línea URB-LEX en su componente de inteligencia artificial**. El análisis comparativo de las normativas regionales constituye el corpus etiquetado sobre el que opera el segundo borrador de la línea (ver Anexo N), de modo que ambos textos forman una unidad metodológica: uno proporciona el marco analítico y el otro proporciona el dataset estructurado para entrenar modelos de procesamiento de lenguaje natural especializados en derecho urbanístico iberoamericano.
 
-## Estado del borrador y siguientes pasos
+## Estado del borrador y siguientes pasos {#sec-m-estado}
 
 El borrador URB-LEX-CAC se encuentra en fase exploratoria avanzada. Tiene una estructura completa con resumen ejecutivo, marco regional, perfiles individuales de los cinco países (con sus instrumentos jurídicos, instituciones rectoras y jerarquías de planes) y un capítulo final de síntesis comparativa. Su redacción está mayormente cerrada en el plano del análisis, pero pendiente de tres tareas para llegar a versión publicable: (a) consolidación bibliográfica formal con conversión de las citas inline a formato BibTeX importable a Zotero; (b) verificación cruzada de los datos legales con fuentes oficiales actualizadas, especialmente para los países sobre los que el borrador trabajó con extractos de investigación de segunda mano; (c) definición del enfoque editorial definitivo, que Jorge Recio debe decidir antes del envío a una revista. Las opciones de revista identificadas como afines son las dedicadas a derecho urbanístico iberoamericano, urbanismo comparado en América Latina o cooperación regional centroamericana y caribeña, todas ellas indexadas en Scopus o SciELO.
 

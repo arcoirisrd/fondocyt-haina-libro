@@ -6,16 +6,13 @@ title: "Libro completo en PDF"
 
 Esta página ofrece la versión íntegra del libro en formato PDF, con la maquetación editorial final (portada azul acero, tipografía IBM Plex, tabla CRediT, índice, capítulos y anexos). Es la versión canónica para cita, impresión y archivo.
 
+Los botones de descarga y vista embebida del libro están en el [Prefacio](../index.html#prefacio), arriba de la tabla del proyecto.
+
 ::: {.content-visible when-format="html"}
 
-<div style="display:flex; gap:0.6rem; flex-wrap:wrap; justify-content:center; margin: 1rem 0;">
+<div style="text-align:center; margin: 1.5rem 0;">
 <a href="../libro-fondocyt-2023-1-3A13-0725.pdf" class="btn btn-primary" target="_blank">Descargar libro completo (PDF, 141 MB)</a>
-<button type="button" id="load-book-iframe-btn" class="btn btn-outline-secondary" onclick="(function(){var c=document.getElementById('book-iframe-container');if(c.querySelector('iframe'))return;var f=document.createElement('iframe');f.src='../libro-fondocyt-2023-1-3A13-0725.pdf';f.width='100%';f.height='820';f.title='Libro FONDOCYT Bajos de Haina - vista previa';f.style.cssText='border:1px solid #d4a53c; border-radius:4px; margin-top: 1rem;';c.appendChild(f);document.getElementById('load-book-iframe-btn').style.display='none';})();">Ver aquí embebido (carga ~141 MB)</button>
 </div>
-
-<p style="font-size:0.85rem; color:#6b7280; margin-top:-0.3rem; text-align:center;">La vista embebida descarga el PDF completo al navegador. En conexiones lentas, usa preferentemente el botón de descarga o abre el enlace en otra pestaña.</p>
-
-<div id="book-iframe-container"></div>
 
 :::
 

@@ -98,6 +98,15 @@ Book of results of the project FONDOCYT 2023-1-3A13-0725 (MESCYT, Dominican Repu
 ::: {style="text-align:center; margin-top: 1rem; margin-bottom: 1.5rem;"}
 <a href="https://doi.org/10.5281/zenodo.19638440"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.19638440.svg" alt="DOI" style="vertical-align: middle;"></a> &nbsp; DOI: <a href="https://doi.org/10.5281/zenodo.19638440">10.5281/zenodo.19638440</a>
 :::
+
+<div style="display:flex; gap:0.6rem; flex-wrap:wrap; justify-content:center; margin: 1rem 0 0.3rem;">
+<a href="./libro-fondocyt-2023-1-3A13-0725.pdf" class="btn btn-primary" target="_blank">Descargar libro completo (PDF, 141 MB)</a>
+<button type="button" id="load-book-iframe-btn" class="btn btn-outline-secondary" onclick="(function(){var c=document.getElementById('book-iframe-container');if(c.querySelector('iframe'))return;var f=document.createElement('iframe');f.src='./libro-fondocyt-2023-1-3A13-0725.pdf';f.width='100%';f.height='820';f.title='Libro FONDOCYT Bajos de Haina - vista previa';f.style.cssText='border:1px solid #d4a53c; border-radius:4px; margin-top: 1rem;';c.appendChild(f);document.getElementById('load-book-iframe-btn').style.display='none';})();">Ver aquí embebido (carga ~141 MB)</button>
+</div>
+
+<p style="font-size:0.85rem; color:#6b7280; text-align:center; margin-bottom:1.5rem;">La vista embebida descarga el PDF completo al navegador. En conexiones lentas, usa preferentemente el botón de descarga.</p>
+
+<div id="book-iframe-container" style="margin-bottom: 2rem;"></div>
 :::
 
 Este documento constituye la documentación consolidada del Proyecto FONDOCYT 2023-1-3A13-0725, financiado por el Ministerio de Educación Superior, Ciencia y Tecnología (MESCYT) de la República Dominicana a través del Fondo Nacional de Innovación y Desarrollo Científico y Tecnológico (FONDOCYT).

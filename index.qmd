@@ -94,6 +94,12 @@ Book of results of the project FONDOCYT 2023-1-3A13-0725 (MESCYT, Dominican Repu
 <img src="logos/mescyt_logo_trans.png" style="height:32px; margin:0 6px; vertical-align:middle;"/> <img src="logos/fondocyt_logo_trans.png" style="height:32px; margin:0 6px; vertical-align:middle;"/> <img src="logos/arcoiris_logo_trans.png" style="height:32px; margin:0 6px; vertical-align:middle;"/> <img src="logos/tecca_trans.png" style="height:32px; margin:0 6px; vertical-align:middle;"/> <img src="logos/barna_logo_trans.png" style="height:32px; margin:0 6px; vertical-align:middle;"/>
 :::
 
+::: {.content-visible when-format="html"}
+::: {style="text-align:center; margin-top: 1rem; margin-bottom: 1.5rem;"}
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19638440.svg)](https://doi.org/10.5281/zenodo.19638440)
+:::
+:::
+
 Este documento constituye la documentación consolidada del Proyecto FONDOCYT 2023-1-3A13-0725, financiado por el Ministerio de Educación Superior, Ciencia y Tecnología (MESCYT) de la República Dominicana a través del Fondo Nacional de Innovación y Desarrollo Científico y Tecnológico (FONDOCYT).
 
 | Componente | Descripción |

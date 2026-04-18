@@ -68,3 +68,21 @@ La siguiente galería presenta el material histórico recopilado sobre Bajos de 
 ## Otras imágenes {#sec-otras-imagenes-anexoD}
 
 ![Vista general, sin fecha.](../datos/historico/DOC_FuenteHistorica_00099621.jpg){#fig-hist-24}
+
+## Documento fuente histórico {#sec-doc-fuente-historica-anexoD}
+
+Documento oficial de 69 páginas digitalizado a partir de los archivos originales (código `00098165`). Incluye planos, informes y correspondencia administrativa relacionados con el desarrollo territorial e industrial de Bajos de Haina en el siglo XX. Se reproduce aquí en versión reducida para consulta (rasterizado a 100 DPI, 82 MB); la versión íntegra a alta resolución se conserva en el repositorio de trabajo del proyecto.
+
+::: {.content-visible when-format="html"}
+
+<iframe src="../datos/historico/DOC_FuenteHistorica_00098165_compressed.pdf" width="100%" height="800" style="border:1px solid #d4a53c; border-radius:4px;" title="Documento fuente histórico 00098165"></iframe>
+
+**Descarga directa:** [DOC_FuenteHistorica_00098165_compressed.pdf](../datos/historico/DOC_FuenteHistorica_00098165_compressed.pdf) (82 MB, 69 páginas)
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+El documento completo está disponible para consulta en la versión HTML del libro en línea y, a mayor resolución, en el archivo de trabajo del proyecto.
+
+:::

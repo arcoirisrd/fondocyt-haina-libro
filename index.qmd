@@ -1,7 +1,4 @@
 ---
-title: "Prefacio"
-number: false
-unnumbered: true
 ---
 
 <!--

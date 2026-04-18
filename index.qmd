@@ -169,6 +169,92 @@ El Proyecto FONDOCYT 2023-1-3A13-0725 no habría sido posible sin la amplia conv
 
 A las veintisiete Juntas de Vecinos de los nueve barrios del municipio que participaron en el levantamiento territorial, los talleres y el diagnóstico de participación ciudadana, con especial reconocimiento a los líderes y lideresas comunitarias de los barrios Bella Vista, Invi-Cea y Villa Penca, donde se concentró el trabajo de campo. A las Redes Comunitarias de Prevención, Mitigación y Respuesta que aportaron su conocimiento del riesgo local y validaron los prototipos del módulo de gestión de riesgos. A los más de cien participantes del Seminario-Taller y a las 47 personas que completaron las tres mesas temáticas, cuyas contribuciones están sistematizadas en el capítulo 11 y en el Anexo H. Cualquier error u omisión en este libro es responsabilidad exclusiva del equipo investigador.
 
+::: {.content-visible when-format="html"}
+
+<div style="margin: 2rem 0 1.5rem; padding: 1.2rem; background: #fafaf8; border-radius: 8px; text-align: center;">
+
+<p style="font-size:0.8rem; text-transform:uppercase; letter-spacing:0.08em; color:#6b7280; margin:0 0 0.8rem;">Apoyo municipal</p>
+<div style="display:flex; gap:1rem; justify-content:center; align-items:center; flex-wrap:wrap; margin-bottom:1.3rem;">
+<img src="logos/ayuntamiento_haina_trans.png" alt="Ayuntamiento de Bajos de Haina" style="height:34px; opacity:0.9;">
+</div>
+
+<p style="font-size:0.8rem; text-transform:uppercase; letter-spacing:0.08em; color:#6b7280; margin:0 0 0.8rem;">Apoyo nacional</p>
+<div style="display:flex; gap:1rem; justify-content:center; align-items:center; flex-wrap:wrap; margin-bottom:1.3rem;">
+<img src="logos/mepyd_trans.png" alt="MEPyD / VIOTDR" style="height:28px; opacity:0.9;">
+<img src="logos/mivhed_trans.png" alt="MIVHED" style="height:28px; opacity:0.9;">
+<img src="logos/mimarena_trans.png" alt="MIMARENA" style="height:28px; opacity:0.9;">
+<img src="logos/micm_trans.png" alt="MICM / PRO-INDUSTRIA" style="height:28px; opacity:0.9;">
+<img src="logos/one_trans.png" alt="ONE" style="height:28px; opacity:0.9;">
+<img src="logos/onamet_trans.png" alt="ONAMET" style="height:28px; opacity:0.9;">
+<img src="logos/coe_trans.png" alt="COE" style="height:28px; opacity:0.9;">
+<img src="logos/defensa_civil_trans.png" alt="Defensa Civil" style="height:28px; opacity:0.9;">
+<img src="logos/dgii_trans.png" alt="DGII" style="height:28px; opacity:0.9;">
+<img src="logos/fedomu.png" alt="FEDOMU" style="height:28px; opacity:0.9;">
+<img src="logos/indrhi_trans.png" alt="INDRHI" style="height:28px; opacity:0.9;">
+<img src="logos/ign_trans.png" alt="IGN" style="height:28px; opacity:0.9;">
+<img src="logos/inapa_trans.png" alt="INAPA" style="height:28px; opacity:0.9;">
+<img src="logos/sgn_trans.png" alt="SGN" style="height:28px; opacity:0.9;">
+<img src="logos/onesvie_trans.png" alt="ONESVIE" style="height:28px; opacity:0.9;">
+<img src="logos/iderd_trans.png" alt="IDERD" style="height:28px; opacity:0.9;">
+<img src="logos/ogtic_trans.png" alt="OGTIC" style="height:28px; opacity:0.9;">
+<img src="logos/indotel_trans.png" alt="INDOTEL" style="height:28px; opacity:0.9;">
+</div>
+
+<p style="font-size:0.8rem; text-transform:uppercase; letter-spacing:0.08em; color:#6b7280; margin:0 0 0.8rem;">Respaldo académico</p>
+<div style="display:flex; gap:1rem; justify-content:center; align-items:center; flex-wrap:wrap;">
+<img src="logos/etsam_upm_trans.png" alt="ETSAM-UPM" style="height:30px; opacity:0.9;">
+<img src="logos/uasd_trans.png" alt="UASD" style="height:34px; opacity:0.9;">
+<img src="logos/pucmm_trans.png" alt="PUCMM" style="height:28px; opacity:0.9;">
+<img src="logos/intec_trans.png" alt="INTEC" style="height:28px; opacity:0.9;">
+<img src="logos/unal_trans.png" alt="UNAL" style="height:32px; opacity:0.9;">
+</div>
+
+</div>
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+```{=latex}
+\vspace{0.4cm}
+\begin{center}
+{\small\sffamily\color{midgray}\MakeUppercase{Apoyo municipal}}\\[2pt]
+\includegraphics[height=0.7cm,keepaspectratio]{logos/ayuntamiento_haina_trans.png}
+\vspace{0.3cm}
+
+{\small\sffamily\color{midgray}\MakeUppercase{Apoyo nacional}}\\[2pt]
+\includegraphics[height=0.45cm,keepaspectratio]{logos/mepyd_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/mivhed_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/mimarena_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/micm_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/one_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/onamet_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/coe_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/defensa_civil_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/dgii_trans.png}\\[2mm]
+\includegraphics[height=0.45cm,keepaspectratio]{logos/fedomu.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/indrhi_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/ign_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/inapa_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/sgn_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/onesvie_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/iderd_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/ogtic_trans.png}\hspace{5mm}%
+\includegraphics[height=0.45cm,keepaspectratio]{logos/indotel_trans.png}
+\vspace{0.3cm}
+
+{\small\sffamily\color{midgray}\MakeUppercase{Respaldo académico}}\\[2pt]
+\includegraphics[height=0.55cm,keepaspectratio]{logos/etsam_upm_trans.png}\hspace{7mm}%
+\includegraphics[height=0.65cm,keepaspectratio]{logos/uasd_trans.png}\hspace{7mm}%
+\includegraphics[height=0.5cm,keepaspectratio]{logos/pucmm_trans.png}\hspace{7mm}%
+\includegraphics[height=0.55cm,keepaspectratio]{logos/intec_trans.png}\hspace{7mm}%
+\includegraphics[height=0.6cm,keepaspectratio]{logos/unal_trans.png}
+\end{center}
+\vspace{0.3cm}
+```
+
+:::
+
 ## Estructura del documento {.unnumbered}
 
 El libro se organiza en seis partes. La Parte I establece el contexto y la metodología del proyecto. La Parte II presenta el diagnóstico territorial correspondiente al Objetivo Específico 1 (OE1), abordando el territorio, la planificación urbana, la gestión de riesgos y la participación diagnóstica. La Parte III documenta las herramientas digitales desarrolladas (OE2). La Parte IV cubre la gobernanza y normativa (OE3), incluyendo las tipologías de manzana, la participación y el observatorio territorial, y las actividades normativas. La Parte V recoge la transferencia y validación a través del Seminario-Taller de Planificación Urbana Digital. La Parte VI cierra con las conclusiones del proyecto. Los anexos documentan la operacionalización de variables, el análisis estadístico, las fichas de tipologías, los sílabos del Seminario-Taller y la infraestructura técnica del proceso editorial.

@@ -87,6 +87,7 @@ book:
   - anexos/L-widget-ia.qmd
   - anexos/M-urblex-cac.qmd
   - anexos/N-urblex-ai.qmd
+  - anexos/O-libro-pdf.qmd
 bibliography: references.bib
 csl: apa.csl
 lang: es

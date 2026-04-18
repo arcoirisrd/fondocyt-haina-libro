@@ -1,0 +1,25 @@
+---
+title: "Libro completo en PDF"
+---
+
+> **Anexo:** O. Libro completo en PDF **Función:** Descarga y vista previa de la versión íntegra del libro FONDOCYT en formato PDF (edición de producción con maquetación editorial completa, portada, CRediT, índice, capítulos, anexos y bibliografía).
+
+Esta página ofrece la versión íntegra del libro en formato PDF, con la maquetación editorial final (portada azul acero, tipografía IBM Plex, tabla CRediT, índice, capítulos y anexos). Es la versión canónica para cita, impresión y archivo.
+
+::: {.content-visible when-format="html"}
+
+[Descargar libro completo (PDF, 141 MB)](../libro-fondocyt-2023-1-3A13-0725.pdf){.btn .btn-primary target="_blank"}
+
+<iframe src="../libro-fondocyt-2023-1-3A13-0725.pdf" width="100%" height="820" style="border:1px solid #d4a53c; border-radius:4px; margin-top: 1rem;" title="Libro FONDOCYT Bajos de Haina - vista previa"></iframe>
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+Este anexo existe solo en la versión HTML del libro (`fondocyt.observatoriohaina.do/anexos/O-libro-pdf.html`), donde se ofrece la descarga directa del PDF y una vista previa embebida. En la versión PDF el libro se lee a sí mismo.
+
+:::
+
+## Cita sugerida
+
+> Moyano Molina, A., Recio Martínez, J. A., Villamizar Fernández, J. F., et al. (2026). *Herramientas digitales de planificación urbana, gestión de riesgos y participación pública. Caso de estudio: Bajos de Haina.* Proyecto FONDOCYT 2023-1-3A13-0725. MESCYT, República Dominicana. <https://doi.org/10.5281/zenodo.19638440>

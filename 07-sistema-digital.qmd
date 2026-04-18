@@ -82,73 +82,33 @@ En el caso concreto de Bajos de Haina, la articulación entre las dos familias a
 
 El primer módulo del ecosistema agrupa las herramientas de caracterización territorial necesarias para alimentar un futuro Plan Municipal de Ordenamiento Territorial (PMOT) conforme a la Ley 368-22 y el Decreto 396-25. Son cinco dashboards temáticos (población, vivienda, educación, salud y edificaciones) construidos sobre ArcGIS Online y alimentados por fuentes oficiales (ONE, MEPyD, MINERD, SNS) y por el levantamiento FONDOCYT de campo (LIDAR, Survey123). Cada dashboard aparece a continuación como ficha de herramienta con enlace operativo, función, fuentes de datos, indicadores clave y la captura del estado del dashboard en agosto de 2025.
 
-::: {.callout-note appearance="simple" icon=false}
-## Dashboard Población de Bajos de Haina [↗](https://arcoiris.maps.arcgis.com/apps/dashboards/5efe3e50a42e48018f7702402bfe8818)
-
-**Función.** Caracterización demográfica municipal a partir del X Censo Nacional de Población y Vivienda 2022 [@oneCensoNacionalPoblacion2022].
-
-**Datos.** ONE: Censo 2022; serie temporal de población 1985-2025.
-
-**Indicadores clave.** 159,888 habitantes (100,527 en el Distrito Municipal cabecera) · 53,300 hogares · 4,050 hab/km² · 3 personas/hogar promedio [@oneBoletinTuMunicipio2022].
-
-**Filtros.** Distrito municipal (La Pared, Bajos de Haina CU).
-:::
+|  |
+|:--|
+| **Dashboard Población de Bajos de Haina** [↗](https://arcoiris.maps.arcgis.com/apps/dashboards/5efe3e50a42e48018f7702402bfe8818)<br><br>**Función.** Caracterización demográfica municipal a partir del X Censo Nacional de Población y Vivienda 2022 [@oneCensoNacionalPoblacion2022].<br><br>**Datos.** ONE: Censo 2022; serie temporal de población 1985-2025.<br><br>**Indicadores clave.** 159,888 habitantes (100,527 en el Distrito Municipal cabecera) · 53,300 hogares · 4,050 hab/km² · 3 personas/hogar promedio [@oneBoletinTuMunicipio2022].<br><br>**Filtros.** Distrito municipal (La Pared, Bajos de Haina CU). |
 
 ![Dashboard Población de Bajos de Haina: caracterización demográfica municipal a partir del Censo 2022. Presenta 159,888 habitantes [@oneBoletinTuMunicipio2022], 53,300 hogares, densidad de 4,050 hab/km² y evolución temporal de la población entre 1985 y 2025. Permite filtrar por distrito municipal (La Pared y Bajos de Haina CU). Fuente: ArcGIS Online, Arcoíris RD (2025).](img/oe2/oe2sd_dash_poblacion.png){#fig-oe2sd-dash-poblacion}
 
-::: {.callout-note appearance="simple" icon=false}
-## Dashboard Vivienda y Urbanización [↗](https://arcoiris.maps.arcgis.com/apps/dashboards/b4f5ab32abb54a3e8f3f522273af7d73)
-
-**Función.** Análisis habitacional del municipio y seguimiento de los procesos de urbanización.
-
-**Datos.** ONE: Censo 2022 (parque habitacional); capas GHSL de superficie urbanizada 1985-2025.
-
-**Indicadores clave.** 65,400 viviendas totales · 100 viviendas colectivas · desagregación ocupadas vs. desocupadas · evolución de superficies urbanizadas 1985-2025.
-
-**Filtros.** Distrito municipal y tipología de vivienda.
-:::
+|  |
+|:--|
+| **Dashboard Vivienda y Urbanización** [↗](https://arcoiris.maps.arcgis.com/apps/dashboards/b4f5ab32abb54a3e8f3f522273af7d73)<br><br>**Función.** Análisis habitacional del municipio y seguimiento de los procesos de urbanización.<br><br>**Datos.** ONE: Censo 2022 (parque habitacional); capas GHSL de superficie urbanizada 1985-2025.<br><br>**Indicadores clave.** 65,400 viviendas totales · 100 viviendas colectivas · desagregación ocupadas vs. desocupadas · evolución de superficies urbanizadas 1985-2025.<br><br>**Filtros.** Distrito municipal y tipología de vivienda. |
 
 ![Dashboard Vivienda y Urbanización de Bajos de Haina: análisis habitacional con 65,400 viviendas totales y 100 unidades colectivas. Desagrega viviendas ocupadas y desocupadas, y muestra la evolución de las superficies urbanizadas entre 1985 y 2025. Fuente: ArcGIS Online, Arcoíris RD (2025).](img/oe2/oe2sd_dash_vivienda.png){#fig-oe2sd-dash-vivienda}
 
-::: {.callout-note appearance="simple" icon=false}
-## Dashboard Educación [↗](https://www.arcgis.com/apps/dashboards/6d92d3c8d2c44d548e93ce081773e0ba)
-
-**Función.** Cartografía del sistema educativo municipal con análisis por nivel, género y ubicación urbana o rural.
-
-**Datos.** MINERD: directorio de escuelas públicas; ONE: Censo 2022 (población por edad).
-
-**Indicadores clave.** 33 escuelas públicas georreferenciadas · 151,500 personas de 3 años o más · niveles educativos por género y ubicación.
-
-**Filtros.** Nivel educativo (inicial, primario, secundario) y ámbito (urbano/rural).
-:::
+|  |
+|:--|
+| **Dashboard Educación** [↗](https://www.arcgis.com/apps/dashboards/6d92d3c8d2c44d548e93ce081773e0ba)<br><br>**Función.** Cartografía del sistema educativo municipal con análisis por nivel, género y ubicación urbana o rural.<br><br>**Datos.** MINERD: directorio de escuelas públicas; ONE: Censo 2022 (población por edad).<br><br>**Indicadores clave.** 33 escuelas públicas georreferenciadas · 151,500 personas de 3 años o más · niveles educativos por género y ubicación.<br><br>**Filtros.** Nivel educativo (inicial, primario, secundario) y ámbito (urbano/rural). |
 
 ![Dashboard Educación de Bajos de Haina: sistema educativo municipal con 33 escuelas públicas georeferenciadas y 151,500 personas de 3 años o más. Presenta análisis por nivel educativo, género y ubicación urbana o rural. Fuente: ArcGIS Online, Arcoíris RD (2025).](img/oe2/oe2sd_dash_educacion.png){#fig-oe2sd-dash-educacion}
 
-::: {.callout-note appearance="simple" icon=false}
-## Dashboard Salud [↗](https://www.arcgis.com/apps/dashboards/2b2e82cbd67146e6b80a00ca5e92bd5c)
-
-**Función.** Inventario y georreferenciación de equipamientos sanitarios del municipio con indicadores poblacionales de salud.
-
-**Datos.** SNS: directorio de centros de salud; SNS: indicadores municipales de morbilidad; ONE: Censo 2022 (discapacidad).
-
-**Indicadores clave.** 10 centros de salud (9 de primer nivel + 1 hospital general) · 1 laboratorio clínico · 10 farmacias · 13.2% de la población con limitación permanente · 35.5% partos por cesárea en el SNS.
-
-**Filtros.** Tipo de equipamiento y sector.
-:::
+|  |
+|:--|
+| **Dashboard Salud** [↗](https://www.arcgis.com/apps/dashboards/2b2e82cbd67146e6b80a00ca5e92bd5c)<br><br>**Función.** Inventario y georreferenciación de equipamientos sanitarios del municipio con indicadores poblacionales de salud.<br><br>**Datos.** SNS: directorio de centros de salud; SNS: indicadores municipales de morbilidad; ONE: Censo 2022 (discapacidad).<br><br>**Indicadores clave.** 10 centros de salud (9 de primer nivel + 1 hospital general) · 1 laboratorio clínico · 10 farmacias · 13.2% de la población con limitación permanente · 35.5% partos por cesárea en el SNS.<br><br>**Filtros.** Tipo de equipamiento y sector. |
 
 ![Dashboard Salud de Bajos de Haina: equipamientos sanitarios georeferenciados, incluyendo 10 centros de salud (9 de primer nivel + 1 hospital general), 1 laboratorio clínico y 10 farmacias. Muestra indicadores sanitarios por sector, incluyendo prevalencia de discapacidad (13.2%) y tasa de partos por cesárea en el SNS (35.5%). Fuente: ArcGIS Online, Arcoíris RD (2025).](img/oe2/oe2sd_dash_salud.png){#fig-oe2sd-dash-salud}
 
-::: {.callout-note appearance="simple" icon=false}
-## Dashboard Encuesta de Edificaciones FONDOCYT
-
-**Función.** Caracterización física detallada de las edificaciones del área focal del proyecto, con integración de los parámetros normativos por tipología de manzana del OE3.
-
-**Datos.** Levantamiento LIDAR + Survey123 del proyecto FONDOCYT (2024-2025); normativa por tipologías de manzana (OE3, cap. 8).
-
-**Indicadores clave.** 328 edificaciones evaluadas (cobertura 94%) · 1,497 personas muestrales · 1.8 viviendas/edificación promedio · 16,462 hab/km² en el área de estudio · distribución tipológica residencial 62.2% / mixto 19.5% / comercial 8.8% / dotacional 4.3% (@tbl-distribucion-tipologica-07) · 1 nivel 46.5% · block/concreto 96.4% · accesibilidad vehicular 91%.
-
-**Integración normativa.** Incorpora las 6 tipologías de manzana (Residencial Pura, Mixta con Comercial, Mixta con Dotacional, Institucional, Mixta con Institucional, Mixta Tripartita) con parámetros diferenciados de altura (3-5 niveles), densidad (25-80 viv/ha), ocupación (50-80%) y retiros específicos.
-:::
+|  |
+|:--|
+| **Dashboard Encuesta de Edificaciones FONDOCYT**<br><br>**Función.** Caracterización física detallada de las edificaciones del área focal del proyecto, con integración de los parámetros normativos por tipología de manzana del **OE3**.<br><br>**Datos.** Levantamiento LIDAR + Survey123 del proyecto FONDOCYT (2024-2025); normativa por tipologías de manzana (**OE3**, cap. 8).<br><br>**Indicadores clave.** 328 edificaciones evaluadas (cobertura 94%) · 1,497 personas muestrales · 1.8 viviendas/edificación promedio · 16,462 hab/km² en el área de estudio · distribución tipológica residencial 62.2% / mixto 19.5% / comercial 8.8% / dotacional 4.3% (@tbl-distribucion-tipologica-07) · 1 nivel 46.5% · block/concreto 96.4% · accesibilidad vehicular 91%.<br><br>**Integración normativa.** Incorpora las 6 tipologías de manzana (Residencial Pura, Mixta con Comercial, Mixta con Dotacional, Institucional, Mixta con Institucional, Mixta Tripartita) con parámetros diferenciados de altura (3-5 niveles), densidad (25-80 viv/ha), ocupación (50-80%) y retiros específicos. |
 
 | Uso | Cantidad | Porcentaje |
 |:---|---:|---:|
@@ -163,17 +123,11 @@ El primer módulo del ecosistema agrupa las herramientas de caracterización ter
 
 El módulo de gestión de riesgos se inscribe en el marco de la Ley 147-02 sobre Gestión de Riesgos de la República Dominicana [@congresonacionalrepublicadominicanaLey14702Sobre2002] y en las cuatro prioridades del Marco de Sendai para la Reducción del Riesgo de Desastres 2015-2030 [@undrr2015sendai], particularmente en las de *comprender el riesgo de desastres* y *fortalecer la gobernanza del riesgo*. La aproximación conceptual adoptada entiende el riesgo como una construcción social condicionada por la exposición, la vulnerabilidad y la capacidad de respuesta [@lavellApuntesParaReflexion2007], de modo que las herramientas digitales aquí presentadas se conciben no como sustitutas de la acción institucional sino como infraestructura de información que la hace posible. El módulo agrupa tres herramientas operativas: un dashboard municipal de análisis integral (Cerrando Brechas), un dashboard de monitoreo de tejidos degradados de alta vulnerabilidad (TDAV) y la plataforma ciudadana de reporte Reporta.do.
 
-::: {.callout-note appearance="simple" icon=false}
-## Dashboard "Cerrando Brechas"
+|  |
+|:--|
+| **Dashboard "Cerrando Brechas"** [↗](https://www.arcgis.com/apps/dashboards/d6bdcc5c17354756a066cc4166729b14)<br><br>**Función.** Sistema integral de análisis y respuesta a riesgos municipales que integra capacidad institucional, niveles de amenaza y contexto socioeconómico del municipio.<br><br>**Datos.** Defensa Civil y COE (albergues y puntos de abastecimiento); ONESVIE y Ministerio de Salud (equipamiento sanitario); ONE: Censo 2022 (indicadores socioeconómicos); análisis técnico multiamenaza del proyecto.<br><br>**Indicadores clave.** Capacidad de respuesta: 82 albergues habilitados · 1 hospital · 10 farmacias operativas · 318 puntos de abastecimiento. Niveles de riesgo promedio (escala 1-5): deslizamientos 2.3 · inundación 2.3 · tsunami 2.1 · incendios 0 (@tbl-niveles-riesgo-amenaza-07). Socioeconómicos: 67,848 habitantes filtrables · pobreza 25.3% (población) / 26.9% (hogares) · pobreza extrema 2.6% / 3.5%.<br><br>**Filtros.** Amenaza, barrio, tramo socioeconómico. |
 
-**Función.** Sistema integral de análisis y respuesta a riesgos municipales que integra capacidad institucional, niveles de amenaza y contexto socioeconómico del municipio.
-
-**Datos.** Defensa Civil y COE (albergues y puntos de abastecimiento); ONESVIE y Ministerio de Salud (equipamiento sanitario); ONE: Censo 2022 (indicadores socioeconómicos); análisis técnico multiamenaza del proyecto.
-
-**Indicadores clave.** Capacidad de respuesta: 82 albergues habilitados · 1 hospital · 10 farmacias operativas · 318 puntos de abastecimiento. Niveles de riesgo promedio (escala 1-5): deslizamientos 2.3 · inundación 2.3 · tsunami 2.1 · incendios 0 (@tbl-niveles-riesgo-amenaza-07). Socioeconómicos: 67,848 habitantes filtrables · pobreza 25.3% (población) / 26.9% (hogares) · pobreza extrema 2.6% / 3.5%.
-
-**Filtros.** Amenaza, barrio, tramo socioeconómico.
-:::
+![Dashboard "Cerrando Brechas": sistema integral de análisis y respuesta a riesgos municipales del Ayuntamiento de Bajos de Haina. Integra capacidad institucional (82 albergues, 1 hospital, 10 farmacias, 318 puntos de abastecimiento), niveles de amenaza multiamenaza y contexto socioeconómico (67,848 habitantes filtrables, pobreza 25.3%). Fuente: ArcGIS Online, Arcoíris RD (2025).](img/oe2/oe2sd_cerrando_brechas.png){#fig-dash-cerrando-brechas}
 
 | Amenaza | Nivel promedio | Estado |
 |:---|---:|:---|
@@ -184,31 +138,15 @@ El módulo de gestión de riesgos se inscribe en el marco de la Ley 147-02 sobre
 
 : Niveles de riesgo por amenaza en Bajos de Haina (escala 1-5). Elaboración propia. {#tbl-niveles-riesgo-amenaza-07 .smaller}
 
-::: {.callout-note appearance="simple" icon=false}
-## Dashboard de monitoreo TDAV
-
-**Función.** Seguimiento en tiempo real de los tejidos degradados de alta vulnerabilidad mapeados por el proyecto, con capacidad de consulta por barrio y clasificación consolidable / no consolidable.
-
-**Datos.** Levantamiento comunitario FONDOCYT (2024-2025) mediante WebApp TDAV + Survey123; validación del Ayuntamiento y juntas de vecinos.
-
-**Indicadores clave.** 3,300 TDAV mapeados · 135,432 m² (13.54 ha) de superficie levantada · 56 usuarios activos en la plataforma.
-
-**Nota.** La etiqueta "km²" que aparece en el dashboard público es un error de unidades de la interfaz ArcGIS Online; la cifra correcta es m².
-:::
+|  |
+|:--|
+| **Dashboard de monitoreo TDAV** [↗](https://arcoiris.maps.arcgis.com/apps/dashboards/b84b418db91145e4b7bea87cccbf9415)<br><br>**Función.** Seguimiento en tiempo real de los tejidos degradados de alta vulnerabilidad mapeados por el proyecto, con capacidad de consulta por barrio y clasificación consolidable / no consolidable.<br><br>**Datos.** Levantamiento comunitario FONDOCYT (2024-2025) mediante WebApp TDAV + Survey123; validación del Ayuntamiento y juntas de vecinos.<br><br>**Indicadores clave.** 3,300 TDAV mapeados · 135,432 m² (13.54 ha) de superficie levantada · 56 usuarios activos en la plataforma.<br><br>**Nota.** La etiqueta "km²" que aparece en el dashboard público es un error de unidades de la interfaz ArcGIS Online; la cifra correcta es m². |
 
 ![Dashboard de monitoreo TDAV: tablero de seguimiento de tejidos degradados de alta vulnerabilidad en Bajos de Haina. Registra 3,300 TDAV mapeados en 135,432 m² (13.54 ha) de superficie levantada, con 56 usuarios activos en la plataforma. Forma parte del módulo de gestión de riesgos del ecosistema digital FONDOCYT. Fuente: ArcGIS Online, Arcoíris RD (2025).](img/oe2/oe2sd_dash_tdav_monitoreo.png){#fig-dash-tdav-monitoreo}
 
-::: {.callout-note appearance="simple" icon=false}
-## Plataforma Reporta.do
-
-**Función.** Sistema nacional de reporte ciudadano de afectaciones por inundación y otras amenazas, con validación GPS y operación en modalidad real o de simulacro. Sigue el modelo de *citizen observatories* cuyo valor para la reducción del riesgo por inundación está documentado en estudios de costo-beneficio recientes [@ferri2020citizen].
-
-**Datos.** Formulario multipágina Survey123 (una encuesta por elemento reportado); reportes ciudadanos georreferenciados; capas de riesgo del modelo de elevación digital.
-
-**Indicadores clave.** Cobertura nacional (República Dominicana completa) · modalidades reporte real y simulacro · arquitectura multiescala con dashboards de nivel 1 (captura ciudadana) y nivel 2 (monitoreo nacional de amenazas y daños).
-
-**Visualizaciones asociadas.** Mapa de exposición al riesgo por inundación (@fig-reporta-inundacion); dashboard de nivel 2 (@fig-dash-reporta-l2); dashboard de nivel 1 (@fig-dash-reporta-l1).
-:::
+|  |
+|:--|
+| **Plataforma Reporta.do** [↗](https://arcoiris.maps.arcgis.com/apps/dashboards/ac17af0031d048e49a990dccf671e4fb)<br><br>**Función.** Sistema nacional de reporte ciudadano de afectaciones por inundación y otras amenazas, con validación GPS y operación en modalidad real o de simulacro. Sigue el modelo de *citizen observatories* cuyo valor para la reducción del riesgo por inundación está documentado en estudios de costo-beneficio recientes [@ferri2020citizen].<br><br>**Datos.** Formulario multipágina Survey123 (una encuesta por elemento reportado); reportes ciudadanos georreferenciados; capas de riesgo del modelo de elevación digital.<br><br>**Indicadores clave.** Cobertura nacional (República Dominicana completa) · modalidades reporte real y simulacro · arquitectura multiescala con dashboards de nivel 1 (captura ciudadana) y nivel 2 (monitoreo nacional de amenazas y daños).<br><br>**Visualizaciones asociadas.** Mapa de exposición al riesgo por inundación (@fig-reporta-inundacion); dashboard de nivel 2 (@fig-dash-reporta-l2); dashboard de nivel 1 (@fig-dash-reporta-l1). |
 
 ![Plataforma Reporta.do: mapa de situación de riesgo por inundación en Bajos de Haina. Visualiza zonas de exposición a inundación con datos provenientes de reportes ciudadanos georeferenciados y capas de riesgo del modelo de elevación digital. Fuente: ArcGIS Online, Arcoíris RD (2025).](img/oe2/oe2sd_exp_riesgo_inundacion.png){#fig-reporta-inundacion}
 
@@ -221,17 +159,9 @@ El módulo de gestión de riesgos se inscribe en el marco de la Ley 147-02 sobre
 
 El tercer módulo operacionaliza la noción de participación ciudadana en el sentido que le otorga la *Guía sobre Participación Ciudadana en la Gestión Municipal de República Dominicana*, publicada por la Federación Dominicana de Municipios en el marco del programa MUNICIPIA con apoyo de AECID y FAMSI [@aecid2012guia], distinguiendo participación ciudadana, comunitaria, social y económica. La literatura internacional sobre participación pública aplicada a adaptación climática y gestión de riesgos coincide en que los canales digitales son eficaces solo cuando se combinan con mediación presencial y capacidades locales instaladas [@hugel2020public], condición que este módulo aborda mediante las tres modalidades de captura descritas a continuación.
 
-::: {.callout-note appearance="simple" icon=false}
-## Plataforma "Mapeo mi Barrio"
-
-**Función.** Mapeo participativo de servicios comunitarios georreferenciados en seis categorías: educativo, salud, emergencia/seguridad, abastecimiento, negocios y transporte.
-
-**Datos.** Levantamiento ciudadano continuo; servicios georreferenciados verificados por juntas de vecinos y equipo del proyecto.
-
-**Indicadores clave.** Tres modalidades de captura complementarias: **Quick Capture** (modo simplificado recomendado), **Survey123** (formulario online/offline) y **Crowdsource Reporter** (información detallada con requerimiento de internet). Cobertura: 15 barrios representados en la validación comunitaria, actas de participación firmadas.
-
-**Filtros.** Categoría de servicio y barrio.
-:::
+|  |
+|:--|
+| **Plataforma "Mapeo mi Barrio"** [↗](https://arcoiris.maps.arcgis.com/apps/dashboards/d1919b25b020424e8252ef9d2da4dc81)<br><br>**Función.** Mapeo participativo de servicios comunitarios georreferenciados en seis categorías: educativo, salud, emergencia/seguridad, abastecimiento, negocios y transporte.<br><br>**Datos.** Levantamiento ciudadano continuo; servicios georreferenciados verificados por juntas de vecinos y equipo del proyecto.<br><br>**Indicadores clave.** Tres modalidades de captura complementarias: **Quick Capture** (modo simplificado recomendado), **Survey123** (formulario online/offline) y **Crowdsource Reporter** (información detallada con requerimiento de internet). Cobertura: 15 barrios representados en la validación comunitaria, actas de participación firmadas.<br><br>**Filtros.** Categoría de servicio y barrio. |
 
 ![Plataforma "Mapeo mi Barrio": interfaz de mapeo participativo de servicios comunitarios. La plataforma permite a los residentes registrar equipamientos, negocios y servicios en seis categorías mediante tres modalidades de captura (Quick Capture, Survey123 y Crowdsource Reporter), con soporte online y offline. Fuente: Arcoíris RD (2024).](img/oe2/oe2sd_mapeo_mi_barrio.jpg){#fig-oe2sd-mapeo-barrio}
 
@@ -242,13 +172,14 @@ Inventario de las herramientas digitales del ecosistema FONDOCYT Haina (URLs viv
 |---:|:---|:---|
 | **1** | Plataforma Haina | [arcg.is/1X00WH0](https://arcg.is/1X00WH0) |
 | **2** | Plataforma Arcoíris | [Dashboard Arcoíris](https://arcoiris.maps.arcgis.com/apps/dashboards/d1919b25b020424e8252ef9d2da4dc81) |
-| **3** | Dashboard REPORTA nivel 2 | [Dashboard REPORTA L2](https://arcoiris.maps.arcgis.com/apps/dashboards/ac17af0031d048e49a990dccf671e4fb) |
-| **4** | WebApp para mapear TDAV | [WebApp TDAV](https://arcoiris.maps.arcgis.com/apps/webappviewer/index.html?id=1aa32161c0374b7d881f4843ef0a909d) |
-| **5** | Dashboard de monitoreo TDAV | [Dashboard TDAV](https://arcoiris.maps.arcgis.com/apps/dashboards/b84b418db91145e4b7bea87cccbf9415) |
-| **6** | Dashboard nivel 1 | [Dashboard L1](https://arcoiris.maps.arcgis.com/apps/dashboards/f5e320eabb614d5abae42fc4efbd1e1f) |
-| **7** | Riesgo por inundación | [Experience Riesgo Inundación](https://experience.arcgis.com/experience/a76018c1b51e44f3b35ebc8a01b13eb2) |
-| **8** | Encuesta Reporta 1 | [Survey123 Reporta 1](https://survey123.arcgis.com/share/67a0af96810649d8b579b2a2d3034f74) |
-| **9** | Encuesta Reporta 2 | [Survey123 Reporta 2](https://survey123.arcgis.com/share/f1652f6b3340425cbc39b822095efaf0) |
+| **3** | Dashboard Cerrando Brechas | [Dashboard Cerrando Brechas](https://www.arcgis.com/apps/dashboards/d6bdcc5c17354756a066cc4166729b14) |
+| **4** | Dashboard REPORTA nivel 2 | [Dashboard REPORTA L2](https://arcoiris.maps.arcgis.com/apps/dashboards/ac17af0031d048e49a990dccf671e4fb) |
+| **5** | WebApp para mapear TDAV | [WebApp TDAV](https://arcoiris.maps.arcgis.com/apps/webappviewer/index.html?id=1aa32161c0374b7d881f4843ef0a909d) |
+| **6** | Dashboard de monitoreo TDAV | [Dashboard TDAV](https://arcoiris.maps.arcgis.com/apps/dashboards/b84b418db91145e4b7bea87cccbf9415) |
+| **7** | Dashboard nivel 1 | [Dashboard L1](https://arcoiris.maps.arcgis.com/apps/dashboards/f5e320eabb614d5abae42fc4efbd1e1f) |
+| **8** | Riesgo por inundación | [Experience Riesgo Inundación](https://experience.arcgis.com/experience/a76018c1b51e44f3b35ebc8a01b13eb2) |
+| **9** | Encuesta Reporta 1 | [Survey123 Reporta 1](https://survey123.arcgis.com/share/67a0af96810649d8b579b2a2d3034f74) |
+| **10** | Encuesta Reporta 2 | [Survey123 Reporta 2](https://survey123.arcgis.com/share/f1652f6b3340425cbc39b822095efaf0) |
 
 : Herramientas existentes y enlaces operativos. Elaboración propia. {#tbl-herramientas-enlaces-07 .smaller}
 
@@ -281,7 +212,7 @@ El segundo bloque examina los resultados de la implementación del ecosistema en
 
 ## Resultados de implementación {#sec-resultados-implementacion-07}
 
-El despliegue del ecosistema digital se completó en agosto de 2025, dentro del plazo establecido para el OE2. Los indicadores de desempeño técnico sintetizan el cumplimiento frente a las metas de diseño (@tbl-indicadores-desempeno-sdi-07): las ocho herramientas previstas fueron desarrolladas, la cobertura poblacional (159,888 hab.) superó la meta, las 328 edificaciones caracterizadas rebasaron el objetivo inicial de 300 y las 16 manzanas sistematizadas completaron el plan de levantamiento. La validación institucional se realizó en dos sesiones en lugar de una y el tiempo de implementación fue de 2.5 meses frente a los 3 previstos.
+El despliegue del ecosistema digital se completó en agosto de 2025, dentro del plazo establecido para el **OE2**. Los indicadores de desempeño técnico sintetizan el cumplimiento frente a las metas de diseño (@tbl-indicadores-desempeno-sdi-07): las ocho herramientas previstas fueron desarrolladas, la cobertura poblacional (159,888 hab.) superó la meta, las 328 edificaciones caracterizadas rebasaron el objetivo inicial de 300 y las 16 manzanas sistematizadas completaron el plan de levantamiento. La validación institucional se realizó en dos sesiones en lugar de una y el tiempo de implementación fue de 2.5 meses frente a los 3 previstos.
 
 | Métrica | Meta | Logrado | Estado |
 |:---|:---|:---|:---|
@@ -374,7 +305,7 @@ La sostenibilidad técnica y financiera del gemelo digital es la principal preoc
 
 Es importante señalar el límite conceptual del dispositivo: un gemelo digital no sustituye a un POT formal porque carece de fuerza legal. Un POT es un instrumento jurídico-político que establece normas obligatorias (usos permitidos, restricciones, parámetros constructivos), mientras que el gemelo digital es una herramienta de apoyo que produce análisis y simulaciones sin valor normativo en sí mismas. El gemelo puede indicar que cierta zona es de alto riesgo y recomendar no urbanizarla, pero sin un decreto o regulación municipal nada impide que en la realidad se continúe construyendo allí. Por tanto, el gemelo digital de Haina **no reemplaza la necesidad de un POT pero acelera su formulación** al proporcionar la base técnica y facilitar consensos previos. Idealmente, la información y los escenarios del gemelo se incorporarían al proceso formal de planificación territorial cuando se reactive, y el municipio formalizaría los hallazgos del gemelo en reglamentos o ordenanzas para dotarlos de obligatoriedad mientras llega el plan formal. En esta lectura, el gemelo digital es **un plan dinámico en construcción**: no un documento normativo sino una representación actualizada del territorio que facilita analizar de manera integrada los componentes urbanos y ensayar políticas de intervención antes de comprometerlas en obra.
 
-**Módulo de salud ambiental "Haina Respira".** Dashboard que cruza tres capas hoy desconectadas en el sistema de información dominicano: indicadores del Sistema Nacional de Salud (morbilidad respiratoria por centro de salud y por barrio), emisiones declaradas del Distrito Industrial y la REFIDOMSA, y reportes ciudadanos de olores, ruido y partículas en suspensión captados a través de una extensión de Reporta.do. Es el cruce que el diagnóstico OE1 del proyecto identificó como urgente desde el inicio, pero cuya materialización fue bloqueada por la ausencia de datos de salud geolocalizados y por la dificultad de articular un convenio de intercambio con el Ministerio de Salud Pública. La segunda generación del ecosistema debería formalizar ese convenio y construir el dashboard.
+**Módulo de salud ambiental "Haina Respira".** Dashboard que cruza tres capas hoy desconectadas en el sistema de información dominicano: indicadores del Sistema Nacional de Salud (morbilidad respiratoria por centro de salud y por barrio), emisiones declaradas del Distrito Industrial y la REFIDOMSA, y reportes ciudadanos de olores, ruido y partículas en suspensión captados a través de una extensión de Reporta.do. Es el cruce que el diagnóstico **OE1** del proyecto identificó como urgente desde el inicio, pero cuya materialización fue bloqueada por la ausencia de datos de salud geolocalizados y por la dificultad de articular un convenio de intercambio con el Ministerio de Salud Pública. La segunda generación del ecosistema debería formalizar ese convenio y construir el dashboard.
 
 **Portal de datos abiertos municipal "Datos Haina".** Implementación técnica del principio FAIR que hoy existe solo en el plano conceptual del ecosistema. Arquitectura propuesta: instalación de CKAN o OpenDataSoft como plataforma base, API pública REST y GeoJSON para consulta programática, licencia Creative Commons BY 4.0 para todos los conjuntos de datos, y compromiso de actualización trimestral por parte del Ayuntamiento. Datos Haina sería la pieza que convierte el ecosistema del proyecto en infraestructura pública verificable, abre la puerta a desarrollos de terceros sobre los datos municipales, y materializa los atributos de encontrabilidad, accesibilidad, interoperabilidad y reusabilidad que hoy son promesa.
 
@@ -400,7 +331,7 @@ La integración del sistema IoT WASH con el resto del ecosistema digital del pro
 
 La tercera capa asocia el ecosistema al estado del arte internacional del urbanismo digital y requiere inversión mayor, normalmente canalizada a través de nuevos ciclos de investigación aplicada, convocatorias iberoamericanas o asociaciones público-privadas.
 
-**Análisis automático de Tejidos Degradados de Alta Vulnerabilidad con visión por computadora.** Modelo de segmentación semántica entrenado sobre las ortofotos de drone que el proyecto FONDOCYT ya produjo durante el diagnóstico OE1. El modelo identificaría automáticamente tejidos degradados sin intervención manual, asignaría a cada manzana un score de degradación basado en parámetros morfológicos y de cobertura, y priorizaría las intervenciones de regeneración urbana por orden de severidad. El código sería replicable a otros municipios dominicanos con pequeñas adaptaciones de dominio. Se conecta directamente con el gemelo digital propuesto en la capa 2, al que alimenta con capas analíticas derivadas.
+**Análisis automático de Tejidos Degradados de Alta Vulnerabilidad con visión por computadora.** Modelo de segmentación semántica entrenado sobre las ortofotos de drone que el proyecto FONDOCYT ya produjo durante el diagnóstico **OE1**. El modelo identificaría automáticamente tejidos degradados sin intervención manual, asignaría a cada manzana un score de degradación basado en parámetros morfológicos y de cobertura, y priorizaría las intervenciones de regeneración urbana por orden de severidad. El código sería replicable a otros municipios dominicanos con pequeñas adaptaciones de dominio. Se conecta directamente con el gemelo digital propuesto en la capa 2, al que alimenta con capas analíticas derivadas.
 
 **Modelos predictivos de crecimiento urbano informal.** Uso de la serie temporal GHSL 1985-2025 (ya integrada en los dashboards del proyecto) combinada con variables socioeconómicas del Censo 2022 para proyectar dónde ocurrirá crecimiento urbano informal en los próximos cinco años. El modelo permite a la Oficina de Planeamiento Urbano del Ayuntamiento **anticipar** zonas de intervención en lugar de reaccionar a consolidaciones ya consumadas, que es la práctica histórica del municipio. Metodológicamente se apoya en el marco sistémico de intervención en barrios degradados, disponible en el corpus interno del consorcio.
 
@@ -408,7 +339,7 @@ La tercera capa asocia el ecosistema al estado del arte internacional del urbani
 
 ### URB-LEX: IA aplicada a normativa urbanística del Caribe y Centroamérica {#sec-prospectiva-urblex-07}
 
-La línea URB-LEX es una derivación propia del proyecto FONDOCYT que toma como punto de partida el análisis normativo del OE3 (documentado en el capítulo 8 sobre normativa por tipologías de manzana) y lo extiende a una escala regional mediante técnicas de inteligencia artificial aplicadas al corpus normativo. Su formulación conceptual y su corpus documental están ya elaborados en dos borradores de investigación que viven en el repositorio del proyecto y que se presentan aquí como visión prospectiva para un segundo ciclo de publicaciones derivadas.
+La línea URB-LEX es una derivación propia del proyecto FONDOCYT que toma como punto de partida el análisis normativo del **OE3** (documentado en el capítulo 8 sobre normativa por tipologías de manzana) y lo extiende a una escala regional mediante técnicas de inteligencia artificial aplicadas al corpus normativo. Su formulación conceptual y su corpus documental están ya elaborados en dos borradores de investigación que viven en el repositorio del proyecto y que se presentan aquí como visión prospectiva para un segundo ciclo de publicaciones derivadas.
 
 El primer borrador, **URB-LEX-CAC (Normativa Urbana Centroamérica y Caribe)**, construye un marco comparativo de la gobernanza territorial en la región a partir de los sistemas normativos de Costa Rica, El Salvador, Honduras, República Dominicana y los marcos regionales del Sistema de la Integración Centroamericana (SICA) y la Comunidad del Caribe (CARICOM). El análisis distingue dos mecanismos de convergencia normativa: una convergencia explícita dentro del bloque SICA, promovida activamente por instrumentos supranacionales como el Plan Regional para la Implementación de la Nueva Agenda Urbana (PRINAU-SICA), y una convergencia implícita que afecta a toda la región, incluyendo a los miembros de CARICOM, impulsada por la adopción directa de agendas globales como los Objetivos de Desarrollo Sostenible y la Nueva Agenda Urbana. El borrador está estructurado para dar lugar a una publicación académica en revistas de urbanismo comparado del Caribe y Centroamérica.
 

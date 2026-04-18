@@ -90,11 +90,11 @@ El piloto de implementación se concentró en 16 manzanas seleccionadas por mues
 
 [^02-metodologia-1]: El detalle completo de la operacionalización de variables, el diseño muestral y el análisis estadístico asociado se presenta en los anexos de operacionalización y análisis estadístico al final de este libro.
 
+::::::: {.content-visible when-format="html"}
+
 ## Mapa de conocimiento del libro {#sec-mapa-conocimiento-02}
 
-Como cierre del capítulo metodológico se presenta el mapa de conocimiento del libro, una visualización interactiva de la estructura conceptual del proyecto FONDOCYT que conecta capítulos, anexos, objetivos específicos y resultados, secciones, tablas, conceptos clave, herramientas digitales, marcos teóricos, instituciones y referencias bibliográficas más citadas.[^02-metodologia-2] El layout es *force-directed* y se inspira en el *graph view* de Obsidian. Este mapa funciona como una segunda metodología lectora: permite al lector navegar el libro no como una secuencia lineal de capítulos, sino como un sistema de relaciones cruzadas donde cada nodo abre múltiples caminos de lectura.
-
-[^02-metodologia-2]: Este mapa solo está disponible en la versión web del libro. En el PDF aparecerá una captura estática del grafo en una próxima revisión.
+Como cierre del capítulo metodológico se presenta el mapa de conocimiento del libro, una visualización interactiva de la estructura conceptual del proyecto FONDOCYT que conecta capítulos, anexos, objetivos específicos y resultados, secciones, tablas, conceptos clave, herramientas digitales, marcos teóricos, instituciones y referencias bibliográficas más citadas. El layout es *force-directed* y se inspira en el *graph view* de Obsidian. Este mapa funciona como una segunda metodología lectora: permite al lector navegar el libro no como una secuencia lineal de capítulos, sino como un sistema de relaciones cruzadas donde cada nodo abre múltiples caminos de lectura.
 
 ```{ojs}
 //| echo: false
@@ -362,6 +362,8 @@ viewof chart = {
 
 **Cómo se construye.** El JSON que alimenta el grafo se regenera automáticamente con el script `_contexto/scripts/build_knowledge_graph.py`, que parsea los `.qmd` del libro y extrae capítulos, anexos, objetivos, cross-references de tablas, figuras y secciones, conceptos clave (herramientas digitales, marcos teóricos, leyes, instituciones) y las quince referencias bibliográficas más citadas. El resultado se guarda en `libro/data/knowledge_graph.json` con aproximadamente ciento seis nodos y trescientas noventa aristas, y basta con regenerar el JSON y renderizar el libro cada vez que el contenido cambie para mantener el grafo sincronizado.
 :::
+
+:::::::
 
 <!-- BEGIN refs-per-chapter -->
 ## Referencias del capítulo {.unnumbered}

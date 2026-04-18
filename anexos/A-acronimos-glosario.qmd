@@ -3,47 +3,26 @@ title: "Acrónimos y glosario de términos urbanísticos"
 ---
 
 ```{=latex}
-% ─── PORTADILLA ANEXOS (bluesteel full-bleed) ───
+% ─── PORTADILLA ANEXOS (blanca, sin logos) ───
 \clearpage
 \thispagestyle{empty}
-\newgeometry{top=0cm, bottom=0cm, left=0cm, right=0cm}
-\pagecolor{bluesteel}\color{white}
-\noindent\mbox{}
+\pagecolor{white}\color{charcoal}
 \vspace*{\fill}
-\begin{center}\begin{minipage}{\dimexpr\paperwidth-5.6cm\relax}
-{\footnotesize\sffamily\color{white!60}%
+\begin{center}\begin{minipage}{\dimexpr\textwidth-1cm\relax}
+\centering
+{\footnotesize\sffamily\color{midgray}%
 PROYECTO FONDOCYT 2023-1-3A13-0725\par}
-\vspace{0.6cm}
-{\fontsize{48}{52}\selectfont\sffamily\bfseries\color{white}%
+\vspace{0.8cm}
+{\fontsize{42}{48}\selectfont\sffamily\bfseries\color{charcoal}%
 Anexos\par}
 \vspace{0.4cm}
-{\large\sffamily\itshape\color{white!85}%
+\textcolor{coral}{\rule{3cm}{0.6pt}}
+\vspace{0.4cm}
+{\large\sffamily\itshape\color{midgray}%
 Documentación técnica complementaria\par}
 \end{minipage}\end{center}
 \vspace*{\fill}
-\noindent\colorbox{white}{%
-  \begin{minipage}[c][2.8cm][c]{\paperwidth}%
-  \centering
-  \begin{minipage}{0.18\paperwidth}\centering
-    \includegraphics[width=\linewidth, height=1.3cm, keepaspectratio]{logos/arcoiris_logo_trans.png}
-  \end{minipage}\hfill
-  \begin{minipage}{0.15\paperwidth}\centering
-    \includegraphics[width=\linewidth, height=1.3cm, keepaspectratio]{logos/tecca_trans.png}
-  \end{minipage}\hfill
-  \begin{minipage}{0.22\paperwidth}\centering
-    \includegraphics[width=\linewidth, height=1.3cm, keepaspectratio]{logos/barna_logo_trans.png}
-  \end{minipage}\hfill
-  \begin{minipage}{0.14\paperwidth}\centering
-    \includegraphics[width=\linewidth, height=1.3cm, keepaspectratio]{logos/mescyt_logo_trans.png}
-  \end{minipage}\hfill
-  \begin{minipage}{0.20\paperwidth}\centering
-    \includegraphics[width=\linewidth, height=1.3cm, keepaspectratio]{logos/fondocyt_logo_trans.png}
-  \end{minipage}
-  \end{minipage}%
-}
-\restoregeometry
 \clearpage
-\pagecolor{white}\color{charcoal}
 ```
 
 > **Fecha:** agosto 2025 **Anexo:** A. Acrónimos y glosario de términos urbanísticos **Función:** Vocabulario técnico, institucional y normativo de referencia para el libro **Palabras clave:** Acrónimos, Glosario, Terminología urbanística, Instituciones dominicanas, Tipologías de manzana, Marco normativo

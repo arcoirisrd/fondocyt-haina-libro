@@ -51,7 +51,7 @@ El repositorio incluye un virtualenv `.venv` con Python 3.14.3 para scripts auxi
 
 ## Infraestructura de IA local {#sec-k-ia}
 
-Para el procesamiento de datos sensibles del proyecto (encuestas domiciliarias, transcripciones, imágenes de campo, normativa y documentos internos) se utilizó un stack de IA completamente local, ejecutado en infraestructura propia y sin envío de información a servicios externos.
+Para el procesamiento de datos sensibles del proyecto (encuestas domiciliarias, transcripciones, imágenes de campo, normativa y documentos internos) se utilizó un stack de IA completamente local, ejecutado en infraestructura propia y sin envío de información a servicios externos. La infraestructura computacional clave del proyecto incluye dos tarjetas gráficas **NVIDIA GeForce RTX 5090 (32 GB VRAM)** adquiridas con cargo al presupuesto FONDOCYT 2023-1-3A13-0725: una se destinó al servidor de inferencia y la otra a la estación de trabajo editorial. Estas GPU permitieron la ejecución local de modelos de lenguaje y visión de hasta 70B parámetros en cuantización Q4-Q5, así como el procesamiento OCR masivo de documentos escaneados, manteniendo los datos del proyecto dentro del entorno controlado del consorcio.
 
 ### Servidor de IA
 
@@ -97,4 +97,4 @@ La bibliografía externa citada en este libro reside en la biblioteca Zotero del
 
 ## Reproducibilidad {#sec-k-reproducibilidad}
 
-El código fuente de este libro (Quarto, LaTeX, Python), la bibliografía (`references.bib`) y los datos derivados están versionados con Git. Todas las herramientas de software, modelos abiertos y tipografías utilizadas son libres u open source. Los modelos comerciales (Anthropic Claude) se documentan nominalmente para trazabilidad del proceso editorial pero no son necesarios para reproducir el resultado a partir del código fuente.
+El código fuente de este libro (Quarto, LaTeX, Python), la bibliografía (`references.bib`) y los datos derivados están versionados con Git. Todas las herramientas de software, modelos abiertos y tipografías utilizadas son libres u *open source*, lo que permite reproducir íntegramente el resultado a partir del código fuente y los datos asociados sin dependencia de servicios comerciales.

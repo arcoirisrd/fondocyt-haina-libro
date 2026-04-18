@@ -114,8 +114,6 @@ En el plano de los **sistemas de alerta temprana**, la Dirección Nacional de Ge
 
 Las **aplicaciones móviles y redes sociales** operan como canal de comunicación rápida con la población para alertas y actualizaciones en tiempo real, alineadas con la Prioridad 1 del Marco de Sendai sobre comprensión del riesgo [@undrr2015sendai]. Un caso concreto es la aplicación Alerta COE, que permite consultar las últimas alertas emitidas por el COE con información sobre provincias afectadas, nivel de alerta y tipo de evento generador. Los **sensores de calidad del aire y del agua** monitorean continuamente las condiciones ambientales, proporcionan datos críticos para la gestión de salud pública y activan medidas de emergencia al detectar niveles peligrosos de contaminantes, con especial relevancia en áreas industriales y urbanas. Finalmente, los **modelos de simulación y pronóstico** permiten predecir el comportamiento de fenómenos naturales y estimar impactos potenciales; son utilizados por ONAMET y otras entidades para planificar acciones preventivas y respuestas efectivas.
 
-<!-- TODO diagrama J-05-07: Mapa conceptual del ecosistema tecnológico nacional de GRD (IDERD, ONESVIE, SINAVE, SAT, drones, SINAGERD, Alerta COE, sensores, modelos) con flujos de datos entre niveles. -->
-
 ### Estado actual de los instrumentos de GRD Bajos de Haina
 
 La operación local de la GRD en Haina combina **capas nacionales** alertas del COE y redes hidrometeorológicas (ONAMET/INDRHI) con dispositivos y prototipos municipales desplegados por el proyecto (Reporta Haina, TDAV y Bluespots), y con la experiencia previa de monitoreo online de daños impulsada por ARCOIRIS/ICHaB/ETSAM [@ichab-etsamMonitoreoOnlineDanos2020] . A nivel normativo y operativo, el Plan Nacional de Emergencias 2023 exige que cada municipio cuente con su plan de emergencias/contingencias, articulado con el COE; además, el COE ofrece la app Alerta COE para difusión de avisos y albergues, y el INDRHI avanza en la cuenca del río Haina hacia un sistema integrado de monitoreo y pronóstico de inundaciones. En Haina, ARCOIRIS/ICHaB documentó un modelo de doble nivel de reporte de daños (ciudadano y validado tipo pre-EDAN) y el proyecto retomó esa arquitectura con Reporta Haina y tableros en tiempo real. El desafío principal no es tecnológico, sino de institucionalización (ordenanzas, protocolos y manuales) y gobernanza de datos para conectar sensores, alertas y reportes con decisiones rutinarias del CM-PMR [@coePlanNacionalEmergencias2018; @onametDatosEstacionesMeteorologicas].
@@ -521,7 +519,7 @@ Con la información obtenida se puede adelantar de forma preliminar una matriz d
 
 **Índice de Riesgo de Desastres**: Es un cálculo del índice de riesgo, que se puede expresar mediante la fórmula:
 
-$$IRD\  = ((Impacto\ Potencial\  \times \ Probabilidad\  \times \ Vulnerabilidad))/\ (Capacidad\ de\ Respuesta)$$
+$$\text{IRD} = \frac{\text{Impacto potencial} \times \text{Probabilidad} \times \text{Vulnerabilidad}}{\text{Capacidad de respuesta}}$$
 
 **Pasos para el Cálculo del Índice de Riesgo**
 
@@ -557,8 +555,6 @@ La planificación debe **integrar la GRD y la adaptación climática** en el nú
 8.  Programa de regularización y reasentamiento en zonas de alto riesgo, con apoyo social y soluciones habitacionales.
 9.  Plan de limpieza y control de residuos en cañadas, con fiscalización y participación barrial.
 10. Presupuesto participativo temático en resiliencia (pequeñas obras y mantenimiento) y educación comunitaria continua.
-
-<!-- TODO diagrama J-05-08: Esquema temporal de las 10 acciones específicas organizadas en las 4 fases del plan de implementación (Arranque 0-3, Despliegue I 3-9, Despliegue II 9-15, Cierre 15-18 meses). -->
 
 ### Plan de implementación (18 meses)
 

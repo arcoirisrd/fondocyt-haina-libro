@@ -29,4 +29,4 @@ Este repo se mantiene sincronizado desde el repo privado vía `libro/_sync_publi
 
 > Moyano Molina, A., Recio Martínez, J. A., Villamizar Fernández, J. F., et al. (2025). *Herramientas digitales de planificación urbana, gestión de riesgos y participación pública. Caso de estudio: Bajos de Haina.* Proyecto FONDOCYT 2023-1-3A13-0725. MESCYT, República Dominicana.
 
-_Última sincronización: 2026-04-17._
+_Última sincronización: 2026-04-18._

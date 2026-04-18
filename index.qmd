@@ -1,6 +1,92 @@
 ---
-number-sections: true
 ---
+
+<!--
+================================================================================
+FONDOCYT 2023-1-3A13-0725 · Equipo y créditos (orden CRediT oficial)
+================================================================================
+
+Investigador responsable de la edición del libro y la web:
+  Jorge Armando Recio Martínez, PhD (c) · Arcoíris RD · UPM
+  Co-investigador. Aportes: conceptualización, investigación, software,
+  curación de datos, redacción, edición del libro y de la web.
+  ORCID: 0000-0001-7979-5392
+
+Equipo completo (orden CRediT oficial, 11 personas):
+
+  01. Ana Moyano Molina, PhD · Arcoíris RD · UPM
+      Investigadora principal. Conceptualización, metodología, supervisión,
+      administración del proyecto, redacción, adquisición de fondos.
+      ORCID: 0009-0004-7502-0409
+
+  02. Jorge Armando Recio Martínez, PhD (c) · Arcoíris RD · UPM
+      Co-investigador. Conceptualización, investigación, software, curación
+      de datos, redacción, edición del libro y de la web.
+      ORCID: 0000-0001-7979-5392
+
+  03. Javier F. Villamizar Fernández, PhD · TECCA Caribe · UNAL
+      Colaborador. Investigación, metodología, análisis formal, curación
+      de datos. ORCID: 0000-0001-6083-2835
+
+  04. Carlos Manuel Ramírez Arias, MSc · Arcoíris RD · UASD
+      Asistente (experto social). Investigación, metodología, recursos,
+      redacción. ORCID: 0009-0008-0827-0108
+
+  05. Karina Pérez Teruel, PhD · BARNA Management School · UCI
+      Co-investigadora (gestión administrativa). Project management,
+      conceptualización software, administración del proyecto, curación
+      de datos. ORCID: 0000-0003-2154-3111
+
+  06. Ana Solís Alonso, MSc · Arcoíris RD · UPM
+      Asistente (experta SIG). Curación de datos, software, análisis formal,
+      recursos. ORCID: 0009-0001-4738-2363
+
+  07. Yssamar Vismarkis Reyes Sánchez, MSc (c) · Arcoíris RD · UASD
+      Asistente. Investigación, administración del proyecto, redacción.
+      ORCID: 0009-0005-4144-0656
+
+  08. Danilo Minaya, MSc · Arcoíris RD · PUCMM
+      Asistente. Investigación. ORCID: 0009-0006-4123-5617
+
+  09. Jaime R. Hernández Peña · BARNA Management School · INTEC
+      Asistente. Software, desarrollo de software.
+      ORCID: 0009-0001-4994-9693
+
+  10. Lucía Navarro de Corcuera, PhD · Arcoíris RD · UPM
+      Colaboradora. Reutilización de materiales metodológicos de
+      investigación doctoral previa. ORCID: 0000-0002-9232-8323
+
+  11. Anyerlina Hernández · Arcoíris RD · UASD
+      Asistente. Investigación, curación de datos (normativa urbana).
+      ORCID: 0009-0009-3399-7656
+
+Consorcio ejecutor: Arcoíris RD · TECCA Caribe · BARNA Management School
+Financiamiento: MESCYT / FONDOCYT · Convocatoria 2023 · RD$ 5,177,300
+Territorio: Bajos de Haina, San Cristóbal, República Dominicana
+Periodo: 2023-2025
+
+© 2025 Proyecto FONDOCYT 2023-1-3A13-0725
+Licencia: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+================================================================================
+-->
+
+# Resumen {.unnumbered}
+
+Libro de resultados del proyecto FONDOCYT 2023-1-3A13-0725 (MESCYT, República Dominicana), ejecutado entre 2023 y 2025 por el consorcio Arcoíris RD, TECCA Caribe y BARNA Management School. La investigación examina la hipótesis de la gobernanza digital catalítica frente a la meramente amplificatoria en el contexto de Bajos de Haina, municipio costero de 100,527 habitantes sometido a vulnerabilidad climática e industrial. La metodología opera en tres escalas articuladas (16 manzanas, 3 barrios, 1 municipio) combinando diagnóstico multiescalar, 155 encuestas domiciliarias (Survey123), levantamiento con drones y LIDAR, cartografía histórica y análisis normativo. Los productos principales son:
+
+- **Normativa urbanística por tipologías de manzana**: propuesta regulatoria para seis tipologías (residencial pura, mixta comercial, mixta dotacional, institucional, mixta institucional, tripartita).
+- **Observatorio Municipal de Planificación Urbana (OPU)**: diseño del sistema integrado de monitoreo e indicadores de vulnerabilidad urbana.
+- **Ecosistema de herramientas digitales g-locales**: dashboard de indicadores, Reporta.do, Mapeo mi Barrio y Cerrando Brechas.
+- **Seminario-Taller de Planificación Urbana Dominicana (PUD, octubre 2024)**: sistematización de tres mesas temáticas: ordenamiento territorial, gestión de riesgos y participación ciudadana.
+
+# Abstract {.unnumbered}
+
+*Book of results of the project FONDOCYT 2023-1-3A13-0725 (MESCYT, Dominican Republic), carried out from 2023 to 2025 by the consortium Arcoíris RD, TECCA Caribe and BARNA Management School. The research addresses the hypothesis of catalytic versus merely amplificatory digital governance: when technology transforms planning processes, and when it only reproduces their asymmetries. The case study is Bajos de Haina, a coastal municipality of 100,527 inhabitants (Municipal District) in San Cristóbal province, facing severe climate and industrial vulnerability due to its proximity to the national oil refinery and to flood-prone areas. The methodology operates at three articulated scales (16 urban blocks, 3 neighbourhoods, 1 municipality) combining multi-scale diagnosis with 155 household surveys (Survey123), drone and LIDAR surveying, historical cartography, and regulatory analysis. Main deliverables:*
+
+- **Urban land-use regulation by block typologies**: regulatory framework for six typologies (pure residential, commercial mixed, amenity mixed, institutional, institutional mixed, tripartite).
+- **Municipal Urban Planning Observatory (OPU)**: integrated monitoring system with urban vulnerability indicators.
+- **G-local digital ecosystem**: indicator dashboard, Reporta.do, Mapeo mi Barrio and Cerrando Brechas.
+- **Dominican Urban Planning Seminar-Workshop (PUD, October 2024)**: systematisation of three thematic sessions: territorial planning, risk management, and citizen participation.
 
 # Prefacio {.unnumbered}
 
@@ -28,21 +114,21 @@ Este documento constituye la documentación consolidada del Proyecto FONDOCYT 20
 
 ## Equipo y contribuciones (CRediT) {.unnumbered}
 
-Equipo de investigación según la taxonomía CRediT ([Contributor Roles Taxonomy](https://credit.niso.org), NISO). La afiliación corresponde a la universidad académica de cada persona; el rol dentro del proyecto FONDOCYT se articula a través de los tres miembros del consorcio ejecutor (Arcoíris RD, TECCA Caribe, BARNA Management School).
+Equipo de investigación según la taxonomía CRediT ([Contributor Roles Taxonomy](https://credit.niso.org), NISO). La afiliación indica la organización del consorcio y la universidad académica de cada investigador; el rol dentro del proyecto FONDOCYT se articula a través de los tres miembros del consorcio ejecutor (Arcoíris RD, TECCA Caribe, BARNA Management School).
 
 | Persona | Afiliación | Rol en el proyecto | Contribuciones CRediT |
 |:-----------------|:-----------------|:-----------------|:-----------------|
-| Ana Moyano Molina, PhD | **UPM / UASD** | Investigadora principal | Conceptualización, metodología, supervisión, administración del proyecto, redacción, adquisición de fondos |
-| Jorge Armando Recio Martínez, PhD (c) | **UASD / UPM** | Co-investigador | Conceptualización, investigación, software, curación de datos, redacción, edición del libro y de la web |
-| Javier F. Villamizar Fernández, PhD | **UNAL** | Colaborador (TECCA Caribe) | Investigación, metodología, análisis formal, curación de datos |
-| Carlos Manuel Ramírez Arias, MSc | **UASD** | Asistente, experto social (Arcoíris RD) | Investigación, metodología, recursos, redacción |
-| Karina Pérez Teruel, PhD | **UCI / BARNA** | Co-investigadora (gestión administrativa) | Project management, Conceptualización software, administración del proyecto |
-| Ana Solís Alonso, MSc | **UPM** | Asistente, experta SIG (Arcoíris RD) | Curación de datos, software, análisis formal, recursos |
-| Yssamar Vismarkis Reyes Sánchez, MSc (c) | **UASD** | Asistente (Arcoíris RD) | Investigación, administración del proyecto, redacción |
-| Danilo Minaya, MSc | **PUCMM** | Asistente (Arcoíris RD) | Investigación |
-| Jaime R. Hernández Peña | **INTEC** | Asistente (BARNA Management School) | Software, desarrollo de software |
-| Lucía Navarro de Corcuera, PhD | **UPM** | Colaboradora (Arcoíris RD) | Reutilización de materiales metodológicos de investigación doctoral previa |
-| Anyerlina Hernández | **UASD** | Asistente (Arcoíris RD) | Investigación, curación de datos (normativa urbana) |
+| **Ana Moyano Molina, PhD** | Arcoíris RD · UPM | Investigadora principal | Conceptualización, metodología, supervisión, administración del proyecto, redacción, adquisición de fondos |
+| **Jorge Armando Recio Martínez, PhD (c)** | Arcoíris RD · UPM | Co-investigador | Conceptualización, investigación, software, curación de datos, redacción, edición del libro y de la web |
+| **Javier F. Villamizar Fernández, PhD** | UNAL | Colaborador (TECCA Caribe) | Investigación, metodología, análisis formal, curación de datos |
+| **Carlos Manuel Ramírez Arias, MSc** | UASD | Asistente, experto social (Arcoíris RD) | Investigación, metodología, recursos, redacción |
+| **Karina Pérez Teruel, PhD** | UCI / BARNA | Co-investigadora (gestión administrativa) | Project management, Conceptualización software, administración del proyecto |
+| **Ana Solís Alonso, MSc** | UPM | Asistente, experta SIG (Arcoíris RD) | Curación de datos, software, análisis formal, recursos |
+| **Yssamar Vismarkis Reyes Sánchez, MSc (c)** | UASD | Asistente (Arcoíris RD) | Investigación, administración del proyecto, redacción |
+| **Danilo Minaya, MSc** | PUCMM | Asistente (Arcoíris RD) | Investigación |
+| **Jaime R. Hernández Peña** | INTEC | Asistente (BARNA Management School) | Software, desarrollo de software |
+| **Lucía Navarro de Corcuera, PhD** | UPM | Colaboradora (Arcoíris RD) | Reutilización de materiales metodológicos de investigación doctoral previa |
+| **Anyerlina Hernández** | UASD | Asistente (Arcoíris RD) | Investigación, curación de datos (normativa urbana) |
 
 : Contribuciones del equipo por persona. {#tbl-credit-equipo .unnumbered tbl-colwidths="\[22,15,25,38\]"}
 
@@ -52,17 +138,17 @@ El Proyecto FONDOCYT 2023-1-3A13-0725 no habría sido posible sin la amplia conv
 
 | Institución o actor | Sector | Aportación al proyecto |
 |:---|:---|:---|
-| MESCYT / FONDOCYT | Financiamiento | Financiamiento de la investigación, Convocatoria 2023 |
-| Ayuntamiento de Bajos de Haina | Municipal | Acceso al territorio, información técnica, acompañamiento del Seminario-Taller y la propuesta del Observatorio Ciudadano |
-| CMPMR y OPU municipal | Municipal | Implicación sostenida en las mesas de trabajo |
-| MEPyD / VIOTDR | Nacional | Co-diseño del ecosistema digital y participación técnica |
-| MIVHED | Nacional | Participación en el Seminario-Taller |
-| MIMARENA | Nacional | Participación en el Seminario-Taller |
-| MICM / PRO-INDUSTRIA | Nacional | Participación en el Seminario-Taller |
-| ONE, ONAMET, COE / Defensa Civil | Nacional | Datos, participación técnica y coordinación de gestión de riesgos |
-| DGII, FEDOMU, INDRHI, REFIDOMSA, IGN, INAPA, SGN, ONESVIE, DGCN, IDERD, OGTIC, INDOTEL | Nacional | Participación en el Seminario-Taller de Planificación Urbana Digital |
-| ETSAM-UPM, UASD, PUCMM, INTEC, UNAL | Academia | Respaldo institucional de los investigadores, co-investigadores y asistentes |
-| Arcoíris RD | Consorcio | Soporte técnico, experiencia previa sobre el territorio y gestión operativa del consorcio |
+| **MESCYT / FONDOCYT** | Financiamiento | Financiamiento de la investigación, Convocatoria 2023 |
+| **Ayuntamiento de Bajos de Haina** | Municipal | Acceso al territorio, información técnica, acompañamiento del Seminario-Taller y la propuesta del Observatorio Ciudadano |
+| **CMPMR y OPU municipal** | Municipal | Implicación sostenida en las mesas de trabajo |
+| **MEPyD / VIOTDR** | Nacional | Co-diseño del ecosistema digital y participación técnica |
+| **MIVHED** | Nacional | Participación en el Seminario-Taller |
+| **MIMARENA** | Nacional | Participación en el Seminario-Taller |
+| **MICM / PRO-INDUSTRIA** | Nacional | Participación en el Seminario-Taller |
+| **ONE, ONAMET, COE / Defensa Civil** | Nacional | Datos, participación técnica y coordinación de gestión de riesgos |
+| **DGII, FEDOMU, INDRHI, REFIDOMSA, IGN, INAPA, SGN, ONESVIE, DGCN, IDERD, OGTIC, INDOTEL** | Nacional | Participación en el Seminario-Taller de Planificación Urbana Digital |
+| **ETSAM-UPM, UASD, PUCMM, INTEC, UNAL** | Academia | Respaldo institucional de los investigadores, co-investigadores y asistentes |
+| **Arcoíris RD** | Consorcio | Soporte técnico, experiencia previa sobre el territorio y gestión operativa del consorcio |
 
 : Instituciones y actores que contribuyeron al proyecto. {#tbl-agradecimientos .unnumbered tbl-colwidths="[35,15,50]"}
 

@@ -208,7 +208,7 @@ Antes del cuadro resumen general, las tres tablas siguientes descargan los pará
 
 ## Cuadro resumen comparativo por tipología {#sec-cuadro-resumen-08}
 
-A continuación, se presenta un **cuadro comparativo que** resume los principales parámetros normativos para cada tipología de manzana descrita:
+A continuación, se presenta un cuadro comparativo con los principales parámetros normativos para cada tipología de manzana:
 
 | Parámetro | Residencial Pura | Mixta Comercial | Mixta Dotacional | Institucional | Mixta Institucional | Tripartita |
 |:---|:---|:---|:---|:---|:---|:---|
@@ -327,6 +327,14 @@ La @tbl-elementos-resiliencia-tipologia-08 traduce estos instrumentos a elemento
 : Elementos de resiliencia por tipología urbana. Elaboración propia. {#tbl-elementos-resiliencia-tipologia-08 .smaller}
 
 En este orden, se pretende que todas las actuaciones urbanísticas, edificatorias y de planificación territorial dentro del municipio se articulen con la resiliencia de municipio a fenómenos meteorológicos y adaptación al cambio climático. Cualquier proyecto de infraestructura o urbanización deberá demostrar cumplimiento con al menos el 80% de los criterios aquí descritos como condición para su aprobación.
+
+## Síntesis {#sec-sintesis-08}
+
+El capítulo desarrolla la propuesta normativa urbanística del **OE3** para Bajos de Haina, articulada en seis tipologías de manzana derivadas del levantamiento morfológico LIDAR y del análisis de las 16 manzanas piloto. Las tipologías cubren desde la residencial pura (3 niveles, 30 viv/ha, 60% ocupación) hasta la mixta tripartita (5 niveles, 80 viv/ha, 80% ocupación), con parámetros diferenciados de uso de suelo, altura, densidad, retiros y dotación de espacios públicos para cada configuración urbana.
+
+La propuesta se formula en presente propositivo como instrumento técnico que el Ayuntamiento puede adoptar mediante ordenanza en ejercicio de las competencias que le otorgan la Ley 368-22 y el Decreto 396-25. Las tablas temáticas de parámetros, el cuadro resumen comparativo y la matriz de resiliencia climática sintetizan los lineamientos de forma consultable y facilitan su aplicación práctica por parte de la Oficina de Planeamiento Urbano en la revisión de licencias y la elaboración del futuro Plan Municipal de Ordenamiento Territorial.
+
+La sección de adaptación al cambio climático integra estos parámetros con los marcos nacionales de gestión de riesgos (Ley 147-02, Marco de Sendai) y con la Estrategia Nacional de Desarrollo 2030, estableciendo requisitos de diseño resiliente, zonificación preventiva e instrumentos de gestión comunitaria del riesgo diferenciados por tipología. Los resultados de implementación de la normativa se documentan en el capítulo 10; su articulación con la participación ciudadana y el Observatorio Ciudadano de Haina se desarrolla en el capítulo 9.
 
 <!-- BEGIN refs-per-chapter -->
 ## Referencias del capítulo {.unnumbered}

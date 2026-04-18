@@ -4,8 +4,6 @@ title: "Brief del isotipo del observatorio"
 
 > **Fecha:** agosto 2025 **Anexo:** I. Brief del isotipo del observatorio **Función:** define los atributos visuales, los elementos gráficos y el moodboard de referencia para el diseño del isotipo del Observatorio Ciudadano de Bajos de Haina **Palabras clave:** Identidad visual, Isotipo, Observatorio ciudadano, Diseño gráfico, Branding institucional, Bajos de Haina
 
-<!-- NOTA: anexo de referencia. Las imágenes del moodboard pueden reducirse a un grid compacto o eliminarse al consolidar el libro en Quarto; actúan como material de inspiración para el diseñador. -->
-
 ## Instrucciones para el diseñador {#sec-instrucciones-disenador-anexoI}
 
 Representar un **Observatorio Ciudadano** en Bajos de Haina que articule a ciudadanos, organizaciones, instituciones y gobierno para generar datos, análisis y decisiones colaborativas sobre ordenamiento territorial, gestión de riesgos y participación ciudadana.
